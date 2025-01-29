@@ -1493,10 +1493,11 @@
         "usr": "c:@M@FaceTec2DProvider@objc(cs)CafFaceTec2DProvider",
         "mangledName": "$s17FaceTec2DProvider03CafabC0C",
         "moduleName": "FaceTec2DProvider",
+        "objc_name": "CafFaceTec2DProvider",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "inheritsConvenienceInitializers": true,

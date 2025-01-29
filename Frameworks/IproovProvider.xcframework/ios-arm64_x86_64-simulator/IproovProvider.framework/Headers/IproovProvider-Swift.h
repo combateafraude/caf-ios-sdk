@@ -277,6 +277,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CafSolutions;
+@import Foundation;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -297,6 +300,25 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSString;
+
+/// A class that implements the <code>CafFaceLAivenessProvidersProtocol</code> to provide liveness check functionality using iProov.
+SWIFT_CLASS_NAMED("CafIproovProvider")
+@interface CafIproovProvider : NSObject <CafSolutionsCafFaceLivenessProvidersProtocol>
+/// Initializes a new instance of <code>CafIproovProvider</code>.
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+/// Starts a liveness check using the provided parameters.
+/// \param parameters A dictionary containing the parameters for the liveness check.
+///
+/// \param livenessBaseUrl The URL to be used to achieve the reverse proxy feature. Its protocol needs to be WSS.
+///
+/// \param certificates Base64 encoded SHA256 hash certificates to be used on the reverse proxy feature.
+///
+/// \param completion A closure to be called with the results of the liveness check.
+///
+- (void)startLivenessCheckParameters:(NSDictionary<NSString *, id> * _Nonnull)parameters livenessBaseUrl:(NSString * _Nonnull)livenessBaseUrl certificates:(NSArray<NSString *> * _Nonnull)certificates completion:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))completion;
+@end
+
 
 
 
@@ -587,6 +609,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CafSolutions;
+@import Foundation;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -607,6 +632,25 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSString;
+
+/// A class that implements the <code>CafFaceLAivenessProvidersProtocol</code> to provide liveness check functionality using iProov.
+SWIFT_CLASS_NAMED("CafIproovProvider")
+@interface CafIproovProvider : NSObject <CafSolutionsCafFaceLivenessProvidersProtocol>
+/// Initializes a new instance of <code>CafIproovProvider</code>.
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+/// Starts a liveness check using the provided parameters.
+/// \param parameters A dictionary containing the parameters for the liveness check.
+///
+/// \param livenessBaseUrl The URL to be used to achieve the reverse proxy feature. Its protocol needs to be WSS.
+///
+/// \param certificates Base64 encoded SHA256 hash certificates to be used on the reverse proxy feature.
+///
+/// \param completion A closure to be called with the results of the liveness check.
+///
+- (void)startLivenessCheckParameters:(NSDictionary<NSString *, id> * _Nonnull)parameters livenessBaseUrl:(NSString * _Nonnull)livenessBaseUrl certificates:(NSArray<NSString *> * _Nonnull)certificates completion:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))completion;
+@end
+
 
 
 

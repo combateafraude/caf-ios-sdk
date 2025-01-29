@@ -1323,14 +1323,19 @@
                 "kind": "TypeNominal",
                 "name": "CafIproovProvider",
                 "printedName": "IproovProvider.CafIproovProvider",
-                "usr": "s:14IproovProvider03CafaB0C"
+                "usr": "c:@M@IproovProvider@objc(cs)CafIproovProvider"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14IproovProvider03CafaB0CACycfc",
+            "usr": "c:@M@IproovProvider@objc(cs)CafIproovProvider(im)init",
             "mangledName": "$s14IproovProvider03CafaB0CACycfc",
             "moduleName": "IproovProvider",
+            "overriding": true,
+            "objc_name": "init",
             "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
               "AccessControl",
               "RawDocComment"
             ],
@@ -1418,7 +1423,7 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14IproovProvider03CafaB0C18startLivenessCheck10parameters15livenessBaseUrl12certificates10completionySDySSypG_SSSaySSGyAIctF",
+            "usr": "c:@M@IproovProvider@objc(cs)CafIproovProvider(im)startLivenessCheckParameters:livenessBaseUrl:certificates:completion:",
             "mangledName": "$s14IproovProvider03CafaB0C18startLivenessCheck10parameters15livenessBaseUrl12certificates10completionySDySSypG_SSSaySSGyAIctF",
             "moduleName": "IproovProvider",
             "objc_name": "startLivenessCheckParameters:livenessBaseUrl:certificates:completion:",
@@ -1431,12 +1436,70 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:14IproovProvider03CafaB0C",
+        "usr": "c:@M@IproovProvider@objc(cs)CafIproovProvider",
         "mangledName": "$s14IproovProvider03CafaB0C",
         "moduleName": "IproovProvider",
+        "objc_name": "CafIproovProvider",
         "declAttributes": [
           "AccessControl",
+          "ObjC",
           "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {

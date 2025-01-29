@@ -303,7 +303,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSString;
 
 /// A class that implements the <code>CafFaceLivenessProvidersProtocol</code> to provide liveness check functionality using FaceTec.
-SWIFT_CLASS("_TtC17FaceTec2DProvider20CafFaceTec2DProvider")
+SWIFT_CLASS_NAMED("CafFaceTec2DProvider")
 @interface CafFaceTec2DProvider : NSObject <CafSolutionsCafFaceLivenessProvidersProtocol>
 /// Starts a liveness check using the provided parameters.
 /// \param parameters A dictionary containing the parameters for the liveness check.
@@ -633,7 +633,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSString;
 
 /// A class that implements the <code>CafFaceLivenessProvidersProtocol</code> to provide liveness check functionality using FaceTec.
-SWIFT_CLASS("_TtC17FaceTec2DProvider20CafFaceTec2DProvider")
+SWIFT_CLASS_NAMED("CafFaceTec2DProvider")
 @interface CafFaceTec2DProvider : NSObject <CafSolutionsCafFaceLivenessProvidersProtocol>
 /// Starts a liveness check using the provided parameters.
 /// \param parameters A dictionary containing the parameters for the liveness check.
