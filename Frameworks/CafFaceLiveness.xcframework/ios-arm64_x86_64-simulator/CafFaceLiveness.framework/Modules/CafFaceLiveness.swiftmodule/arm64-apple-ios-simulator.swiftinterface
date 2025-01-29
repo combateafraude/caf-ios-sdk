@@ -7,11 +7,8 @@ import CafSolutions
 import CommonCrypto/*.CC_LONG*/
 import CommonCrypto/*.CC_MD5*/
 import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
-import FaceTec2DProvider
-import FaceTecProvider
 import FingerprintPro
 import Foundation
-import IproovProvider
 import Security
 import Swift
 import UIKit

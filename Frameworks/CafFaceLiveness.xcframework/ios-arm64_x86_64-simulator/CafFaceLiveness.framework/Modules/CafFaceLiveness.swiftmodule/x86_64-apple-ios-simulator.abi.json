@@ -3135,21 +3135,30 @@
         "name": "IproovProvider",
         "printedName": "IproovProvider",
         "declKind": "Import",
-        "moduleName": "CafFaceLiveness"
+        "moduleName": "CafFaceLiveness",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
         "name": "FaceTecProvider",
         "printedName": "FaceTecProvider",
         "declKind": "Import",
-        "moduleName": "CafFaceLiveness"
+        "moduleName": "CafFaceLiveness",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
         "name": "FaceTec2DProvider",
         "printedName": "FaceTec2DProvider",
         "declKind": "Import",
-        "moduleName": "CafFaceLiveness"
+        "moduleName": "CafFaceLiveness",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -5098,63 +5107,70 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1909,
+      "offset": 1917,
+      "length": 40,
+      "value": "\"No provider retrieved from the backend\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2015,
       "length": 8,
       "value": "\"iproov\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1947,
+      "offset": 2053,
       "length": 9,
       "value": "\"facetec\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2017,
+      "offset": 2123,
       "length": 12,
       "value": "\"liveness2d\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2139,
+      "offset": 2245,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2183,
+      "offset": 2289,
       "length": 9,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2229,
+      "offset": 2335,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2281,
+      "offset": 2387,
       "length": 14,
       "value": "\"content-type\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2330,
+      "offset": 2436,
       "length": 14,
       "value": "\"bff\/sessions\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2383,
+      "offset": 2489,
       "length": 18,
       "value": "\"bff\/transactions\""
     },
