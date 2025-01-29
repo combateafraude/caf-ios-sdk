@@ -26,6 +26,15 @@
         "revision" : "33db3b2559184651a780d76bba3add40f05d6c21",
         "version" : "12.2.1"
       }
+    },
+    {
+      "identity" : "tensorflowlitec",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/combateafraude/TensorFlowLiteC.git",
+      "state" : {
+        "revision" : "71f21cc5c8d1279f30a5eb5e04fb480413d06f9f",
+        "version" : "2.14.1"
+      }
     }
   ],
   "version" : 2

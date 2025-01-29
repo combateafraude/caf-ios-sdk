@@ -7,7 +7,6 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        // Main CafSDK product
         .library(
             name: "CafSDK",
             targets: ["CafSDKCore"]
@@ -30,7 +29,6 @@ let package = Package(
         )
     ],
     dependencies: [
-        // External dependencies
         .package(
             url: "https://github.com/iProov/ios.git",
             .exact("12.2.1")
@@ -38,6 +36,10 @@ let package = Package(
         .package(
             url: "https://github.com/fingerprintjs/fingerprintjs-pro-ios.git",
             .exact("2.6.0")
+        ),
+        .package(
+            url: "https://github.com/combateafraude/TensorFlowLiteC.git",
+            .exact("2.14.1")
         ),
         .package(
             url: "https://github.com/combateafraude/CafSolutions.git",
@@ -48,10 +50,19 @@ let package = Package(
         .target(
             name: "CafSDKCore",
             dependencies: [
-                "DocumentDetector",
+                "DocumentDetectorCore",
                 "CafFaceLivenessCore"
             ],
             path: "Sources/Core"
+        ),
+        .target(
+            name: "DocumentDetectorCore",
+            dependencies: [
+                "DocumentDetector",
+                .product(name: "TensorFlowLiteC", package: "TensorFlowLiteC"),
+                .product(name: "CafSolutions", package: "CafSolutions")
+            ],
+            path: "Sources/DocumentDetector"
         ),
         .binaryTarget(
             name: "DocumentDetector",
@@ -60,13 +71,21 @@ let package = Package(
         .target(
             name: "CafFaceLivenessCore",
             dependencies: [
-                "IproovProvider",
+                "IproovProvideCore",
                 "FaceTec2DProvider",
-                .product(name: "FingerprintPro", package: "fingerprintjs-pro-ios")
+                .product(name: "FingerprintPro", package: "fingerprintjs-pro-ios"),
+                .product(name: "CafSolutions", package: "CafSolutions")
             ],
             path: "Sources/CafFaceLiveness"
         ),
-
+        .target(
+            name: "IproovProvideCore",
+            dependencies: [
+                "DocumentDetector",
+                .product(name: "iProov", package: "ios")
+            ],
+            path: "Sources/IproovProvider"
+        ),
         .binaryTarget(
             name: "IproovProvider",
             path: "Frameworks/IproovProvider.xcframework"
