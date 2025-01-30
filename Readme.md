@@ -7,19 +7,9 @@
 **CafSDK** is a comprehensive iOS SDK that provides modular solutions for **document detection** and **face liveness validation**. It includes the following components:
 
 - **[DocumentDetector](https://github.com/combateafraude/DocumentDetector)**: A framework for secure document detection, powered by TensorFlow Lite.
-- **[CafFaceLiveness]**: A framework for face liveness validation, with optional providers for **iProov** and **FaceTec 2D**.
+- **[CafFaceLiveness]**: A modular framework for face liveness validation, supporting **iProov** and **FaceTec 2D** as independent or combined providers.
 
 This SDK is designed to be flexible, allowing developers to integrate only the components they need.
-
----
-
-## Current Version
-
-### Stable
-
-| SDK               | Version |
-| ----------------- |---------|
-| CafSDK            | 1.0.0   |
 
 ---
 
@@ -75,10 +65,10 @@ pod 'CafSDK/DocumentDetector'
 pod 'CafSDK/CafFaceLiveness'
 
 # Optional iProov provider
-pod 'CafSDK/CafFaceLiveness/IproovProvider'
+pod 'CafSDK/IproovProvider'
 
 # Optional FaceTec 2D provider
-pod 'CafSDK/CafFaceLiveness/FaceTec2DProvider'
+pod 'CafSDK/FaceTec2DProvider'
 ```
 
 Then, run pod install.
