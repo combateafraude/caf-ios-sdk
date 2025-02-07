@@ -76,7 +76,6 @@ public protocol CafFaceLivenessDelegate : AnyObject {
 @objc @_hasMissingDesignatedInitializers open class CafFaceLivenessSDK : ObjectiveC.NSObject {
   public var stage: CafFaceLiveness.CAFStage
   public var loading: Swift.Bool
-  public var executeFaceAuth: Swift.Bool
   public var authBaseUrl: Swift.String
   public var livenessBaseUrl: Swift.String
   public var certificates: [Swift.String]
@@ -93,7 +92,6 @@ public protocol CafFaceLivenessDelegate : AnyObject {
     @objc override dynamic public init()
     open func setStage(stage: CafFaceLiveness.CAFStage) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setLoadingScreen(withLoading: Swift.Bool) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
-    open func setExecuteFaceAuth(withFaceAuth: Swift.Bool) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setAuthBaseUrl(authBaseUrl: Swift.String) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setLivenessBaseUrl(livenessBaseUrl: Swift.String) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setCertificates(certificates: [Swift.String]) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder

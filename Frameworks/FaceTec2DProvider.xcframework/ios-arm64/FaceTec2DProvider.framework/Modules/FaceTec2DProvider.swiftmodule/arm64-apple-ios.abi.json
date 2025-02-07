@@ -2231,15 +2231,15 @@
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonConstants.swift",
       "kind": "StringLiteral",
       "offset": 781,
-      "length": 29,
-      "value": "\"https:\/\/web.us.beta.caf.io\/\""
+      "length": 28,
+      "value": "\"https:\/\/web.us.stg.caf.io\/\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonConstants.swift",
       "kind": "StringLiteral",
-      "offset": 844,
-      "length": 24,
-      "value": "\"https:\/\/web.us.caf.io\/\""
+      "offset": 843,
+      "length": 28,
+      "value": "\"https:\/\/web.us.prd.caf.io\/\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
