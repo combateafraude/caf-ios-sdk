@@ -7,7 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "CafSDK",
-            targets: ["Core"]
+            targets: ["CafSDK"]
         ),
         .library(
             name: "DocumentDetector",
@@ -62,6 +62,12 @@ let package = Package(
             path: "Frameworks/FaceTec2DProvider.xcframework"
         ),
 
+        .target(
+            name: "CafSDK",
+            dependencies: ["Core"],
+            path: "Sources/CafSDK"
+        ),
+        
         .target(
             name: "Core",
             dependencies: ["DocumentDetector", "CafFaceLiveness"],
