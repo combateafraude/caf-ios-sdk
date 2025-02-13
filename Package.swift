@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "CafSDK",
+    name: "CafSDKiOS",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "CafSDK",
-            targets: ["CafSDK"]
+            name: "CafSDKiOS",
+            targets: ["CafSDKiOS"]
         ),
         .library(
             name: "DocumentDetector",
@@ -63,9 +63,9 @@ let package = Package(
         ),
 
         .target(
-            name: "CafSDK",
+            name: "CafSDKiOS",
             dependencies: ["Core"],
-            path: "Sources/CafSDK"
+            path: "Sources/CafSDKiOS"
         ),
         
         .target(

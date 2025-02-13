@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
-  s.name             = 'CafSDK'
+  s.name             = 'CafSDKiOS'
   s.version          = '1.0.0'
   s.summary          = 'Caf iOS SDK'
   s.homepage         = 'https://github.com/combateafraude/caf-ios-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Caf' => 'service@caf.com' }
+  s.author           = { 'Caf' => 'service@caf.io' }
   s.source           = { :git => 'https://github.com/combateafraude/caf-ios-sdk.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '13.0'
@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
   
   s.subspec 'Core' do |core|
-    core.dependency 'CafSDK/DocumentDetector'
-    core.dependency 'CafSDK/CafFaceLiveness'
+    core.dependency 'CafSDKiOS/DocumentDetector'
+    core.dependency 'CafSDKiOS/CafFaceLiveness'
   end
   
   s.subspec 'DocumentDetector' do |dd|
@@ -24,9 +24,9 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'CafFaceLiveness' do |cl|
-    cl.dependency 'CafSDK/CafFaceLivenessCore' 
-    cl.dependency 'CafSDK/IproovProvider' 
-    cl.dependency 'CafSDK/FaceTec2DProvider' 
+    cl.dependency 'CafSDKiOS/CafFaceLivenessCore' 
+    cl.dependency 'CafSDKiOS/IproovProvider' 
+    cl.dependency 'CafSDKiOS/FaceTec2DProvider' 
   end
   
   s.subspec 'CafFaceLivenessCore' do |fl|
@@ -38,11 +38,11 @@ Pod::Spec.new do |s|
   s.subspec 'IproovProvider' do |ip|
     ip.vendored_frameworks = 'Frameworks/IproovProvider.xcframework'
     ip.dependency 'iProov', '12.2.1'
-    ip.dependency 'CafSDK/CafFaceLivenessCore' 
+    ip.dependency 'CafSDKiOS/CafFaceLivenessCore' 
   end
 
   s.subspec 'FaceTec2DProvider' do |fp|
     fp.vendored_frameworks = 'Frameworks/FaceTec2DProvider.xcframework'  
-    fp.dependency 'CafSDK/CafFaceLivenessCore'
+    fp.dependency 'CafSDKiOS/CafFaceLivenessCore'
   end
 end
