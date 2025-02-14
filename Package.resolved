@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "cafsolutions",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/combateafraude/CafSolutions.git",
+      "state" : {
+        "revision" : "d563151e8281b86332e7a6860c81b22f25afae52",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "fingerprintjs-pro-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/fingerprintjs/fingerprintjs-pro-ios.git",
+      "state" : {
+        "revision" : "df75db119bc63f51e8b4d8c9e4edf0f38f346912",
+        "version" : "2.6.0"
+      }
+    },
+    {
+      "identity" : "ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/iProov/ios.git",
+      "state" : {
+        "revision" : "33db3b2559184651a780d76bba3add40f05d6c21",
+        "version" : "12.2.1"
+      }
+    },
+    {
+      "identity" : "tensorflowlitec",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/combateafraude/TensorFlowLiteC.git",
+      "state" : {
+        "revision" : "71f21cc5c8d1279f30a5eb5e04fb480413d06f9f",
+        "version" : "2.14.1"
+      }
+    }
+  ],
+  "version" : 2
+}
