@@ -18,19 +18,19 @@ let package = Package(
             targets: ["CafFaceLiveness"]
         ),
         .library(
-            name: "FaceTec2DProvider",
-            targets: ["FaceTec2DProvider"]
-        ),
-        .library(
             name: "IproovProvider",
             targets: ["IproovProvider"]
+        ),
+        .library(
+            name: "FaceTec2DProvider",
+            targets: ["FaceTec2DProvider"]
         )
     ],
     dependencies: [
         .package(
             url: "https://github.com/iProov/ios.git",
             .exact("12.2.1")
-        ),        
+        ),
         .package(
             url: "https://github.com/fingerprintjs/fingerprintjs-pro-ios.git",
             .exact("2.6.0")
@@ -42,7 +42,7 @@ let package = Package(
         .package(
             url: "https://github.com/combateafraude/CafSolutions.git",
             .exact("1.0.2")
-        ),
+        )
     ],
     targets: [
         .binaryTarget(
@@ -61,19 +61,17 @@ let package = Package(
             name: "FaceTec2DProviderBinary",
             path: "Frameworks/FaceTec2DProvider.xcframework"
         ),
-
+        
         .target(
             name: "CafSDKiOS",
             dependencies: ["Core"],
             path: "Sources/CafSDKiOS"
         ),
-        
         .target(
             name: "Core",
             dependencies: ["DocumentDetector", "CafFaceLiveness"],
             path: "Sources/Core"
         ),
-        
         .target(
             name: "DocumentDetector",
             dependencies: [
@@ -83,7 +81,6 @@ let package = Package(
             ],
             path: "Sources/DocumentDetector"
         ),
-        
         .target(
             name: "CafFaceLivenessCore",
             dependencies: [
@@ -93,7 +90,6 @@ let package = Package(
             ],
             path: "Sources/CafFaceLivenessCore"
         ),
-        
         .target(
             name: "IproovProvider",
             dependencies: [
@@ -103,7 +99,6 @@ let package = Package(
             ],
             path: "Sources/IproovProvider"
         ),
-        
         .target(
             name: "FaceTec2DProvider",
             dependencies: [
@@ -112,10 +107,13 @@ let package = Package(
             ],
             path: "Sources/FaceTec2DProvider"
         ),
-        
         .target(
             name: "CafFaceLiveness",
-            dependencies: ["CafFaceLivenessCore", "IproovProvider", "FaceTec2DProvider"],
+            dependencies: [
+                "CafFaceLivenessCore",
+                "IproovProvider",
+                "FaceTec2DProvider"
+            ],
             path: "Sources/CafFaceLiveness"
         )
     ]
