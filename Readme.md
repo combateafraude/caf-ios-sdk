@@ -31,7 +31,7 @@ Add the following dependency to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/combateafraude/caf-ios-sdk.git", from: "1.0.0")
+    .package(url: "https://github.com/combateafraude/caf-ios-sdk.git", from: "0.1.1")
 ]
 ```
 
@@ -43,7 +43,7 @@ Then, add the desired targets to your app:
     dependencies: [
         .product(name: "CafSDK", package: "CafSDK"), // Full SDK
         .product(name: "DocumentDetector", package: "CafSDK"), // Only DocumentDetector
-        .product(name: "CafFaceLiveness", package: "CafSDK"), // Only CafFaceLiveness
+        .product(name: "CafFaceLiveness", package: "CafSDK"), // CafFaceLiveness with all modules
         .product(name: "IproovProvider", package: "CafSDK"), // Optional iProov provider
         .product(name: "FaceTec2DProvider", package: "CafSDK"), // Optional FaceTec 2D provider
     ]
