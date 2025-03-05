@@ -70,7 +70,8 @@ let package = Package(
         .target(
             name: "Core",
             dependencies: ["DocumentDetector", "CafFaceLiveness"],
-            path: "Sources/Core"
+            path: "Sources/Core",
+            sources: ["Core.swift"]
         ),
         .target(
             name: "DocumentDetector",
@@ -88,7 +89,8 @@ let package = Package(
                 .product(name: "FingerprintPro", package: "fingerprintjs-pro-ios"),
                 .product(name: "CafSolutions", package: "CafSolutions")
             ],
-            path: "Sources/CafFaceLivenessCore"
+            path: "Sources/CafFaceLivenessCore",
+            sources: ["CafFaceLivenessCore.swift"]
         ),
         .target(
             name: "IproovProvider",
@@ -114,7 +116,8 @@ let package = Package(
                 "IproovProvider",
                 "FaceTec2DProvider"
             ],
-            path: "Sources/CafFaceLiveness"
+            path: "Sources/CafFaceLiveness",
+            sources: ["CafFaceLiveness.swift"]
         )
     ]
 )
