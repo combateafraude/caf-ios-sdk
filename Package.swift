@@ -5,117 +5,87 @@ let package = Package(
     name: "CafSDKiOS",
     platforms: [.iOS(.v13)],
     products: [
-        .library(
-            name: "CafSDKiOS",
-            targets: ["CafSDKiOSSDK"]
-        ),
-        .library(
-            name: "DocumentDetector",
-            targets: ["DocumentDetectorSDK"]
-        ),
-        .library(
-            name: "CafFaceLiveness",
-            targets: ["CafFaceLivenessSDK"]
-        ),
-        .library(
-            name: "FaceTec2DProvider",
-            targets: ["FaceTec2DProviderSDK"]
-        ),
-        .library(
-            name: "IproovProvider",
-            targets: ["IproovProviderSDK"]
-        )
+        .library(name: "Core", targets: ["CafSDKTarget"]),
+        .library(name: "CafSDK", targets: ["DocumentDetectorTarget", "CafFaceLivenessTarget"]),
+        .library(name: "DocumentDetector", targets: ["DocumentDetectorTarget"]),
+        .library(name: "CafFaceLiveness", targets: ["CafFaceLivenessTarget"]),
+        .library(name: "IproovProvider", targets: ["IproovProviderTarget"]),
+        .library(name: "FaceTec2DProvider", targets: ["FaceTec2DProviderTarget"])
     ],
     dependencies: [
-        .package(
-            url: "https://github.com/iProov/ios.git",
-            .exact("12.2.1")
-        ),        
-        .package(
-            url: "https://github.com/fingerprintjs/fingerprintjs-pro-ios.git",
-            .exact("2.6.0")
-        ),
-        .package(
-            url: "https://github.com/combateafraude/TensorFlowLiteC.git",
-            .exact("2.14.1")
-        ),
-        .package(
-            url: "https://github.com/combateafraude/CafSolutions.git",
-            .exact("1.0.2")
-        ),
+        .package(url: "https://github.com/iProov/ios.git", .exact("12.3.0")),
+        .package(url: "https://github.com/fingerprintjs/fingerprintjs-pro-ios.git", .exact("2.7.0")),
+        .package(url: "https://github.com/combateafraude/TensorFlowLiteC.git", .exact("2.14.0")),
+        .package(url: "https://github.com/combateafraude/CafSolutions.git", .exact("2.0.3"))
     ],
     targets: [
-        .binaryTarget(
-            name: "DocumentDetector",
-            path: "Frameworks/DocumentDetector.xcframework"
-        ),
-        .binaryTarget(
-            name: "CafFaceLiveness",
-            path: "Frameworks/CafFaceLiveness.xcframework"
-        ),
-        .binaryTarget(
-            name: "IproovProvider",
-            path: "Frameworks/IproovProvider.xcframework"
-        ),
-        .binaryTarget(
-            name: "FaceTec2DProvider",
-            path: "Frameworks/FaceTec2DProvider.xcframework"
+        // Binary Targets (keep original names)
+        .binaryTarget(name: "CafSDK", path: "Frameworks/CafSDK.xcframework"),
+        .binaryTarget(name: "DocumentDetector", path: "Frameworks/DocumentDetector.xcframework"),
+        .binaryTarget(name: "CafFaceLiveness", path: "Frameworks/CafFaceLiveness.xcframework"),
+        .binaryTarget(name: "IproovProvider", path: "Frameworks/IproovProvider.xcframework"),
+        .binaryTarget(name: "FaceTec2DProvider", path: "Frameworks/FaceTec2DProvider.xcframework"),
+
+        // Main CafSDK target
+        .target(
+            name: "CafSDKTarget",
+            dependencies: ["CafSDK"],
+            path: "Sources/CafSDK"
         ),
 
+        // Document Detector
         .target(
-            name: "CafSDKiOSSDK",
-            dependencies: ["Core"],
-            path: "Sources/CafSDKiOS"
-        ),
-        
-        .target(
-            name: "Core",
-            dependencies: ["DocumentDetector", "CafFaceLiveness"],
-            path: "Sources/Core"
-        ),
-        
-        .target(
-            name: "DocumentDetectorSDK",
+            name: "DocumentDetectorTarget",
             dependencies: [
+                "CafSDKTarget",
                 "DocumentDetector",
                 .product(name: "TensorFlowLiteC", package: "TensorFlowLiteC"),
                 .product(name: "CafSolutions", package: "CafSolutions")
             ],
             path: "Sources/DocumentDetector"
         ),
-        
+
+        // CafFaceLiveness Core
         .target(
-            name: "CafFaceLivenessCoreSDK",
+            name: "CafFaceLivenessCoreTarget",
             dependencies: [
+                "CafSDKTarget",
                 "CafFaceLiveness",
                 .product(name: "FingerprintPro", package: "fingerprintjs-pro-ios"),
                 .product(name: "CafSolutions", package: "CafSolutions")
             ],
             path: "Sources/CafFaceLivenessCore"
         ),
-        
+
+        // Iproov Provider
         .target(
-            name: "IproovProviderSDK",
+            name: "IproovProviderTarget",
             dependencies: [
                 "IproovProvider",
                 .product(name: "iProov", package: "ios"),
-                "CafFaceLivenessCoreSDK"
+                "CafFaceLivenessCoreTarget"
             ],
             path: "Sources/IproovProvider"
         ),
-        
+
+        // FaceTec Provider
         .target(
-            name: "FaceTec2DProviderSDK",
+            name: "FaceTec2DProviderTarget",
             dependencies: [
                 "FaceTec2DProvider",
-                "CafFaceLivenessCoreSDK"
+                "CafFaceLivenessCoreTarget"
             ],
             path: "Sources/FaceTec2DProvider"
         ),
-        
+
+        // CafFaceLiveness
         .target(
-            name: "CafFaceLivenessSDK",
-            dependencies: ["CafFaceLivenessCoreSDK", "IproovProvider", "FaceTec2DProvider"],
+            name: "CafFaceLivenessTarget",
+            dependencies: [
+                "CafFaceLivenessCoreTarget",
+                "IproovProviderTarget",
+                "FaceTec2DProviderTarget"
+            ],
             path: "Sources/CafFaceLiveness"
         )
     ]
