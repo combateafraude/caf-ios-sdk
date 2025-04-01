@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
   end
 
   # Full installation (convenience subspec)
-  s.subspec 'Full' do |full|
-    full.dependency 'CafSDKiOS/DocumentDetector'
-    full.dependency 'CafSDKiOS/CafFaceLiveness'
+  s.subspec 'Core' do |core|
+    core.dependency 'CafSDKiOS/DocumentDetector'
+    core.dependency 'CafSDKiOS/CafFaceLiveness'
   end
 
   # Document Detector component
