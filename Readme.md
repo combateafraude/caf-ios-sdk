@@ -31,7 +31,7 @@ Add the following dependency to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/combateafraude/caf-ios-sdk.git", from: "0.1.1")
+    .package(url: "https://github.com/combateafraude/caf-ios-sdk.git", from: "1.4.0")
 ]
 ```
 
@@ -81,8 +81,7 @@ Then, run pod install.
 To import and use **DocumentDetector or CafFaceliveness** in your app, add the following import statement at the top of your Swift files:
 
 ```swift
-import DocumentDetector
-import CafFaceliveness
+import CafSDK
 ```
 
 ## Privacy Policy and Terms & Conditions of Use
