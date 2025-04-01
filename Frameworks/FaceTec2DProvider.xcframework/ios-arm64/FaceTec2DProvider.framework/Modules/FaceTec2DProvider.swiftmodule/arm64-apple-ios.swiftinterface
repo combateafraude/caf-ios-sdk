@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FaceTec2DProvider
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import AdSupport
 import CafSolutions
@@ -16,7 +17,18 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum CAFStage : Swift.Int {
+extension UIKit.UIColor {
+  convenience public init(byHex: Swift.String)
+}
+public struct ColorConfiguration {
+  public let primaryColor: Swift.String?
+  public let secondaryColor: Swift.String?
+  public let contentColor: Swift.String?
+  public let backgroundColor: Swift.String?
+  public let mediumColor: Swift.String?
+  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil)
+}
+public enum CafEnvironment : Swift.Int {
   case dev
   case beta
   case prod
@@ -25,6 +37,9 @@ public enum CAFStage : Swift.Int {
   public var rawValue: Swift.Int {
     get
   }
+}
+extension FaceTec2DProvider.CafEnvironment {
+  public func toString() -> Swift.String
 }
 public enum CafSdkPlatform : Swift.String {
   case nativeIos
@@ -59,12 +74,34 @@ public enum CafErrorType : Swift.String, Swift.Encodable {
   @objc override dynamic public init()
   @objc deinit
 }
-extension FaceTec2DProvider.CAFStage : Swift.Equatable {}
-extension FaceTec2DProvider.CAFStage : Swift.Hashable {}
-extension FaceTec2DProvider.CAFStage : Swift.RawRepresentable {}
+public struct CafInstructionsConfiguration {
+  public var enabled: Swift.Bool
+  public var title: Swift.String?
+  public var descriptionText: Swift.String?
+  public var steps: [Swift.String]?
+  public var buttonTitle: Swift.String?
+  public var headerImage: UIKit.UIImage?
+  public init(enabled: Swift.Bool = true, title: Swift.String? = nil, descriptionText: Swift.String? = nil, steps: [Swift.String]? = nil, buttonTitle: Swift.String? = nil, headerImage: UIKit.UIImage? = nil)
+}
+public enum CafLogLevel : Swift.String {
+  case debug
+  case usage
+  case info
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension FaceTec2DProvider.CafEnvironment : Swift.Equatable {}
+extension FaceTec2DProvider.CafEnvironment : Swift.Hashable {}
+extension FaceTec2DProvider.CafEnvironment : Swift.RawRepresentable {}
 extension FaceTec2DProvider.CafSdkPlatform : Swift.Equatable {}
 extension FaceTec2DProvider.CafSdkPlatform : Swift.Hashable {}
 extension FaceTec2DProvider.CafSdkPlatform : Swift.RawRepresentable {}
 extension FaceTec2DProvider.CafErrorType : Swift.Equatable {}
 extension FaceTec2DProvider.CafErrorType : Swift.Hashable {}
 extension FaceTec2DProvider.CafErrorType : Swift.RawRepresentable {}
+extension FaceTec2DProvider.CafLogLevel : Swift.Equatable {}
+extension FaceTec2DProvider.CafLogLevel : Swift.Hashable {}
+extension FaceTec2DProvider.CafLogLevel : Swift.RawRepresentable {}
