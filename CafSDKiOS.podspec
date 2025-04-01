@@ -12,20 +12,20 @@ Pod::Spec.new do |s|
   s.default_subspec = 'CafSDK'
 
   # Main SDK framework
-  s.subspec 'CafSDK' do |caf|
-    caf.vendored_frameworks = 'Frameworks/CafSDK.xcframework'
+  s.subspec 'Core' do |core|
+    core.vendored_frameworks = 'Frameworks/CafSDK.xcframework'
   end
 
   # Full installation (convenience subspec)
-  s.subspec 'Core' do |core|
-    core.dependency 'CafSDKiOS/DocumentDetector'
-    core.dependency 'CafSDKiOS/CafFaceLiveness'
+  s.subspec 'CafSDK' do |caf|
+    caf.dependency 'CafSDKiOS/DocumentDetector'
+    caf.dependency 'CafSDKiOS/CafFaceLiveness'
   end
 
   # Document Detector component
   s.subspec 'DocumentDetector' do |dd|
     dd.vendored_frameworks = 'Frameworks/DocumentDetector.xcframework'
-    dd.dependency 'CafSDKiOS/CafSDK'
+    dd.dependency 'CafSDKiOS/Core'
     dd.dependency 'TensorFlowLiteC', '2.14.0'
     dd.dependency 'CafSolutions', '2.0.3'
   end
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   # Face Liveness core
   s.subspec 'CafFaceLivenessCore' do |flc|
     flc.vendored_frameworks = 'Frameworks/CafFaceLiveness.xcframework'
-    flc.dependency 'CafSDKiOS/CafSDK'
+    flc.dependency 'CafSDKiOS/Core'
     flc.dependency 'FingerprintPro', '2.7.0'
     flc.dependency 'CafSolutions', '2.0.3'
   end
