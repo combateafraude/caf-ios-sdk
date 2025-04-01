@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOS'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Caf iOS SDK'
   s.homepage         = 'https://github.com/combateafraude/caf-ios-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -9,38 +9,50 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
+  s.default_subspec = 'CafSDK'
 
-  s.default_subspec = 'Core'
-
-  s.subspec 'Core' do |core|
-    core.dependency 'CafSDKiOS/DocumentDetector'
-    core.dependency 'CafSDKiOS/CafFaceLiveness'
+  # Main SDK framework
+  s.subspec 'CafSDK' do |caf|
+    caf.vendored_frameworks = 'Frameworks/CafSDK.xcframework'
   end
 
+  # Full installation (convenience subspec)
+  s.subspec 'Full' do |full|
+    full.dependency 'CafSDKiOS/DocumentDetector'
+    full.dependency 'CafSDKiOS/CafFaceLiveness'
+  end
+
+  # Document Detector component
   s.subspec 'DocumentDetector' do |dd|
     dd.vendored_frameworks = 'Frameworks/DocumentDetector.xcframework'
+    dd.dependency 'CafSDKiOS/CafSDK'
     dd.dependency 'TensorFlowLiteC', '2.14.0'
-    dd.dependency 'CafSolutions', '1.0.1'
+    dd.dependency 'CafSolutions', '2.0.3'
   end
 
-  s.subspec 'CafFaceLiveness' do |cl|
-    cl.dependency 'CafSDKiOS/CafFaceLivenessCore'
-    cl.dependency 'CafSDKiOS/IproovProvider'
-    cl.dependency 'CafSDKiOS/FaceTec2DProvider'
+  # Face Liveness
+  s.subspec 'CafFaceLiveness' do |fl|
+    fl.dependency 'CafSDKiOS/CafFaceLivenessCore'
+    fl.dependency 'CafSDKiOS/IproovProvider'
+    fl.dependency 'CafSDKiOS/FaceTec2DProvider'
   end
 
-  s.subspec 'CafFaceLivenessCore' do |fl|
-    fl.vendored_frameworks = 'Frameworks/CafFaceLiveness.xcframework'
-    fl.dependency 'FingerprintPro', '2.6.0'
-    fl.dependency 'CafSolutions', '1.0.1'
+  # Face Liveness core
+  s.subspec 'CafFaceLivenessCore' do |flc|
+    flc.vendored_frameworks = 'Frameworks/CafFaceLiveness.xcframework'
+    flc.dependency 'CafSDKiOS/CafSDK'
+    flc.dependency 'FingerprintPro', '2.7.0'
+    flc.dependency 'CafSolutions', '2.0.3'
   end
 
+  # Iproov integration
   s.subspec 'IproovProvider' do |ip|
     ip.vendored_frameworks = 'Frameworks/IproovProvider.xcframework'
-    ip.dependency 'iProov', '12.2.1'
+    ip.dependency 'iProov', '12.3.0'
     ip.dependency 'CafSDKiOS/CafFaceLivenessCore'
   end
 
+  # FaceTec integration
   s.subspec 'FaceTec2DProvider' do |fp|
     fp.vendored_frameworks = 'Frameworks/FaceTec2DProvider.xcframework'
     fp.dependency 'CafSDKiOS/CafFaceLivenessCore'
