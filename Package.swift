@@ -5,8 +5,8 @@ let package = Package(
     name: "CafSDKiOS",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "CafSDK", targets: ["CafSDKTarget"]),
-        .library(name: "Core", targets: ["DocumentDetectorTarget", "CafFaceLivenessTarget"]),
+        .library(name: "Core", targets: ["CafSDKTarget"]),
+        .library(name: "CafSDK", targets: ["DocumentDetectorTarget", "CafFaceLivenessTarget"]),
         .library(name: "DocumentDetector", targets: ["DocumentDetectorTarget"]),
         .library(name: "CafFaceLiveness", targets: ["CafFaceLivenessTarget"]),
         .library(name: "IproovProvider", targets: ["IproovProviderTarget"]),

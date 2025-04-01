@@ -66,3 +66,4 @@ Gemfile.lock
 fastlane/.DS_Store
 .github/.DS_Store
 .DS_Store
+Package.resolved
