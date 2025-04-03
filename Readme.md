@@ -11,6 +11,8 @@
 
 This SDK is designed to be flexible, allowing developers to integrate only the components they need.
 
+Official [Documentation](https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk)
+
 ---
 
 #### Requirements
@@ -56,19 +58,19 @@ Add the following to your Podfile:
 
 ```ruby
 # Full SDK
-pod 'CafSDK'
+pod 'CafSDKiOS'
 
 # Only DocumentDetector
-pod 'CafSDK/DocumentDetector'
+pod 'CafSDKiOS/DocumentDetector'
 
 # Only CafFaceLiveness
-pod 'CafSDK/CafFaceLiveness'
+pod 'CafSDKiOS/CafFaceLiveness'
 
 # Optional iProov provider
-pod 'CafSDK/IproovProvider'
+pod 'CafSDKiOS/IproovProvider'
 
 # Optional FaceTec 2D provider
-pod 'CafSDK/FaceTec2DProvider'
+pod 'CafSDKiOS/FaceTec2DProvider'
 ```
 
 Then, run pod install.
