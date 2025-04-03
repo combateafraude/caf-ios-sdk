@@ -11,6 +11,8 @@
 
 This SDK is designed to be flexible, allowing developers to integrate only the components they need.
 
+Official [Documentation](https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk)
+
 ---
 
 #### Requirements
