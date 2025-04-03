@@ -56,19 +56,19 @@ Add the following to your Podfile:
 
 ```ruby
 # Full SDK
-pod 'CafSDK'
+pod 'CafSDKiOS'
 
 # Only DocumentDetector
-pod 'CafSDK/DocumentDetector'
+pod 'CafSDKiOS/DocumentDetector'
 
 # Only CafFaceLiveness
-pod 'CafSDK/CafFaceLiveness'
+pod 'CafSDKiOS/CafFaceLiveness'
 
 # Optional iProov provider
-pod 'CafSDK/IproovProvider'
+pod 'CafSDKiOS/IproovProvider'
 
 # Optional FaceTec 2D provider
-pod 'CafSDK/FaceTec2DProvider'
+pod 'CafSDKiOS/FaceTec2DProvider'
 ```
 
 Then, run pod install.
