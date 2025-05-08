@@ -70,6 +70,14 @@ public enum CafErrorType : Swift.String, Swift.Encodable {
     get
   }
 }
+final public class CafConfirmationNextStepContent {
+  final public var title: Swift.String?
+  final public var description: Swift.String?
+  final public var buttonTitle: Swift.String?
+  final public var image: UIKit.UIImage?
+  public init(title: Swift.String? = nil, description: Swift.String? = nil, buttonTitle: Swift.String? = nil, image: UIKit.UIImage? = nil)
+  @objc deinit
+}
 public struct CafInstructionsConfiguration {
   public var enabled: Swift.Bool
   public var title: Swift.String?

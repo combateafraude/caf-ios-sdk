@@ -69,6 +69,14 @@ public enum CafErrorType : Swift.String, Swift.Encodable {
     get
   }
 }
+final public class CafConfirmationNextStepContent {
+  final public var title: Swift.String?
+  final public var description: Swift.String?
+  final public var buttonTitle: Swift.String?
+  final public var image: UIKit.UIImage?
+  public init(title: Swift.String? = nil, description: Swift.String? = nil, buttonTitle: Swift.String? = nil, image: UIKit.UIImage? = nil)
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @objc(CafFaceTec2DProvider) public class CafFaceTec2DProvider : ObjectiveC.NSObject, CafSolutions.CafFaceLivenessProvidersProtocol {
   @objc public func startLivenessCheck(parameters: [Swift.String : Any], livenessBaseUrl: Swift.String, certificates: [Swift.String], completion: @escaping ([Swift.String : Any]) -> Swift.Void)
   @objc override dynamic public init()

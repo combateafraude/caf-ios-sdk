@@ -20,7 +20,7 @@ Official [Documentation](https://docs.caf.io/caf-sdk/ios/getting-started-with-th
 | Deployment Info | Version       |
 | --------------- | ------------- |
 | iOS Target      | 13.0+         |
-| Xcode           | 15.4+         |
+| Xcode           | 16.2+         |
 | Swift           | 5.10+         |
 
 ---
@@ -33,7 +33,7 @@ Add the following dependency to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/combateafraude/caf-ios-sdk.git", from: "1.4.0")
+    .package(url: "https://github.com/combateafraude/caf-ios-sdk.git", from: "2.0.0")
 ]
 ```
 
@@ -43,11 +43,11 @@ Then, add the desired targets to your app:
 .target(
     name: "YourApp",
     dependencies: [
-        .product(name: "CafSDK", package: "CafSDK"), // Full SDK
-        .product(name: "DocumentDetector", package: "CafSDK"), // Only DocumentDetector
-        .product(name: "CafFaceLiveness", package: "CafSDK"), // CafFaceLiveness with all modules
-        .product(name: "IproovProvider", package: "CafSDK"), // Optional iProov provider
-        .product(name: "FaceTec2DProvider", package: "CafSDK"), // Optional FaceTec 2D provider
+        .product(name: "CafSDK", package: "CafSDKiOS"), // Full SDK
+        .product(name: "DocumentDetector", package: "CafSDKiOS"), // Only DocumentDetector
+        .product(name: "CafFaceLiveness", package: "CafSDKiOS"), // CafFaceLiveness with all modules
+        .product(name: "IproovProvider", package: "CafSDKiOS"), // Optional iProov provider
+        .product(name: "FaceTec2DProvider", package: "CafSDKiOS"), // Optional FaceTec 2D provider
     ]
 )
 ```
