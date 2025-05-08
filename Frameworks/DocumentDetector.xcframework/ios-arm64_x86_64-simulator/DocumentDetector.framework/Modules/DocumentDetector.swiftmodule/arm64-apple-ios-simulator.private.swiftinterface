@@ -110,6 +110,14 @@ public enum CafErrorType : Swift.String, Swift.Encodable {
     get
   }
 }
+final public class CafConfirmationNextStepContent {
+  final public var title: Swift.String?
+  final public var description: Swift.String?
+  final public var buttonTitle: Swift.String?
+  final public var image: UIKit.UIImage?
+  public init(title: Swift.String? = nil, description: Swift.String? = nil, buttonTitle: Swift.String? = nil, image: UIKit.UIImage? = nil)
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers @objc open class CafDocument : ObjectiveC.NSObject {
   public static let RG_FRONT: DocumentDetector.CafDocument
   public static let RG_BACK: DocumentDetector.CafDocument
@@ -793,7 +801,7 @@ public protocol Delegate : AnyObject {
   }
   public func encode(to encoder: any Swift.Encoder) throws
   @objc open class CafBuilder : ObjectiveC.NSObject {
-    public init(mobileToken: Swift.String)
+    public init(mobileToken: Swift.String, enableMultiLanguage: Swift.Bool = true)
     open func setAllowedPassportList(passportList: [DocumentDetector.DDCountryCodes]?) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setPersonId(personId: Swift.String?) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setAnalyticsSettings(useAnalytics: Swift.Bool!) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
@@ -811,7 +819,6 @@ public protocol Delegate : AnyObject {
     open func setMessageSettings(waitMessage: Swift.String? = nil, fitTheDocumentMessage: Swift.String? = nil, verifyingQualityMessage: Swift.String? = nil, lowQualityDocumentMessage: Swift.String? = nil, uploadingImageMessage: Swift.String? = nil, popupDocumentSubtitleMessage: Swift.String? = nil, unsupportedDocumentMessage: Swift.String? = nil, wrongDocumentMessage: Swift.String? = nil, sensorLuminosityMessage: Swift.String? = nil, sensorOrientationMessage: Swift.String? = nil, sensorStabilityMessage: Swift.String? = nil, holdDocumentMessage: Swift.String? = nil, predictorScanDocumentMessage: Swift.String? = nil, predictorGetCloserMessage: Swift.String? = nil, predictorCentralizeMessage: Swift.String? = nil, predictorMoveAwayMessage: Swift.String? = nil, predictorAlignDocumentMessage: Swift.String? = nil, predictorTurnDocumentMessage: Swift.String? = nil, predictorCapturedMessage: Swift.String? = nil) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setGetImageUrlExpireTime(_ expireTime: Swift.String) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
-    open func enableMultiLanguage(_ enable: Swift.Bool) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setResolutionSettings(resolution: DocumentDetector.CafResolution) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setCompressSettings(compressionQuality: CoreFoundation.CGFloat) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setCurrentStepDoneDelay(currentStepDoneDelay: Foundation.TimeInterval) -> DocumentDetector.DocumentDetectorSdk.CafBuilder

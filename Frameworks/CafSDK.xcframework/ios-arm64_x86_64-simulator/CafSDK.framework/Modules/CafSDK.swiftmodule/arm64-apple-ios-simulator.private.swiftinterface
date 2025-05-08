@@ -69,6 +69,14 @@ public enum CafErrorType : Swift.String, Swift.Encodable {
     get
   }
 }
+final public class CafConfirmationNextStepContent {
+  final public var title: Swift.String?
+  final public var description: Swift.String?
+  final public var buttonTitle: Swift.String?
+  final public var image: UIKit.UIImage?
+  public init(title: Swift.String? = nil, description: Swift.String? = nil, buttonTitle: Swift.String? = nil, image: UIKit.UIImage? = nil)
+  @objc deinit
+}
 public enum CafCountryCode : Swift.String, Swift.CaseIterable {
   case abw
   case afg
@@ -482,7 +490,7 @@ public struct CafMessageSettings {
 public enum CafUnifiedEvent : Swift.Error {
   case loading
   case loaded
-  case success(response: CafSDK.CafUnifiedResponse)
+  case success(responses: [CafSDK.CafUnifiedResponse])
   case error(message: Swift.String)
   case cancelled
   case log(level: CafSDK.CafLogLevel, message: Swift.String)
@@ -514,8 +522,10 @@ public struct CafColorConfiguration {
 }
 public class CafSDKConfiguration {
   final public let presentationOrder: [CafSDK.CafModuleType]
+  public var nextStepContent: CafSDK.CafConfirmationNextStepContent?
   final public let colorConfig: CafSDK.CafColorConfiguration?
-  public init(presentationOrder: [CafSDK.CafModuleType], colorConfig: CafSDK.CafColorConfiguration? = nil)
+  public var waitForAllServices: Swift.Bool
+  public init(presentationOrder: [CafSDK.CafModuleType], colorConfig: CafSDK.CafColorConfiguration? = nil, nextStepContent: CafSDK.CafConfirmationNextStepContent? = nil, waitForAllServices: Swift.Bool = true)
   @objc deinit
 }
 extension CafSDK.CafSDKConfiguration {
@@ -542,12 +552,6 @@ public enum CafLogLevel : Swift.String {
   }
   final public func start()
   @objc deinit
-}
-public struct CafTheme {
-  public let primaryHexColor: Swift.String
-  public let secondaryHexColor: Swift.String
-  public let font: Swift.String
-  public init(primaryHexColor: Swift.String, secondaryHexColor: Swift.String, font: Swift.String)
 }
 public struct CafDocumentDetectorConfig {
   public var flow: [CafSDK.CafDocumentDetectorStep]
