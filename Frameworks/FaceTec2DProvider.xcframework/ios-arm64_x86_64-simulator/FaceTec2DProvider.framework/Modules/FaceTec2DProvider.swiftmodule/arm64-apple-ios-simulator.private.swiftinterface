@@ -51,20 +51,61 @@ public enum CafSdkPlatform : Swift.String {
     get
   }
 }
-public struct CafSDKFailure : Swift.Encodable {
-  public init(errorType: FaceTec2DProvider.CafErrorType?, description: Swift.String?)
-  public let errorType: FaceTec2DProvider.CafErrorType?
+public struct CafSDKError : Swift.Encodable {
+  public init(errorType: FaceTec2DProvider.CafErrorType, description: Swift.String?)
+  public let errorType: FaceTec2DProvider.CafErrorType
   public let description: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
 }
-public enum CafErrorType : Swift.String, Swift.Encodable {
+public struct CafSDKFailure : Swift.Encodable {
+  public init(signedResponse: Swift.String?, failureReason: FaceTec2DProvider.CafFailureType, description: Swift.String?)
+  public let signedResponse: Swift.String?
+  public let failureReason: FaceTec2DProvider.CafFailureType
+  public let description: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case unsupportedDevice
   case cameraPermission
   case networkException
   case serverException
   case tokenException
+  case captureAlreadyActiveException
+  case unexpectedErrorException
+  case userTimeoutException
+  case imageNotFoundException
+  case tooManyRequestsException
+  case unknownException
+  case libraryException
+  case permissionException
   public init?(rawValue: Swift.String)
+  public typealias AllCases = [FaceTec2DProvider.CafErrorType]
   public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [FaceTec2DProvider.CafErrorType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CafFailureType : Swift.String, Swift.Encodable, Swift.CaseIterable {
+  case unknown
+  case tooMuchMovement
+  case tooBright
+  case tooDark
+  case misalignedFace
+  case eyesClosed
+  case faceTooFar
+  case faceTooClose
+  case sunglasses
+  case obscuredFace
+  case multipleFaces
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [FaceTec2DProvider.CafFailureType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [FaceTec2DProvider.CafFailureType] {
+    get
+  }
   public var rawValue: Swift.String {
     get
   }
@@ -110,6 +151,9 @@ extension FaceTec2DProvider.CafSdkPlatform : Swift.RawRepresentable {}
 extension FaceTec2DProvider.CafErrorType : Swift.Equatable {}
 extension FaceTec2DProvider.CafErrorType : Swift.Hashable {}
 extension FaceTec2DProvider.CafErrorType : Swift.RawRepresentable {}
+extension FaceTec2DProvider.CafFailureType : Swift.Equatable {}
+extension FaceTec2DProvider.CafFailureType : Swift.Hashable {}
+extension FaceTec2DProvider.CafFailureType : Swift.RawRepresentable {}
 extension FaceTec2DProvider.CafLogLevel : Swift.Equatable {}
 extension FaceTec2DProvider.CafLogLevel : Swift.Hashable {}
 extension FaceTec2DProvider.CafLogLevel : Swift.RawRepresentable {}

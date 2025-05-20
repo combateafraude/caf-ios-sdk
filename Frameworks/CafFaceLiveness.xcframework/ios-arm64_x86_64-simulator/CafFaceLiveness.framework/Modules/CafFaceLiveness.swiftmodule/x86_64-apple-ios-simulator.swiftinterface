@@ -53,20 +53,61 @@ public enum CafSdkPlatform : Swift.String {
     get
   }
 }
-public struct CafSDKFailure : Swift.Encodable {
-  public init(errorType: CafFaceLiveness.CafErrorType?, description: Swift.String?)
-  public let errorType: CafFaceLiveness.CafErrorType?
+public struct CafSDKError : Swift.Encodable {
+  public init(errorType: CafFaceLiveness.CafErrorType, description: Swift.String?)
+  public let errorType: CafFaceLiveness.CafErrorType
   public let description: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
 }
-public enum CafErrorType : Swift.String, Swift.Encodable {
+public struct CafSDKFailure : Swift.Encodable {
+  public init(signedResponse: Swift.String?, failureReason: CafFaceLiveness.CafFailureType, description: Swift.String?)
+  public let signedResponse: Swift.String?
+  public let failureReason: CafFaceLiveness.CafFailureType
+  public let description: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case unsupportedDevice
   case cameraPermission
   case networkException
   case serverException
   case tokenException
+  case captureAlreadyActiveException
+  case unexpectedErrorException
+  case userTimeoutException
+  case imageNotFoundException
+  case tooManyRequestsException
+  case unknownException
+  case libraryException
+  case permissionException
   public init?(rawValue: Swift.String)
+  public typealias AllCases = [CafFaceLiveness.CafErrorType]
   public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafFaceLiveness.CafErrorType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CafFailureType : Swift.String, Swift.Encodable, Swift.CaseIterable {
+  case unknown
+  case tooMuchMovement
+  case tooBright
+  case tooDark
+  case misalignedFace
+  case eyesClosed
+  case faceTooFar
+  case faceTooClose
+  case sunglasses
+  case obscuredFace
+  case multipleFaces
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CafFaceLiveness.CafFailureType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafFaceLiveness.CafFailureType] {
+    get
+  }
   public var rawValue: Swift.String {
     get
   }
@@ -95,7 +136,8 @@ public struct CafLivenessResult {
 public protocol CafFaceLivenessDelegate : AnyObject {
   func didFinishWithSuccess(livenessResult: CafFaceLiveness.CafLivenessResult)
   func cancelled()
-  func didFinishWithError(sdkFailure: CafFaceLiveness.CafSDKFailure)
+  func didFinishWithFailure(sdkFailure: CafFaceLiveness.CafSDKFailure)
+  func didFinishWithError(sdkError: CafFaceLiveness.CafSDKError)
   func loading()
   func loaded()
 }
@@ -160,6 +202,9 @@ extension CafFaceLiveness.CafSdkPlatform : Swift.RawRepresentable {}
 extension CafFaceLiveness.CafErrorType : Swift.Equatable {}
 extension CafFaceLiveness.CafErrorType : Swift.Hashable {}
 extension CafFaceLiveness.CafErrorType : Swift.RawRepresentable {}
+extension CafFaceLiveness.CafFailureType : Swift.Equatable {}
+extension CafFaceLiveness.CafFailureType : Swift.Hashable {}
+extension CafFaceLiveness.CafFailureType : Swift.RawRepresentable {}
 extension CafFaceLiveness.CafResourceType : Swift.Equatable {}
 extension CafFaceLiveness.CafResourceType : Swift.Hashable {}
 extension CafFaceLiveness.CafResourceType : Swift.RawRepresentable {}
