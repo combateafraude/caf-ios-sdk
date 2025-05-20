@@ -51,20 +51,61 @@ public enum CafSdkPlatform : Swift.String {
     get
   }
 }
-public struct CafSDKFailure : Swift.Encodable {
-  public init(errorType: CafSDK.CafErrorType?, description: Swift.String?)
-  public let errorType: CafSDK.CafErrorType?
+public struct CafSDKError : Swift.Encodable {
+  public init(errorType: CafSDK.CafErrorType, description: Swift.String?)
+  public let errorType: CafSDK.CafErrorType
   public let description: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
 }
-public enum CafErrorType : Swift.String, Swift.Encodable {
+public struct CafSDKFailure : Swift.Encodable {
+  public init(signedResponse: Swift.String?, failureReason: CafSDK.CafFailureType, description: Swift.String?)
+  public let signedResponse: Swift.String?
+  public let failureReason: CafSDK.CafFailureType
+  public let description: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case unsupportedDevice
   case cameraPermission
   case networkException
   case serverException
   case tokenException
+  case captureAlreadyActiveException
+  case unexpectedErrorException
+  case userTimeoutException
+  case imageNotFoundException
+  case tooManyRequestsException
+  case unknownException
+  case libraryException
+  case permissionException
   public init?(rawValue: Swift.String)
+  public typealias AllCases = [CafSDK.CafErrorType]
   public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafSDK.CafErrorType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CafFailureType : Swift.String, Swift.Encodable, Swift.CaseIterable {
+  case unknown
+  case tooMuchMovement
+  case tooBright
+  case tooDark
+  case misalignedFace
+  case eyesClosed
+  case faceTooFar
+  case faceTooClose
+  case sunglasses
+  case obscuredFace
+  case multipleFaces
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CafSDK.CafFailureType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafSDK.CafFailureType] {
+    get
+  }
   public var rawValue: Swift.String {
     get
   }
@@ -337,6 +378,23 @@ public enum CafCountryCode : Swift.String, Swift.CaseIterable {
     get
   }
 }
+public protocol CafDDCustomization {
+}
+public struct CafDDUploadCustomization : CafSDK.CafDDCustomization {
+  public var image: UIKit.UIImage?
+  public var title: Swift.String?
+  public var message: Swift.String?
+  public var uploadButton: Swift.String?
+  public var cancelButton: Swift.String?
+  public init(image: UIKit.UIImage? = nil, title: Swift.String? = nil, message: Swift.String? = nil, uploadButton: Swift.String? = nil, cancelButton: Swift.String? = nil)
+}
+public struct CafPreviewCustomization : CafSDK.CafDDCustomization {
+  public var title: Swift.String?
+  public var message: Swift.String?
+  public var okButton: Swift.String?
+  public var tryAgainButton: Swift.String?
+  public init(title: Swift.String? = nil, message: Swift.String? = nil, okButton: Swift.String? = nil, tryAgainButton: Swift.String? = nil)
+}
 public struct CafDocumentFeedbackColors {
   public var defaultColor: UIKit.UIColor
   public var errorColor: UIKit.UIColor
@@ -348,15 +406,11 @@ public struct CafDocumentDetectorLayout {
   public var closeButtonSize: CoreFoundation.CGFloat?
   public var closeButtonColor: UIKit.UIColor?
   public var closeButtonContentMode: UIKit.UIView.ContentMode?
-  public var uploadBackGroundColor: UIKit.UIColor
-  public var previewBackGroundColor: UIKit.UIColor
-  public var primaryColor: UIKit.UIColor
   public var feedbackColors: CafSDK.CafDocumentFeedbackColors
   public var font: Swift.String?
   public init()
   public mutating func setFont(name: Swift.String)
   public mutating func setCloseButton(size: CoreFoundation.CGFloat? = nil, color: UIKit.UIColor? = nil, image: UIKit.UIImage? = nil, contentMode: UIKit.UIView.ContentMode? = nil)
-  public mutating func setPrimaryColor(_ color: UIKit.UIColor)
   public mutating func setFeedbackColors(_ colors: CafSDK.CafDocumentFeedbackColors)
 }
 public enum CafDocumentStepType : Swift.String, Swift.CaseIterable {
@@ -388,7 +442,9 @@ public struct CafDocumentDetectorStep {
   public let customStepLabel: Swift.String?
   public let customIllustration: UIKit.UIImage?
   public let showStepLabel: Swift.Bool
-  public init(stepType: CafSDK.CafDocumentStepType, customStepLabel: Swift.String? = nil, customIllustration: UIKit.UIImage? = nil, showStepLabel: Swift.Bool = true)
+  public let customMessage: Swift.String?
+  public let customOkButtonTitle: Swift.String?
+  public init(stepType: CafSDK.CafDocumentStepType, customStepLabel: Swift.String? = nil, customIllustration: UIKit.UIImage? = nil, showStepLabel: Swift.Bool = true, customMessage: Swift.String? = nil, customOkButtonTitle: Swift.String? = nil)
 }
 public enum CafFileFormatWrapper : Swift.String, Swift.CaseIterable {
   case png
@@ -444,7 +500,7 @@ public struct CafInstructionsConfiguration {
   public var headerImage: UIKit.UIImage?
   public init(enabled: Swift.Bool = true, title: Swift.String? = nil, descriptionText: Swift.String? = nil, steps: [Swift.String]? = nil, buttonTitle: Swift.String? = nil, headerImage: UIKit.UIImage? = nil)
 }
-public struct CafMessageSettings {
+public struct CafMessageCustomization : CafSDK.CafDDCustomization {
   public var waitMessage: Swift.String?
   public var holdDocumentMessage: Swift.String?
   public var fitTheDocumentMessage: Swift.String?
@@ -465,33 +521,14 @@ public struct CafMessageSettings {
   public var aiAlignDocumentMessage: Swift.String?
   public var aiTurnDocumentMessage: Swift.String?
   public var aiCapturedMessage: Swift.String?
-  public init()
-  public mutating func setWaitMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setHoldDocumentMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setFitTheDocumentMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setVerifyingQualityMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setLowQualityDocumentMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setUploadingImageMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setSensorLuminosityMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setManualCaptureMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setSensorOrientationMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setSensorStabilityMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setPopupDocumentSubtitleMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setPassportCountryNotValidMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setPassportCountryLoadingMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setAiScanDocumentMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setAiGetCloserMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setAiCentralizeMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setAiMoveAwayMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setAiAlignDocumentMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setAiTurnDocumentMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
-  public mutating func setAiCapturedMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public init(waitMessage: Swift.String? = nil, holdDocumentMessage: Swift.String? = nil, fitTheDocumentMessage: Swift.String? = nil, verifyingQualityMessage: Swift.String? = nil, lowQualityDocumentMessage: Swift.String? = nil, uploadingImageMessage: Swift.String? = nil, sensorLuminosityMessage: Swift.String? = nil, manualCaptureMessage: Swift.String? = nil, sensorOrientationMessage: Swift.String? = nil, sensorStabilityMessage: Swift.String? = nil, popupDocumentSubtitleMessage: Swift.String? = nil, passportCountryNotValidMessage: Swift.String? = nil, passportCountryLoadingMessage: Swift.String? = nil, aiScanDocumentMessage: Swift.String? = nil, aiGetCloserMessage: Swift.String? = nil, aiCentralizeMessage: Swift.String? = nil, aiMoveAwayMessage: Swift.String? = nil, aiAlignDocumentMessage: Swift.String? = nil, aiTurnDocumentMessage: Swift.String? = nil, aiCapturedMessage: Swift.String? = nil)
 }
 public enum CafUnifiedEvent : Swift.Error {
   case loading
   case loaded
   case success(responses: [CafSDK.CafUnifiedResponse])
-  case error(message: Swift.String)
+  case failure(response: Swift.String?, type: CafSDK.CafFailureType, description: Swift.String?)
+  case error(type: CafSDK.CafErrorType, description: Swift.String)
   case cancelled
   case log(level: CafSDK.CafLogLevel, message: Swift.String)
 }
@@ -564,17 +601,13 @@ public struct CafDocumentDetectorConfig {
   public var showPopup: Swift.Bool
   public var proxySettings: CafSDK.CafProxySettings?
   public var previewShow: Swift.Bool
-  public var previewTitle: Swift.String?
-  public var previewSubtitle: Swift.String?
-  public var previewConfirmLabel: Swift.String?
-  public var previewRetryLabel: Swift.String?
-  public var messageSettings: CafSDK.CafMessageSettings
+  public var ddCustomizations: [any CafSDK.CafDDCustomization]
   public var getUrlExpireTime: Swift.String?
   public var enableMultiLanguage: Swift.Bool
   public var currentStepDoneDelay: Foundation.TimeInterval
   public var allowedPassportCountryList: [CafSDK.CafCountryCode]?
   public var selectDocumentConfig: CafSDK.CafSelectDocumentConfig?
-  public init(flow: [CafSDK.CafDocumentDetectorStep] = [], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: false), instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), manualCaptureEnabled: Swift.Bool = true, manualCaptureTime: Foundation.TimeInterval = 45, requestTimeout: Foundation.TimeInterval = 60, showPopup: Swift.Bool = true, proxySettings: CafSDK.CafProxySettings? = nil, previewShow: Swift.Bool = false, previewTitle: Swift.String? = nil, previewSubtitle: Swift.String? = nil, previewConfirmLabel: Swift.String? = nil, previewRetryLabel: Swift.String? = nil, messageSettings: CafSDK.CafMessageSettings = CafMessageSettings(), getUrlExpireTime: Swift.String? = nil, enableMultiLanguage: Swift.Bool = true, currentStepDoneDelay: Foundation.TimeInterval = 1, allowedPassportCountryList: [CafSDK.CafCountryCode]? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil)
+  public init(flow: [CafSDK.CafDocumentDetectorStep] = [], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: false), instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), manualCaptureEnabled: Swift.Bool = true, manualCaptureTime: Foundation.TimeInterval = 45, requestTimeout: Foundation.TimeInterval = 60, showPopup: Swift.Bool = true, proxySettings: CafSDK.CafProxySettings? = nil, previewShow: Swift.Bool = false, ddCustomizations: [any CafSDK.CafDDCustomization] = [], getUrlExpireTime: Swift.String? = nil, enableMultiLanguage: Swift.Bool = true, currentStepDoneDelay: Foundation.TimeInterval = 1, allowedPassportCountryList: [CafSDK.CafCountryCode]? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil)
 }
 extension CafSDK.CafEnvironment : Swift.Equatable {}
 extension CafSDK.CafEnvironment : Swift.Hashable {}
@@ -585,6 +618,9 @@ extension CafSDK.CafSdkPlatform : Swift.RawRepresentable {}
 extension CafSDK.CafErrorType : Swift.Equatable {}
 extension CafSDK.CafErrorType : Swift.Hashable {}
 extension CafSDK.CafErrorType : Swift.RawRepresentable {}
+extension CafSDK.CafFailureType : Swift.Equatable {}
+extension CafSDK.CafFailureType : Swift.Hashable {}
+extension CafSDK.CafFailureType : Swift.RawRepresentable {}
 extension CafSDK.CafCountryCode : Swift.Equatable {}
 extension CafSDK.CafCountryCode : Swift.Hashable {}
 extension CafSDK.CafCountryCode : Swift.RawRepresentable {}

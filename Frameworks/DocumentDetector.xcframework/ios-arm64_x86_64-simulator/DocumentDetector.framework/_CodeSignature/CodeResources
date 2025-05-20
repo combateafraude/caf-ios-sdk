@@ -38,47 +38,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Xqw5o43ORpyW01+ktiq9MynMtzA=
+		j/lj2xpsXic0uAIcGJM/DW53nMU=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Hxx63S2HnSN5yCU8a9HckPjO/ZQ=
+		L1lStQy8GIxUnO2FfAAPTzi0TnY=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jXtM16ZsNdqn6+F9RQn0gKEh8sI=
+		s+12C4CvwryhFQ5K+2Arg0z0f8w=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		an7t4nNVgpwxQvtU+GoUv/Nf5Qg=
+		4BjNB36sTvrCdU5qW4G0k4RlSLg=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jXtM16ZsNdqn6+F9RQn0gKEh8sI=
+		s+12C4CvwryhFQ5K+2Arg0z0f8w=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		g+LWkM0OgFTHc3WJTHX/0f9KpP8=
+		5v3gOuGNtZj6B/t1TYyZG2DGFl8=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Hxx63S2HnSN5yCU8a9HckPjO/ZQ=
+		L1lStQy8GIxUnO2FfAAPTzi0TnY=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5l8jJcf9J+SG8xXPI7HSoHy+ZBo=
+		Tec7gDSoQWsz5vMcnhi4OXGlN9Q=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		d5g9pU3tuVBMqbjJvP5QfONkdGY=
+		2IvfAMoBrfAFPHDzM9v+J7lmOnE=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5l8jJcf9J+SG8xXPI7HSoHy+ZBo=
+		Tec7gDSoQWsz5vMcnhi4OXGlN9Q=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		T567mSBPu7JDx9PDQYgo3jGAfvM=
+		IFeFVwibbB18lDl7Cvzt+GI/sn0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -278,70 +278,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v2tz1EhWnniCgfmeiLfEC25yNb3GstBX1tJsj0Oi7rc=
+			Mt/3oDgSQrqex3OFl3c3fC7nzB0dV7iyOuCa4GgBYG8=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/bvtcO0ShijT9XzCegeqTsl/Wz8F22Ce+179X7FId2U=
+			rWk/T3o27F3fmHcnjpAqvQ5iWsFWULBWuHl3tFrCS7c=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0IpBkl6QODVV59RxU7x7lyCzcg+FTXn0+gcZxY5Dg9A=
+			lXV69B9LdVvT4Wiuo8ZPOiWBRKYzJUS2q3j8yvRD14g=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/bvtcO0ShijT9XzCegeqTsl/Wz8F22Ce+179X7FId2U=
+			rWk/T3o27F3fmHcnjpAqvQ5iWsFWULBWuHl3tFrCS7c=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uL5PAOCHXsKVjI7wloTA6D/4s3RnRfw3RuTghCLEd4A=
+			OoqJu5aAPkdjgW1hOwonyfJRU3cNkQIalt36uCYwgF4=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v2tz1EhWnniCgfmeiLfEC25yNb3GstBX1tJsj0Oi7rc=
+			Mt/3oDgSQrqex3OFl3c3fC7nzB0dV7iyOuCa4GgBYG8=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lvkfFrNtcJyJhUihOwRdBSRI4/FcKHfxEwjASPICytc=
+			OCN9f722V+pEcikDPb4tKoFGhQggtBYIVY1hIbsmMLc=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vGBoKXaKgcDOYoM4Lnmgt2lNyWLxH52opkGRq3QHA8s=
+			t+Zrysopv4zzJoODU5ocRsHyN56ZL6cVRlPmqyv32rM=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lvkfFrNtcJyJhUihOwRdBSRI4/FcKHfxEwjASPICytc=
+			OCN9f722V+pEcikDPb4tKoFGhQggtBYIVY1hIbsmMLc=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jjyspSUaZpDne0Sj3gexkX4q2zsC7CkVaoMUTTh3pZE=
+			lIomuWTzjXaPIZDeWlet1zpBI2zGsElzTeZFWnAy538=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

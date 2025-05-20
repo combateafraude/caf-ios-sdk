@@ -52,20 +52,61 @@ public enum CafSdkPlatform : Swift.String {
     get
   }
 }
-public struct CafSDKFailure : Swift.Encodable {
-  public init(errorType: IproovProvider.CafErrorType?, description: Swift.String?)
-  public let errorType: IproovProvider.CafErrorType?
+public struct CafSDKError : Swift.Encodable {
+  public init(errorType: IproovProvider.CafErrorType, description: Swift.String?)
+  public let errorType: IproovProvider.CafErrorType
   public let description: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
 }
-public enum CafErrorType : Swift.String, Swift.Encodable {
+public struct CafSDKFailure : Swift.Encodable {
+  public init(signedResponse: Swift.String?, failureReason: IproovProvider.CafFailureType, description: Swift.String?)
+  public let signedResponse: Swift.String?
+  public let failureReason: IproovProvider.CafFailureType
+  public let description: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case unsupportedDevice
   case cameraPermission
   case networkException
   case serverException
   case tokenException
+  case captureAlreadyActiveException
+  case unexpectedErrorException
+  case userTimeoutException
+  case imageNotFoundException
+  case tooManyRequestsException
+  case unknownException
+  case libraryException
+  case permissionException
   public init?(rawValue: Swift.String)
+  public typealias AllCases = [IproovProvider.CafErrorType]
   public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [IproovProvider.CafErrorType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CafFailureType : Swift.String, Swift.Encodable, Swift.CaseIterable {
+  case unknown
+  case tooMuchMovement
+  case tooBright
+  case tooDark
+  case misalignedFace
+  case eyesClosed
+  case faceTooFar
+  case faceTooClose
+  case sunglasses
+  case obscuredFace
+  case multipleFaces
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [IproovProvider.CafFailureType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [IproovProvider.CafFailureType] {
+    get
+  }
   public var rawValue: Swift.String {
     get
   }
@@ -111,6 +152,9 @@ extension IproovProvider.CafSdkPlatform : Swift.RawRepresentable {}
 extension IproovProvider.CafErrorType : Swift.Equatable {}
 extension IproovProvider.CafErrorType : Swift.Hashable {}
 extension IproovProvider.CafErrorType : Swift.RawRepresentable {}
+extension IproovProvider.CafFailureType : Swift.Equatable {}
+extension IproovProvider.CafFailureType : Swift.Hashable {}
+extension IproovProvider.CafFailureType : Swift.RawRepresentable {}
 extension IproovProvider.CafLogLevel : Swift.Equatable {}
 extension IproovProvider.CafLogLevel : Swift.Hashable {}
 extension IproovProvider.CafLogLevel : Swift.RawRepresentable {}
