@@ -3508,6 +3508,46 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "invalidResponseException",
+            "printedName": "invalidResponseException",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DocumentDetector.CafErrorType.Type) -> DocumentDetector.CafErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafErrorType",
+                    "printedName": "DocumentDetector.CafErrorType",
+                    "usr": "s:16DocumentDetector12CafErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DocumentDetector.CafErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafErrorType",
+                        "printedName": "DocumentDetector.CafErrorType",
+                        "usr": "s:16DocumentDetector12CafErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16DocumentDetector12CafErrorTypeO24invalidResponseExceptionyA2CmF",
+            "mangledName": "$s16DocumentDetector12CafErrorTypeO24invalidResponseExceptionyA2CmF",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -20361,7 +20401,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(image:title:message:allowanceButtonTitle:)",
+            "printedName": "init(image:title:message:allowanceButtonTitle:loading:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -20402,11 +20442,18 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC5image5title7message20allowanceButtonTitleACSo7UIImageCSg_S3Stcfc",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC5image5title7message20allowanceButtonTitleACSo7UIImageCSg_S3Stcfc",
+            "usr": "s:16DocumentDetector26CafUploadValidationMessageC5image5title7message20allowanceButtonTitle7loadingACSo7UIImageCSg_S3SSbtcfc",
+            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC5image5title7message20allowanceButtonTitle7loadingACSo7UIImageCSg_S3SSbtcfc",
             "moduleName": "DocumentDetector",
             "declAttributes": [
               "AccessControl"
@@ -21144,6 +21191,218 @@
                 "declKind": "Accessor",
                 "usr": "s:16DocumentDetector26CafUploadValidationMessageC019invalidQualityErrorF0ACvgZ",
                 "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC019invalidQualityErrorF0ACvgZ",
+                "moduleName": "DocumentDetector",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadSendingMessage",
+            "printedName": "uploadSendingMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafUploadValidationMessage",
+                "printedName": "DocumentDetector.CafUploadValidationMessage",
+                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector26CafUploadValidationMessageC013uploadSendingF0ACvpZ",
+            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC013uploadSendingF0ACvpZ",
+            "moduleName": "DocumentDetector",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafUploadValidationMessage",
+                    "printedName": "DocumentDetector.CafUploadValidationMessage",
+                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector26CafUploadValidationMessageC013uploadSendingF0ACvgZ",
+                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC013uploadSendingF0ACvgZ",
+                "moduleName": "DocumentDetector",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadVerifyingIntegrityMessage",
+            "printedName": "uploadVerifyingIntegrityMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafUploadValidationMessage",
+                "printedName": "DocumentDetector.CafUploadValidationMessage",
+                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector26CafUploadValidationMessageC024uploadVerifyingIntegrityF0ACvpZ",
+            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC024uploadVerifyingIntegrityF0ACvpZ",
+            "moduleName": "DocumentDetector",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafUploadValidationMessage",
+                    "printedName": "DocumentDetector.CafUploadValidationMessage",
+                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector26CafUploadValidationMessageC024uploadVerifyingIntegrityF0ACvgZ",
+                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC024uploadVerifyingIntegrityF0ACvgZ",
+                "moduleName": "DocumentDetector",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadProcessingDataMessage",
+            "printedName": "uploadProcessingDataMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafUploadValidationMessage",
+                "printedName": "DocumentDetector.CafUploadValidationMessage",
+                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector26CafUploadValidationMessageC020uploadProcessingDataF0ACvpZ",
+            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC020uploadProcessingDataF0ACvpZ",
+            "moduleName": "DocumentDetector",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafUploadValidationMessage",
+                    "printedName": "DocumentDetector.CafUploadValidationMessage",
+                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector26CafUploadValidationMessageC020uploadProcessingDataF0ACvgZ",
+                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC020uploadProcessingDataF0ACvgZ",
+                "moduleName": "DocumentDetector",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadAlmostDoneMessage",
+            "printedName": "uploadAlmostDoneMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafUploadValidationMessage",
+                "printedName": "DocumentDetector.CafUploadValidationMessage",
+                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector26CafUploadValidationMessageC016uploadAlmostDoneF0ACvpZ",
+            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC016uploadAlmostDoneF0ACvpZ",
+            "moduleName": "DocumentDetector",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafUploadValidationMessage",
+                    "printedName": "DocumentDetector.CafUploadValidationMessage",
+                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector26CafUploadValidationMessageC016uploadAlmostDoneF0ACvgZ",
+                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC016uploadAlmostDoneF0ACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -37776,6 +38035,116 @@
           },
           {
             "kind": "Var",
+            "name": "signedResponse",
+            "printedName": "signedResponse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector0aB6ResultC14signedResponseSSSgvp",
+            "mangledName": "$s16DocumentDetector0aB6ResultC14signedResponseSSSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector0aB6ResultC14signedResponseSSSgvg",
+                "mangledName": "$s16DocumentDetector0aB6ResultC14signedResponseSSSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector0aB6ResultC14signedResponseSSSgvs",
+                "mangledName": "$s16DocumentDetector0aB6ResultC14signedResponseSSSgvs",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector0aB6ResultC14signedResponseSSSgvM",
+                "mangledName": "$s16DocumentDetector0aB6ResultC14signedResponseSSSgvM",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "LENS_FACING_FRONT",
             "printedName": "LENS_FACING_FRONT",
             "children": [
@@ -51888,77 +52257,77 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 4484,
+      "offset": 4568,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 4579,
+      "offset": 4663,
       "length": 19,
       "value": "\"too_much_movement\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 4694,
+      "offset": 4778,
       "length": 12,
       "value": "\"too_bright\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 4794,
+      "offset": 4878,
       "length": 10,
       "value": "\"too_dark\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 4894,
+      "offset": 4978,
       "length": 17,
       "value": "\"misaligned_face\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 4992,
+      "offset": 5076,
       "length": 13,
       "value": "\"eyes_closed\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 5090,
+      "offset": 5174,
       "length": 14,
       "value": "\"face_too_far\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 5199,
+      "offset": 5283,
       "length": 16,
       "value": "\"face_too_close\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 5310,
+      "offset": 5394,
       "length": 12,
       "value": "\"sunglasses\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 5409,
+      "offset": 5493,
       "length": 15,
       "value": "\"obscured_face\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 5501,
+      "offset": 5585,
       "length": 16,
       "value": "\"multiple_faces\""
     },
@@ -53164,7 +53533,7 @@
       "kind": "StringLiteral",
       "offset": 254,
       "length": 8,
-      "value": "\"16.1.0\""
+      "value": "\"16.2.0\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Utils\/CafDDConstants.swift",
@@ -53666,42 +54035,56 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1866,
+      "offset": 2332,
       "length": 18,
       "value": "\"try_again_button\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1919,
+      "offset": 2400,
       "length": 23,
       "value": "\"go_to_settings_button\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1979,
+      "offset": 2473,
       "length": 17,
       "value": "\"something_wrong\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2041,
+      "offset": 2540,
       "length": 26,
       "value": "\"camera_permission_denied\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2117,
+      "offset": 2616,
       "length": 31,
       "value": "\"camera_permission_description\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2348,
+      "offset": 2697,
+      "length": 16,
+      "value": "\"photo_not_sent\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2763,
+      "length": 28,
+      "value": "\"photo_not_sent_description\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2991,
       "length": 14,
       "value": "\"failure_icon\""
     },
@@ -54456,402 +54839,535 @@
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 371,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 451,
+      "offset": 475,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 541,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 801,
+      "offset": 887,
       "length": 41,
       "value": "\"uploadValidation_Allow-Permission-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 879,
+      "offset": 965,
       "length": 43,
       "value": "\"uploadValidation_Allow-Permission-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 972,
+      "offset": 1058,
       "length": 45,
       "value": "\"uploadValidation_allowanceButtonTitle-Allow\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1186,
+      "offset": 1272,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1258,
+      "offset": 1344,
       "length": 42,
       "value": "\"uploadValidation_Denied-Permission-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1337,
+      "offset": 1423,
       "length": 44,
       "value": "\"uploadValidation_Denied-Permission-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1431,
+      "offset": 1517,
       "length": 46,
       "value": "\"uploadValidation_allowanceButtonTitle-Denied\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1641,
+      "offset": 1727,
       "length": 41,
       "value": "\"uploadValidation_sendingPhoto-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1718,
+      "offset": 1804,
       "length": 37,
       "value": "\"uploadValidation_sendingPhoto-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1805,
+      "offset": 1891,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1916,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1961,
+      "offset": 2074,
       "length": 44,
       "value": "\"uploadValidation_completeSending-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2041,
+      "offset": 2154,
       "length": 40,
       "value": "\"uploadValidation_completeSending-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2131,
+      "offset": 2244,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2290,
+      "offset": 2403,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2362,
+      "offset": 2475,
       "length": 43,
       "value": "\"uploadValidation_invalidFormatError-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2442,
+      "offset": 2555,
       "length": 45,
       "value": "\"uploadValidation_invalidFormatError-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2537,
+      "offset": 2650,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2754,
+      "offset": 2867,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2826,
+      "offset": 2939,
       "length": 41,
       "value": "\"uploadValidation_invalidSizeError-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2904,
+      "offset": 3017,
       "length": 115,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2907,
+      "offset": 3020,
       "length": 43,
       "value": "\"uploadValidation_invalidSizeError-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2965,
+      "offset": 3078,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3017,
+      "offset": 3130,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3055,
+      "offset": 3168,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3276,
+      "offset": 3389,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3348,
+      "offset": 3461,
       "length": 45,
       "value": "\"uploadValidation_invalidDocumentError-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3430,
+      "offset": 3543,
       "length": 47,
       "value": "\"uploadValidation_invalidDocumentError-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3527,
+      "offset": 3640,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3770,
+      "offset": 3883,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3842,
+      "offset": 3955,
       "length": 50,
       "value": "\"uploadValidation_invalidFrontDocumentError-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3929,
+      "offset": 4042,
       "length": 52,
       "value": "\"uploadValidation_invalidFrontDocumentError-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4031,
+      "offset": 4144,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4274,
+      "offset": 4387,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4346,
+      "offset": 4459,
       "length": 54,
       "value": "\"uploadValidation_invalidFrontDocumentErrorFull-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4437,
+      "offset": 4550,
       "length": 56,
       "value": "\"uploadValidation_invalidFrontDocumentErrorFull-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4543,
+      "offset": 4656,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4786,
+      "offset": 4899,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4858,
+      "offset": 4971,
       "length": 49,
       "value": "\"uploadValidation_invalidBackDocumentError-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4944,
+      "offset": 5057,
       "length": 51,
       "value": "\"uploadValidation_invalidBackDocumentError-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5045,
+      "offset": 5158,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5287,
+      "offset": 5400,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5359,
+      "offset": 5472,
       "length": 53,
       "value": "\"uploadValidation_invalidBackDocumentErrorFull-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5449,
+      "offset": 5562,
       "length": 55,
       "value": "\"uploadValidation_invalidBackDocumentErrorFull-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5554,
+      "offset": 5667,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5797,
+      "offset": 5910,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5869,
+      "offset": 5982,
       "length": 54,
       "value": "\"uploadValidation_invalidFullDocumentErrorFront-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5960,
+      "offset": 6073,
       "length": 56,
       "value": "\"uploadValidation_invalidFullDocumentErrorFront-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6066,
+      "offset": 6179,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6308,
+      "offset": 6421,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6380,
+      "offset": 6493,
       "length": 53,
       "value": "\"uploadValidation_invalidFullDocumentErrorBack-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6470,
+      "offset": 6583,
       "length": 55,
       "value": "\"uploadValidation_invalidFullDocumentErrorBack-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6575,
+      "offset": 6688,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6795,
+      "offset": 6908,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6867,
+      "offset": 6980,
       "length": 44,
       "value": "\"uploadValidation_invalidQualityError-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6948,
+      "offset": 7061,
       "length": 46,
       "value": "\"uploadValidation_invalidQualityError-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 7044,
+      "offset": 7157,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 7370,
+      "length": 41,
+      "value": "\"uploadValidation_sendingPhoto-imageName\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 7447,
+      "length": 18,
+      "value": "\"document_sending\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 7515,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7540,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 7706,
+      "length": 41,
+      "value": "\"uploadValidation_sendingPhoto-imageName\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 7783,
+      "length": 30,
+      "value": "\"document_verifying_integrity\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 7863,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7888,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 8050,
+      "length": 41,
+      "value": "\"uploadValidation_sendingPhoto-imageName\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 8127,
+      "length": 26,
+      "value": "\"document_processing_data\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 8203,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8228,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 8386,
+      "length": 41,
+      "value": "\"uploadValidation_sendingPhoto-imageName\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 8463,
+      "length": 22,
+      "value": "\"document_almost_done\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 8535,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8560,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/InternationalFlow\/Modules\/CapturePreview\/Views\/CapturePreviewView.swift",
@@ -55073,14 +55589,14 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Output\/DocumentDetectorResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 420,
+      "offset": 459,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Output\/DocumentDetectorResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 468,
+      "offset": 507,
       "length": 1,
       "value": "1"
     },
@@ -55149,92 +55665,106 @@
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
+      "kind": "Array",
+      "offset": 1658,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15784,
+      "offset": 1692,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16808,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15808,
+      "offset": 16832,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15838,
+      "offset": 16862,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15888,
+      "offset": 16912,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15989,
+      "offset": 17013,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16035,
+      "offset": 17059,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16211,
+      "offset": 17235,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16217,
+      "offset": 17241,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16373,
+      "offset": 17397,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16379,
+      "offset": 17403,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16389,
+      "offset": 17413,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16400,
+      "offset": 17424,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16594,
+      "offset": 17618,
       "length": 1,
       "value": "2"
     },
@@ -55836,7 +56366,21 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2464,
+      "offset": 2503,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
+      "kind": "Array",
+      "offset": 3886,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3926,
       "length": 1,
       "value": "0"
     },

@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		qu9gz6Fg0N3c+f7axKEY/1kU5E0=
+		HQPRhqkcJoXYSWaPKpjYCCxCyTE=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UQbaUaIITa934OGwFbfo7L8lV2o=
+		HEXLWB82pJxqKxBAAyzoJT1N8eI=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UQbaUaIITa934OGwFbfo7L8lV2o=
+		HEXLWB82pJxqKxBAAyzoJT1N8eI=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6KTYjhU0c1xkIpgHaf06Ru8tJqk=
+		jL30zaT4Qp1XtNHoUr/W7hNThCo=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		qu9gz6Fg0N3c+f7axKEY/1kU5E0=
+		HQPRhqkcJoXYSWaPKpjYCCxCyTE=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		djvBR/utPjNQs0AnN/RKgBvrRC8=
+		i/OcRn9fFSVxgqNLHw77YqI+nyI=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		djvBR/utPjNQs0AnN/RKgBvrRC8=
+		i/OcRn9fFSVxgqNLHw77YqI+nyI=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bCXGCdJo3vzkCw06XDl542g7zE4=
+		a10ZzFPDez7xzt/iSsSk32NuHYQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -64,7 +64,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zWHezIXw8Kv3spWbAA+NlS5K/5k=
+			PzQGui93Tpvx0qetIFvS8vYPAeA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -73,7 +73,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nBzutjI/Q0kQt3Qe6N1SJWGeQVU=
+			0GcslkksOJh//+KqiAcZS/hhJAA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -82,7 +82,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WXfthgwyx5ALjyWvUErrOV0ISSE=
+			gThEObMbb/sA8OvFuEFlHFukJYc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -108,14 +108,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			boJP8JN3rQp2/CyYEM81kqGWc8AJJaibw0hZvagP2DA=
+			im8k7TiAEIU4Tc8xSdyoO+Nw/oWjpqyA38BhpKtOJEo=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e82NtzDOlYaOToZclCOR2KqRfRdbHPRjfr1aFSKidZI=
+			AJmdTV+bWjFI492douE4El2EERm/ikvcIAWAY4liOs8=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -129,28 +129,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e82NtzDOlYaOToZclCOR2KqRfRdbHPRjfr1aFSKidZI=
+			AJmdTV+bWjFI492douE4El2EERm/ikvcIAWAY4liOs8=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/EnZDOpMuiQ4a+pUlCmD+VkU86IZ6+MGSAhmRNST+Nc=
+			ROiG208bxHqguUMr3+i9SkJvpLBBuOcQ1LzsZuVI0DM=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			boJP8JN3rQp2/CyYEM81kqGWc8AJJaibw0hZvagP2DA=
+			im8k7TiAEIU4Tc8xSdyoO+Nw/oWjpqyA38BhpKtOJEo=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			okf0o1H6B8Gs9gEFamVXd2gO4jj5Ud0b6RCRA6hzIPM=
+			uMcXZ52paEsLkejG2Kjg8hgatcbakzyLtd+YrrVcb2g=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -164,14 +164,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			okf0o1H6B8Gs9gEFamVXd2gO4jj5Ud0b6RCRA6hzIPM=
+			uMcXZ52paEsLkejG2Kjg8hgatcbakzyLtd+YrrVcb2g=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pb0oIP9bs6RChPSg8RZskeoXzGDvwJRTyKVufQaw7Vs=
+			6m1wzSNz0CH6D5JiESPWvvXErorgOxwKt+gt3eussso=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -185,7 +185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CoSzgXrJDwsHKdAT78mRTFvGLp0IVlhuXVsRoS8GQxg=
+			txycGi7+uNGvoVWme/1UvoG3aIc20BBqRngLDrjuWg8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -194,7 +194,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rJZyF3mxEy8muamKfxXLP6bdVzDVj9fabal0i3HLrDg=
+			BRcQq5blbklPZadFgdqUVQ/EmnlRYEWrvlExeUolQNU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -203,7 +203,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eRei5FD2TArmagEsBPxc7QPe0P7gYYglYlGNYe05kE0=
+			k1p2079K6+diRwKY1UOcwCk3eNULKYyNQL+X1q/GoTk=
 			</data>
 			<key>optional</key>
 			<true/>
