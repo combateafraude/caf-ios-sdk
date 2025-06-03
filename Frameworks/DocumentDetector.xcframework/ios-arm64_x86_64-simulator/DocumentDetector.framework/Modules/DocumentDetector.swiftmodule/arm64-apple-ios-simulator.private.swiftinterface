@@ -119,6 +119,7 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case unknownException
   case libraryException
   case permissionException
+  case invalidResponseException
   public init?(rawValue: Swift.String)
   public typealias AllCases = [DocumentDetector.CafErrorType]
   public typealias RawValue = Swift.String
@@ -395,7 +396,7 @@ extension UIKit.UIImage {
   convenience public init?(pixelBuffer: CoreVideo.CVPixelBuffer)
 }
 public class CafUploadValidationMessage {
-  public init(image: UIKit.UIImage? = nil, title: Swift.String, message: Swift.String = "", allowanceButtonTitle: Swift.String)
+  public init(image: UIKit.UIImage? = nil, title: Swift.String, message: Swift.String = "", allowanceButtonTitle: Swift.String, loading: Swift.Bool = false)
   @objc deinit
 }
 extension DocumentDetector.CafUploadValidationMessage {
@@ -413,6 +414,10 @@ extension DocumentDetector.CafUploadValidationMessage {
   public static let invalidFullDocumentErrorWhenRequestedFrontMessage: DocumentDetector.CafUploadValidationMessage
   public static let invalidFullDocumentErrorWhenRequestedBackMessage: DocumentDetector.CafUploadValidationMessage
   public static let invalidQualityErrorMessage: DocumentDetector.CafUploadValidationMessage
+  public static let uploadSendingMessage: DocumentDetector.CafUploadValidationMessage
+  public static let uploadVerifyingIntegrityMessage: DocumentDetector.CafUploadValidationMessage
+  public static let uploadProcessingDataMessage: DocumentDetector.CafUploadValidationMessage
+  public static let uploadAlmostDoneMessage: DocumentDetector.CafUploadValidationMessage
 }
 extension DocumentDetector.CafUploadValidationMessage : Swift.Equatable {
   public static func == (lhs: DocumentDetector.CafUploadValidationMessage, rhs: DocumentDetector.CafUploadValidationMessage) -> Swift.Bool
@@ -811,6 +816,7 @@ public protocol Delegate : AnyObject {
   public var type: Swift.String!
   public var captures: [DocumentDetector.CafCapture]!
   public var trackingId: Swift.String?
+  public var signedResponse: Swift.String?
   public static let LENS_FACING_FRONT: Swift.Int
   public static let LENS_FACING_BACK: Swift.Int
   @objc override dynamic public init()

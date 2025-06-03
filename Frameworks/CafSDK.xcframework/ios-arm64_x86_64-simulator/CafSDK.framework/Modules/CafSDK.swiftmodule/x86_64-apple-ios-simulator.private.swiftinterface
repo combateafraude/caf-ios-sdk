@@ -78,6 +78,7 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case unknownException
   case libraryException
   case permissionException
+  case invalidResponseException
   public init?(rawValue: Swift.String)
   public typealias AllCases = [CafSDK.CafErrorType]
   public typealias RawValue = Swift.String
@@ -534,7 +535,7 @@ public enum CafUnifiedEvent : Swift.Error {
 }
 public struct CafUnifiedResponse {
   public let moduleName: Swift.String
-  public let result: [Swift.String : Any]
+  public let signedResponse: Swift.String
 }
 public enum CafModuleType : Swift.String, Swift.CaseIterable {
   case faceLiveness
