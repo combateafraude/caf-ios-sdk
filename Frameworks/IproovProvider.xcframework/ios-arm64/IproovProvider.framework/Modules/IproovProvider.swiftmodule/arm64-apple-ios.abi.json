@@ -7701,56 +7701,56 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2332,
+      "offset": 2521,
       "length": 18,
       "value": "\"try_again_button\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2400,
+      "offset": 2589,
       "length": 23,
       "value": "\"go_to_settings_button\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2473,
+      "offset": 2662,
       "length": 17,
       "value": "\"something_wrong\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2540,
+      "offset": 2729,
       "length": 26,
       "value": "\"camera_permission_denied\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2616,
+      "offset": 2805,
       "length": 31,
       "value": "\"camera_permission_description\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2697,
+      "offset": 2886,
       "length": 16,
       "value": "\"photo_not_sent\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2763,
+      "offset": 2952,
       "length": 28,
       "value": "\"photo_not_sent_description\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2991,
+      "offset": 3193,
       "length": 14,
       "value": "\"failure_icon\""
     },
@@ -7786,111 +7786,118 @@
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
       "offset": 276,
+      "length": 23,
+      "value": "\"cafIproovLocalization\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
       "length": 11,
       "value": "\"cafStatus\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
-      "offset": 322,
+      "offset": 380,
       "length": 11,
       "value": "\"cafReason\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
-      "offset": 373,
+      "offset": 431,
       "length": 16,
       "value": "\"cafDescription\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
-      "offset": 423,
+      "offset": 481,
       "length": 10,
       "value": "\"cafError\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
-      "offset": 489,
+      "offset": 547,
       "length": 9,
       "value": "\"Natural\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
-      "offset": 532,
+      "offset": 590,
       "length": 13,
       "value": "\"LineDrawing\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
-      "offset": 575,
+      "offset": 633,
       "length": 9,
       "value": "\"Success\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
-      "offset": 614,
+      "offset": 672,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
-      "offset": 654,
+      "offset": 712,
       "length": 10,
       "value": "\"Canceled\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
-      "offset": 692,
+      "offset": 750,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
-      "offset": 735,
+      "offset": 793,
       "length": 20,
       "value": "\"Missing Parameters\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
-      "offset": 817,
+      "offset": 875,
       "length": 33,
       "value": "\"wss:\/\/us.rp.secure.iproov.me\/ws\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
-      "offset": 943,
+      "offset": 1001,
       "length": 98,
       "value": "\"Can't set a base URL without valid certificates. Use the method setCertificates to include them.\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1087,
+      "offset": 1145,
       "length": 41,
       "value": "\"The face liveness protocol must be WSS.\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1198,
+      "offset": 1256,
       "length": 22,
       "value": "\"^[A-Za-z0-9+\/]{43}=$\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-iproov-provider\/Sources\/Models\/CafIproovConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1260,
+      "offset": 1318,
       "length": 8,
       "value": "\"wss:\/\/\""
     },

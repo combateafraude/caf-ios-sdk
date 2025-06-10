@@ -14308,116 +14308,6 @@
           },
           {
             "kind": "Var",
-            "name": "title",
-            "printedName": "title",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6CafSDK0A21DDUploadCustomizationV5titleSSSgvp",
-            "mangledName": "$s6CafSDK0A21DDUploadCustomizationV5titleSSSgvp",
-            "moduleName": "CafSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6CafSDK0A21DDUploadCustomizationV5titleSSSgvg",
-                "mangledName": "$s6CafSDK0A21DDUploadCustomizationV5titleSSSgvg",
-                "moduleName": "CafSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6CafSDK0A21DDUploadCustomizationV5titleSSSgvs",
-                "mangledName": "$s6CafSDK0A21DDUploadCustomizationV5titleSSSgvs",
-                "moduleName": "CafSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6CafSDK0A21DDUploadCustomizationV5titleSSSgvM",
-                "mangledName": "$s6CafSDK0A21DDUploadCustomizationV5titleSSSgvM",
-                "moduleName": "CafSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "message",
             "printedName": "message",
             "children": [
@@ -14749,7 +14639,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(image:title:message:uploadButton:cancelButton:)",
+            "printedName": "init(image:message:uploadButton:cancelButton:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -14816,26 +14706,11 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6CafSDK0A21DDUploadCustomizationV5image5title7message12uploadButton06cancelI0ACSo7UIImageCSg_SSSgA3Ltcfc",
-            "mangledName": "$s6CafSDK0A21DDUploadCustomizationV5image5title7message12uploadButton06cancelI0ACSo7UIImageCSg_SSSgA3Ltcfc",
+            "usr": "s:6CafSDK0A21DDUploadCustomizationV5image7message12uploadButton06cancelH0ACSo7UIImageCSg_SSSgA2Ktcfc",
+            "mangledName": "$s6CafSDK0A21DDUploadCustomizationV5image7message12uploadButton06cancelH0ACSo7UIImageCSg_SSSgA2Ktcfc",
             "moduleName": "CafSDK",
             "declAttributes": [
               "AccessControl"
@@ -15409,6 +15284,1122 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CafDDCustomization",
+            "printedName": "CafDDCustomization",
+            "usr": "s:6CafSDK0A15DDCustomizationP",
+            "mangledName": "$s6CafSDK0A15DDCustomizationP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafUploadMessagesCustomization",
+        "printedName": "CafUploadMessagesCustomization",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sending",
+            "printedName": "sending",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A27UploadMessagesCustomizationV7sendingSSSgvp",
+            "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV7sendingSSSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV7sendingSSSgvg",
+                "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV7sendingSSSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV7sendingSSSgvs",
+                "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV7sendingSSSgvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV7sendingSSSgvM",
+                "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV7sendingSSSgvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verifyingIntegrity",
+            "printedName": "verifyingIntegrity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A27UploadMessagesCustomizationV18verifyingIntegritySSSgvp",
+            "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV18verifyingIntegritySSSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV18verifyingIntegritySSSgvg",
+                "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV18verifyingIntegritySSSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV18verifyingIntegritySSSgvs",
+                "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV18verifyingIntegritySSSgvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV18verifyingIntegritySSSgvM",
+                "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV18verifyingIntegritySSSgvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "processingData",
+            "printedName": "processingData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A27UploadMessagesCustomizationV14processingDataSSSgvp",
+            "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV14processingDataSSSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV14processingDataSSSgvg",
+                "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV14processingDataSSSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV14processingDataSSSgvs",
+                "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV14processingDataSSSgvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV14processingDataSSSgvM",
+                "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV14processingDataSSSgvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "almostDone",
+            "printedName": "almostDone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A27UploadMessagesCustomizationV10almostDoneSSSgvp",
+            "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV10almostDoneSSSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV10almostDoneSSSgvg",
+                "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV10almostDoneSSSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV10almostDoneSSSgvs",
+                "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV10almostDoneSSSgvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV10almostDoneSSSgvM",
+                "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV10almostDoneSSSgvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeBetweenMessages",
+            "printedName": "timeBetweenMessages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A27UploadMessagesCustomizationV011timeBetweenD0SdSgvp",
+            "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV011timeBetweenD0SdSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV011timeBetweenD0SdSgvg",
+                "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV011timeBetweenD0SdSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV011timeBetweenD0SdSgvs",
+                "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV011timeBetweenD0SdSgvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV011timeBetweenD0SdSgvM",
+                "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV011timeBetweenD0SdSgvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sending:verifyingIntegrity:processingData:almostDone:timeBetweenMessages:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafUploadMessagesCustomization",
+                "printedName": "CafSDK.CafUploadMessagesCustomization",
+                "usr": "s:6CafSDK0A27UploadMessagesCustomizationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6CafSDK0A27UploadMessagesCustomizationV7sending18verifyingIntegrity14processingData10almostDone011timeBetweenD0ACSSSg_A3ISdSgtcfc",
+            "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV7sending18verifyingIntegrity14processingData10almostDone011timeBetweenD0ACSSSg_A3ISdSgtcfc",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6CafSDK0A27UploadMessagesCustomizationV",
+        "mangledName": "$s6CafSDK0A27UploadMessagesCustomizationV",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CafDDCustomization",
+            "printedName": "CafDDCustomization",
+            "usr": "s:6CafSDK0A15DDCustomizationP",
+            "mangledName": "$s6CafSDK0A15DDCustomizationP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafFailedPhotoCustomization",
+        "printedName": "CafFailedPhotoCustomization",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A24FailedPhotoCustomizationV5titleSSSgvp",
+            "mangledName": "$s6CafSDK0A24FailedPhotoCustomizationV5titleSSSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A24FailedPhotoCustomizationV5titleSSSgvg",
+                "mangledName": "$s6CafSDK0A24FailedPhotoCustomizationV5titleSSSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A24FailedPhotoCustomizationV5titleSSSgvs",
+                "mangledName": "$s6CafSDK0A24FailedPhotoCustomizationV5titleSSSgvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A24FailedPhotoCustomizationV5titleSSSgvM",
+                "mangledName": "$s6CafSDK0A24FailedPhotoCustomizationV5titleSSSgvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A24FailedPhotoCustomizationV11descriptionSSSgvp",
+            "mangledName": "$s6CafSDK0A24FailedPhotoCustomizationV11descriptionSSSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A24FailedPhotoCustomizationV11descriptionSSSgvg",
+                "mangledName": "$s6CafSDK0A24FailedPhotoCustomizationV11descriptionSSSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A24FailedPhotoCustomizationV11descriptionSSSgvs",
+                "mangledName": "$s6CafSDK0A24FailedPhotoCustomizationV11descriptionSSSgvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A24FailedPhotoCustomizationV11descriptionSSSgvM",
+                "mangledName": "$s6CafSDK0A24FailedPhotoCustomizationV11descriptionSSSgvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "continueButton",
+            "printedName": "continueButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A24FailedPhotoCustomizationV14continueButtonSSSgvp",
+            "mangledName": "$s6CafSDK0A24FailedPhotoCustomizationV14continueButtonSSSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A24FailedPhotoCustomizationV14continueButtonSSSgvg",
+                "mangledName": "$s6CafSDK0A24FailedPhotoCustomizationV14continueButtonSSSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A24FailedPhotoCustomizationV14continueButtonSSSgvs",
+                "mangledName": "$s6CafSDK0A24FailedPhotoCustomizationV14continueButtonSSSgvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A24FailedPhotoCustomizationV14continueButtonSSSgvM",
+                "mangledName": "$s6CafSDK0A24FailedPhotoCustomizationV14continueButtonSSSgvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:description:continueButton:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafFailedPhotoCustomization",
+                "printedName": "CafSDK.CafFailedPhotoCustomization",
+                "usr": "s:6CafSDK0A24FailedPhotoCustomizationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6CafSDK0A24FailedPhotoCustomizationV5title11description14continueButtonACSSSg_A2Gtcfc",
+            "mangledName": "$s6CafSDK0A24FailedPhotoCustomizationV5title11description14continueButtonACSSSg_A2Gtcfc",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6CafSDK0A24FailedPhotoCustomizationV",
+        "mangledName": "$s6CafSDK0A24FailedPhotoCustomizationV",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -19690,9 +20681,204 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "customLocalization",
+            "printedName": "customLocalization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A18FaceLivenessConfigV18customLocalizationSSSgvp",
+            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV18customLocalizationSSSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV18customLocalizationSSSgvg",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV18customLocalizationSSSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV18customLocalizationSSSgvs",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV18customLocalizationSSSgvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV18customLocalizationSSSgvM",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV18customLocalizationSSSgvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkType",
+            "printedName": "sdkType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSdkPlatform",
+                "printedName": "CafSDK.CafSdkPlatform",
+                "usr": "s:6CafSDK0A11SdkPlatformO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A18FaceLivenessConfigV7sdkTypeAA0A11SdkPlatformOvp",
+            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV7sdkTypeAA0A11SdkPlatformOvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSdkPlatform",
+                    "printedName": "CafSDK.CafSdkPlatform",
+                    "usr": "s:6CafSDK0A11SdkPlatformO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV7sdkTypeAA0A11SdkPlatformOvg",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV7sdkTypeAA0A11SdkPlatformOvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSdkPlatform",
+                    "printedName": "CafSDK.CafSdkPlatform",
+                    "usr": "s:6CafSDK0A11SdkPlatformO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV7sdkTypeAA0A11SdkPlatformOvs",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV7sdkTypeAA0A11SdkPlatformOvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV7sdkTypeAA0A11SdkPlatformOvM",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV7sdkTypeAA0A11SdkPlatformOvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(instructionsConfig:loadingEnabled:authBaseUrl:livenessBaseUrl:certificates:)",
+            "printedName": "init(instructionsConfig:loadingEnabled:authBaseUrl:livenessBaseUrl:certificates:customLocalization:sdkType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -19742,11 +20928,33 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSdkPlatform",
+                "printedName": "CafSDK.CafSdkPlatform",
+                "hasDefaultArg": true,
+                "usr": "s:6CafSDK0A11SdkPlatformO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled11authBaseUrl08livenessjK012certificatesAcA0A25InstructionsConfigurationV_SbS2SSaySSGtcfc",
-            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled11authBaseUrl08livenessjK012certificatesAcA0A25InstructionsConfigurationV_SbS2SSaySSGtcfc",
+            "usr": "s:6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled11authBaseUrl08livenessjK012certificates18customLocalization7sdkTypeAcA0A25InstructionsConfigurationV_SbS2SSaySSGSSSgAA0A11SdkPlatformOtcfc",
+            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled11authBaseUrl08livenessjK012certificates18customLocalization7sdkTypeAcA0A25InstructionsConfigurationV_SbS2SSaySSGSSSgAA0A11SdkPlatformOtcfc",
             "moduleName": "CafSDK",
             "declAttributes": [
               "AccessControl"
@@ -27173,9 +28381,94 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "sdkType",
+            "printedName": "sdkType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSdkPlatform",
+                "printedName": "CafSDK.CafSdkPlatform",
+                "usr": "s:6CafSDK0A11SdkPlatformO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A22DocumentDetectorConfigV7sdkTypeAA0A11SdkPlatformOvp",
+            "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV7sdkTypeAA0A11SdkPlatformOvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSdkPlatform",
+                    "printedName": "CafSDK.CafSdkPlatform",
+                    "usr": "s:6CafSDK0A11SdkPlatformO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A22DocumentDetectorConfigV7sdkTypeAA0A11SdkPlatformOvg",
+                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV7sdkTypeAA0A11SdkPlatformOvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSdkPlatform",
+                    "printedName": "CafSDK.CafSdkPlatform",
+                    "usr": "s:6CafSDK0A11SdkPlatformO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A22DocumentDetectorConfigV7sdkTypeAA0A11SdkPlatformOvs",
+                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV7sdkTypeAA0A11SdkPlatformOvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A22DocumentDetectorConfigV7sdkTypeAA0A11SdkPlatformOvM",
+                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV7sdkTypeAA0A11SdkPlatformOvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(flow:layout:uploadSettings:instructionsConfig:manualCaptureEnabled:manualCaptureTime:requestTimeout:showPopup:proxySettings:previewShow:ddCustomizations:getUrlExpireTime:enableMultiLanguage:currentStepDoneDelay:allowedPassportCountryList:selectDocumentConfig:)",
+            "printedName": "init(flow:layout:uploadSettings:instructionsConfig:manualCaptureEnabled:manualCaptureTime:requestTimeout:showPopup:proxySettings:previewShow:ddCustomizations:getUrlExpireTime:enableMultiLanguage:currentStepDoneDelay:allowedPassportCountryList:selectDocumentConfig:sdkType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -27350,11 +28643,18 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSdkPlatform",
+                "printedName": "CafSDK.CafSdkPlatform",
+                "hasDefaultArg": true,
+                "usr": "s:6CafSDK0A11SdkPlatformO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6CafSDK0A22DocumentDetectorConfigV4flow6layout14uploadSettings012instructionsE020manualCaptureEnabled0kL4Time14requestTimeout9showPopup05proxyI011previewShow16ddCustomizations012getUrlExpireN019enableMultiLanguage20currentStepDoneDelay26allowedPassportCountryList06selectcE0ACSayAA0acD4StepVG_AA0acD6LayoutVAA0a6UploadI0VAA0A25InstructionsConfigurationVSbS2dSbAA0a5ProxyI0VSgSbSayAA0A15DDCustomization_pGSSSgSbSdSayAA0A11CountryCodeOGSgAA0a6SelectcE0VSgtcfc",
-            "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV4flow6layout14uploadSettings012instructionsE020manualCaptureEnabled0kL4Time14requestTimeout9showPopup05proxyI011previewShow16ddCustomizations012getUrlExpireN019enableMultiLanguage20currentStepDoneDelay26allowedPassportCountryList06selectcE0ACSayAA0acD4StepVG_AA0acD6LayoutVAA0a6UploadI0VAA0A25InstructionsConfigurationVSbS2dSbAA0a5ProxyI0VSgSbSayAA0A15DDCustomization_pGSSSgSbSdSayAA0A11CountryCodeOGSgAA0a6SelectcE0VSgtcfc",
+            "usr": "s:6CafSDK0A22DocumentDetectorConfigV4flow6layout14uploadSettings012instructionsE020manualCaptureEnabled0kL4Time14requestTimeout9showPopup05proxyI011previewShow16ddCustomizations012getUrlExpireN019enableMultiLanguage20currentStepDoneDelay26allowedPassportCountryList06selectcE07sdkTypeACSayAA0acD4StepVG_AA0acD6LayoutVAA0a6UploadI0VAA0A25InstructionsConfigurationVSbS2dSbAA0a5ProxyI0VSgSbSayAA0A15DDCustomization_pGSSSgSbSdSayAA0A11CountryCodeOGSgAA0a6SelectcE0VSgAA0A11SdkPlatformOtcfc",
+            "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV4flow6layout14uploadSettings012instructionsE020manualCaptureEnabled0kL4Time14requestTimeout9showPopup05proxyI011previewShow16ddCustomizations012getUrlExpireN019enableMultiLanguage20currentStepDoneDelay26allowedPassportCountryList06selectcE07sdkTypeACSayAA0acD4StepVG_AA0acD6LayoutVAA0a6UploadI0VAA0A25InstructionsConfigurationVSbS2dSbAA0a5ProxyI0VSgSbSayAA0A15DDCustomization_pGSSSgSbSdSayAA0A11CountryCodeOGSgAA0a6SelectcE0VSgAA0A11SdkPlatformOtcfc",
             "moduleName": "CafSDK",
             "declAttributes": [
               "AccessControl"
@@ -31420,84 +32720,84 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 4125,
+      "offset": 4208,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "StringLiteral",
-      "offset": 4169,
+      "offset": 4252,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "StringLiteral",
-      "offset": 4215,
+      "offset": 4298,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "Array",
-      "offset": 4260,
+      "offset": 4343,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2332,
+      "offset": 2521,
       "length": 18,
       "value": "\"try_again_button\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2400,
+      "offset": 2589,
       "length": 23,
       "value": "\"go_to_settings_button\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2473,
+      "offset": 2662,
       "length": 17,
       "value": "\"something_wrong\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2540,
+      "offset": 2729,
       "length": 26,
       "value": "\"camera_permission_denied\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2616,
+      "offset": 2805,
       "length": 31,
       "value": "\"camera_permission_description\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2697,
+      "offset": 2886,
       "length": 16,
       "value": "\"photo_not_sent\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2763,
+      "offset": 2952,
       "length": 28,
       "value": "\"photo_not_sent_description\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2991,
+      "offset": 3193,
       "length": 14,
       "value": "\"failure_icon\""
     },
@@ -31777,70 +33077,70 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "Array",
-      "offset": 4249,
+      "offset": 4288,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 4412,
+      "offset": 4451,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 4622,
+      "offset": 4661,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 4678,
+      "offset": 4717,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 4729,
+      "offset": 4768,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 4767,
+      "offset": 4806,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 4865,
+      "offset": 4904,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "Array",
-      "offset": 4929,
+      "offset": 4968,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 5026,
+      "offset": 5065,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 5085,
+      "offset": 5124,
       "length": 1,
       "value": "1"
     },
