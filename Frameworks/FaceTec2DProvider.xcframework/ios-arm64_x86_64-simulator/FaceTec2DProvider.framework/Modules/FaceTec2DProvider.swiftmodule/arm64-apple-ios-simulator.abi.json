@@ -8073,56 +8073,56 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2332,
+      "offset": 2521,
       "length": 18,
       "value": "\"try_again_button\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2400,
+      "offset": 2589,
       "length": 23,
       "value": "\"go_to_settings_button\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2473,
+      "offset": 2662,
       "length": 17,
       "value": "\"something_wrong\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2540,
+      "offset": 2729,
       "length": 26,
       "value": "\"camera_permission_denied\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2616,
+      "offset": 2805,
       "length": 31,
       "value": "\"camera_permission_description\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2697,
+      "offset": 2886,
       "length": 16,
       "value": "\"photo_not_sent\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2763,
+      "offset": 2952,
       "length": 28,
       "value": "\"photo_not_sent_description\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2991,
+      "offset": 3193,
       "length": 14,
       "value": "\"failure_icon\""
     },

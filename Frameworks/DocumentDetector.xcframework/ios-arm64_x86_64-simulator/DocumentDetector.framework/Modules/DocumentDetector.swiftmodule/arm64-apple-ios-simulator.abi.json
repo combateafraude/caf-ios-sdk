@@ -20394,1095 +20394,6 @@
         "moduleName": "DocumentDetector"
       },
       {
-        "kind": "TypeDecl",
-        "name": "CafUploadValidationMessage",
-        "printedName": "CafUploadValidationMessage",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(image:title:message:allowanceButtonTitle:loading:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImage?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC5image5title7message20allowanceButtonTitle7loadingACSo7UIImageCSg_S3SSbtcfc",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC5image5title7message20allowanceButtonTitle7loadingACSo7UIImageCSg_S3SSbtcfc",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "allowPermissionMessage",
-            "printedName": "allowPermissionMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC015allowPermissionF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC015allowPermissionF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC015allowPermissionF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC015allowPermissionF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "deniedPermissionMessage",
-            "printedName": "deniedPermissionMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC016deniedPermissionF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC016deniedPermissionF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC016deniedPermissionF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC016deniedPermissionF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "sendingPhotoMessage",
-            "printedName": "sendingPhotoMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC012sendingPhotoF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC012sendingPhotoF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC012sendingPhotoF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC012sendingPhotoF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "completeSendingMessage",
-            "printedName": "completeSendingMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC015completeSendingF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC015completeSendingF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC015completeSendingF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC015completeSendingF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidFormatErrorMessage",
-            "printedName": "invalidFormatErrorMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC018invalidFormatErrorF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC018invalidFormatErrorF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC018invalidFormatErrorF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC018invalidFormatErrorF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidSizeErrorMessage",
-            "printedName": "invalidSizeErrorMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC016invalidSizeErrorF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC016invalidSizeErrorF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC016invalidSizeErrorF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC016invalidSizeErrorF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidDocumentErrorMessage",
-            "printedName": "invalidDocumentErrorMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC07invalida5ErrorF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC07invalida5ErrorF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC07invalida5ErrorF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC07invalida5ErrorF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidFrontDocumentErrorWhenRequestedBackMessage",
-            "printedName": "invalidFrontDocumentErrorWhenRequestedBackMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC012invalidFronta22ErrorWhenRequestedBackF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC012invalidFronta22ErrorWhenRequestedBackF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC012invalidFronta22ErrorWhenRequestedBackF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC012invalidFronta22ErrorWhenRequestedBackF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidFrontDocumentErrorWhenRequestedFullMessage",
-            "printedName": "invalidFrontDocumentErrorWhenRequestedFullMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC012invalidFronta22ErrorWhenRequestedFullF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC012invalidFronta22ErrorWhenRequestedFullF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC012invalidFronta22ErrorWhenRequestedFullF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC012invalidFronta22ErrorWhenRequestedFullF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidBackDocumentErrorWhenRequestedFrontMessage",
-            "printedName": "invalidBackDocumentErrorWhenRequestedFrontMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC011invalidBacka23ErrorWhenRequestedFrontF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC011invalidBacka23ErrorWhenRequestedFrontF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC011invalidBacka23ErrorWhenRequestedFrontF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC011invalidBacka23ErrorWhenRequestedFrontF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidBackDocumentErrorWhenRequestedFullMessage",
-            "printedName": "invalidBackDocumentErrorWhenRequestedFullMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC011invalidBacka22ErrorWhenRequestedFullF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC011invalidBacka22ErrorWhenRequestedFullF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC011invalidBacka22ErrorWhenRequestedFullF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC011invalidBacka22ErrorWhenRequestedFullF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidFullDocumentErrorWhenRequestedFrontMessage",
-            "printedName": "invalidFullDocumentErrorWhenRequestedFrontMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC011invalidFulla23ErrorWhenRequestedFrontF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC011invalidFulla23ErrorWhenRequestedFrontF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC011invalidFulla23ErrorWhenRequestedFrontF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC011invalidFulla23ErrorWhenRequestedFrontF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidFullDocumentErrorWhenRequestedBackMessage",
-            "printedName": "invalidFullDocumentErrorWhenRequestedBackMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC011invalidFulla22ErrorWhenRequestedBackF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC011invalidFulla22ErrorWhenRequestedBackF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC011invalidFulla22ErrorWhenRequestedBackF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC011invalidFulla22ErrorWhenRequestedBackF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidQualityErrorMessage",
-            "printedName": "invalidQualityErrorMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC019invalidQualityErrorF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC019invalidQualityErrorF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC019invalidQualityErrorF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC019invalidQualityErrorF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "uploadSendingMessage",
-            "printedName": "uploadSendingMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC013uploadSendingF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC013uploadSendingF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC013uploadSendingF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC013uploadSendingF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "uploadVerifyingIntegrityMessage",
-            "printedName": "uploadVerifyingIntegrityMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC024uploadVerifyingIntegrityF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC024uploadVerifyingIntegrityF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC024uploadVerifyingIntegrityF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC024uploadVerifyingIntegrityF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "uploadProcessingDataMessage",
-            "printedName": "uploadProcessingDataMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC020uploadProcessingDataF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC020uploadProcessingDataF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC020uploadProcessingDataF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC020uploadProcessingDataF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "uploadAlmostDoneMessage",
-            "printedName": "uploadAlmostDoneMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC016uploadAlmostDoneF0ACvpZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC016uploadAlmostDoneF0ACvpZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafUploadValidationMessage",
-                    "printedName": "DocumentDetector.CafUploadValidationMessage",
-                    "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC016uploadAlmostDoneF0ACvgZ",
-                "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC016uploadAlmostDoneF0ACvgZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CafUploadValidationMessage",
-                "printedName": "DocumentDetector.CafUploadValidationMessage",
-                "usr": "s:16DocumentDetector26CafUploadValidationMessageC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector26CafUploadValidationMessageC2eeoiySbAC_ACtFZ",
-            "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC2eeoiySbAC_ACtFZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:16DocumentDetector26CafUploadValidationMessageC",
-        "mangledName": "$s16DocumentDetector26CafUploadValidationMessageC",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -31914,126 +30825,6 @@
           },
           {
             "kind": "Var",
-            "name": "title",
-            "printedName": "title",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector21DDUploadCustomizationC5titleSSSgvp",
-            "mangledName": "$s16DocumentDetector21DDUploadCustomizationC5titleSSSgvp",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector21DDUploadCustomizationC5titleSSSgvg",
-                "mangledName": "$s16DocumentDetector21DDUploadCustomizationC5titleSSSgvg",
-                "moduleName": "DocumentDetector",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector21DDUploadCustomizationC5titleSSSgvs",
-                "mangledName": "$s16DocumentDetector21DDUploadCustomizationC5titleSSSgvs",
-                "moduleName": "DocumentDetector",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector21DDUploadCustomizationC5titleSSSgvM",
-                "mangledName": "$s16DocumentDetector21DDUploadCustomizationC5titleSSSgvM",
-                "moduleName": "DocumentDetector",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "message",
             "printedName": "message",
             "children": [
@@ -32395,7 +31186,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(image:title:message:uploadButton:cancelButton:)",
+            "printedName": "init(image:message:uploadButton:cancelButton:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -32462,26 +31253,11 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16DocumentDetector21DDUploadCustomizationC5image5title7message12uploadButton06cancelI0ACSo7UIImageCSg_SSSgA3Ltcfc",
-            "mangledName": "$s16DocumentDetector21DDUploadCustomizationC5image5title7message12uploadButton06cancelI0ACSo7UIImageCSg_SSSgA3Ltcfc",
+            "usr": "s:16DocumentDetector21DDUploadCustomizationC5image7message12uploadButton06cancelH0ACSo7UIImageCSg_SSSgA2Ktcfc",
+            "mangledName": "$s16DocumentDetector21DDUploadCustomizationC5image7message12uploadButton06cancelH0ACSo7UIImageCSg_SSSgA2Ktcfc",
             "moduleName": "DocumentDetector",
             "declAttributes": [
               "AccessControl"
@@ -33097,6 +31873,1205 @@
           "Final",
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DDCustomization",
+            "printedName": "DDCustomization",
+            "usr": "s:16DocumentDetector15DDCustomizationP",
+            "mangledName": "$s16DocumentDetector15DDCustomizationP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DDUploadMessagesCustomization",
+        "printedName": "DDUploadMessagesCustomization",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sending",
+            "printedName": "sending",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC7sendingSSSgvp",
+            "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC7sendingSSSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC7sendingSSSgvg",
+                "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC7sendingSSSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC7sendingSSSgvs",
+                "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC7sendingSSSgvs",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC7sendingSSSgvM",
+                "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC7sendingSSSgvM",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verifyingIntegrity",
+            "printedName": "verifyingIntegrity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC18verifyingIntegritySSSgvp",
+            "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC18verifyingIntegritySSSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC18verifyingIntegritySSSgvg",
+                "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC18verifyingIntegritySSSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC18verifyingIntegritySSSgvs",
+                "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC18verifyingIntegritySSSgvs",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC18verifyingIntegritySSSgvM",
+                "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC18verifyingIntegritySSSgvM",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "processingData",
+            "printedName": "processingData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC14processingDataSSSgvp",
+            "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC14processingDataSSSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC14processingDataSSSgvg",
+                "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC14processingDataSSSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC14processingDataSSSgvs",
+                "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC14processingDataSSSgvs",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC14processingDataSSSgvM",
+                "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC14processingDataSSSgvM",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "almostDone",
+            "printedName": "almostDone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC10almostDoneSSSgvp",
+            "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC10almostDoneSSSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC10almostDoneSSSgvg",
+                "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC10almostDoneSSSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC10almostDoneSSSgvs",
+                "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC10almostDoneSSSgvs",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC10almostDoneSSSgvM",
+                "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC10almostDoneSSSgvM",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeBetweenMessages",
+            "printedName": "timeBetweenMessages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC011timeBetweenD0SdSgvp",
+            "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC011timeBetweenD0SdSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC011timeBetweenD0SdSgvg",
+                "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC011timeBetweenD0SdSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC011timeBetweenD0SdSgvs",
+                "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC011timeBetweenD0SdSgvs",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC011timeBetweenD0SdSgvM",
+                "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC011timeBetweenD0SdSgvM",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sending:verifyingIntegrity:processingData:almostDone:timeBetweenMessages:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDUploadMessagesCustomization",
+                "printedName": "DocumentDetector.DDUploadMessagesCustomization",
+                "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC7sending18verifyingIntegrity14processingData10almostDone011timeBetweenD0ACSSSg_A3ISdSgtcfc",
+            "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC7sending18verifyingIntegrity14processingData10almostDone011timeBetweenD0ACSSSg_A3ISdSgtcfc",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16DocumentDetector29DDUploadMessagesCustomizationC",
+        "mangledName": "$s16DocumentDetector29DDUploadMessagesCustomizationC",
+        "moduleName": "DocumentDetector",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DDCustomization",
+            "printedName": "DDCustomization",
+            "usr": "s:16DocumentDetector15DDCustomizationP",
+            "mangledName": "$s16DocumentDetector15DDCustomizationP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DDFailedPhotoCustomization",
+        "printedName": "DDFailedPhotoCustomization",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector26DDFailedPhotoCustomizationC5titleSSSgvp",
+            "mangledName": "$s16DocumentDetector26DDFailedPhotoCustomizationC5titleSSSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector26DDFailedPhotoCustomizationC5titleSSSgvg",
+                "mangledName": "$s16DocumentDetector26DDFailedPhotoCustomizationC5titleSSSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector26DDFailedPhotoCustomizationC5titleSSSgvs",
+                "mangledName": "$s16DocumentDetector26DDFailedPhotoCustomizationC5titleSSSgvs",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector26DDFailedPhotoCustomizationC5titleSSSgvM",
+                "mangledName": "$s16DocumentDetector26DDFailedPhotoCustomizationC5titleSSSgvM",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector26DDFailedPhotoCustomizationC11descriptionSSSgvp",
+            "mangledName": "$s16DocumentDetector26DDFailedPhotoCustomizationC11descriptionSSSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector26DDFailedPhotoCustomizationC11descriptionSSSgvg",
+                "mangledName": "$s16DocumentDetector26DDFailedPhotoCustomizationC11descriptionSSSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector26DDFailedPhotoCustomizationC11descriptionSSSgvs",
+                "mangledName": "$s16DocumentDetector26DDFailedPhotoCustomizationC11descriptionSSSgvs",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector26DDFailedPhotoCustomizationC11descriptionSSSgvM",
+                "mangledName": "$s16DocumentDetector26DDFailedPhotoCustomizationC11descriptionSSSgvM",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "continueButton",
+            "printedName": "continueButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector26DDFailedPhotoCustomizationC14continueButtonSSSgvp",
+            "mangledName": "$s16DocumentDetector26DDFailedPhotoCustomizationC14continueButtonSSSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector26DDFailedPhotoCustomizationC14continueButtonSSSgvg",
+                "mangledName": "$s16DocumentDetector26DDFailedPhotoCustomizationC14continueButtonSSSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector26DDFailedPhotoCustomizationC14continueButtonSSSgvs",
+                "mangledName": "$s16DocumentDetector26DDFailedPhotoCustomizationC14continueButtonSSSgvs",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector26DDFailedPhotoCustomizationC14continueButtonSSSgvM",
+                "mangledName": "$s16DocumentDetector26DDFailedPhotoCustomizationC14continueButtonSSSgvM",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:description:continueButton:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDFailedPhotoCustomization",
+                "printedName": "DocumentDetector.DDFailedPhotoCustomization",
+                "usr": "s:16DocumentDetector26DDFailedPhotoCustomizationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16DocumentDetector26DDFailedPhotoCustomizationC5title11description14continueButtonACSSSg_A2Gtcfc",
+            "mangledName": "$s16DocumentDetector26DDFailedPhotoCustomizationC5title11description14continueButtonACSSSg_A2Gtcfc",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16DocumentDetector26DDFailedPhotoCustomizationC",
+        "mangledName": "$s16DocumentDetector26DDFailedPhotoCustomizationC",
+        "moduleName": "DocumentDetector",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -34942,6 +34917,16 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DocumentDetector",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -43171,6 +43156,34 @@
                 "declKind": "Func",
                 "usr": "s:16DocumentDetector0aB3SdkC10CafBuilderC16setCustomStrings06customH0AESayAA15DDCustomization_pG_tF",
                 "mangledName": "$s16DocumentDetector0aB3SdkC10CafBuilderC16setCustomStrings06customH0AESayAA15DDCustomization_pG_tF",
+                "moduleName": "DocumentDetector",
+                "isOpen": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setSdkType",
+                "printedName": "setSdkType(type:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafBuilder",
+                    "printedName": "DocumentDetector.DocumentDetectorSdk.CafBuilder",
+                    "usr": "s:16DocumentDetector0aB3SdkC10CafBuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:16DocumentDetector0aB3SdkC10CafBuilderC03setC4Type4typeAESS_tF",
+                "mangledName": "$s16DocumentDetector0aB3SdkC10CafBuilderC03setC4Type4typeAESS_tF",
                 "moduleName": "DocumentDetector",
                 "isOpen": true,
                 "declAttributes": [
@@ -53533,7 +53546,7 @@
       "kind": "StringLiteral",
       "offset": 254,
       "length": 8,
-      "value": "\"16.2.0\""
+      "value": "\"16.3.0\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Utils\/CafDDConstants.swift",
@@ -54035,56 +54048,56 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2332,
+      "offset": 2521,
       "length": 18,
       "value": "\"try_again_button\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2400,
+      "offset": 2589,
       "length": 23,
       "value": "\"go_to_settings_button\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2473,
+      "offset": 2662,
       "length": 17,
       "value": "\"something_wrong\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2540,
+      "offset": 2729,
       "length": 26,
       "value": "\"camera_permission_denied\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2616,
+      "offset": 2805,
       "length": 31,
       "value": "\"camera_permission_description\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2697,
+      "offset": 2886,
       "length": 16,
       "value": "\"photo_not_sent\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2763,
+      "offset": 2952,
       "length": 28,
       "value": "\"photo_not_sent_description\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2991,
+      "offset": 3193,
       "length": 14,
       "value": "\"failure_icon\""
     },
@@ -54840,532 +54853,532 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "BooleanLiteral",
-      "offset": 371,
+      "offset": 364,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 475,
+      "offset": 461,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "BooleanLiteral",
-      "offset": 541,
+      "offset": 527,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 887,
+      "offset": 866,
       "length": 41,
       "value": "\"uploadValidation_Allow-Permission-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 965,
+      "offset": 944,
       "length": 43,
       "value": "\"uploadValidation_Allow-Permission-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1058,
+      "offset": 1037,
       "length": 45,
       "value": "\"uploadValidation_allowanceButtonTitle-Allow\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1272,
+      "offset": 1244,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1344,
+      "offset": 1316,
       "length": 42,
       "value": "\"uploadValidation_Denied-Permission-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1423,
+      "offset": 1395,
       "length": 44,
       "value": "\"uploadValidation_Denied-Permission-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1517,
+      "offset": 1489,
       "length": 46,
       "value": "\"uploadValidation_allowanceButtonTitle-Denied\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1727,
+      "offset": 1692,
       "length": 41,
       "value": "\"uploadValidation_sendingPhoto-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1804,
+      "offset": 1769,
       "length": 37,
       "value": "\"uploadValidation_sendingPhoto-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 1891,
+      "offset": 1856,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "BooleanLiteral",
-      "offset": 1916,
+      "offset": 1881,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2074,
+      "offset": 2032,
       "length": 44,
       "value": "\"uploadValidation_completeSending-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2154,
+      "offset": 2112,
       "length": 40,
       "value": "\"uploadValidation_completeSending-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2244,
+      "offset": 2202,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2403,
+      "offset": 2354,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2475,
+      "offset": 2426,
       "length": 43,
       "value": "\"uploadValidation_invalidFormatError-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2555,
+      "offset": 2506,
       "length": 45,
       "value": "\"uploadValidation_invalidFormatError-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2650,
+      "offset": 2601,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2867,
+      "offset": 2811,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2939,
+      "offset": 2883,
       "length": 41,
       "value": "\"uploadValidation_invalidSizeError-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3017,
+      "offset": 2961,
       "length": 115,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3020,
+      "offset": 2964,
       "length": 43,
       "value": "\"uploadValidation_invalidSizeError-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3078,
+      "offset": 3022,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3130,
+      "offset": 3074,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3168,
+      "offset": 3112,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3389,
+      "offset": 3326,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3461,
+      "offset": 3398,
       "length": 45,
       "value": "\"uploadValidation_invalidDocumentError-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3543,
+      "offset": 3480,
       "length": 47,
       "value": "\"uploadValidation_invalidDocumentError-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3640,
+      "offset": 3577,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3883,
+      "offset": 3813,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3955,
+      "offset": 3885,
       "length": 50,
       "value": "\"uploadValidation_invalidFrontDocumentError-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4042,
+      "offset": 3972,
       "length": 52,
       "value": "\"uploadValidation_invalidFrontDocumentError-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4144,
+      "offset": 4074,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4387,
+      "offset": 4310,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4459,
+      "offset": 4382,
       "length": 54,
       "value": "\"uploadValidation_invalidFrontDocumentErrorFull-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4550,
+      "offset": 4473,
       "length": 56,
       "value": "\"uploadValidation_invalidFrontDocumentErrorFull-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4656,
+      "offset": 4579,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4899,
+      "offset": 4815,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4971,
+      "offset": 4887,
       "length": 49,
       "value": "\"uploadValidation_invalidBackDocumentError-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5057,
+      "offset": 4973,
       "length": 51,
       "value": "\"uploadValidation_invalidBackDocumentError-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5158,
+      "offset": 5074,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5400,
+      "offset": 5309,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5472,
+      "offset": 5381,
       "length": 53,
       "value": "\"uploadValidation_invalidBackDocumentErrorFull-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5562,
+      "offset": 5471,
       "length": 55,
       "value": "\"uploadValidation_invalidBackDocumentErrorFull-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5667,
+      "offset": 5576,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5910,
+      "offset": 5812,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5982,
+      "offset": 5884,
       "length": 54,
       "value": "\"uploadValidation_invalidFullDocumentErrorFront-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6073,
+      "offset": 5975,
       "length": 56,
       "value": "\"uploadValidation_invalidFullDocumentErrorFront-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6179,
+      "offset": 6081,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6421,
+      "offset": 6316,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6493,
+      "offset": 6388,
       "length": 53,
       "value": "\"uploadValidation_invalidFullDocumentErrorBack-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6583,
+      "offset": 6478,
       "length": 55,
       "value": "\"uploadValidation_invalidFullDocumentErrorBack-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6688,
+      "offset": 6583,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6908,
+      "offset": 6796,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6980,
+      "offset": 6868,
       "length": 44,
       "value": "\"uploadValidation_invalidQualityError-title\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 7061,
+      "offset": 6949,
       "length": 46,
       "value": "\"uploadValidation_invalidQualityError-message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 7157,
+      "offset": 7045,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 7370,
+      "offset": 7251,
       "length": 41,
       "value": "\"uploadValidation_sendingPhoto-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 7447,
+      "offset": 7328,
       "length": 18,
       "value": "\"document_sending\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 7515,
+      "offset": 7396,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "BooleanLiteral",
-      "offset": 7540,
+      "offset": 7421,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 7706,
+      "offset": 7580,
       "length": 41,
       "value": "\"uploadValidation_sendingPhoto-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 7783,
+      "offset": 7657,
       "length": 30,
       "value": "\"document_verifying_integrity\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 7863,
+      "offset": 7737,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "BooleanLiteral",
-      "offset": 7888,
+      "offset": 7762,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 8050,
+      "offset": 7917,
       "length": 41,
       "value": "\"uploadValidation_sendingPhoto-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 8127,
+      "offset": 7994,
       "length": 26,
       "value": "\"document_processing_data\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 8203,
+      "offset": 8070,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "BooleanLiteral",
-      "offset": 8228,
+      "offset": 8095,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 8386,
+      "offset": 8246,
       "length": 41,
       "value": "\"uploadValidation_sendingPhoto-imageName\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 8463,
+      "offset": 8323,
       "length": 22,
       "value": "\"document_almost_done\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 8535,
+      "offset": 8395,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/Model\/CafUploadValidationMessage.swift",
       "kind": "BooleanLiteral",
-      "offset": 8560,
+      "offset": 8420,
       "length": 4,
       "value": "true"
     },
@@ -55496,6 +55509,48 @@
       "value": "\"video\/quicktime\""
     },
     {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DDQualityMessageScheduler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 206,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DDQualityMessageScheduler.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 18,
+      "value": "\"document_sending\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DDQualityMessageScheduler.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 30,
+      "value": "\"document_verifying_integrity\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DDQualityMessageScheduler.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
+      "length": 26,
+      "value": "\"document_processing_data\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DDQualityMessageScheduler.swift",
+      "kind": "StringLiteral",
+      "offset": 443,
+      "length": 22,
+      "value": "\"document_almost_done\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DDQualityMessageScheduler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2035,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Input\/DDUploadSettings.swift",
       "kind": "BooleanLiteral",
       "offset": 428,
@@ -55603,7 +55658,7 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Input\/DocumentDetectorSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 7214,
+      "offset": 7250,
       "length": 4,
       "value": "true"
     },
@@ -55680,91 +55735,91 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16808,
+      "offset": 17036,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16832,
+      "offset": 17060,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16862,
+      "offset": 17090,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16912,
+      "offset": 17140,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17013,
+      "offset": 17241,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17059,
+      "offset": 17287,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17235,
+      "offset": 17463,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17241,
+      "offset": 17469,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17397,
+      "offset": 17625,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17403,
+      "offset": 17631,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17413,
+      "offset": 17641,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17424,
+      "offset": 17652,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17618,
+      "offset": 17846,
       "length": 1,
       "value": "2"
     },
@@ -56366,21 +56421,21 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2503,
+      "offset": 2545,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "Array",
-      "offset": 3886,
+      "offset": 3928,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3926,
+      "offset": 3968,
       "length": 1,
       "value": "0"
     },

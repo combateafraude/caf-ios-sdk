@@ -150,6 +150,7 @@ public protocol CafFaceLivenessDelegate : AnyObject {
   public var certificates: [Swift.String]
   public var instructionsConfig: CafFaceLiveness.CafInstructionsConfiguration
   public var colorConfig: CafFaceLiveness.ColorConfiguration?
+  public var customLocalization: Swift.String?
   public var sdkType: CafFaceLiveness.CafSdkPlatform {
     get
     set
@@ -169,6 +170,8 @@ public protocol CafFaceLivenessDelegate : AnyObject {
     open func setCertificates(certificates: [Swift.String]) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setInstructionsConfig(instructionsConfig: CafFaceLiveness.CafInstructionsConfiguration) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setColorConfiguration(colorConfig: CafFaceLiveness.ColorConfiguration) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setCustomLocalization(path: Swift.String?) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setSdkType(type: Swift.String) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func build() -> CafFaceLiveness.CafFaceLivenessSDK
     @objc deinit
   }

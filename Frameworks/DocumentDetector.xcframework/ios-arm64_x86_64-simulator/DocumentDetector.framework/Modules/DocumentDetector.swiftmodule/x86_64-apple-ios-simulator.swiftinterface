@@ -395,33 +395,6 @@ public enum CafResolution : Swift.String {
 extension UIKit.UIImage {
   convenience public init?(pixelBuffer: CoreVideo.CVPixelBuffer)
 }
-public class CafUploadValidationMessage {
-  public init(image: UIKit.UIImage? = nil, title: Swift.String, message: Swift.String = "", allowanceButtonTitle: Swift.String, loading: Swift.Bool = false)
-  @objc deinit
-}
-extension DocumentDetector.CafUploadValidationMessage {
-  public static let allowPermissionMessage: DocumentDetector.CafUploadValidationMessage
-  public static let deniedPermissionMessage: DocumentDetector.CafUploadValidationMessage
-  public static let sendingPhotoMessage: DocumentDetector.CafUploadValidationMessage
-  public static let completeSendingMessage: DocumentDetector.CafUploadValidationMessage
-  public static let invalidFormatErrorMessage: DocumentDetector.CafUploadValidationMessage
-  public static let invalidSizeErrorMessage: DocumentDetector.CafUploadValidationMessage
-  public static let invalidDocumentErrorMessage: DocumentDetector.CafUploadValidationMessage
-  public static let invalidFrontDocumentErrorWhenRequestedBackMessage: DocumentDetector.CafUploadValidationMessage
-  public static let invalidFrontDocumentErrorWhenRequestedFullMessage: DocumentDetector.CafUploadValidationMessage
-  public static let invalidBackDocumentErrorWhenRequestedFrontMessage: DocumentDetector.CafUploadValidationMessage
-  public static let invalidBackDocumentErrorWhenRequestedFullMessage: DocumentDetector.CafUploadValidationMessage
-  public static let invalidFullDocumentErrorWhenRequestedFrontMessage: DocumentDetector.CafUploadValidationMessage
-  public static let invalidFullDocumentErrorWhenRequestedBackMessage: DocumentDetector.CafUploadValidationMessage
-  public static let invalidQualityErrorMessage: DocumentDetector.CafUploadValidationMessage
-  public static let uploadSendingMessage: DocumentDetector.CafUploadValidationMessage
-  public static let uploadVerifyingIntegrityMessage: DocumentDetector.CafUploadValidationMessage
-  public static let uploadProcessingDataMessage: DocumentDetector.CafUploadValidationMessage
-  public static let uploadAlmostDoneMessage: DocumentDetector.CafUploadValidationMessage
-}
-extension DocumentDetector.CafUploadValidationMessage : Swift.Equatable {
-  public static func == (lhs: DocumentDetector.CafUploadValidationMessage, rhs: DocumentDetector.CafUploadValidationMessage) -> Swift.Bool
-}
 public enum DDCountryCodes : Swift.String, Swift.CaseIterable {
   case ABW
   case AFG
@@ -685,11 +658,10 @@ public protocol DDCustomization {
 }
 final public class DDUploadCustomization : DocumentDetector.DDCustomization {
   final public var image: UIKit.UIImage?
-  final public var title: Swift.String?
   final public var message: Swift.String?
   final public var uploadButton: Swift.String?
   final public var cancelButton: Swift.String?
-  public init(image: UIKit.UIImage? = nil, title: Swift.String? = nil, message: Swift.String? = nil, uploadButton: Swift.String? = nil, cancelButton: Swift.String? = nil)
+  public init(image: UIKit.UIImage? = nil, message: Swift.String? = nil, uploadButton: Swift.String? = nil, cancelButton: Swift.String? = nil)
   @objc deinit
 }
 final public class DDPreviewCustomization : DocumentDetector.DDCustomization {
@@ -698,6 +670,22 @@ final public class DDPreviewCustomization : DocumentDetector.DDCustomization {
   final public var okButton: Swift.String?
   final public var tryAgainButton: Swift.String?
   public init(title: Swift.String? = nil, message: Swift.String? = nil, okButton: Swift.String? = nil, tryAgainButton: Swift.String? = nil)
+  @objc deinit
+}
+final public class DDUploadMessagesCustomization : DocumentDetector.DDCustomization {
+  final public var sending: Swift.String?
+  final public var verifyingIntegrity: Swift.String?
+  final public var processingData: Swift.String?
+  final public var almostDone: Swift.String?
+  final public var timeBetweenMessages: Foundation.TimeInterval?
+  public init(sending: Swift.String? = nil, verifyingIntegrity: Swift.String? = nil, processingData: Swift.String? = nil, almostDone: Swift.String? = nil, timeBetweenMessages: Foundation.TimeInterval? = nil)
+  @objc deinit
+}
+final public class DDFailedPhotoCustomization : DocumentDetector.DDCustomization {
+  final public var title: Swift.String?
+  final public var description: Swift.String?
+  final public var continueButton: Swift.String?
+  public init(title: Swift.String? = nil, description: Swift.String? = nil, continueButton: Swift.String? = nil)
   @objc deinit
 }
 open class DDMessageSettings : Swift.Encodable {
@@ -886,6 +874,7 @@ public protocol Delegate : AnyObject {
     open func setSelectDocumentConfig(title: Swift.String? = nil, description: Swift.String? = nil) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setStage(stage: DocumentDetector.DDCAFStage) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setCustomStrings(customStrings: [any DocumentDetector.DDCustomization]) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
+    open func setSdkType(type: Swift.String) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func build() -> DocumentDetector.DocumentDetectorSdk
     @objc deinit
   }
