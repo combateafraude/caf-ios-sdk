@@ -53546,7 +53546,7 @@
       "kind": "StringLiteral",
       "offset": 254,
       "length": 8,
-      "value": "\"16.3.0\""
+      "value": "\"16.3.1\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Utils\/CafDDConstants.swift",
@@ -55658,7 +55658,7 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Input\/DocumentDetectorSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 7250,
+      "offset": 7342,
       "length": 4,
       "value": "true"
     },
