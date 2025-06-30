@@ -4615,7 +4615,11 @@
                 "usr": "s:15CafFaceLiveness0abC3SDKC5stageAA0A11EnvironmentOvM",
                 "mangledName": "$s15CafFaceLiveness0abC3SDKC5stageAA0A11EnvironmentOvM",
                 "moduleName": "CafFaceLiveness",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4701,7 +4705,101 @@
                 "usr": "s:15CafFaceLiveness0abC3SDKC7loadingSbvM",
                 "mangledName": "$s15CafFaceLiveness0abC3SDKC7loadingSbvM",
                 "moduleName": "CafFaceLiveness",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "executeFaceAuth",
+            "printedName": "executeFaceAuth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CafFaceLiveness0abC3SDKC07executeB4AuthSbvp",
+            "mangledName": "$s15CafFaceLiveness0abC3SDKC07executeB4AuthSbvp",
+            "moduleName": "CafFaceLiveness",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0abC3SDKC07executeB4AuthSbvg",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC07executeB4AuthSbvg",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0abC3SDKC07executeB4AuthSbvs",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC07executeB4AuthSbvs",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0abC3SDKC07executeB4AuthSbvM",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC07executeB4AuthSbvM",
+                "moduleName": "CafFaceLiveness",
+                "deprecated": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4787,7 +4885,11 @@
                 "usr": "s:15CafFaceLiveness0abC3SDKC11authBaseUrlSSvM",
                 "mangledName": "$s15CafFaceLiveness0abC3SDKC11authBaseUrlSSvM",
                 "moduleName": "CafFaceLiveness",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4873,7 +4975,11 @@
                 "usr": "s:15CafFaceLiveness0abC3SDKC15livenessBaseUrlSSvM",
                 "mangledName": "$s15CafFaceLiveness0abC3SDKC15livenessBaseUrlSSvM",
                 "moduleName": "CafFaceLiveness",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4983,7 +5089,11 @@
                 "usr": "s:15CafFaceLiveness0abC3SDKC12certificatesSaySSGvM",
                 "mangledName": "$s15CafFaceLiveness0abC3SDKC12certificatesSaySSGvM",
                 "moduleName": "CafFaceLiveness",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5068,7 +5178,11 @@
                 "usr": "s:15CafFaceLiveness0abC3SDKC18instructionsConfigAA0A25InstructionsConfigurationVvM",
                 "mangledName": "$s15CafFaceLiveness0abC3SDKC18instructionsConfigAA0A25InstructionsConfigurationVvM",
                 "moduleName": "CafFaceLiveness",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5178,7 +5292,11 @@
                 "usr": "s:15CafFaceLiveness0abC3SDKC11colorConfigAA18ColorConfigurationVSgvM",
                 "mangledName": "$s15CafFaceLiveness0abC3SDKC11colorConfigAA18ColorConfigurationVSgvM",
                 "moduleName": "CafFaceLiveness",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5288,7 +5406,11 @@
                 "usr": "s:15CafFaceLiveness0abC3SDKC18customLocalizationSSSgvM",
                 "mangledName": "$s15CafFaceLiveness0abC3SDKC18customLocalizationSSSgvM",
                 "moduleName": "CafFaceLiveness",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5375,7 +5497,11 @@
                 "usr": "s:15CafFaceLiveness0abC3SDKC7sdkTypeAA0A11SdkPlatformOvM",
                 "mangledName": "$s15CafFaceLiveness0abC3SDKC7sdkTypeAA0A11SdkPlatformOvM",
                 "moduleName": "CafFaceLiveness",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5462,7 +5588,11 @@
                 "usr": "s:15CafFaceLiveness0abC3SDKC12resourceTypeAA0a8ResourceF0OvM",
                 "mangledName": "$s15CafFaceLiveness0abC3SDKC12resourceTypeAA0a8ResourceF0OvM",
                 "moduleName": "CafFaceLiveness",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5647,7 +5777,11 @@
                 "usr": "s:15CafFaceLiveness0abC3SDKC15logEventHandlerySS_SSt_tcSgvM",
                 "mangledName": "$s15CafFaceLiveness0abC3SDKC15logEventHandlerySS_SSt_tcSgvM",
                 "moduleName": "CafFaceLiveness",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5751,7 +5885,126 @@
                 "usr": "s:15CafFaceLiveness0abC3SDKC8delegateAA0abC8Delegate_pSgvM",
                 "mangledName": "$s15CafFaceLiveness0abC3SDKC8delegateAA0abC8Delegate_pSgvM",
                 "moduleName": "CafFaceLiveness",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "entrypoint",
+            "printedName": "entrypoint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CafFaceLiveness0abC3SDKC10entrypointSSSgvp",
+            "mangledName": "$s15CafFaceLiveness0abC3SDKC10entrypointSSSgvp",
+            "moduleName": "CafFaceLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0abC3SDKC10entrypointSSSgvg",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC10entrypointSSSgvg",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0abC3SDKC10entrypointSSSgvs",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC10entrypointSSSgvs",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0abC3SDKC10entrypointSSSgvM",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC10entrypointSSSgvM",
+                "moduleName": "CafFaceLiveness",
+                "deprecated": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5838,6 +6091,35 @@
                 "declKind": "Func",
                 "usr": "s:15CafFaceLiveness0abC3SDKC0abC7BuilderC16setLoadingScreen04withG0AESb_tF",
                 "mangledName": "$s15CafFaceLiveness0abC3SDKC0abC7BuilderC16setLoadingScreen04withG0AESb_tF",
+                "moduleName": "CafFaceLiveness",
+                "isOpen": true,
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setExecuteFaceAuth",
+                "printedName": "setExecuteFaceAuth(withFaceAuth:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafFaceLivenessBuilder",
+                    "printedName": "CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder",
+                    "usr": "s:15CafFaceLiveness0abC3SDKC0abC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15CafFaceLiveness0abC3SDKC0abC7BuilderC010setExecuteB4Auth04withbH0AESb_tF",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC0abC7BuilderC010setExecuteB4Auth04withbH0AESb_tF",
                 "moduleName": "CafFaceLiveness",
                 "isOpen": true,
                 "declAttributes": [
@@ -6066,22 +6348,39 @@
               {
                 "kind": "Function",
                 "name": "build",
-                "printedName": "build()",
+                "printedName": "build(entrypoint:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CafFaceLivenessSDK",
                     "printedName": "CafFaceLiveness.CafFaceLivenessSDK",
                     "usr": "c:@M@CafFaceLiveness@objc(cs)CafFaceLivenessSDK"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:15CafFaceLiveness0abC3SDKC0abC7BuilderC5buildACyF",
-                "mangledName": "$s15CafFaceLiveness0abC3SDKC0abC7BuilderC5buildACyF",
+                "usr": "s:15CafFaceLiveness0abC3SDKC0abC7BuilderC5build10entrypointACSSSg_tF",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC0abC7BuilderC5build10entrypointACSSSg_tF",
                 "moduleName": "CafFaceLiveness",
+                "deprecated": true,
                 "isOpen": true,
                 "declAttributes": [
                   "AccessControl",
+                  "Available",
                   "RawDocComment"
                 ],
                 "funcSelfKind": "NonMutating"
@@ -6091,9 +6390,11 @@
             "usr": "s:15CafFaceLiveness0abC3SDKC0abC7BuilderC",
             "mangledName": "$s15CafFaceLiveness0abC3SDKC0abC7BuilderC",
             "moduleName": "CafFaceLiveness",
+            "deprecated": true,
             "isOpen": true,
             "declAttributes": [
               "AccessControl",
+              "Available",
               "RawDocComment",
               "ObjC"
             ],
@@ -6215,9 +6516,11 @@
             "usr": "s:15CafFaceLiveness0abC3SDKC05startD014viewController11mobileToken8personId12debugEnabled07sessionK0ySo06UIViewG0C_S2SSbSStF",
             "mangledName": "$s15CafFaceLiveness0abC3SDKC05startD014viewController11mobileToken8personId12debugEnabled07sessionK0ySo06UIViewG0C_S2SSbSStF",
             "moduleName": "CafFaceLiveness",
+            "deprecated": true,
             "isOpen": true,
             "declAttributes": [
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -6253,9 +6556,11 @@
         "usr": "c:@M@CafFaceLiveness@objc(cs)CafFaceLivenessSDK",
         "mangledName": "$s15CafFaceLiveness0abC3SDKC",
         "moduleName": "CafFaceLiveness",
+        "deprecated": true,
         "isOpen": true,
         "declAttributes": [
           "AccessControl",
+          "Available",
           "RawDocComment",
           "ObjC"
         ],
@@ -7999,7 +8304,7 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "Dictionary",
-      "offset": 505,
+      "offset": 540,
       "length": 3,
       "value": "[]"
     },
@@ -8007,6 +8312,20 @@
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "StringLiteral",
       "offset": 618,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 650,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
       "length": 14,
       "value": "\"install_guid\""
     },
@@ -8212,6 +8531,27 @@
       "offset": 1236,
       "length": 8,
       "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 12,
+      "value": "\"stackTrace\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1315,
+      "length": 13,
+      "value": "\"mobileToken\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1357,
+      "length": 12,
+      "value": "\"entrypoint\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsParams.swift",
@@ -9966,7 +10306,7 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/CafFaceLivenessSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 8736,
+      "offset": 9919,
       "length": 5,
       "value": "false"
     },
@@ -9989,7 +10329,7 @@
       "kind": "StringLiteral",
       "offset": 376,
       "length": 7,
-      "value": "\"4.1.1\""
+      "value": "\"4.2.0\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",

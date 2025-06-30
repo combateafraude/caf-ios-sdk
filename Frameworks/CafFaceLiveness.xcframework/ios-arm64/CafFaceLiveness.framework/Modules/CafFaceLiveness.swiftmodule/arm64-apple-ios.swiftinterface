@@ -142,9 +142,11 @@ public protocol CafFaceLivenessDelegate : AnyObject {
   func loading()
   func loaded()
 }
-@objc @_hasMissingDesignatedInitializers open class CafFaceLivenessSDK : ObjectiveC.NSObject {
+@objc @_hasMissingDesignatedInitializers @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
+open class CafFaceLivenessSDK : ObjectiveC.NSObject {
   public var stage: CafFaceLiveness.CafEnvironment
   public var loading: Swift.Bool
+  public var executeFaceAuth: Swift.Bool
   public var authBaseUrl: Swift.String
   public var livenessBaseUrl: Swift.String
   public var certificates: [Swift.String]
@@ -161,10 +163,13 @@ public protocol CafFaceLivenessDelegate : AnyObject {
   }
   public var logEventHandler: (((Swift.String, Swift.String)) -> Swift.Void)?
   weak public var delegate: (any CafFaceLiveness.CafFaceLivenessDelegate)?
-  @objc @_inheritsConvenienceInitializers open class CafFaceLivenessBuilder : ObjectiveC.NSObject {
+  public var entrypoint: Swift.String?
+  @objc @_inheritsConvenienceInitializers @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
+  open class CafFaceLivenessBuilder : ObjectiveC.NSObject {
     @objc override dynamic public init()
     open func setStage(stage: CafFaceLiveness.CafEnvironment) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setLoadingScreen(withLoading: Swift.Bool) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setExecuteFaceAuth(withFaceAuth: Swift.Bool) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setAuthBaseUrl(authBaseUrl: Swift.String) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setLivenessBaseUrl(livenessBaseUrl: Swift.String) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setCertificates(certificates: [Swift.String]) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
@@ -172,9 +177,11 @@ public protocol CafFaceLivenessDelegate : AnyObject {
     open func setColorConfiguration(colorConfig: CafFaceLiveness.ColorConfiguration) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setCustomLocalization(path: Swift.String?) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setSdkType(type: Swift.String) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
-    open func build() -> CafFaceLiveness.CafFaceLivenessSDK
+    @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
+    open func build(entrypoint: Swift.String? = nil) -> CafFaceLiveness.CafFaceLivenessSDK
     @objc deinit
   }
+  @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
   open func startSDK(viewController: UIKit.UIViewController, mobileToken: Swift.String, personId: Swift.String, debugEnabled: Swift.Bool = false, sessionId: Swift.String = UUID().uuidString)
   @objc deinit
 }

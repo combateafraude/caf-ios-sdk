@@ -5805,7 +5805,7 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "Dictionary",
-      "offset": 505,
+      "offset": 540,
       "length": 3,
       "value": "[]"
     },
@@ -5813,6 +5813,20 @@
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "StringLiteral",
       "offset": 618,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 650,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
       "length": 14,
       "value": "\"install_guid\""
     },
@@ -6018,6 +6032,27 @@
       "offset": 1236,
       "length": 8,
       "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 12,
+      "value": "\"stackTrace\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1315,
+      "length": 13,
+      "value": "\"mobileToken\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1357,
+      "length": 12,
+      "value": "\"entrypoint\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsParams.swift",
