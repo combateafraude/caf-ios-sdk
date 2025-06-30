@@ -20403,19 +20403,19 @@
           },
           {
             "kind": "Var",
-            "name": "authBaseUrl",
-            "printedName": "authBaseUrl",
+            "name": "reverseProxyConfig",
+            "printedName": "reverseProxyConfig",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "CafReverseProxyConfig",
+                "printedName": "CafSDK.CafReverseProxyConfig",
+                "usr": "s:6CafSDK0A18ReverseProxyConfigV"
               }
             ],
             "declKind": "Var",
-            "usr": "s:6CafSDK0A18FaceLivenessConfigV11authBaseUrlSSvp",
-            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV11authBaseUrlSSvp",
+            "usr": "s:6CafSDK0A18FaceLivenessConfigV012reverseProxyE0AA0a7ReversegE0Vvp",
+            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV012reverseProxyE0AA0a7ReversegE0Vvp",
             "moduleName": "CafSDK",
             "declAttributes": [
               "HasStorage",
@@ -20430,14 +20430,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "CafReverseProxyConfig",
+                    "printedName": "CafSDK.CafReverseProxyConfig",
+                    "usr": "s:6CafSDK0A18ReverseProxyConfigV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18FaceLivenessConfigV11authBaseUrlSSvg",
-                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV11authBaseUrlSSvg",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV012reverseProxyE0AA0a7ReversegE0Vvg",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV012reverseProxyE0AA0a7ReversegE0Vvg",
                 "moduleName": "CafSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -20454,14 +20454,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "CafReverseProxyConfig",
+                    "printedName": "CafSDK.CafReverseProxyConfig",
+                    "usr": "s:6CafSDK0A18ReverseProxyConfigV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18FaceLivenessConfigV11authBaseUrlSSvs",
-                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV11authBaseUrlSSvs",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV012reverseProxyE0AA0a7ReversegE0Vvs",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV012reverseProxyE0AA0a7ReversegE0Vvs",
                 "moduleName": "CafSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -20478,8 +20478,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18FaceLivenessConfigV11authBaseUrlSSvM",
-                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV11authBaseUrlSSvM",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV012reverseProxyE0AA0a7ReversegE0VvM",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV012reverseProxyE0AA0a7ReversegE0VvM",
                 "moduleName": "CafSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -20488,19 +20488,19 @@
           },
           {
             "kind": "Var",
-            "name": "livenessBaseUrl",
-            "printedName": "livenessBaseUrl",
+            "name": "executeFaceAuth",
+            "printedName": "executeFaceAuth",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Var",
-            "usr": "s:6CafSDK0A18FaceLivenessConfigV15livenessBaseUrlSSvp",
-            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV15livenessBaseUrlSSvp",
+            "usr": "s:6CafSDK0A18FaceLivenessConfigV07executeC4AuthSbvp",
+            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV07executeC4AuthSbvp",
             "moduleName": "CafSDK",
             "declAttributes": [
               "HasStorage",
@@ -20515,14 +20515,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18FaceLivenessConfigV15livenessBaseUrlSSvg",
-                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV15livenessBaseUrlSSvg",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV07executeC4AuthSbvg",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV07executeC4AuthSbvg",
                 "moduleName": "CafSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -20539,14 +20539,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18FaceLivenessConfigV15livenessBaseUrlSSvs",
-                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV15livenessBaseUrlSSvs",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV07executeC4AuthSbvs",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV07executeC4AuthSbvs",
                 "moduleName": "CafSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -20563,117 +20563,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18FaceLivenessConfigV15livenessBaseUrlSSvM",
-                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV15livenessBaseUrlSSvM",
-                "moduleName": "CafSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "certificates",
-            "printedName": "certificates",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6CafSDK0A18FaceLivenessConfigV12certificatesSaySSGvp",
-            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV12certificatesSaySSGvp",
-            "moduleName": "CafSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18FaceLivenessConfigV12certificatesSaySSGvg",
-                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV12certificatesSaySSGvg",
-                "moduleName": "CafSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18FaceLivenessConfigV12certificatesSaySSGvs",
-                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV12certificatesSaySSGvs",
-                "moduleName": "CafSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18FaceLivenessConfigV12certificatesSaySSGvM",
-                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV12certificatesSaySSGvM",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV07executeC4AuthSbvM",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV07executeC4AuthSbvM",
                 "moduleName": "CafSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -20878,7 +20769,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(instructionsConfig:loadingEnabled:authBaseUrl:livenessBaseUrl:certificates:customLocalization:sdkType:)",
+            "printedName": "init(instructionsConfig:loadingEnabled:reverseProxyConfig:executeFaceAuth:customLocalization:sdkType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -20902,32 +20793,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
+                "name": "CafReverseProxyConfig",
+                "printedName": "CafSDK.CafReverseProxyConfig",
                 "hasDefaultArg": true,
-                "usr": "s:SS"
+                "usr": "s:6CafSDK0A18ReverseProxyConfigV"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sa"
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -20953,8 +20829,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled11authBaseUrl08livenessjK012certificates18customLocalization7sdkTypeAcA0A25InstructionsConfigurationV_SbS2SSaySSGSSSgAA0A11SdkPlatformOtcfc",
-            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled11authBaseUrl08livenessjK012certificates18customLocalization7sdkTypeAcA0A25InstructionsConfigurationV_SbS2SSaySSGSSSgAA0A11SdkPlatformOtcfc",
+            "usr": "s:6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled012reverseProxyE007executeC4Auth18customLocalization7sdkTypeAcA0A25InstructionsConfigurationV_SbAA0a7ReversejE0VSbSSSgAA0A11SdkPlatformOtcfc",
+            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled012reverseProxyE007executeC4Auth18customLocalization7sdkTypeAcA0A25InstructionsConfigurationV_SbAA0a7ReversejE0VSbSSSgAA0A11SdkPlatformOtcfc",
             "moduleName": "CafSDK",
             "declAttributes": [
               "AccessControl"
@@ -26806,6 +26682,470 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "CafReverseProxyConfig",
+        "printedName": "CafReverseProxyConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "authBaseUrl",
+            "printedName": "authBaseUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A18ReverseProxyConfigV11authBaseUrlSSvp",
+            "mangledName": "$s6CafSDK0A18ReverseProxyConfigV11authBaseUrlSSvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18ReverseProxyConfigV11authBaseUrlSSvg",
+                "mangledName": "$s6CafSDK0A18ReverseProxyConfigV11authBaseUrlSSvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18ReverseProxyConfigV11authBaseUrlSSvs",
+                "mangledName": "$s6CafSDK0A18ReverseProxyConfigV11authBaseUrlSSvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18ReverseProxyConfigV11authBaseUrlSSvM",
+                "mangledName": "$s6CafSDK0A18ReverseProxyConfigV11authBaseUrlSSvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "livenessBaseUrl",
+            "printedName": "livenessBaseUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A18ReverseProxyConfigV15livenessBaseUrlSSvp",
+            "mangledName": "$s6CafSDK0A18ReverseProxyConfigV15livenessBaseUrlSSvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18ReverseProxyConfigV15livenessBaseUrlSSvg",
+                "mangledName": "$s6CafSDK0A18ReverseProxyConfigV15livenessBaseUrlSSvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18ReverseProxyConfigV15livenessBaseUrlSSvs",
+                "mangledName": "$s6CafSDK0A18ReverseProxyConfigV15livenessBaseUrlSSvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18ReverseProxyConfigV15livenessBaseUrlSSvM",
+                "mangledName": "$s6CafSDK0A18ReverseProxyConfigV15livenessBaseUrlSSvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "certificates",
+            "printedName": "certificates",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A18ReverseProxyConfigV12certificatesSaySSGvp",
+            "mangledName": "$s6CafSDK0A18ReverseProxyConfigV12certificatesSaySSGvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18ReverseProxyConfigV12certificatesSaySSGvg",
+                "mangledName": "$s6CafSDK0A18ReverseProxyConfigV12certificatesSaySSGvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18ReverseProxyConfigV12certificatesSaySSGvs",
+                "mangledName": "$s6CafSDK0A18ReverseProxyConfigV12certificatesSaySSGvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18ReverseProxyConfigV12certificatesSaySSGvM",
+                "mangledName": "$s6CafSDK0A18ReverseProxyConfigV12certificatesSaySSGvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(authBaseUrl:livenessBaseUrl:certificates:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafReverseProxyConfig",
+                "printedName": "CafSDK.CafReverseProxyConfig",
+                "usr": "s:6CafSDK0A18ReverseProxyConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6CafSDK0A18ReverseProxyConfigV11authBaseUrl08livenessgH012certificatesACSS_SSSaySSGtcfc",
+            "mangledName": "$s6CafSDK0A18ReverseProxyConfigV11authBaseUrl08livenessgH012certificatesACSS_SSSaySSGtcfc",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafReverseProxyConfig",
+                "printedName": "CafSDK.CafReverseProxyConfig",
+                "usr": "s:6CafSDK0A18ReverseProxyConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6CafSDK0A18ReverseProxyConfigV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6CafSDK0A18ReverseProxyConfigV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CafSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CafSDK0A18ReverseProxyConfigV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s6CafSDK0A18ReverseProxyConfigV6encode2toys7Encoder_p_tKF",
+            "moduleName": "CafSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafReverseProxyConfig",
+                "printedName": "CafSDK.CafReverseProxyConfig",
+                "usr": "s:6CafSDK0A18ReverseProxyConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafReverseProxyConfig",
+                "printedName": "CafSDK.CafReverseProxyConfig",
+                "usr": "s:6CafSDK0A18ReverseProxyConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CafSDK0A18ReverseProxyConfigV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6CafSDK0A18ReverseProxyConfigV2eeoiySbAC_ACtFZ",
+            "moduleName": "CafSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6CafSDK0A18ReverseProxyConfigV",
+        "mangledName": "$s6CafSDK0A18ReverseProxyConfigV",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -28954,7 +29294,7 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "Dictionary",
-      "offset": 505,
+      "offset": 540,
       "length": 3,
       "value": "[]"
     },
@@ -28962,6 +29302,20 @@
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "StringLiteral",
       "offset": 618,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 650,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
       "length": 14,
       "value": "\"install_guid\""
     },
@@ -29167,6 +29521,27 @@
       "offset": 1236,
       "length": 8,
       "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 12,
+      "value": "\"stackTrace\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1315,
+      "length": 13,
+      "value": "\"mobileToken\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1357,
+      "length": 12,
+      "value": "\"entrypoint\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsParams.swift",
@@ -32720,30 +33095,16 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 4208,
+      "offset": 4190,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 4252,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 4298,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
-      "kind": "Array",
-      "offset": 4343,
-      "length": 2,
-      "value": "[]"
+      "kind": "BooleanLiteral",
+      "offset": 4321,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
@@ -33052,6 +33413,13 @@
       "offset": 366,
       "length": 19,
       "value": "\"com.caf.sdk.queue\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/Wrappers\/CafReverseProxyConfig.swift",
+      "kind": "Array",
+      "offset": 400,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/DebugMode.swift",

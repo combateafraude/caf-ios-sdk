@@ -500,12 +500,11 @@ public struct CafSelectDocumentConfig {
 public struct CafFaceLivenessConfig {
   public var instructionsConfig: CafSDK.CafInstructionsConfiguration
   public var loadingEnabled: Swift.Bool
-  public var authBaseUrl: Swift.String
-  public var livenessBaseUrl: Swift.String
-  public var certificates: [Swift.String]
+  public var reverseProxyConfig: CafSDK.CafReverseProxyConfig
+  public var executeFaceAuth: Swift.Bool
   public var customLocalization: Swift.String?
   public var sdkType: CafSDK.CafSdkPlatform
-  public init(instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), loadingEnabled: Swift.Bool = true, authBaseUrl: Swift.String = "", livenessBaseUrl: Swift.String = "", certificates: [Swift.String] = [], customLocalization: Swift.String? = nil, sdkType: CafSDK.CafSdkPlatform = .nativeIos)
+  public init(instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), loadingEnabled: Swift.Bool = true, reverseProxyConfig: CafSDK.CafReverseProxyConfig = CafReverseProxyConfig(), executeFaceAuth: Swift.Bool = false, customLocalization: Swift.String? = nil, sdkType: CafSDK.CafSdkPlatform = .nativeIos)
 }
 public struct CafInstructionsConfiguration {
   public var enabled: Swift.Bool
@@ -605,6 +604,15 @@ public enum CafLogLevel : Swift.String {
   }
   final public func start()
   @objc deinit
+}
+public struct CafReverseProxyConfig : Swift.Codable, Swift.Equatable {
+  public var authBaseUrl: Swift.String
+  public var livenessBaseUrl: Swift.String
+  public var certificates: [Swift.String]
+  public init(authBaseUrl: Swift.String = String(), livenessBaseUrl: Swift.String = String(), certificates: [Swift.String] = [])
+  public static func == (a: CafSDK.CafReverseProxyConfig, b: CafSDK.CafReverseProxyConfig) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct CafDocumentDetectorConfig {
   public var flow: [CafSDK.CafDocumentDetectorStep]

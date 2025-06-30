@@ -811,7 +811,8 @@ public protocol Delegate : AnyObject {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
 }
-@_hasMissingDesignatedInitializers @objc open class DocumentDetectorSdk : ObjectiveC.NSObject, Swift.Encodable {
+@_hasMissingDesignatedInitializers @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
+@objc open class DocumentDetectorSdk : ObjectiveC.NSObject, Swift.Encodable {
   public var mobileToken: Swift.String!
   public var personId: Swift.String?
   public var useAnalytics: Swift.Bool!
@@ -847,7 +848,9 @@ public protocol Delegate : AnyObject {
     set
   }
   public var customStrings: [any DocumentDetector.DDCustomization]?
+  public var entrypoint: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
+  @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
   @objc open class CafBuilder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String, enableMultiLanguage: Swift.Bool = true)
     open func setAllowedPassportList(passportList: [DocumentDetector.DDCountryCodes]?) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
@@ -875,7 +878,8 @@ public protocol Delegate : AnyObject {
     open func setStage(stage: DocumentDetector.DDCAFStage) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setCustomStrings(customStrings: [any DocumentDetector.DDCustomization]) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setSdkType(type: Swift.String) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
-    open func build() -> DocumentDetector.DocumentDetectorSdk
+    @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
+    open func build(entrypoint: Swift.String? = nil) -> DocumentDetector.DocumentDetectorSdk
     @objc deinit
   }
   @objc deinit

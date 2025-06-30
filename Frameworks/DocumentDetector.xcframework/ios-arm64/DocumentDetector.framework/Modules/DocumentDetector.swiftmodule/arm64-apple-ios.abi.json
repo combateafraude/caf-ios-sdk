@@ -38495,7 +38495,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC11mobileTokenSSSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC11mobileTokenSSSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -38605,7 +38609,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC8personIdSSSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC8personIdSSSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -38715,7 +38723,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC12useAnalyticsSbSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC12useAnalyticsSbSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -38825,7 +38837,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC14requestTimeoutSdSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC14requestTimeoutSdSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -38935,7 +38951,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC9showPopupSbSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC9showPopupSbSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -39045,7 +39065,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC18instructionsConfigAA28CafInstructionsConfigurationVSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC18instructionsConfigAA28CafInstructionsConfigurationVSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -39155,7 +39179,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC11colorConfigAA18ColorConfigurationVSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC11colorConfigAA18ColorConfigurationVSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -39290,7 +39318,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC08documentB4FlowSayAA0aB4StepCGSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC08documentB4FlowSayAA0aB4StepCGSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -39400,7 +39432,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC08documentB6LayoutAA0abE0CSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC08documentB6LayoutAA0abE0CSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -39510,7 +39546,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC12shouldUploadSbSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC12shouldUploadSbSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -39620,7 +39660,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC20orientationThresholdSdSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC20orientationThresholdSdSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -39730,7 +39774,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC18stabilityThresholdSdSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC18stabilityThresholdSdSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -39840,7 +39888,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC19luminosityThresholdSfSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC19luminosityThresholdSfSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -39950,7 +40002,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC13proxySettingsAA07DDProxyE0CSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC13proxySettingsAA07DDProxyE0CSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -40060,7 +40116,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC11previewShowSbSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC11previewShowSbSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -40170,7 +40230,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC15messageSettingsAA09DDMessageE0CSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC15messageSettingsAA09DDMessageE0CSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -40280,7 +40344,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC16getUrlExpireTimeSSSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC16getUrlExpireTimeSSSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -40390,7 +40458,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC19enableManualCaptureSbSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC19enableManualCaptureSbSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -40500,7 +40572,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC17manualCaptureTimeSdSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC17manualCaptureTimeSdSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -40610,7 +40686,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC19enableMultiLanguageSbSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC19enableMultiLanguageSbSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -40720,7 +40800,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC10resolutionAA13CafResolutionOSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC10resolutionAA13CafResolutionOSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -40830,7 +40914,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC18compressionQuality14CoreFoundation7CGFloatVSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC18compressionQuality12CoreGraphics7CGFloatVSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -40940,7 +41028,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC20currentStepDoneDelaySdSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC20currentStepDoneDelaySdSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -41050,7 +41142,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC14uploadSettingsAA08DDUploadE0CSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC14uploadSettingsAA08DDUploadE0CSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -41160,7 +41256,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC17internationalFlowAA016CafInternationalaE0CSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC17internationalFlowAA016CafInternationalaE0CSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -41270,7 +41370,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC5stageAA10DDCAFStageOSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC5stageAA10DDCAFStageOSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -41380,7 +41484,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC9sessionIdSSSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC9sessionIdSSSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -41514,7 +41622,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC26allowedPassportCountryListSayAA14DDCountryCodesOGSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC26allowedPassportCountryListSayAA14DDCountryCodesOGSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -41699,7 +41811,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC15logEventHandlerySS_SSt_tcSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC15logEventHandlerySS_SSt_tcSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -41809,7 +41925,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC06selectA6ConfigAA08DDSelectaE0VSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC06selectA6ConfigAA08DDSelectaE0VSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -41895,7 +42015,11 @@
                 "usr": "s:16DocumentDetector0aB3SdkC7sdkTypeAA03CafC8PlatformOvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC7sdkTypeAA03CafC8PlatformOvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -42029,7 +42153,125 @@
                 "usr": "s:16DocumentDetector0aB3SdkC13customStringsSayAA15DDCustomization_pGSgvM",
                 "mangledName": "$s16DocumentDetector0aB3SdkC13customStringsSayAA15DDCustomization_pGSgvM",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "entrypoint",
+            "printedName": "entrypoint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector0aB3SdkC10entrypointSSSgvp",
+            "mangledName": "$s16DocumentDetector0aB3SdkC10entrypointSSSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector0aB3SdkC10entrypointSSSgvg",
+                "mangledName": "$s16DocumentDetector0aB3SdkC10entrypointSSSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector0aB3SdkC10entrypointSSSgvs",
+                "mangledName": "$s16DocumentDetector0aB3SdkC10entrypointSSSgvs",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector0aB3SdkC10entrypointSSSgvM",
+                "mangledName": "$s16DocumentDetector0aB3SdkC10entrypointSSSgvM",
+                "moduleName": "DocumentDetector",
+                "deprecated": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -43194,22 +43436,39 @@
               {
                 "kind": "Function",
                 "name": "build",
-                "printedName": "build()",
+                "printedName": "build(entrypoint:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "DocumentDetectorSdk",
                     "printedName": "DocumentDetector.DocumentDetectorSdk",
                     "usr": "c:@M@DocumentDetector@objc(cs)DocumentDetectorSdk"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:16DocumentDetector0aB3SdkC10CafBuilderC5buildACyF",
-                "mangledName": "$s16DocumentDetector0aB3SdkC10CafBuilderC5buildACyF",
+                "usr": "s:16DocumentDetector0aB3SdkC10CafBuilderC5build10entrypointACSSSg_tF",
+                "mangledName": "$s16DocumentDetector0aB3SdkC10CafBuilderC5build10entrypointACSSSg_tF",
                 "moduleName": "DocumentDetector",
+                "deprecated": true,
                 "isOpen": true,
                 "declAttributes": [
-                  "AccessControl"
+                  "AccessControl",
+                  "Available"
                 ],
                 "funcSelfKind": "NonMutating"
               },
@@ -43244,10 +43503,12 @@
             "usr": "s:16DocumentDetector0aB3SdkC10CafBuilderC",
             "mangledName": "$s16DocumentDetector0aB3SdkC10CafBuilderC",
             "moduleName": "DocumentDetector",
+            "deprecated": true,
             "isOpen": true,
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "Available"
             ],
             "superclassUsr": "c:objc(cs)NSObject",
             "superclassNames": [
@@ -43350,10 +43611,12 @@
         "usr": "c:@M@DocumentDetector@objc(cs)DocumentDetectorSdk",
         "mangledName": "$s16DocumentDetector0aB3SdkC",
         "moduleName": "DocumentDetector",
+        "deprecated": true,
         "isOpen": true,
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "Available"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "hasMissingDesignatedInitializers": true,
@@ -51472,7 +51735,7 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "Dictionary",
-      "offset": 505,
+      "offset": 540,
       "length": 3,
       "value": "[]"
     },
@@ -51480,6 +51743,20 @@
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "StringLiteral",
       "offset": 618,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 650,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
       "length": 14,
       "value": "\"install_guid\""
     },
@@ -51685,6 +51962,27 @@
       "offset": 1236,
       "length": 8,
       "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 12,
+      "value": "\"stackTrace\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1315,
+      "length": 13,
+      "value": "\"mobileToken\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1357,
+      "length": 12,
+      "value": "\"entrypoint\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsParams.swift",
@@ -53546,7 +53844,7 @@
       "kind": "StringLiteral",
       "offset": 254,
       "length": 8,
-      "value": "\"16.3.1\""
+      "value": "\"16.4.0\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Utils\/CafDDConstants.swift",
@@ -55658,7 +55956,7 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Input\/DocumentDetectorSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 7342,
+      "offset": 7937,
       "length": 4,
       "value": "true"
     },
@@ -55735,91 +56033,91 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17036,
+      "offset": 17077,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17060,
+      "offset": 17101,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17090,
+      "offset": 17131,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17140,
+      "offset": 17181,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17241,
+      "offset": 17282,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17287,
+      "offset": 17328,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17463,
+      "offset": 17504,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17469,
+      "offset": 17510,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17625,
+      "offset": 17666,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17631,
+      "offset": 17672,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17641,
+      "offset": 17682,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17652,
+      "offset": 17693,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17846,
+      "offset": 17887,
       "length": 1,
       "value": "2"
     },
