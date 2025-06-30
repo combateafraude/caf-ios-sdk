@@ -26428,260 +26428,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CafSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CafSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CafSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CafSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CafSDKProvider",
-        "printedName": "CafSDKProvider",
-        "children": [
-          {
-            "kind": "TypeDecl",
-            "name": "Builder",
-            "printedName": "Builder",
-            "children": [
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(_:mobileToken:personId:environment:configuration:callback:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Builder",
-                    "printedName": "CafSDK.CafSDKProvider.Builder<τ_0_0>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:6CafSDK0A11SDKProviderC7BuilderC"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafEnvironment",
-                    "printedName": "CafSDK.CafEnvironment",
-                    "hasDefaultArg": true,
-                    "usr": "s:6CafSDK0A11EnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafSDKConfiguration",
-                    "printedName": "CafSDK.CafSDKConfiguration",
-                    "usr": "s:6CafSDK0A16SDKConfigurationC"
-                  },
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(CafSDK.CafUnifiedEvent) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CafUnifiedEvent",
-                        "printedName": "CafSDK.CafUnifiedEvent",
-                        "usr": "s:6CafSDK0A12UnifiedEventO"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:6CafSDK0A11SDKProviderC7BuilderC_11mobileToken8personId11environment13configuration8callbackAEy_xGx_S2SAA0A11EnvironmentOAA0A16SDKConfigurationCyAA0A12UnifiedEventOctcfc",
-                "mangledName": "$s6CafSDK0A11SDKProviderC7BuilderC_11mobileToken8personId11environment13configuration8callbackAEy_xGx_S2SAA0A11EnvironmentOAA0A16SDKConfigurationCyAA0A12UnifiedEventOctcfc",
-                "moduleName": "CafSDK",
-                "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIViewController>",
-                "sugared_genericSig": "<Presenter where Presenter : UIKit.UIViewController>",
-                "declAttributes": [
-                  "AccessControl"
-                ],
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Function",
-                "name": "build",
-                "printedName": "build()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafSDKProvider",
-                    "printedName": "CafSDK.CafSDKProvider",
-                    "usr": "s:6CafSDK0A11SDKProviderC"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:6CafSDK0A11SDKProviderC7BuilderC5buildACyF",
-                "mangledName": "$s6CafSDK0A11SDKProviderC7BuilderC5buildACyF",
-                "moduleName": "CafSDK",
-                "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIViewController>",
-                "sugared_genericSig": "<Presenter where Presenter : UIKit.UIViewController>",
-                "declAttributes": [
-                  "AccessControl"
-                ],
-                "funcSelfKind": "NonMutating"
-              }
-            ],
-            "declKind": "Class",
-            "usr": "s:6CafSDK0A11SDKProviderC7BuilderC",
-            "mangledName": "$s6CafSDK0A11SDKProviderC7BuilderC",
-            "moduleName": "CafSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIViewController>",
-            "sugared_genericSig": "<Presenter where Presenter : UIKit.UIViewController>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "start",
-            "printedName": "start()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6CafSDK0A11SDKProviderC5startyyF",
-            "mangledName": "$s6CafSDK0A11SDKProviderC5startyyF",
-            "moduleName": "CafSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:6CafSDK0A11SDKProviderC",
-        "mangledName": "$s6CafSDK0A11SDKProviderC",
-        "moduleName": "CafSDK",
-        "declAttributes": [
-          "Final",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CafSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CafSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CafSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "CafReverseProxyConfig",
         "printedName": "CafReverseProxyConfig",
@@ -27143,6 +26889,260 @@
             "usr": "s:SQ",
             "mangledName": "$sSQ"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CafSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafSDKProvider",
+        "printedName": "CafSDKProvider",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Builder",
+            "printedName": "Builder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(_:mobileToken:personId:environment:configuration:callback:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "CafSDK.CafSDKProvider.Builder<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:6CafSDK0A11SDKProviderC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafEnvironment",
+                    "printedName": "CafSDK.CafEnvironment",
+                    "hasDefaultArg": true,
+                    "usr": "s:6CafSDK0A11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSDKConfiguration",
+                    "printedName": "CafSDK.CafSDKConfiguration",
+                    "usr": "s:6CafSDK0A16SDKConfigurationC"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CafSDK.CafUnifiedEvent) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafUnifiedEvent",
+                        "printedName": "CafSDK.CafUnifiedEvent",
+                        "usr": "s:6CafSDK0A12UnifiedEventO"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6CafSDK0A11SDKProviderC7BuilderC_11mobileToken8personId11environment13configuration8callbackAEy_xGx_S2SAA0A11EnvironmentOAA0A16SDKConfigurationCyAA0A12UnifiedEventOctcfc",
+                "mangledName": "$s6CafSDK0A11SDKProviderC7BuilderC_11mobileToken8personId11environment13configuration8callbackAEy_xGx_S2SAA0A11EnvironmentOAA0A16SDKConfigurationCyAA0A12UnifiedEventOctcfc",
+                "moduleName": "CafSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIViewController>",
+                "sugared_genericSig": "<Presenter where Presenter : UIKit.UIViewController>",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSDKProvider",
+                    "printedName": "CafSDK.CafSDKProvider",
+                    "usr": "s:6CafSDK0A11SDKProviderC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:6CafSDK0A11SDKProviderC7BuilderC5buildACyF",
+                "mangledName": "$s6CafSDK0A11SDKProviderC7BuilderC5buildACyF",
+                "moduleName": "CafSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIViewController>",
+                "sugared_genericSig": "<Presenter where Presenter : UIKit.UIViewController>",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:6CafSDK0A11SDKProviderC7BuilderC",
+            "mangledName": "$s6CafSDK0A11SDKProviderC7BuilderC",
+            "moduleName": "CafSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIViewController>",
+            "sugared_genericSig": "<Presenter where Presenter : UIKit.UIViewController>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CafSDK0A11SDKProviderC5startyyF",
+            "mangledName": "$s6CafSDK0A11SDKProviderC5startyyF",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6CafSDK0A11SDKProviderC",
+        "mangledName": "$s6CafSDK0A11SDKProviderC",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -33219,6 +33219,13 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/Wrappers\/CafReverseProxyConfig.swift",
+      "kind": "Array",
+      "offset": 400,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
       "offset": 174,
@@ -33413,13 +33420,6 @@
       "offset": 366,
       "length": 19,
       "value": "\"com.caf.sdk.queue\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/Wrappers\/CafReverseProxyConfig.swift",
-      "kind": "Array",
-      "offset": 400,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/DebugMode.swift",

@@ -16,7 +16,7 @@ let package = Package(
         .package(url: "https://github.com/iProov/ios.git", .exact("12.3.0")),
         .package(url: "https://github.com/fingerprintjs/fingerprintjs-pro-ios.git", .exact("2.7.0")),
         .package(url: "https://github.com/combateafraude/TensorFlowLiteC.git", .exact("2.14.0")),
-        .package(url: "https://github.com/combateafraude/CafSolutions.git", .exact("2.0.3"))
+        .package(url: "https://github.com/combateafraude/CafSolutions.git", .exact("2.0.5"))
     ],
     targets: [
         // Binary Targets (keep original names)

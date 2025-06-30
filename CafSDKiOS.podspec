@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
     dd.vendored_frameworks = 'Frameworks/DocumentDetector.xcframework'
     dd.dependency 'CafSDKiOS/Core'
     dd.dependency 'TensorFlowLiteC', '2.14.0'
-    dd.dependency 'CafSolutions', '2.0.3'
+    dd.dependency 'CafSolutions', '2.0.5'
   end
 
   # Face Liveness
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
     flc.vendored_frameworks = 'Frameworks/CafFaceLiveness.xcframework'
     flc.dependency 'CafSDKiOS/Core'
     flc.dependency 'FingerprintPro', '2.7.0'
-    flc.dependency 'CafSolutions', '2.0.3'
+    flc.dependency 'CafSolutions', '2.0.5'
   end
 
   # Iproov integration
