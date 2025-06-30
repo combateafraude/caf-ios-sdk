@@ -596,15 +596,6 @@ public enum CafLogLevel : Swift.String {
     get
   }
 }
-@_hasMissingDesignatedInitializers final public class CafSDKProvider {
-  public class Builder<Presenter> where Presenter : UIKit.UIViewController {
-    public init(_ context: Presenter, mobileToken: Swift.String, personId: Swift.String, environment: CafSDK.CafEnvironment = .prod, configuration: CafSDK.CafSDKConfiguration, callback: @escaping (CafSDK.CafUnifiedEvent) -> Swift.Void)
-    public func build() -> CafSDK.CafSDKProvider
-    @objc deinit
-  }
-  final public func start()
-  @objc deinit
-}
 public struct CafReverseProxyConfig : Swift.Codable, Swift.Equatable {
   public var authBaseUrl: Swift.String
   public var livenessBaseUrl: Swift.String
@@ -613,6 +604,15 @@ public struct CafReverseProxyConfig : Swift.Codable, Swift.Equatable {
   public static func == (a: CafSDK.CafReverseProxyConfig, b: CafSDK.CafReverseProxyConfig) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers final public class CafSDKProvider {
+  public class Builder<Presenter> where Presenter : UIKit.UIViewController {
+    public init(_ context: Presenter, mobileToken: Swift.String, personId: Swift.String, environment: CafSDK.CafEnvironment = .prod, configuration: CafSDK.CafSDKConfiguration, callback: @escaping (CafSDK.CafUnifiedEvent) -> Swift.Void)
+    public func build() -> CafSDK.CafSDKProvider
+    @objc deinit
+  }
+  final public func start()
+  @objc deinit
 }
 public struct CafDocumentDetectorConfig {
   public var flow: [CafSDK.CafDocumentDetectorStep]
