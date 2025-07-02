@@ -503,8 +503,9 @@ public struct CafFaceLivenessConfig {
   public var reverseProxyConfig: CafSDK.CafReverseProxyConfig
   public var executeFaceAuth: Swift.Bool
   public var customLocalization: Swift.String?
+  public var maxRetryAttempts: Swift.Int
   public var sdkType: CafSDK.CafSdkPlatform
-  public init(instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), loadingEnabled: Swift.Bool = true, reverseProxyConfig: CafSDK.CafReverseProxyConfig = CafReverseProxyConfig(), executeFaceAuth: Swift.Bool = false, customLocalization: Swift.String? = nil, sdkType: CafSDK.CafSdkPlatform = .nativeIos)
+  public init(instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), loadingEnabled: Swift.Bool = true, reverseProxyConfig: CafSDK.CafReverseProxyConfig = CafReverseProxyConfig(), executeFaceAuth: Swift.Bool = false, customLocalization: Swift.String? = nil, maxRetryAttempts: Swift.Int = -1, sdkType: CafSDK.CafSdkPlatform = .nativeIos)
 }
 public struct CafInstructionsConfiguration {
   public var enabled: Swift.Bool

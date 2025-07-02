@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		giX6d10JsATNO7FHzrlDQa5j7Z8=
+		kNX0acQzCASm1fRmyrMKsVWkvbM=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ltQMszNIoy0LT4XaLgFdVe6YfEM=
+		zZ2q8+ELVqnjq4FweyLnmmpw/YA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -136,7 +136,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xB+J/zoP4fr3qrw7llPytqnzVaCdUrwp/n4rJ5vo4kw=
+			q1rStCGRcOELj4U87j1RdzjYtaEjW3MVV56/9mPJ4V4=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -171,7 +171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cuE21t2/05FrGSok1B+fU/u3ibk7FE1z5728EyNjW8c=
+			eAgHG0csoqACIysiFLRUriewHR8/a7kT5Amb++FkBkI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

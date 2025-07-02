@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOS'
-  s.version          = '5.0.0'
+  s.version          = '5.0.1'
   s.summary          = 'Caf iOS SDK'
   s.homepage         = 'https://github.com/combateafraude/caf-ios-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
   # Iproov integration
   s.subspec 'IproovProvider' do |ip|
     ip.vendored_frameworks = 'Frameworks/IproovProvider.xcframework'
-    ip.dependency 'iProov', '12.3.0'
+    ip.dependency 'iProov', '12.3.1'
     ip.dependency 'CafSDKiOS/CafFaceLivenessCore'
   end
 

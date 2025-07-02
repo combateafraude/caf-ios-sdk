@@ -20683,6 +20683,91 @@
           },
           {
             "kind": "Var",
+            "name": "maxRetryAttempts",
+            "printedName": "maxRetryAttempts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A18FaceLivenessConfigV16maxRetryAttemptsSivp",
+            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV16maxRetryAttemptsSivp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV16maxRetryAttemptsSivg",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV16maxRetryAttemptsSivg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV16maxRetryAttemptsSivs",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV16maxRetryAttemptsSivs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV16maxRetryAttemptsSivM",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV16maxRetryAttemptsSivM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "sdkType",
             "printedName": "sdkType",
             "children": [
@@ -20769,7 +20854,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(instructionsConfig:loadingEnabled:reverseProxyConfig:executeFaceAuth:customLocalization:sdkType:)",
+            "printedName": "init(instructionsConfig:loadingEnabled:reverseProxyConfig:executeFaceAuth:customLocalization:maxRetryAttempts:sdkType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -20822,6 +20907,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "CafSdkPlatform",
                 "printedName": "CafSDK.CafSdkPlatform",
                 "hasDefaultArg": true,
@@ -20829,8 +20921,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled012reverseProxyE007executeC4Auth18customLocalization7sdkTypeAcA0A25InstructionsConfigurationV_SbAA0a7ReversejE0VSbSSSgAA0A11SdkPlatformOtcfc",
-            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled012reverseProxyE007executeC4Auth18customLocalization7sdkTypeAcA0A25InstructionsConfigurationV_SbAA0a7ReversejE0VSbSSSgAA0A11SdkPlatformOtcfc",
+            "usr": "s:6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled012reverseProxyE007executeC4Auth18customLocalization16maxRetryAttempts7sdkTypeAcA0A25InstructionsConfigurationV_SbAA0a7ReversejE0VSbSSSgSiAA0A11SdkPlatformOtcfc",
+            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled012reverseProxyE007executeC4Auth18customLocalization16maxRetryAttempts7sdkTypeAcA0A25InstructionsConfigurationV_SbAA0a7ReversejE0VSbSSSgSiAA0A11SdkPlatformOtcfc",
             "moduleName": "CafSDK",
             "declAttributes": [
               "AccessControl"
@@ -33095,16 +33187,23 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 4190,
+      "offset": 4227,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 4321,
+      "offset": 4358,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4456,
+      "length": 2,
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
