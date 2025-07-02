@@ -5599,6 +5599,96 @@
           },
           {
             "kind": "Var",
+            "name": "maxRetryAttempts",
+            "printedName": "maxRetryAttempts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CafFaceLiveness0abC3SDKC16maxRetryAttemptsSivp",
+            "mangledName": "$s15CafFaceLiveness0abC3SDKC16maxRetryAttemptsSivp",
+            "moduleName": "CafFaceLiveness",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0abC3SDKC16maxRetryAttemptsSivg",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC16maxRetryAttemptsSivg",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0abC3SDKC16maxRetryAttemptsSivs",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC16maxRetryAttemptsSivs",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0abC3SDKC16maxRetryAttemptsSivM",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC16maxRetryAttemptsSivM",
+                "moduleName": "CafFaceLiveness",
+                "deprecated": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "logEventHandler",
             "printedName": "logEventHandler",
             "children": [
@@ -6338,6 +6428,34 @@
                 "declKind": "Func",
                 "usr": "s:15CafFaceLiveness0abC3SDKC0abC7BuilderC10setSdkType4typeAESS_tF",
                 "mangledName": "$s15CafFaceLiveness0abC3SDKC0abC7BuilderC10setSdkType4typeAESS_tF",
+                "moduleName": "CafFaceLiveness",
+                "isOpen": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setMaxRetryAttempts",
+                "printedName": "setMaxRetryAttempts(attempts:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafFaceLivenessBuilder",
+                    "printedName": "CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder",
+                    "usr": "s:15CafFaceLiveness0abC3SDKC0abC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15CafFaceLiveness0abC3SDKC0abC7BuilderC19setMaxRetryAttempts8attemptsAESi_tF",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC0abC7BuilderC19setMaxRetryAttempts8attemptsAESi_tF",
                 "moduleName": "CafFaceLiveness",
                 "isOpen": true,
                 "declAttributes": [
@@ -10306,9 +10424,16 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/CafFaceLivenessSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 9919,
+      "offset": 10330,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/ViewModel\/CafFaceLivenessViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2959,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",

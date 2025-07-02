@@ -161,6 +161,7 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
     get
     set
   }
+  public var maxRetryAttempts: Swift.Int
   public var logEventHandler: (((Swift.String, Swift.String)) -> Swift.Void)?
   weak public var delegate: (any CafFaceLiveness.CafFaceLivenessDelegate)?
   public var entrypoint: Swift.String?
@@ -177,6 +178,7 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
     open func setColorConfiguration(colorConfig: CafFaceLiveness.ColorConfiguration) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setCustomLocalization(path: Swift.String?) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setSdkType(type: Swift.String) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setMaxRetryAttempts(attempts: Swift.Int) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
     open func build(entrypoint: Swift.String? = nil) -> CafFaceLiveness.CafFaceLivenessSDK
     @objc deinit
