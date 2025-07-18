@@ -5529,6 +5529,311 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceTec2DProvider"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafSecurityUtils",
+        "printedName": "CafSecurityUtils",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "clearAllCaches",
+            "printedName": "clearAllCaches()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC14clearAllCachesyyFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC14clearAllCachesyyFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sanitizeString",
+            "printedName": "sanitizeString(_:sensitiveFields:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC14sanitizeString_15sensitiveFieldsS2S_SaySSGtFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC14sanitizeString_15sensitiveFieldsS2S_SaySSGtFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validateNoSensitiveDataInLogs",
+            "printedName": "validateNoSensitiveDataInLogs(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC29validateNoSensitiveDataInLogsySb10Foundation0J0VFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC29validateNoSensitiveDataInLogsySb10Foundation0J0VFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isDeviceSecure",
+            "printedName": "isDeviceSecure()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC14isDeviceSecureSbyFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC14isDeviceSecureSbyFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "secureOverwrite",
+            "printedName": "secureOverwrite(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "paramValueOwnership": "InOut",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC15secureOverwriteyy10Foundation4DataVzFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC15secureOverwriteyy10Foundation4DataVzFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "secureOverwrite",
+            "printedName": "secureOverwrite(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "paramValueOwnership": "InOut",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC15secureOverwriteyySSzFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC15secureOverwriteyySSzFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createSecureURLSessionConfiguration",
+            "printedName": "createSecureURLSessionConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionConfiguration",
+                "printedName": "Foundation.URLSessionConfiguration",
+                "usr": "c:objc(cs)NSURLSessionConfiguration"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC35createSecureURLSessionConfigurationSo012NSURLSessionJ0CyFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC35createSecureURLSessionConfigurationSo012NSURLSessionJ0CyFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addCacheControlHeaders",
+            "printedName": "addCacheControlHeaders(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "paramValueOwnership": "InOut",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC22addCacheControlHeaders2toy10Foundation10URLRequestVz_tFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC22addCacheControlHeaders2toy10Foundation10URLRequestVz_tFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sanitizeDataForLogging",
+            "printedName": "sanitizeDataForLogging(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC22sanitizeDataForLoggingy10Foundation0H0VAGFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC22sanitizeDataForLoggingy10Foundation0H0VAGFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC",
+        "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC",
+        "moduleName": "FaceTec2DProvider",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceTec2DProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -8218,6 +8523,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 874,
+      "length": 83,
+      "value": "[\"token\", \"mobileToken\", \"personId\", \"authorization\", \"bearer\", \"attestationToken\"]"
+    },
+    {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-service\/CafService.swift",
       "kind": "StringLiteral",
       "offset": 366,
@@ -8260,70 +8572,70 @@
       "value": "\"The authetication URL protocol must be HTTPS.\""
     },
     {
-      "filePath": "\/var\/root\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/marcus.seixas\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 734,
       "length": 13,
       "value": "\"camera_icon\""
     },
     {
-      "filePath": "\/var\/root\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/marcus.seixas\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 887,
       "length": 20,
       "value": "\"confirmation_image\""
     },
     {
-      "filePath": "\/var\/root\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/marcus.seixas\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1029,
       "length": 11,
       "value": "\"doc_image\""
     },
     {
-      "filePath": "\/var\/root\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/marcus.seixas\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1164,
       "length": 12,
       "value": "\"face_image\""
     },
     {
-      "filePath": "\/var\/root\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/marcus.seixas\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1309,
       "length": 14,
       "value": "\"failure_icon\""
     },
     {
-      "filePath": "\/var\/root\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/marcus.seixas\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1447,
       "length": 9,
       "value": "\"loading\""
     },
     {
-      "filePath": "\/var\/root\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/marcus.seixas\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1594,
       "length": 17,
       "value": "\"mask_face_white\""
     },
     {
-      "filePath": "\/var\/root\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/marcus.seixas\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1744,
       "length": 14,
       "value": "\"success_icon\""
     },
     {
-      "filePath": "\/var\/root\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/marcus.seixas\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1886,
       "length": 14,
       "value": "\"upload_image\""
     },
     {
-      "filePath": "\/var\/root\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/marcus.seixas\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-bvskfthyahzmxtadwtwierzparnu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FaceTec2DProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FaceTec2DProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2021,
       "length": 8,

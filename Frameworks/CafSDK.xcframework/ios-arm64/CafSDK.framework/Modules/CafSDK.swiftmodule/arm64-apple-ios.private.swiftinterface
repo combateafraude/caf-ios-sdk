@@ -615,6 +615,18 @@ public struct CafReverseProxyConfig : Swift.Codable, Swift.Equatable {
   final public func start()
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class CafSecurityUtils {
+  public static func clearAllCaches()
+  public static func sanitizeString(_ input: Swift.String, sensitiveFields: [Swift.String] = ["token", "mobileToken", "personId", "authorization", "bearer", "attestationToken"]) -> Swift.String
+  public static func validateNoSensitiveDataInLogs(_ data: Foundation.Data) -> Swift.Bool
+  public static func isDeviceSecure() -> Swift.Bool
+  public static func secureOverwrite(_ data: inout Foundation.Data)
+  public static func secureOverwrite(_ string: inout Swift.String)
+  public static func createSecureURLSessionConfiguration() -> Foundation.URLSessionConfiguration
+  public static func addCacheControlHeaders(to request: inout Foundation.URLRequest)
+  public static func sanitizeDataForLogging(_ data: Foundation.Data) -> Foundation.Data
+  @objc deinit
+}
 public struct CafDocumentDetectorConfig {
   public var flow: [CafSDK.CafDocumentDetectorStep]
   public var layout: CafSDK.CafDocumentDetectorLayout
@@ -633,7 +645,8 @@ public struct CafDocumentDetectorConfig {
   public var allowedPassportCountryList: [CafSDK.CafCountryCode]?
   public var selectDocumentConfig: CafSDK.CafSelectDocumentConfig?
   public var sdkType: CafSDK.CafSdkPlatform
-  public init(flow: [CafSDK.CafDocumentDetectorStep] = [], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: false), instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), manualCaptureEnabled: Swift.Bool = true, manualCaptureTime: Foundation.TimeInterval = 45, requestTimeout: Foundation.TimeInterval = 60, showPopup: Swift.Bool = true, proxySettings: CafSDK.CafProxySettings? = nil, previewShow: Swift.Bool = false, ddCustomizations: [any CafSDK.CafDDCustomization] = [], getUrlExpireTime: Swift.String? = nil, enableMultiLanguage: Swift.Bool = true, currentStepDoneDelay: Foundation.TimeInterval = 1, allowedPassportCountryList: [CafSDK.CafCountryCode]? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil, sdkType: CafSDK.CafSdkPlatform = .nativeIos)
+  public var maxRetryAttempts: Swift.Int
+  public init(flow: [CafSDK.CafDocumentDetectorStep] = [], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: false), instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), manualCaptureEnabled: Swift.Bool = true, manualCaptureTime: Foundation.TimeInterval = 45, requestTimeout: Foundation.TimeInterval = 60, showPopup: Swift.Bool = true, proxySettings: CafSDK.CafProxySettings? = nil, previewShow: Swift.Bool = false, ddCustomizations: [any CafSDK.CafDDCustomization] = [], getUrlExpireTime: Swift.String? = nil, enableMultiLanguage: Swift.Bool = true, currentStepDoneDelay: Foundation.TimeInterval = 1, allowedPassportCountryList: [CafSDK.CafCountryCode]? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil, sdkType: CafSDK.CafSdkPlatform = .nativeIos, maxRetryAttempts: Swift.Int = 2)
 }
 extension CafSDK.CafEnvironment : Swift.Equatable {}
 extension CafSDK.CafEnvironment : Swift.Hashable {}

@@ -144,6 +144,18 @@ public enum CafLogLevel : Swift.String {
     get
   }
 }
+@_hasMissingDesignatedInitializers public class CafSecurityUtils {
+  public static func clearAllCaches()
+  public static func sanitizeString(_ input: Swift.String, sensitiveFields: [Swift.String] = ["token", "mobileToken", "personId", "authorization", "bearer", "attestationToken"]) -> Swift.String
+  public static func validateNoSensitiveDataInLogs(_ data: Foundation.Data) -> Swift.Bool
+  public static func isDeviceSecure() -> Swift.Bool
+  public static func secureOverwrite(_ data: inout Foundation.Data)
+  public static func secureOverwrite(_ string: inout Swift.String)
+  public static func createSecureURLSessionConfiguration() -> Foundation.URLSessionConfiguration
+  public static func addCacheControlHeaders(to request: inout Foundation.URLRequest)
+  public static func sanitizeDataForLogging(_ data: Foundation.Data) -> Foundation.Data
+  @objc deinit
+}
 extension IproovProvider.CafEnvironment : Swift.Equatable {}
 extension IproovProvider.CafEnvironment : Swift.Hashable {}
 extension IproovProvider.CafEnvironment : Swift.RawRepresentable {}
