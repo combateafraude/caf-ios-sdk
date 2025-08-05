@@ -1810,9 +1810,129 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "dialogBackgroundColor",
+            "printedName": "dialogBackgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector18ColorConfigurationV016dialogBackgroundC0SSSgvp",
+            "mangledName": "$s16DocumentDetector18ColorConfigurationV016dialogBackgroundC0SSSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector18ColorConfigurationV016dialogBackgroundC0SSSgvg",
+                "mangledName": "$s16DocumentDetector18ColorConfigurationV016dialogBackgroundC0SSSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dialogBorderColor",
+            "printedName": "dialogBorderColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector18ColorConfigurationV012dialogBorderC0SSSgvp",
+            "mangledName": "$s16DocumentDetector18ColorConfigurationV012dialogBorderC0SSSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector18ColorConfigurationV012dialogBorderC0SSSgvg",
+                "mangledName": "$s16DocumentDetector18ColorConfigurationV012dialogBorderC0SSSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(primaryColor:secondaryColor:contentColor:backgroundColor:mediumColor:)",
+            "printedName": "init(primaryColor:secondaryColor:contentColor:backgroundColor:mediumColor:dialogBackgroundColor:dialogBorderColor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1894,11 +2014,41 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16DocumentDetector18ColorConfigurationV07primaryC009secondaryC007contentC0010backgroundC006mediumC0ACSSSg_A4Itcfc",
-            "mangledName": "$s16DocumentDetector18ColorConfigurationV07primaryC009secondaryC007contentC0010backgroundC006mediumC0ACSSSg_A4Itcfc",
+            "usr": "s:16DocumentDetector18ColorConfigurationV07primaryC009secondaryC007contentC0010backgroundC006mediumC0016dialogBackgroundC00j6BorderC0ACSSSg_A6Ktcfc",
+            "mangledName": "$s16DocumentDetector18ColorConfigurationV07primaryC009secondaryC007contentC0010backgroundC006mediumC0016dialogBackgroundC00j6BorderC0ACSSSg_A6Ktcfc",
             "moduleName": "DocumentDetector",
             "declAttributes": [
               "AccessControl"
@@ -53030,42 +53180,56 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/Models\/CafColorConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 853,
+      "offset": 1155,
       "length": 9,
       "value": "\"#34D690\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/Models\/CafColorConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1022,
+      "offset": 1324,
       "length": 9,
       "value": "\"#012D1F\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/Models\/CafColorConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1153,
+      "offset": 1455,
       "length": 9,
       "value": "\"#CDCDCD\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/Models\/CafColorConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1181,
+      "offset": 1483,
       "length": 9,
       "value": "\"#323232\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/Models\/CafColorConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1394,
+      "offset": 1696,
       "length": 9,
       "value": "\"#D1D1D1\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/Models\/CafColorConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1454,
+      "offset": 1841,
+      "length": 9,
+      "value": "\"#1C1C1E\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/Models\/CafColorConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1934,
+      "length": 9,
+      "value": "\"#E5E5E7\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/Models\/CafColorConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1994,
       "length": 9,
       "value": "\"#BDBDBD\""
     },
@@ -54467,7 +54631,7 @@
       "kind": "StringLiteral",
       "offset": 254,
       "length": 8,
-      "value": "\"16.6.0\""
+      "value": "\"16.7.0\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Utils\/CafDDConstants.swift",
@@ -57348,113 +57512,120 @@
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 598,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "FloatLiteral",
-      "offset": 592,
+      "offset": 716,
       "length": 5,
       "value": "0.318"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "FloatLiteral",
-      "offset": 606,
+      "offset": 730,
       "length": 5,
       "value": "0.318"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "FloatLiteral",
-      "offset": 619,
+      "offset": 743,
       "length": 5,
       "value": "0.318"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "FloatLiteral",
-      "offset": 633,
+      "offset": 757,
       "length": 4,
       "value": "0.12"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 682,
+      "offset": 806,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 758,
+      "offset": 882,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 795,
+      "offset": 919,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1197,
+      "offset": 1321,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1231,
+      "offset": 1355,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1509,
+      "offset": 1633,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1543,
+      "offset": 1667,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1740,
+      "offset": 1864,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1852,
+      "offset": 1976,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2087,
+      "offset": 2211,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2292,
+      "offset": 2416,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/View\/UploadValidationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2597,
+      "offset": 2721,
       "length": 2,
       "value": "24"
     },
