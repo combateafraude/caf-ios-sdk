@@ -82,6 +82,9 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case libraryException
   case permissionException
   case invalidResponseException
+  case cameraException
+  case certificateException
+  case invalidOptionsException
   public init?(rawValue: Swift.String)
   public typealias AllCases = [IproovProvider.CafErrorType]
   public typealias RawValue = Swift.String

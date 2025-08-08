@@ -83,6 +83,9 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case libraryException
   case permissionException
   case invalidResponseException
+  case cameraException
+  case certificateException
+  case invalidOptionsException
   public init?(rawValue: Swift.String)
   public typealias AllCases = [CafFaceLiveness.CafErrorType]
   public typealias RawValue = Swift.String
@@ -182,7 +185,7 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
     open func setSdkType(type: Swift.String) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setMaxRetryAttempts(attempts: Swift.Int) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
-    open func build(entrypoint: Swift.String? = nil) -> CafFaceLiveness.CafFaceLivenessSDK
+    open func build(entrypoint: Swift.String? = nil, cafSdkVersion: Swift.String = "") -> CafFaceLiveness.CafFaceLivenessSDK
     @objc deinit
   }
   @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")

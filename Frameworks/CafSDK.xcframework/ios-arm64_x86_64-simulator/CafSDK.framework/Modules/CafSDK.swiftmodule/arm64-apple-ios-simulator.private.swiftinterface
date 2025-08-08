@@ -81,6 +81,9 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case libraryException
   case permissionException
   case invalidResponseException
+  case cameraException
+  case certificateException
+  case invalidOptionsException
   public init?(rawValue: Swift.String)
   public typealias AllCases = [CafSDK.CafErrorType]
   public typealias RawValue = Swift.String
@@ -582,7 +585,8 @@ public class CafSDKConfiguration {
   public var nextStepContent: CafSDK.CafConfirmationNextStepContent?
   final public let colorConfig: CafSDK.CafColorConfiguration?
   public var waitForAllServices: Swift.Bool
-  public init(presentationOrder: [CafSDK.CafModuleType], colorConfig: CafSDK.CafColorConfiguration? = nil, nextStepContent: CafSDK.CafConfirmationNextStepContent? = nil, waitForAllServices: Swift.Bool = true)
+  public var enableTransitionScreens: Swift.Bool
+  public init(presentationOrder: [CafSDK.CafModuleType], colorConfig: CafSDK.CafColorConfiguration? = nil, nextStepContent: CafSDK.CafConfirmationNextStepContent? = nil, waitForAllServices: Swift.Bool = true, enableTransitionScreens: Swift.Bool = true)
   @objc deinit
 }
 extension CafSDK.CafSDKConfiguration {

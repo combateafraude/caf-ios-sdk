@@ -122,6 +122,9 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case libraryException
   case permissionException
   case invalidResponseException
+  case cameraException
+  case certificateException
+  case invalidOptionsException
   public init?(rawValue: Swift.String)
   public typealias AllCases = [DocumentDetector.CafErrorType]
   public typealias RawValue = Swift.String
@@ -868,6 +871,7 @@ public protocol Delegate : AnyObject {
   public var customStrings: [any DocumentDetector.DDCustomization]?
   public var entrypoint: Swift.String?
   public var maxRetryAttempts: Swift.Int!
+  public var cafSdkVersion: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
   @objc open class CafBuilder : ObjectiveC.NSObject {
@@ -899,7 +903,7 @@ public protocol Delegate : AnyObject {
     open func setSdkType(type: Swift.String) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setMaxRetryAttempts(maxRetryAttempts: Swift.Int) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
-    open func build(entrypoint: Swift.String? = nil) -> DocumentDetector.DocumentDetectorSdk
+    open func build(entrypoint: Swift.String? = nil, cafSdkVersion: Swift.String = "") -> DocumentDetector.DocumentDetectorSdk
     @objc deinit
   }
   @objc deinit
