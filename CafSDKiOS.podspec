@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOS'
-  s.version          = '5.4.1'
+  s.version          = '5.4.2'
   s.summary          = 'Caf iOS SDK'
   s.homepage         = 'https://github.com/combateafraude/caf-ios-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'CafSDK'
 
   # Main SDK framework
-  s.subspec 'Core' do |core|
+  s.subspec 'CafCore' do |core|
     core.vendored_frameworks = 'Frameworks/CafSDK.xcframework'
   end
 
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # Document Detector component
   s.subspec 'DocumentDetector' do |dd|
     dd.vendored_frameworks = 'Frameworks/DocumentDetector.xcframework'
-    dd.dependency 'CafSDKiOS/Core'
+    dd.dependency 'CafSDKiOS/CafCore'
     dd.dependency 'TensorFlowLiteC', '2.14.0'
     dd.dependency 'CafSolutions', '2.0.5'
   end
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   # Face Liveness core
   s.subspec 'CafFaceLivenessCore' do |flc|
     flc.vendored_frameworks = 'Frameworks/CafFaceLiveness.xcframework'
-    flc.dependency 'CafSDKiOS/Core'
+    flc.dependency 'CafSDKiOS/CafCore'
     flc.dependency 'FingerprintPro', '2.7.0'
     flc.dependency 'CafSolutions', '2.0.5'
   end

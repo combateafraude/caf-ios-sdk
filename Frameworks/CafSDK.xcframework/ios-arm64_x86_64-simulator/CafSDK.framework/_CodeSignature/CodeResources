@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ztehQItu4BLlJV2OIj9SBk75ILs=
+		WvIuATw7A3QWwRYubFpWkaDdaeA=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ckWpUeGAI7W+G4EndegZQQ2cZbM=
+		/bJDGDmvgPZdDVj+GCkspIHwW7Q=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KB6X6nZfFRsuklbzuFivwe737uI=
+		RjMuHWLF4PdGSEqjtxHzcVVOUbo=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ckWpUeGAI7W+G4EndegZQQ2cZbM=
+		/bJDGDmvgPZdDVj+GCkspIHwW7Q=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zjPTH2DM4DPuvaqQeDZghm/Snig=
+		NK+rwgNpm4CutZOtYQ15OtfoaqU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -117,7 +117,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			im4zGrrBxM3lQ3gndHX1LQ8qoEM82EmDv2vfch0nx1c=
+			EUZdzbHlWdpIQVONFewHLcSQ5xU0JHaTdOEi4O5PKYM=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -145,14 +145,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yw3WP8UQ6ynnPwYYyI7Iaaa9E6T96BQzQb8Pw6uifkQ=
+			MX2jnR1Hj6dfx7Xo8O0csqaB5SGRu3zuuYs08cG+VII=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			im4zGrrBxM3lQ3gndHX1LQ8qoEM82EmDv2vfch0nx1c=
+			EUZdzbHlWdpIQVONFewHLcSQ5xU0JHaTdOEi4O5PKYM=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -180,7 +180,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xapuAK3IQ4+O9d+qokY8aBWR81w+Bx2XL7WODZzJsLc=
+			kciwJ2aR2cGLnDBfhpaN0iJeqr4/fKMamBOegAoYXjQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
