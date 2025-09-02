@@ -11260,7 +11260,7 @@
       "kind": "StringLiteral",
       "offset": 376,
       "length": 7,
-      "value": "\"4.5.0\""
+      "value": "\"4.5.1\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",

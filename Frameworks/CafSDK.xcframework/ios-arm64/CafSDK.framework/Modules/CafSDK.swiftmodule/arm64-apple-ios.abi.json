@@ -34292,28 +34292,28 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 4227,
+      "offset": 4493,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 4358,
+      "offset": 4624,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 4456,
+      "offset": 4722,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "StringLiteral",
-      "offset": 5464,
+      "offset": 5730,
       "length": 2,
       "value": "\"\""
     },
@@ -34455,7 +34455,7 @@
       "kind": "StringLiteral",
       "offset": 217,
       "length": 7,
-      "value": "\"5.4.1\""
+      "value": "\"5.4.2\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
@@ -34691,84 +34691,84 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "Array",
-      "offset": 4325,
+      "offset": 4794,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 4488,
+      "offset": 4957,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 4697,
+      "offset": 5166,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 4753,
+      "offset": 5222,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 4804,
+      "offset": 5273,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 4842,
+      "offset": 5311,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 4940,
+      "offset": 5409,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "Array",
-      "offset": 5004,
+      "offset": 5473,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 5101,
+      "offset": 5570,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 5160,
+      "offset": 5629,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 5396,
+      "offset": 5865,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "StringLiteral",
-      "offset": 6930,
+      "offset": 7399,
       "length": 2,
       "value": "\"\""
     },

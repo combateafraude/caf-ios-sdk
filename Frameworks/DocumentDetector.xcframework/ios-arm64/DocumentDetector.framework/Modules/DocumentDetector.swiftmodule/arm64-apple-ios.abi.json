@@ -55030,7 +55030,7 @@
       "kind": "StringLiteral",
       "offset": 254,
       "length": 8,
-      "value": "\"16.9.0\""
+      "value": "\"16.9.1\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Utils\/CafDDConstants.swift",
