@@ -10,7 +10,8 @@ let package = Package(
         .library(name: "DocumentDetector", targets: ["DocumentDetectorTarget"]),
         .library(name: "CafFaceLiveness", targets: ["CafFaceLivenessTarget"]),
         .library(name: "IproovProvider", targets: ["IproovProviderTarget"]),
-        .library(name: "FaceTec2DProvider", targets: ["FaceTec2DProviderTarget"])
+        .library(name: "FaceTec2DProvider", targets: ["FaceTec2DProviderTarget"]),
+        .library(name: "FortfaceProvider", targets: ["FortfaceProviderTarget"])
     ],
     dependencies: [
         .package(url: "https://github.com/iProov/ios.git", .exact("12.3.1")),
@@ -25,6 +26,8 @@ let package = Package(
         .binaryTarget(name: "CafFaceLiveness", path: "Frameworks/CafFaceLiveness.xcframework"),
         .binaryTarget(name: "IproovProvider", path: "Frameworks/IproovProvider.xcframework"),
         .binaryTarget(name: "FaceTec2DProvider", path: "Frameworks/FaceTec2DProvider.xcframework"),
+        .binaryTarget(name: "Fortface", path: "Frameworks/Fortface.xcframework"),
+        .binaryTarget(name: "FortfaceProvider", path: "Frameworks/FortfaceProvider.xcframework"),
 
         // Main CafSDK target
         .target(
@@ -78,13 +81,25 @@ let package = Package(
             path: "Sources/FaceTec2DProvider"
         ),
 
+        // Fortface Provider
+        .target(
+            name: "FortfaceProviderTarget",
+            dependencies: [
+                "FortfaceProvider",
+                "Fortface",
+                "CafFaceLivenessCoreTarget"
+            ],
+            path: "Sources/FortfaceProvider"
+        ),
+
         // CafFaceLiveness
         .target(
             name: "CafFaceLivenessTarget",
             dependencies: [
                 "CafFaceLivenessCoreTarget",
                 "IproovProviderTarget",
-                "FaceTec2DProviderTarget"
+                "FaceTec2DProviderTarget",
+                "FortfaceProviderTarget"
             ],
             path: "Sources/CafFaceLiveness"
         )
