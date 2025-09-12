@@ -20392,13 +20392,871 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "CafDocumentTypeKey",
+        "printedName": "CafDocumentTypeKey",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rg",
+            "printedName": "rg",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CafDocumentTypeKey.Type) -> CafSDK.CafDocumentTypeKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentTypeKey",
+                    "printedName": "CafSDK.CafDocumentTypeKey",
+                    "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.CafDocumentTypeKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentTypeKey",
+                        "printedName": "CafSDK.CafDocumentTypeKey",
+                        "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK0A15DocumentTypeKeyO2rgyA2CmF",
+            "mangledName": "$s6CafSDK0A15DocumentTypeKeyO2rgyA2CmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "rgDigital",
+            "printedName": "rgDigital",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CafDocumentTypeKey.Type) -> CafSDK.CafDocumentTypeKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentTypeKey",
+                    "printedName": "CafSDK.CafDocumentTypeKey",
+                    "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.CafDocumentTypeKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentTypeKey",
+                        "printedName": "CafSDK.CafDocumentTypeKey",
+                        "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK0A15DocumentTypeKeyO9rgDigitalyA2CmF",
+            "mangledName": "$s6CafSDK0A15DocumentTypeKeyO9rgDigitalyA2CmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "cnh",
+            "printedName": "cnh",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CafDocumentTypeKey.Type) -> CafSDK.CafDocumentTypeKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentTypeKey",
+                    "printedName": "CafSDK.CafDocumentTypeKey",
+                    "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.CafDocumentTypeKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentTypeKey",
+                        "printedName": "CafSDK.CafDocumentTypeKey",
+                        "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK0A15DocumentTypeKeyO3cnhyA2CmF",
+            "mangledName": "$s6CafSDK0A15DocumentTypeKeyO3cnhyA2CmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "cnhDigital",
+            "printedName": "cnhDigital",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CafDocumentTypeKey.Type) -> CafSDK.CafDocumentTypeKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentTypeKey",
+                    "printedName": "CafSDK.CafDocumentTypeKey",
+                    "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.CafDocumentTypeKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentTypeKey",
+                        "printedName": "CafSDK.CafDocumentTypeKey",
+                        "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK0A15DocumentTypeKeyO10cnhDigitalyA2CmF",
+            "mangledName": "$s6CafSDK0A15DocumentTypeKeyO10cnhDigitalyA2CmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "crlv",
+            "printedName": "crlv",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CafDocumentTypeKey.Type) -> CafSDK.CafDocumentTypeKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentTypeKey",
+                    "printedName": "CafSDK.CafDocumentTypeKey",
+                    "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.CafDocumentTypeKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentTypeKey",
+                        "printedName": "CafSDK.CafDocumentTypeKey",
+                        "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK0A15DocumentTypeKeyO4crlvyA2CmF",
+            "mangledName": "$s6CafSDK0A15DocumentTypeKeyO4crlvyA2CmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "rne",
+            "printedName": "rne",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CafDocumentTypeKey.Type) -> CafSDK.CafDocumentTypeKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentTypeKey",
+                    "printedName": "CafSDK.CafDocumentTypeKey",
+                    "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.CafDocumentTypeKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentTypeKey",
+                        "printedName": "CafSDK.CafDocumentTypeKey",
+                        "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK0A15DocumentTypeKeyO3rneyA2CmF",
+            "mangledName": "$s6CafSDK0A15DocumentTypeKeyO3rneyA2CmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "ctps",
+            "printedName": "ctps",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CafDocumentTypeKey.Type) -> CafSDK.CafDocumentTypeKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentTypeKey",
+                    "printedName": "CafSDK.CafDocumentTypeKey",
+                    "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.CafDocumentTypeKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentTypeKey",
+                        "printedName": "CafSDK.CafDocumentTypeKey",
+                        "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK0A15DocumentTypeKeyO4ctpsyA2CmF",
+            "mangledName": "$s6CafSDK0A15DocumentTypeKeyO4ctpsyA2CmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "passport",
+            "printedName": "passport",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CafDocumentTypeKey.Type) -> CafSDK.CafDocumentTypeKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentTypeKey",
+                    "printedName": "CafSDK.CafDocumentTypeKey",
+                    "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.CafDocumentTypeKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentTypeKey",
+                        "printedName": "CafSDK.CafDocumentTypeKey",
+                        "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK0A15DocumentTypeKeyO8passportyA2CmF",
+            "mangledName": "$s6CafSDK0A15DocumentTypeKeyO8passportyA2CmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "any",
+            "printedName": "any",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CafDocumentTypeKey.Type) -> CafSDK.CafDocumentTypeKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentTypeKey",
+                    "printedName": "CafSDK.CafDocumentTypeKey",
+                    "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.CafDocumentTypeKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentTypeKey",
+                        "printedName": "CafSDK.CafDocumentTypeKey",
+                        "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK0A15DocumentTypeKeyO3anyyA2CmF",
+            "mangledName": "$s6CafSDK0A15DocumentTypeKeyO3anyyA2CmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CafSDK.CafDocumentTypeKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentTypeKey",
+                    "printedName": "CafSDK.CafDocumentTypeKey",
+                    "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6CafSDK0A15DocumentTypeKeyO8rawValueACSgSS_tcfc",
+            "mangledName": "$s6CafSDK0A15DocumentTypeKeyO8rawValueACSgSS_tcfc",
+            "moduleName": "CafSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A15DocumentTypeKeyO8rawValueSSvp",
+            "mangledName": "$s6CafSDK0A15DocumentTypeKeyO8rawValueSSvp",
+            "moduleName": "CafSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A15DocumentTypeKeyO8rawValueSSvg",
+                "mangledName": "$s6CafSDK0A15DocumentTypeKeyO8rawValueSSvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CafSDK.CafDocumentTypeKey]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentTypeKey",
+                    "printedName": "CafSDK.CafDocumentTypeKey",
+                    "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A15DocumentTypeKeyO8allCasesSayACGvpZ",
+            "mangledName": "$s6CafSDK0A15DocumentTypeKeyO8allCasesSayACGvpZ",
+            "moduleName": "CafSDK",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CafSDK.CafDocumentTypeKey]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentTypeKey",
+                        "printedName": "CafSDK.CafDocumentTypeKey",
+                        "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A15DocumentTypeKeyO8allCasesSayACGvgZ",
+                "mangledName": "$s6CafSDK0A15DocumentTypeKeyO8allCasesSayACGvgZ",
+                "moduleName": "CafSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6CafSDK0A15DocumentTypeKeyO",
+        "mangledName": "$s6CafSDK0A15DocumentTypeKeyO",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CafSDK.CafDocumentTypeKey]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentTypeKey",
+                        "printedName": "CafSDK.CafDocumentTypeKey",
+                        "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "CafSelectDocumentConfig",
         "printedName": "CafSelectDocumentConfig",
         "children": [
           {
+            "kind": "Var",
+            "name": "screenTitle",
+            "printedName": "screenTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A20SelectDocumentConfigV11screenTitleSSSgvp",
+            "mangledName": "$s6CafSDK0A20SelectDocumentConfigV11screenTitleSSSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A20SelectDocumentConfigV11screenTitleSSSgvg",
+                "mangledName": "$s6CafSDK0A20SelectDocumentConfigV11screenTitleSSSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A20SelectDocumentConfigV11descriptionSSSgvp",
+            "mangledName": "$s6CafSDK0A20SelectDocumentConfigV11descriptionSSSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A20SelectDocumentConfigV11descriptionSSSgvg",
+                "mangledName": "$s6CafSDK0A20SelectDocumentConfigV11descriptionSSSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customTitles",
+            "printedName": "customTitles",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[CafSDK.CafDocumentTypeKey : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[CafSDK.CafDocumentTypeKey : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentTypeKey",
+                        "printedName": "CafSDK.CafDocumentTypeKey",
+                        "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A20SelectDocumentConfigV12customTitlesSDyAA0aD7TypeKeyOSSGSgvp",
+            "mangledName": "$s6CafSDK0A20SelectDocumentConfigV12customTitlesSDyAA0aD7TypeKeyOSSGSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[CafSDK.CafDocumentTypeKey : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[CafSDK.CafDocumentTypeKey : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CafDocumentTypeKey",
+                            "printedName": "CafSDK.CafDocumentTypeKey",
+                            "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A20SelectDocumentConfigV12customTitlesSDyAA0aD7TypeKeyOSSGSgvg",
+                "mangledName": "$s6CafSDK0A20SelectDocumentConfigV12customTitlesSDyAA0aD7TypeKeyOSSGSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customDescriptions",
+            "printedName": "customDescriptions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[CafSDK.CafDocumentTypeKey : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[CafSDK.CafDocumentTypeKey : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentTypeKey",
+                        "printedName": "CafSDK.CafDocumentTypeKey",
+                        "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A20SelectDocumentConfigV18customDescriptionsSDyAA0aD7TypeKeyOSSGSgvp",
+            "mangledName": "$s6CafSDK0A20SelectDocumentConfigV18customDescriptionsSDyAA0aD7TypeKeyOSSGSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[CafSDK.CafDocumentTypeKey : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[CafSDK.CafDocumentTypeKey : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CafDocumentTypeKey",
+                            "printedName": "CafSDK.CafDocumentTypeKey",
+                            "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A20SelectDocumentConfigV18customDescriptionsSDyAA0aD7TypeKeyOSSGSgvg",
+                "mangledName": "$s6CafSDK0A20SelectDocumentConfigV18customDescriptionsSDyAA0aD7TypeKeyOSSGSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(screenTitle:description:)",
+            "printedName": "init(screenTitle:description:customTitles:customDescriptions:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -20418,6 +21276,7 @@
                     "usr": "s:SS"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               },
               {
@@ -20432,12 +21291,71 @@
                     "usr": "s:SS"
                   }
                 ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[CafSDK.CafDocumentTypeKey : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[CafSDK.CafDocumentTypeKey : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentTypeKey",
+                        "printedName": "CafSDK.CafDocumentTypeKey",
+                        "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[CafSDK.CafDocumentTypeKey : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[CafSDK.CafDocumentTypeKey : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentTypeKey",
+                        "printedName": "CafSDK.CafDocumentTypeKey",
+                        "usr": "s:6CafSDK0A15DocumentTypeKeyO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6CafSDK0A20SelectDocumentConfigV11screenTitle11descriptionACSSSg_AFtcfc",
-            "mangledName": "$s6CafSDK0A20SelectDocumentConfigV11screenTitle11descriptionACSSSg_AFtcfc",
+            "usr": "s:6CafSDK0A20SelectDocumentConfigV11screenTitle11description12customTitles0I12DescriptionsACSSSg_AHSDyAA0aD7TypeKeyOSSGSgALtcfc",
+            "mangledName": "$s6CafSDK0A20SelectDocumentConfigV11screenTitle11description12customTitles0I12DescriptionsACSSSg_AHSDyAA0aD7TypeKeyOSSGSgALtcfc",
             "moduleName": "CafSDK",
             "declAttributes": [
               "AccessControl"
@@ -34300,6 +35218,20 @@
       "value": "10000000"
     },
     {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/Wrappers\/CafDocumentSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 2498,
+      "length": 12,
+      "value": "\"rg_digital\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/Wrappers\/CafDocumentSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 2546,
+      "length": 13,
+      "value": "\"cnh_digital\""
+    },
+    {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "BooleanLiteral",
       "offset": 4619,
@@ -34338,48 +35270,69 @@
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
       "offset": 2589,
+      "length": 17,
+      "value": "\"try_again_title\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2656,
+      "length": 21,
+      "value": "\"face_does_not_match\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2727,
+      "length": 19,
+      "value": "\"face_not_detected\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2796,
       "length": 23,
       "value": "\"go_to_settings_button\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2662,
+      "offset": 2869,
       "length": 17,
       "value": "\"something_wrong\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2729,
+      "offset": 2936,
       "length": 26,
       "value": "\"camera_permission_denied\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2805,
+      "offset": 3012,
       "length": 31,
       "value": "\"camera_permission_description\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2886,
+      "offset": 3093,
       "length": 16,
       "value": "\"photo_not_sent\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2952,
+      "offset": 3159,
       "length": 28,
       "value": "\"photo_not_sent_description\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafFailureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3193,
+      "offset": 3400,
       "length": 14,
       "value": "\"failure_icon\""
     },
@@ -34465,7 +35418,7 @@
       "kind": "StringLiteral",
       "offset": 217,
       "length": 7,
-      "value": "\"5.4.3\""
+      "value": "\"5.4.4\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
