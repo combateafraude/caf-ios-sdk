@@ -499,8 +499,32 @@ public struct CafProxySettings {
   public init(hostname: Swift.String, port: Swift.Int)
   public mutating func setAuthentication(user: Swift.String, password: Swift.String) -> CafSDK.CafProxySettings
 }
+public enum CafDocumentTypeKey : Swift.String, Swift.CaseIterable {
+  case rg
+  case rgDigital
+  case cnh
+  case cnhDigital
+  case crlv
+  case rne
+  case ctps
+  case passport
+  case any
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CafSDK.CafDocumentTypeKey]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafSDK.CafDocumentTypeKey] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public struct CafSelectDocumentConfig {
-  public init(screenTitle: Swift.String?, description: Swift.String?)
+  public let screenTitle: Swift.String?
+  public let description: Swift.String?
+  public let customTitles: [CafSDK.CafDocumentTypeKey : Swift.String]?
+  public let customDescriptions: [CafSDK.CafDocumentTypeKey : Swift.String]?
+  public init(screenTitle: Swift.String? = nil, description: Swift.String? = nil, customTitles: [CafSDK.CafDocumentTypeKey : Swift.String]? = nil, customDescriptions: [CafSDK.CafDocumentTypeKey : Swift.String]? = nil)
 }
 public struct CafFaceLivenessConfig {
   public var instructionsConfig: CafSDK.CafInstructionsConfiguration
@@ -677,6 +701,9 @@ extension CafSDK.CafDocumentStepType : Swift.RawRepresentable {}
 extension CafSDK.CafFileFormatWrapper : Swift.Equatable {}
 extension CafSDK.CafFileFormatWrapper : Swift.Hashable {}
 extension CafSDK.CafFileFormatWrapper : Swift.RawRepresentable {}
+extension CafSDK.CafDocumentTypeKey : Swift.Equatable {}
+extension CafSDK.CafDocumentTypeKey : Swift.Hashable {}
+extension CafSDK.CafDocumentTypeKey : Swift.RawRepresentable {}
 extension CafSDK.CafModuleType : Swift.Equatable {}
 extension CafSDK.CafModuleType : Swift.Hashable {}
 extension CafSDK.CafModuleType : Swift.RawRepresentable {}
