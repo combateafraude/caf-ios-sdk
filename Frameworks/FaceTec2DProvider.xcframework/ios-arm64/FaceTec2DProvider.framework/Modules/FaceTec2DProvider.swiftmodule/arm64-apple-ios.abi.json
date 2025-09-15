@@ -8813,76 +8813,76 @@
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-facetec2d-provider\/Sources\/Model\/CafFaceTec2DConstants.swift",
       "kind": "StringLiteral",
       "offset": 702,
-      "length": 24,
-      "value": "\"cameraPermissionDenied\""
+      "length": 26,
+      "value": "\"Camera permission denied\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-facetec2d-provider\/Sources\/Model\/CafFaceTec2DConstants.swift",
       "kind": "StringLiteral",
-      "offset": 791,
+      "offset": 793,
       "length": 17,
       "value": "\"mask_face_white\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-facetec2d-provider\/Sources\/Model\/CafFaceTec2DConstants.swift",
       "kind": "StringLiteral",
-      "offset": 842,
+      "offset": 844,
       "length": 13,
       "value": "\"camera_icon\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-facetec2d-provider\/Sources\/Model\/CafFaceTec2DConstants.swift",
       "kind": "StringLiteral",
-      "offset": 884,
+      "offset": 886,
       "length": 8,
       "value": "\"x_icon\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-facetec2d-provider\/Sources\/Model\/CafFaceTec2DConstants.swift",
       "kind": "StringLiteral",
-      "offset": 927,
+      "offset": 929,
       "length": 14,
       "value": "\"success_icon\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-facetec2d-provider\/Sources\/Model\/CafFaceTec2DConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1010,
+      "offset": 1012,
       "length": 14,
       "value": "\"CafFacetec2D\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-facetec2d-provider\/Sources\/Model\/CafFaceTec2DConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1059,
+      "offset": 1061,
       "length": 14,
       "value": "\"idle_message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-facetec2d-provider\/Sources\/Model\/CafFaceTec2DConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1111,
+      "offset": 1113,
       "length": 17,
       "value": "\"sending_message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-facetec2d-provider\/Sources\/Model\/CafFaceTec2DConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1163,
+      "offset": 1165,
       "length": 14,
       "value": "\"hold_message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-facetec2d-provider\/Sources\/Model\/CafFaceTec2DConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1215,
+      "offset": 1217,
       "length": 17,
       "value": "\"success_message\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-modules\/caf-facetec2d-provider\/Sources\/Model\/CafFaceTec2DConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1294,
+      "offset": 1296,
       "length": 15,
       "value": "\"missingParams\""
     },

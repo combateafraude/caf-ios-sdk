@@ -11451,167 +11451,167 @@
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
       "offset": 1776,
-      "length": 24,
-      "value": "\"cameraPermissionDenied\""
+      "length": 26,
+      "value": "\"Camera permission denied\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1841,
+      "offset": 1843,
       "length": 14,
       "value": "\"networkError\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1900,
+      "offset": 1902,
       "length": 14,
       "value": "\"notSupported\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1972,
+      "offset": 1974,
       "length": 22,
       "value": "\"captureAlreadyActive\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2047,
+      "offset": 2049,
       "length": 17,
       "value": "\"unexpectedError\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2113,
+      "offset": 2115,
       "length": 13,
       "value": "\"userTimeout\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2177,
+      "offset": 2179,
       "length": 15,
       "value": "\"imageNotFound\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2245,
+      "offset": 2247,
       "length": 17,
       "value": "\"tooManyRequests\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2290,
+      "offset": 2292,
       "length": 7,
       "value": "\"image\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2363,
+      "offset": 2365,
       "length": 40,
       "value": "\"No provider retrieved from the backend\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2448,
+      "offset": 2450,
       "length": 29,
       "value": "\" - Provider not implemented\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2535,
+      "offset": 2537,
       "length": 8,
       "value": "\"iproov\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2573,
+      "offset": 2575,
       "length": 9,
       "value": "\"facetec\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2608,
+      "offset": 2610,
       "length": 5,
       "value": "\"caf\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2653,
+      "offset": 2655,
       "length": 19,
       "value": "\"CafIproovProvider\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2715,
+      "offset": 2717,
       "length": 22,
       "value": "\"CafFaceTec2DProvider\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2778,
+      "offset": 2780,
       "length": 20,
       "value": "\"CafFaceTecProvider\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2859,
+      "offset": 2861,
       "length": 12,
       "value": "\"liveness2d\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2987,
+      "offset": 2989,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3031,
+      "offset": 3033,
       "length": 9,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3077,
+      "offset": 3079,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3129,
+      "offset": 3131,
       "length": 14,
       "value": "\"content-type\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3178,
+      "offset": 3180,
       "length": 14,
       "value": "\"bff\/sessions\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3231,
+      "offset": 3233,
       "length": 18,
       "value": "\"bff\/transactions\""
     },
