@@ -36146,161 +36146,161 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 282,
+      "offset": 279,
       "length": 8,
       "value": "\"wss:\/\/\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 318,
+      "offset": 315,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 396,
+      "offset": 393,
       "length": 15,
       "value": "\"invalid_token\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 447,
+      "offset": 444,
       "length": 16,
       "value": "\"config_missing\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 497,
+      "offset": 494,
       "length": 14,
       "value": "\"build_failed\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 548,
+      "offset": 545,
       "length": 17,
       "value": "\"invalid_context\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 615,
+      "offset": 612,
       "length": 31,
       "value": "\"invalid_orientation_threshold\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 694,
+      "offset": 691,
       "length": 29,
       "value": "\"invalid_stability_threshold\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 764,
+      "offset": 761,
       "length": 21,
       "value": "\"invalid_compression\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 826,
+      "offset": 823,
       "length": 22,
       "value": "\"invalid_liveness_url\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 885,
+      "offset": 882,
       "length": 18,
       "value": "\"invalid_auth_url\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 974,
+      "offset": 971,
       "length": 30,
       "value": "\"Mobile token cannot be empty\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1040,
+      "offset": 1037,
       "length": 43,
       "value": "\"DocumentDetector configuration is missing\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1117,
+      "offset": 1114,
       "length": 34,
       "value": "\"Failed to build DocumentDetector\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1188,
+      "offset": 1185,
       "length": 30,
       "value": "\"Invalid presentation context\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1268,
+      "offset": 1265,
       "length": 40,
       "value": "\"Orientation threshold must be positive\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1356,
+      "offset": 1353,
       "length": 38,
       "value": "\"Stability threshold must be positive\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1435,
+      "offset": 1432,
       "length": 41,
       "value": "\"Compression must be between 0.8 and 1.0\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1510,
+      "offset": 1507,
       "length": 31,
       "value": "\"Auth base URL must use HTTPS.\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1574,
+      "offset": 1571,
       "length": 33,
       "value": "\"Liveness base URL must use WSS.\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1645,
+      "offset": 1642,
       "length": 33,
       "value": "\"the signedResponse is not valid\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1750,
+      "offset": 1747,
       "length": 18,
       "value": "\"DocumentDetector\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1803,
+      "offset": 1800,
       "length": 17,
       "value": "\"CafFaceLiveness\""
     },
