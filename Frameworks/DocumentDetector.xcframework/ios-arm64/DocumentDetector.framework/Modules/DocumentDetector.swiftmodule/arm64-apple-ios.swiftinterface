@@ -763,6 +763,7 @@ open class DDMessageSettings : Swift.Encodable {
   @objc deinit
 }
 public struct DDSelectDocumentConfig {
+  public init(screenTitle: Swift.String? = nil, description: Swift.String? = nil, customTitles: [DocumentDetector.CafDocumentType : Swift.String]? = nil, customDescriptions: [DocumentDetector.CafDocumentType : Swift.String]? = nil)
 }
 open class DDUploadSettings : Swift.Encodable {
   public var enable: Swift.Bool
@@ -897,7 +898,7 @@ public protocol Delegate : AnyObject {
     open func setCompressSettings(compressionQuality: CoreFoundation.CGFloat) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setCurrentStepDoneDelay(currentStepDoneDelay: Foundation.TimeInterval) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setUploadSettings(uploadSettings: DocumentDetector.DDUploadSettings) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
-    open func setSelectDocumentConfig(title: Swift.String? = nil, description: Swift.String? = nil) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
+    open func setSelectDocumentConfig(title: Swift.String? = nil, description: Swift.String? = nil, customTitles: [Swift.String : Swift.String]? = nil, customDescriptions: [Swift.String : Swift.String]? = nil) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setStage(stage: DocumentDetector.DDCAFStage) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setCustomStrings(customStrings: [any DocumentDetector.DDCustomization]) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setSdkType(type: Swift.String) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
