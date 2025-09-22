@@ -526,6 +526,14 @@ public struct CafSelectDocumentConfig {
   public let customDescriptions: [CafSDK.CafDocumentTypeKey : Swift.String]?
   public init(screenTitle: Swift.String? = nil, description: Swift.String? = nil, customTitles: [CafSDK.CafDocumentTypeKey : Swift.String]? = nil, customDescriptions: [CafSDK.CafDocumentTypeKey : Swift.String]? = nil)
 }
+public protocol CafFLCustomization {
+}
+public struct CafFLPayFaceCustomization : CafSDK.CafFLCustomization {
+  public var cameraMessageFont: Swift.String?
+  public var startMessage: Swift.String?
+  public var facePositionedMessage: Swift.String?
+  public init(cameraMessageFont: Swift.String? = nil, startMessage: Swift.String? = nil, facePositionedMessage: Swift.String? = nil)
+}
 public struct CafFaceLivenessConfig {
   public var instructionsConfig: CafSDK.CafInstructionsConfiguration
   public var loadingEnabled: Swift.Bool
@@ -534,7 +542,9 @@ public struct CafFaceLivenessConfig {
   public var customLocalization: Swift.String?
   public var maxRetryAttempts: Swift.Int
   public var sdkType: CafSDK.CafSdkPlatform
-  public init(instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), loadingEnabled: Swift.Bool = true, reverseProxyConfig: CafSDK.CafReverseProxyConfig = CafReverseProxyConfig(), executeFaceAuth: Swift.Bool = false, customLocalization: Swift.String? = nil, maxRetryAttempts: Swift.Int = -1, sdkType: CafSDK.CafSdkPlatform = .nativeIos)
+  public var flCustomizations: [any CafSDK.CafFLCustomization]
+  public var payFaceDebugMode: Swift.Bool
+  public init(instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), loadingEnabled: Swift.Bool = true, reverseProxyConfig: CafSDK.CafReverseProxyConfig = CafReverseProxyConfig(), executeFaceAuth: Swift.Bool = false, customLocalization: Swift.String? = nil, maxRetryAttempts: Swift.Int = -1, sdkType: CafSDK.CafSdkPlatform = .nativeIos, flCustomizations: [any CafSDK.CafFLCustomization] = [], payFaceDebugMode: Swift.Bool = false)
 }
 public struct CafInstructionsConfiguration {
   public var enabled: Swift.Bool

@@ -126,6 +126,18 @@ final public class CafConfirmationNextStepContent {
   public init(title: Swift.String? = nil, description: Swift.String? = nil, buttonTitle: Swift.String? = nil, image: UIKit.UIImage? = nil)
   @objc deinit
 }
+public protocol FLCustomization {
+}
+extension Swift.Sequence where Self.Element == any CafFaceLiveness.FLCustomization {
+  public func first<T>(of _: T.Type) -> T?
+}
+final public class FLPayFaceCustomization : CafFaceLiveness.FLCustomization {
+  final public var cameraMessageFont: Swift.String?
+  final public var startMessage: Swift.String?
+  final public var facePositionedMessage: Swift.String?
+  public init(cameraMessageFont: Swift.String? = nil, startMessage: Swift.String? = nil, facePositionedMessage: Swift.String? = nil)
+  @objc deinit
+}
 public enum CafResourceType : Swift.String {
   case liveness
   case authentication
@@ -158,6 +170,8 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
   public var instructionsConfig: CafFaceLiveness.CafInstructionsConfiguration
   public var colorConfig: CafFaceLiveness.ColorConfiguration?
   public var customLocalization: Swift.String?
+  public var flCustomizations: [any CafFaceLiveness.FLCustomization]
+  public var payFaceDebugMode: Swift.Bool
   public var sdkType: CafFaceLiveness.CafSdkPlatform {
     get
     set
@@ -184,6 +198,8 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
     open func setCustomLocalization(path: Swift.String?) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setSdkType(type: Swift.String) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setMaxRetryAttempts(attempts: Swift.Int) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setCustomStrings(customStrings: [any CafFaceLiveness.FLCustomization]) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setPayFaceDebugMode(debugMode: Swift.Bool) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
     open func build(entrypoint: Swift.String? = nil, cafSdkVersion: Swift.String = "") -> CafFaceLiveness.CafFaceLivenessSDK
     @objc deinit
