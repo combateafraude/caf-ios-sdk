@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOS'
-  s.version          = '5.5.0'
+  s.version          = '5.5.1'
   s.summary          = 'Caf iOS SDK'
   s.homepage         = 'https://github.com/combateafraude/caf-ios-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   s.subspec 'CafFaceLivenessCore' do |flc|
     flc.vendored_frameworks = 'Frameworks/CafFaceLiveness.xcframework'
     flc.dependency 'CafSDKiOS/CafCore'
-    flc.dependency 'FingerprintPro', '2.7.0'
+    flc.dependency 'FingerprintPro', '2.6.0'
     flc.dependency 'CafSolutions', '2.0.5'
   end
 
