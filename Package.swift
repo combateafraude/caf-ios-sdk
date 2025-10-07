@@ -9,6 +9,7 @@ let package = Package(
         .library(name: "CafSDK", targets: ["DocumentDetectorTarget", "CafFaceLivenessTarget"]),
         .library(name: "DocumentDetector", targets: ["DocumentDetectorTarget"]),
         .library(name: "CafFaceLiveness", targets: ["CafFaceLivenessTarget"]),
+        .library(name: "CafFaceLivenessLite", targets: ["CafFaceLivenessLiteTarget"]),
         .library(name: "IproovProvider", targets: ["IproovProviderTarget"]),
         .library(name: "FaceTec2DProvider", targets: ["FaceTec2DProviderTarget"]),
         .library(name: "FortfaceProvider", targets: ["FortfaceProviderTarget"])
@@ -24,6 +25,7 @@ let package = Package(
         .binaryTarget(name: "CafSDK", path: "Frameworks/CafSDK.xcframework"),
         .binaryTarget(name: "DocumentDetector", path: "Frameworks/DocumentDetector.xcframework"),
         .binaryTarget(name: "CafFaceLiveness", path: "Frameworks/CafFaceLiveness.xcframework"),
+        .binaryTarget(name: "CafFaceLivenessLite", path: "CafFacelivenessLite/CafFaceLivenessLite.xcframework"),
         .binaryTarget(name: "IproovProvider", path: "Frameworks/IproovProvider.xcframework"),
         .binaryTarget(name: "FaceTec2DProvider", path: "Frameworks/FaceTec2DProvider.xcframework"),
         .binaryTarget(name: "Fortface", path: "Frameworks/Fortface.xcframework"),
@@ -58,6 +60,16 @@ let package = Package(
                 .product(name: "CafSolutions", package: "CafSolutions")
             ],
             path: "Sources/CafFaceLivenessCore"
+        ),
+
+        // CafFaceLiveness Lite (standalone)
+        .target(
+            name: "CafFaceLivenessLiteTarget",
+            dependencies: [
+                "CafFaceLivenessLite",
+                .product(name: "iProov", package: "ios")
+            ],
+            path: "Sources/CafFaceLivenessLite"
         ),
 
         // Iproov Provider
