@@ -8,6 +8,7 @@
 
 - **[DocumentDetector](https://github.com/combateafraude/DocumentDetector)**: A framework for secure document detection, powered by TensorFlow Lite.
 - **[CafFaceLiveness]**: A modular framework for face liveness validation, supporting **iProov** and **FaceTec 2D** as independent or combined providers.
+- **[CafFaceLivenessLite]**: Lightweight face liveness validation using iProov only, with a smaller footprint.
 
 This SDK is designed to be flexible, allowing developers to integrate only the components they need.
 
@@ -33,7 +34,7 @@ Add the following dependency to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/combateafraude/caf-ios-sdk.git", from: "5.5.0")
+    .package(url: "https://github.com/combateafraude/caf-ios-sdk.git", from: "5.5.2")
 ]
 ```
 
@@ -48,6 +49,7 @@ Then, add the desired targets to your app:
         .product(name: "CafFaceLiveness", package: "CafSDKiOS"), // CafFaceLiveness with all modules
         .product(name: "IproovProvider", package: "CafSDKiOS"), // Optional iProov provider
         .product(name: "FaceTec2DProvider", package: "CafSDKiOS"), // Optional FaceTec 2D provider
+        .product(name: "CafFaceLivenessLite", package: "CafSDKiOS"), // Lightweight iProov-only
     ]
 )
 ```
@@ -65,6 +67,9 @@ pod 'CafSDKiOS/DocumentDetector'
 
 # Only CafFaceLiveness
 pod 'CafSDKiOS/CafFaceLiveness'
+
+# Only CafFaceLivenessLite (iProov-only)
+pod 'CafSDKiOS/CafFaceLivenessLite'
 
 # Optional iProov provider
 pod 'CafSDKiOS/IproovProvider'
@@ -84,6 +89,12 @@ To import and use **DocumentDetector or CafFaceliveness** in your app, add the f
 
 ```swift
 import CafSDK
+```
+
+For apps integrating only **CafFaceLivenessLite**, import:
+
+```swift
+import CafFaceLivenessLite
 ```
 
 ## Privacy Policy and Terms & Conditions of Use

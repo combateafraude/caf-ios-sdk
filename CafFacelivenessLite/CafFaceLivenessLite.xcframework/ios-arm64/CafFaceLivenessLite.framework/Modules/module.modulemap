@@ -1,0 +1,4 @@
+framework module CafFaceLivenessLite {
+  header "CafFaceLivenessLite-Swift.h"
+  requires objc
+}
