@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WvIuATw7A3QWwRYubFpWkaDdaeA=
+		OgZ87ph3zs16y1hXu6LPiWbdfYQ=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		0dCElILXTFw5HXWD7KbMve4CIQI=
+		h1BD0UaOVmoxhkJ+Z7cHGiCNsO4=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		babNzO8P1c7XT1TsXRtML2dYhjM=
+		WWnMKuQcViofHuEJiDpuA2BRat4=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		EAGh1ToONDE/T+MjSRyA4CTwfuw=
+		XVEGQ/mgfeexMVp3ekhMaJIPwQk=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		babNzO8P1c7XT1TsXRtML2dYhjM=
+		WWnMKuQcViofHuEJiDpuA2BRat4=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vhARlipHFlkRkYLuvAK6HavlGE0=
+		bZXXNVp/JTzDvcPYNb2NzzFF8MQ=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		0dCElILXTFw5HXWD7KbMve4CIQI=
+		h1BD0UaOVmoxhkJ+Z7cHGiCNsO4=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xuGQoJxJ5jjpasAjNeCA4oqQWf0=
+		9QjWn0K96tVsbpLlZT/cn0o0C0w=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Pt2UWHzYtLSxD3bPhT5uIwBe0SA=
+		9ZGHhqZpdN64G4BQoQTQp9b/GT8=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xuGQoJxJ5jjpasAjNeCA4oqQWf0=
+		9QjWn0K96tVsbpLlZT/cn0o0C0w=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		M10+t0RT0IRHnQc2Ameaj3FGNMY=
+		cuzMIN7W8hhqQEuH4uu4N/vjdDA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -117,70 +117,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lyhvbn0waMlO6XYdKmJ04ei2Pc/Giu4VsFc91qeYvL8=
+			x9OC+pd2ZD3whIK+bJInXjcIehHrT9vvcMuhf35n5Z0=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7aMEcB0Na8NRy0LXLyrwNaZFsUo9QS4GY0EN1BCvqqs=
+			mqHMV9VG8MBRwfOtJq4uU2P0bdX9Afl2EGdJfuLOjdQ=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TGSpwwrDXsuev4xRDxOhOAXdtpki6LuCAiU9PJYEtbk=
+			/5G3+0XQab0GCGHmxcw1FQD9cxSsQ1TuThmZByOTe2I=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7aMEcB0Na8NRy0LXLyrwNaZFsUo9QS4GY0EN1BCvqqs=
+			mqHMV9VG8MBRwfOtJq4uU2P0bdX9Afl2EGdJfuLOjdQ=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vvb6MLKSZdiuBJZTIICPhxNpHih0W8+8/RBU+mSj0ZA=
+			UNFveHDlu+liL5znouGiDTwyIc3Tc0bkVeRYHJ2nkwc=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lyhvbn0waMlO6XYdKmJ04ei2Pc/Giu4VsFc91qeYvL8=
+			x9OC+pd2ZD3whIK+bJInXjcIehHrT9vvcMuhf35n5Z0=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NEEOZOnbHvX7CardpyoH4G7xtDI6/MY2cGdvoWJ2UVI=
+			onR0f84vks0zhP6YEjiZuWG0vR6cMiWvgbA3lgy/Ik4=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N0KQUCt4nTHbkyYQ9rI7+PvxGmC3MFejJAN5BVKISjA=
+			Yrxd0U1bUDSmPK5fh+lrJf6C9lMKz2SDaZTGRep7UFA=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NEEOZOnbHvX7CardpyoH4G7xtDI6/MY2cGdvoWJ2UVI=
+			onR0f84vks0zhP6YEjiZuWG0vR6cMiWvgbA3lgy/Ik4=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9+EsIUDTNPeS0fyetq08XRAnzaJun3VspC+SxGYbZlI=
+			jOADqmnFjEP32m6jEMciYAcUwbnydyAdCTIBukxp5kY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

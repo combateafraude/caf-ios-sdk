@@ -8,9 +8,6 @@ import Accelerate
 import AdSupport
 import CafSolutions
 import CommonCrypto
-import CommonCrypto/*.CC_LONG*/
-import CommonCrypto/*.CC_MD5*/
-import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
 import CoreImage
 import CoreML
 import CoreMedia
@@ -125,6 +122,7 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case cameraException
   case certificateException
   case invalidOptionsException
+  case faceAuthentication
   public init?(rawValue: Swift.String)
   public typealias AllCases = [DocumentDetector.CafErrorType]
   public typealias RawValue = Swift.String

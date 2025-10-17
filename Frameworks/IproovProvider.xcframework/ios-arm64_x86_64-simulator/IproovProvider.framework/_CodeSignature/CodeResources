@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aZKB5ioc5dYzA7bGdiWTY8dEDfY=
+		Ds2UAZZ/X3jUMyXbvfs7D+7b/Kk=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		XjsdfYXiPlHFYk/UPjFmBAFNql4=
+		BQC5P5hTMM7Bvaxm1GtXDUusOGY=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		DqJrPCFU/8f16D/P6EzU7DRo8c8=
+		P5Yft90fqk1Gu8IVBn6ryvZCR3g=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9rAyqXEQt22TnNOqzgHxEv1v8yw=
+		ZmO477eTGnRgUYKMzn7AgUuwVyQ=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DqJrPCFU/8f16D/P6EzU7DRo8c8=
+		P5Yft90fqk1Gu8IVBn6ryvZCR3g=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DtQYQk10wwNuGa0CBsX/xdP04vc=
+		TAE+LmypZbgywp6P/FiCFAiF6kQ=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		XjsdfYXiPlHFYk/UPjFmBAFNql4=
+		BQC5P5hTMM7Bvaxm1GtXDUusOGY=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		tsvw00/Fb9kAKKZKyRjEyhCeO0w=
+		5WxZvbiVQ+tpR20GAiRNtHsm+Pc=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		duqsYFp6bgFrwXUAwmz7c7qHXFI=
+		+yjRSvodljPkvhNzJfQCn7ycQ7M=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tsvw00/Fb9kAKKZKyRjEyhCeO0w=
+		5WxZvbiVQ+tpR20GAiRNtHsm+Pc=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		S88UPwi8nEXkkMMdoYECAaBOKsg=
+		skvGCAJmsWx4E+2lPd/oMLYlcf0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -117,70 +117,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0ocF7ODdB2kRXgWzWa/1yu4WrXU6PlAhmOStj2ZcrHo=
+			9RgGvAEUbScEK/T9cAEQ0KgNiZjGXtQvTDRVGzZoAkI=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VYgdHLnUdMkIrRe0HFvgn54xYHZmz/1Kc67ADu+G/pI=
+			alkAUjihszweUK+V6lYFmlnzcXJNDXxQKl08d/dbuc0=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OVFJ91Q3lJqz0IJxBRf7jj7F1n7Ijhbjah6Az9iPV6E=
+			1uZh0FQZ1Ckcd+8tVKzJuURLTJNgI9zUJg6VFI0/rjA=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VYgdHLnUdMkIrRe0HFvgn54xYHZmz/1Kc67ADu+G/pI=
+			alkAUjihszweUK+V6lYFmlnzcXJNDXxQKl08d/dbuc0=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lf/7T8B2TB8ZSL/mYJZHllMwzjdcH3m7+QV+2WRbotM=
+			Evw9nT5Ffux3Eh72goMqhagftCcD2nIfCtry3r+xsuY=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0ocF7ODdB2kRXgWzWa/1yu4WrXU6PlAhmOStj2ZcrHo=
+			9RgGvAEUbScEK/T9cAEQ0KgNiZjGXtQvTDRVGzZoAkI=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fFhC6mV7lJfEGg/gYTBVelJmeFp+EjdCyjU9DLUdzN0=
+			hRQ7eTCELEeKmffbDKAUtrOC0ObN0yXRMPdL7M/eJRo=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G+lOu2GIZy1vF2sJIIBEilgH1LwQ8+6rAhJ4DvB6oxA=
+			s7tB1sGyFXmzU7mfgQ5QEUmHadIFhjGdbCqLp16UVj8=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fFhC6mV7lJfEGg/gYTBVelJmeFp+EjdCyjU9DLUdzN0=
+			hRQ7eTCELEeKmffbDKAUtrOC0ObN0yXRMPdL7M/eJRo=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1GTimIdWEkfvslxSEyPngG76UfsbGlGnzNHQEexdKNk=
+			0Nv0Uv890y2cAT80pHX0y/hWcac/6TBnHD5JN9tdAvQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
