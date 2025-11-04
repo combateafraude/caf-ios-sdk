@@ -67,6 +67,7 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case cameraException
   case certificateException
   case invalidOptionsException
+  case faceAuthentication
   public init?(rawValue: Swift.String)
   public typealias AllCases = [CafFaceLivenessLite.CafErrorType]
   public typealias RawValue = Swift.String

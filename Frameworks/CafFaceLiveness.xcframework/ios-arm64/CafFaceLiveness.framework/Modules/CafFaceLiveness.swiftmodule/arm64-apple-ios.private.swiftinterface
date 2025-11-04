@@ -6,15 +6,11 @@ import AVFoundation
 import AdSupport
 @_exported import CafFaceLiveness
 import CafSolutions
-import CommonCrypto/*.CC_LONG*/
-import CommonCrypto/*.CC_MD5*/
-import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
-import DeveloperToolsSupport
+import CommonCrypto
 import FingerprintPro
 import Foundation
 import Security
 import Swift
-import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
@@ -86,6 +82,7 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case cameraException
   case certificateException
   case invalidOptionsException
+  case faceAuthentication
   public init?(rawValue: Swift.String)
   public typealias AllCases = [CafFaceLiveness.CafErrorType]
   public typealias RawValue = Swift.String

@@ -1,0 +1,157 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CafFaceLivenessLite
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import AVFoundation
+import AdSupport
+import CommonCrypto
+import Foundation
+import Security
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import iProov
+public enum CafEnvironment : Swift.Int {
+  case dev
+  case beta
+  case prod
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension CafFaceLivenessLite.CafEnvironment {
+  public func toString() -> Swift.String
+}
+public enum CafSdkPlatform : Swift.String {
+  case nativeIos
+  case reactNativeIos
+  case flutterIos
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CafSDKError : Swift.Encodable {
+  public init(errorType: CafFaceLivenessLite.CafErrorType, description: Swift.String?)
+  public let errorType: CafFaceLivenessLite.CafErrorType
+  public let description: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct CafSDKFailure : Swift.Encodable {
+  public init(signedResponse: Swift.String?, failureReason: CafFaceLivenessLite.CafFailureType, description: Swift.String?)
+  public let signedResponse: Swift.String?
+  public let failureReason: CafFaceLivenessLite.CafFailureType
+  public let description: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
+  case unsupportedDevice
+  case cameraPermission
+  case networkException
+  case serverException
+  case tokenException
+  case captureAlreadyActiveException
+  case unexpectedErrorException
+  case userTimeoutException
+  case imageNotFoundException
+  case tooManyRequestsException
+  case unknownException
+  case libraryException
+  case permissionException
+  case invalidResponseException
+  case cameraException
+  case certificateException
+  case invalidOptionsException
+  case faceAuthentication
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CafFaceLivenessLite.CafErrorType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafFaceLivenessLite.CafErrorType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CafFailureType : Swift.String, Swift.Encodable, Swift.CaseIterable {
+  case unknown
+  case tooMuchMovement
+  case tooBright
+  case tooDark
+  case misalignedFace
+  case eyesClosed
+  case faceTooFar
+  case faceTooClose
+  case sunglasses
+  case obscuredFace
+  case multipleFaces
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CafFaceLivenessLite.CafFailureType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafFaceLivenessLite.CafFailureType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CafFaceLivenessLiteResult {
+  public let signedResponse: Swift.String?
+  public init(signedResponse: Swift.String?)
+}
+public protocol CafFaceLivenessLiteDelegate : AnyObject {
+  func didFinishWithSuccess(livenessResult: CafFaceLivenessLite.CafFaceLivenessLiteResult)
+  func didFinishWithFailure(type: CafFaceLivenessLite.CafFailureType, description: Swift.String?, signedResponse: Swift.String?)
+  func didFinishWithError(type: CafFaceLivenessLite.CafErrorType, description: Swift.String)
+  func cancelled()
+  func loading()
+  func loaded()
+}
+@objc @_inheritsConvenienceInitializers final public class CafFaceLivenessLiteSDK : ObjectiveC.NSObject {
+  weak final public var delegate: (any CafFaceLivenessLite.CafFaceLivenessLiteDelegate)?
+  @objc override dynamic public init()
+  final public func startSDK(viewController presentingViewController: UIKit.UIViewController, mobileToken iproovToken: Swift.String, personId: Swift.String, customLocalization: Swift.String? = nil, environment: CafFaceLivenessLite.CafEnvironment = .prod, loading: Swift.Bool = true, executeFaceAuth: Swift.Bool = false)
+  @objc deinit
+}
+public enum CafLogLevel : Swift.String {
+  case debug
+  case usage
+  case info
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class CafSecurityUtils {
+  public static func clearAllCaches()
+  public static func sanitizeString(_ input: Swift.String, sensitiveFields: [Swift.String] = ["token", "mobileToken", "personId", "authorization", "bearer", "attestationToken"]) -> Swift.String
+  public static func validateNoSensitiveDataInLogs(_ data: Foundation.Data) -> Swift.Bool
+  public static func isDeviceSecure() -> Swift.Bool
+  public static func secureOverwrite(_ data: inout Foundation.Data)
+  public static func secureOverwrite(_ string: inout Swift.String)
+  public static func createSecureURLSessionConfiguration() -> Foundation.URLSessionConfiguration
+  public static func addCacheControlHeaders(to request: inout Foundation.URLRequest)
+  public static func sanitizeDataForLogging(_ data: Foundation.Data) -> Foundation.Data
+  @objc deinit
+}
+extension CafFaceLivenessLite.CafEnvironment : Swift.Equatable {}
+extension CafFaceLivenessLite.CafEnvironment : Swift.Hashable {}
+extension CafFaceLivenessLite.CafEnvironment : Swift.RawRepresentable {}
+extension CafFaceLivenessLite.CafSdkPlatform : Swift.Equatable {}
+extension CafFaceLivenessLite.CafSdkPlatform : Swift.Hashable {}
+extension CafFaceLivenessLite.CafSdkPlatform : Swift.RawRepresentable {}
+extension CafFaceLivenessLite.CafErrorType : Swift.Equatable {}
+extension CafFaceLivenessLite.CafErrorType : Swift.Hashable {}
+extension CafFaceLivenessLite.CafErrorType : Swift.RawRepresentable {}
+extension CafFaceLivenessLite.CafFailureType : Swift.Equatable {}
+extension CafFaceLivenessLite.CafFailureType : Swift.Hashable {}
+extension CafFaceLivenessLite.CafFailureType : Swift.RawRepresentable {}
+extension CafFaceLivenessLite.CafLogLevel : Swift.Equatable {}
+extension CafFaceLivenessLite.CafLogLevel : Swift.Hashable {}
+extension CafFaceLivenessLite.CafLogLevel : Swift.RawRepresentable {}
