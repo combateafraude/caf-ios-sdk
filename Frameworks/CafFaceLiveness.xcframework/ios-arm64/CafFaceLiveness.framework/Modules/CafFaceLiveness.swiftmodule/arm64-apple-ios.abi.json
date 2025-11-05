@@ -9588,6 +9588,34 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafFaceLiveness"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CafFaceLiveness"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CafFaceLiveness"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "CafFaceLiveness"
+      },
+      {
         "kind": "TypeDecl",
         "name": "UIColor",
         "printedName": "UIColor",
@@ -12577,7 +12605,7 @@
       "kind": "StringLiteral",
       "offset": 376,
       "length": 7,
-      "value": "\"5.1.0\""
+      "value": "\"5.1.1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
@@ -13264,6 +13292,41 @@
       "offset": 269,
       "length": 47,
       "value": "\"The authetication URL protocol must be HTTPS.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-cdnarqijqetloecvyfpojklyswil\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CafFaceLiveness\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/CafFaceLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 743,
+      "length": 20,
+      "value": "\"confirmation_image\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-cdnarqijqetloecvyfpojklyswil\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CafFaceLiveness\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/CafFaceLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 885,
+      "length": 11,
+      "value": "\"doc_image\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-cdnarqijqetloecvyfpojklyswil\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CafFaceLiveness\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/CafFaceLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1020,
+      "length": 12,
+      "value": "\"face_image\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-cdnarqijqetloecvyfpojklyswil\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CafFaceLiveness\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/CafFaceLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1165,
+      "length": 14,
+      "value": "\"failure_icon\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-cdnarqijqetloecvyfpojklyswil\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CafFaceLiveness\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/CafFaceLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1307,
+      "length": 14,
+      "value": "\"upload_image\""
     }
   ]
 }

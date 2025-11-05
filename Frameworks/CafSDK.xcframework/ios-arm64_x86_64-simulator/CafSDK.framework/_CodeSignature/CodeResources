@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		qQVDj4Qkmtpu5rETlY1zgf2Mu4Q=
+		</data>
 		<key>Headers/CafSDK-Swift.h</key>
 		<data>
 		eqSU9r/MaIs27Fidq4QMsaEoT58=
@@ -14,11 +18,11 @@
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		pl4vxbRWi2GtyNv4VP/hvV65v0M=
+		hGvJwlIjpOmJmPsTsFERNqsFpoE=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gLjfZlUMX1IIVPXTnSUkfbQjsMU=
+		WWnMKuQcViofHuEJiDpuA2BRat4=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +30,19 @@
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gLjfZlUMX1IIVPXTnSUkfbQjsMU=
+		WWnMKuQcViofHuEJiDpuA2BRat4=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qUI07mJjUd9grs+cu7I2Ycxl2kc=
+		6OCZBvoa0eMgTczxNjwgctClWzM=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		pl4vxbRWi2GtyNv4VP/hvV65v0M=
+		hGvJwlIjpOmJmPsTsFERNqsFpoE=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+K7TtjKfipL7kH7cecU0p0YswUs=
+		9QjWn0K96tVsbpLlZT/cn0o0C0w=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +50,11 @@
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+K7TtjKfipL7kH7cecU0p0YswUs=
+		9QjWn0K96tVsbpLlZT/cn0o0C0w=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8dqS+nKpLc0zN/1/DRDl1+0MG8k=
+		UZ6zqiO4Ol0WEfxg+1k4RCz8bvE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,6 +99,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vrs8ZqE8PqJPz+kaOlKVJal/x9214N9KcXSukQFFIVE=
+			</data>
+		</dict>
 		<key>Headers/CafSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -106,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/E3HJOpVsE7HbvudM3s3sAlLnSaDeywdfCh+nTY3xdg=
+			ukyWlrwnMl5jjGjpIE64d7r/m0+Ppyuk46EvQP8J0P4=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5zwmI4P4WeqfwHkQAtg8913UKsAv9ZjMXEM8qhkRg6c=
+			mqHMV9VG8MBRwfOtJq4uU2P0bdX9Afl2EGdJfuLOjdQ=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -127,28 +138,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5zwmI4P4WeqfwHkQAtg8913UKsAv9ZjMXEM8qhkRg6c=
+			mqHMV9VG8MBRwfOtJq4uU2P0bdX9Afl2EGdJfuLOjdQ=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fIAZb3Us4ItF20QTbN1fGOI499aH8Ax5fxS4Dl2axCg=
+			SHOA2UsIeWgy21n5JpWxohqzfxC7jRkCi7GLgBCDIjQ=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/E3HJOpVsE7HbvudM3s3sAlLnSaDeywdfCh+nTY3xdg=
+			ukyWlrwnMl5jjGjpIE64d7r/m0+Ppyuk46EvQP8J0P4=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oJI20tc1q53r6j5YdCnilbNHYElkV/NkqGW8Y+S8+Gc=
+			onR0f84vks0zhP6YEjiZuWG0vR6cMiWvgbA3lgy/Ik4=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -162,14 +173,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oJI20tc1q53r6j5YdCnilbNHYElkV/NkqGW8Y+S8+Gc=
+			onR0f84vks0zhP6YEjiZuWG0vR6cMiWvgbA3lgy/Ik4=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RiOhG72D69ua+hvOocZ7W8Lw6ssHGYTB4x0cYV4YQTU=
+			3pm9R5SGtEr5rPsqJLG62d4Z1pZzyUFuV0iGn0JO6D0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

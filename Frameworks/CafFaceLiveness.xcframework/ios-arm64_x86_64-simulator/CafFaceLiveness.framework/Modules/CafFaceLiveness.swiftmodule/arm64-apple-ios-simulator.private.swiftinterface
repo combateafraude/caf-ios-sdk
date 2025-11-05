@@ -7,10 +7,12 @@ import AdSupport
 @_exported import CafFaceLiveness
 import CafSolutions
 import CommonCrypto
+import DeveloperToolsSupport
 import FingerprintPro
 import Foundation
 import Security
 import Swift
+import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
