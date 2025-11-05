@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   s.subspec 'CafFaceLivenessCore' do |flc|
     flc.vendored_frameworks = 'Frameworks/CafFaceLiveness.xcframework'
     flc.dependency 'CafSDKiOS/CafCore'
-    flc.dependency 'FingerprintPro', '2.6.0'
+    flc.dependency 'FingerprintPro', '2.7.0'
     flc.dependency 'CafSolutions', '2.0.5'
   end
 
