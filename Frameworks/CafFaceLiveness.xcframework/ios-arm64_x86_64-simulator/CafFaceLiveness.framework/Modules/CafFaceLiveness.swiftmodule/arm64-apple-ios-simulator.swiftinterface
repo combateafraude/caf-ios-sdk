@@ -204,6 +204,8 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
     @objc deinit
   }
   @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
+  open func loadSession(mobileToken: Swift.String, personId: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+  @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
   open func startSDK(viewController: UIKit.UIViewController, mobileToken: Swift.String, personId: Swift.String, debugEnabled: Swift.Bool = false, sessionId: Swift.String = UUID().uuidString)
   @objc deinit
 }
