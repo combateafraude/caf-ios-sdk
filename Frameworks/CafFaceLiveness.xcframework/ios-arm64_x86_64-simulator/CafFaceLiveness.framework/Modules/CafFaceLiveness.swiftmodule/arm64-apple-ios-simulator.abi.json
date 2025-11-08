@@ -7115,6 +7115,162 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "bridgeConfigParams",
+            "printedName": "bridgeConfigParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CafFaceLiveness0abC3SDKC18bridgeConfigParamsSDyS2SGSgvp",
+            "mangledName": "$s15CafFaceLiveness0abC3SDKC18bridgeConfigParamsSDyS2SGSgvp",
+            "moduleName": "CafFaceLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0abC3SDKC18bridgeConfigParamsSDyS2SGSgvg",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC18bridgeConfigParamsSDyS2SGSgvg",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0abC3SDKC18bridgeConfigParamsSDyS2SGSgvs",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC18bridgeConfigParamsSDyS2SGSgvs",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0abC3SDKC18bridgeConfigParamsSDyS2SGSgvM",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC18bridgeConfigParamsSDyS2SGSgvM",
+                "moduleName": "CafFaceLiveness",
+                "deprecated": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "TypeDecl",
             "name": "CafFaceLivenessBuilder",
             "printedName": "CafFaceLivenessBuilder",
@@ -7541,6 +7697,56 @@
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setBridge",
+                "printedName": "setBridge(config:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafFaceLivenessBuilder",
+                    "printedName": "CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder",
+                    "usr": "s:15CafFaceLiveness0abC3SDKC0abC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15CafFaceLiveness0abC3SDKC0abC7BuilderC9setBridge6configAESDyS2SGSg_tF",
+                "mangledName": "$s15CafFaceLiveness0abC3SDKC0abC7BuilderC9setBridge6configAESDyS2SGSg_tF",
+                "moduleName": "CafFaceLiveness",
+                "isOpen": true,
+                "declAttributes": [
+                  "AccessControl"
                 ],
                 "funcSelfKind": "NonMutating"
               },
@@ -12660,28 +12866,28 @@
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/CafFaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3095,
+      "offset": 3153,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/CafFaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 10922,
+      "offset": 11428,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/CafFaceLivenessSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 12965,
+      "offset": 13471,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/CafFaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 15025,
+      "offset": 15675,
       "length": 2,
       "value": "\"\""
     },

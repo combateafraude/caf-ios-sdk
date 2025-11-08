@@ -22760,9 +22760,161 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "bridgeConfig",
+            "printedName": "bridgeConfig",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A18FaceLivenessConfigV06bridgeE0SDyS2SGSgvp",
+            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV06bridgeE0SDyS2SGSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV06bridgeE0SDyS2SGSgvg",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV06bridgeE0SDyS2SGSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV06bridgeE0SDyS2SGSgvs",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV06bridgeE0SDyS2SGSgvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV06bridgeE0SDyS2SGSgvM",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV06bridgeE0SDyS2SGSgvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(instructionsConfig:loadingEnabled:reverseProxyConfig:executeFaceAuth:customLocalization:maxRetryAttempts:sdkType:flCustomizations:payFaceDebugMode:)",
+            "printedName": "init(instructionsConfig:loadingEnabled:reverseProxyConfig:executeFaceAuth:customLocalization:maxRetryAttempts:sdkType:flCustomizations:payFaceDebugMode:bridgeConfig:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -22848,11 +23000,40 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled012reverseProxyE007executeC4Auth18customLocalization16maxRetryAttempts7sdkType16flCustomizations03payC9DebugModeAcA0A25InstructionsConfigurationV_SbAA0a7ReversejE0VSbSSSgSiAA0A11SdkPlatformOSayAA0A15FLCustomization_pGSbtcfc",
-            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled012reverseProxyE007executeC4Auth18customLocalization16maxRetryAttempts7sdkType16flCustomizations03payC9DebugModeAcA0A25InstructionsConfigurationV_SbAA0a7ReversejE0VSbSSSgSiAA0A11SdkPlatformOSayAA0A15FLCustomization_pGSbtcfc",
+            "usr": "s:6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled012reverseProxyE007executeC4Auth18customLocalization16maxRetryAttempts7sdkType16flCustomizations03payC9DebugMode06bridgeE0AcA0A25InstructionsConfigurationV_SbAA0a7ReversejE0VSbSSSgSiAA0A11SdkPlatformOSayAA0A15FLCustomization_pGSbSDyS2SGSgtcfc",
+            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled012reverseProxyE007executeC4Auth18customLocalization16maxRetryAttempts7sdkType16flCustomizations03payC9DebugMode06bridgeE0AcA0A25InstructionsConfigurationV_SbAA0a7ReversejE0VSbSSSgSiAA0A11SdkPlatformOSayAA0A15FLCustomization_pGSbSDyS2SGSgtcfc",
             "moduleName": "CafSDK",
             "declAttributes": [
               "AccessControl"
@@ -36462,42 +36643,42 @@
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 5016,
+      "offset": 5063,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 5147,
+      "offset": 5194,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 5245,
+      "offset": 5292,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "Array",
-      "offset": 5360,
+      "offset": 5407,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 5405,
+      "offset": 5452,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "StringLiteral",
-      "offset": 6460,
+      "offset": 6603,
       "length": 2,
       "value": "\"\""
     },

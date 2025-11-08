@@ -183,6 +183,7 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
   public var logEventHandler: (((Swift.String, Swift.String)) -> Swift.Void)?
   weak public var delegate: (any CafFaceLiveness.CafFaceLivenessDelegate)?
   public var entrypoint: Swift.String?
+  public var bridgeConfigParams: [Swift.String : Swift.String]?
   @objc @_inheritsConvenienceInitializers @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
   open class CafFaceLivenessBuilder : ObjectiveC.NSObject {
     @objc override dynamic public init()
@@ -199,6 +200,7 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
     open func setMaxRetryAttempts(attempts: Swift.Int) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setCustomStrings(customStrings: [any CafFaceLiveness.FLCustomization]) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setPayFaceDebugMode(debugMode: Swift.Bool) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setBridge(config: [Swift.String : Swift.String]?) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
     open func build(entrypoint: Swift.String? = nil, cafSdkVersion: Swift.String = "") -> CafFaceLiveness.CafFaceLivenessSDK
     @objc deinit
