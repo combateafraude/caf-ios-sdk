@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		OZSMWugHnfWViCD8B5rhwmu4nZU=
+		XQBfqECLdfC06ocLlKkcozLyYtk=
 		</data>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NkIInt1uRV6oRKWGdi53RETqrI8=
+		KLZYpFOBFVw+rMSXYBZI2juy6b4=
 		</data>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		OZSMWugHnfWViCD8B5rhwmu4nZU=
+		XQBfqECLdfC06ocLlKkcozLyYtk=
 		</data>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SUPTxPdz5M1Zi1AQpjWsrn3hgPc=
+		Fr9Bst6Ccs08vlI50GYCJ+Rqo9I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			duOdI3lVKW4EomfQddYWrfaYf4MSiEM+xl8dZy4JVFI=
+			dFKjh8tWP0gZ3iSkm9wMRImtQGeUROdTbCEcVS8cqek=
 			</data>
 		</dict>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ozeYOyd58IteT24KvL5BV3crOq9ZBeXt2A+R8TnOs1U=
+			b1Qs1m0TDtJVTcXkBO3FF9KXD6VRIwOM1Vfu3K/cuJs=
 			</data>
 		</dict>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			duOdI3lVKW4EomfQddYWrfaYf4MSiEM+xl8dZy4JVFI=
+			dFKjh8tWP0gZ3iSkm9wMRImtQGeUROdTbCEcVS8cqek=
 			</data>
 		</dict>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7pbO46F3Nc+Q2cAFTAtVXji4YO5jHso9n9lfvGXKPes=
+			F/W9uqHnu0HkZo6geVlG6UTK+/u0Utbo8wQ0Y+gFewg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

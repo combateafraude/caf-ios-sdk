@@ -30339,16 +30339,25 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbvp",
-            "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbvp",
+            "usr": "s:6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbSgvp",
+            "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbSgvp",
             "moduleName": "CafSDK",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
@@ -30362,14 +30371,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbvg",
-                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbvg",
+                "usr": "s:6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbSgvg",
+                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbSgvg",
                 "moduleName": "CafSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -30386,14 +30403,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbvs",
-                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbvs",
+                "usr": "s:6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbSgvs",
+                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbSgvs",
                 "moduleName": "CafSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -30410,8 +30435,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbvM",
-                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbvM",
+                "usr": "s:6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbSgvM",
+                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV20manualCaptureEnabledSbSgvM",
                 "moduleName": "CafSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -30425,16 +30450,25 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdvp",
-            "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdvp",
+            "usr": "s:6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdSgvp",
+            "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdSgvp",
             "moduleName": "CafSDK",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
@@ -30447,14 +30481,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdvg",
-                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdvg",
+                "usr": "s:6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdSgvg",
+                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdSgvg",
                 "moduleName": "CafSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -30471,14 +30513,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdvs",
-                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdvs",
+                "usr": "s:6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdSgvs",
+                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdSgvs",
                 "moduleName": "CafSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -30495,8 +30545,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdvM",
-                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdvM",
+                "usr": "s:6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdSgvM",
+                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV17manualCaptureTimeSdSgvM",
                 "moduleName": "CafSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -31720,17 +31770,33 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "s:Sb"
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "s:Sd"
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -31866,8 +31932,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6CafSDK0A22DocumentDetectorConfigV4flow6layout14uploadSettings012instructionsE020manualCaptureEnabled0kL4Time14requestTimeout9showPopup05proxyI011previewShow16ddCustomizations012getUrlExpireN019enableMultiLanguage20currentStepDoneDelay26allowedPassportCountryList06selectcE07sdkType16maxRetryAttemptsACSayAA0acD4StepVG_AA0acD6LayoutVAA0a6UploadI0VAA0A25InstructionsConfigurationVSbS2dSbAA0a5ProxyI0VSgSbSayAA0A15DDCustomization_pGSSSgSbSdSayAA0A11CountryCodeOGSgAA0a6SelectcE0VSgAA0A11SdkPlatformOSitcfc",
-            "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV4flow6layout14uploadSettings012instructionsE020manualCaptureEnabled0kL4Time14requestTimeout9showPopup05proxyI011previewShow16ddCustomizations012getUrlExpireN019enableMultiLanguage20currentStepDoneDelay26allowedPassportCountryList06selectcE07sdkType16maxRetryAttemptsACSayAA0acD4StepVG_AA0acD6LayoutVAA0a6UploadI0VAA0A25InstructionsConfigurationVSbS2dSbAA0a5ProxyI0VSgSbSayAA0A15DDCustomization_pGSSSgSbSdSayAA0A11CountryCodeOGSgAA0a6SelectcE0VSgAA0A11SdkPlatformOSitcfc",
+            "usr": "s:6CafSDK0A22DocumentDetectorConfigV4flow6layout14uploadSettings012instructionsE020manualCaptureEnabled0kL4Time14requestTimeout9showPopup05proxyI011previewShow16ddCustomizations012getUrlExpireN019enableMultiLanguage20currentStepDoneDelay26allowedPassportCountryList06selectcE07sdkType16maxRetryAttemptsACSayAA0acD4StepVG_AA0acD6LayoutVAA0a6UploadI0VAA0A25InstructionsConfigurationVSbSgSdSgSdSbAA0a5ProxyI0VSgSbSayAA0A15DDCustomization_pGSSSgSbSdSayAA0A11CountryCodeOGSgAA0a6SelectcE0VSgAA0A11SdkPlatformOSitcfc",
+            "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV4flow6layout14uploadSettings012instructionsE020manualCaptureEnabled0kL4Time14requestTimeout9showPopup05proxyI011previewShow16ddCustomizations012getUrlExpireN019enableMultiLanguage20currentStepDoneDelay26allowedPassportCountryList06selectcE07sdkType16maxRetryAttemptsACSayAA0acD4StepVG_AA0acD6LayoutVAA0a6UploadI0VAA0A25InstructionsConfigurationVSbSgSdSgSdSbAA0a5ProxyI0VSgSbSayAA0A15DDCustomization_pGSSSgSbSdSayAA0A11CountryCodeOGSgAA0a6SelectcE0VSgAA0A11SdkPlatformOSitcfc",
             "moduleName": "CafSDK",
             "declAttributes": [
               "AccessControl"
@@ -37077,84 +37143,84 @@
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "Array",
-      "offset": 4903,
+      "offset": 4905,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 5066,
+      "offset": 5068,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 5275,
+      "offset": 5278,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 5331,
+      "offset": 5335,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 5381,
+      "offset": 5385,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 5419,
+      "offset": 5423,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 5517,
+      "offset": 5521,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "Array",
-      "offset": 5581,
+      "offset": 5585,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 5678,
+      "offset": 5682,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 5737,
+      "offset": 5741,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 5973,
+      "offset": 5977,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "StringLiteral",
-      "offset": 7507,
+      "offset": 7511,
       "length": 2,
       "value": "\"\""
     },
