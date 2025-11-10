@@ -36907,7 +36907,7 @@
       "kind": "StringLiteral",
       "offset": 217,
       "length": 7,
-      "value": "\"5.6.2\""
+      "value": "\"5.7.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Private\/CafSDKConstants.swift",

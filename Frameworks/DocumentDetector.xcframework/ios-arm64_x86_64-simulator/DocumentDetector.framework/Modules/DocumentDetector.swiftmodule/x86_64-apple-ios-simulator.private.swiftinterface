@@ -192,6 +192,7 @@ final public class CafConfirmationNextStepContent {
   public static func getByLabel(label: DocumentDetector.CafLabel) -> DocumentDetector.CafDocument?
   public static func allDocuments() -> [DocumentDetector.CafDocument]
   open func setDefaults()
+  open func applyCustomWrongDocumentTitle(_ title: Swift.String)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class CafDocumentDetectorFailure : ObjectiveC.NSObject, Swift.Encodable {
