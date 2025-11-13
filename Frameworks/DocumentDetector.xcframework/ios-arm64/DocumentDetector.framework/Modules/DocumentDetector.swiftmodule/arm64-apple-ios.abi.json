@@ -590,6 +590,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DocumentDetector"
+      },
+      {
+        "kind": "Import",
         "name": "CafSolutions",
         "printedName": "CafSolutions",
         "declKind": "Import",
@@ -46815,6 +46822,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DocumentDetector"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -58423,140 +58437,140 @@
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19293,
+      "offset": 18864,
       "length": 30,
       "value": "\"select_document_screen_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19358,
+      "offset": 18929,
       "length": 33,
       "value": "\"select_document_screen_subtitle\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19441,
+      "offset": 19012,
       "length": 19,
       "value": "\"document_rg_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19495,
+      "offset": 19066,
       "length": 25,
       "value": "\"document_rg_description\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19582,
+      "offset": 19153,
       "length": 27,
       "value": "\"document_rg_digital_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19648,
+      "offset": 19219,
       "length": 33,
       "value": "\"document_rg_digital_description\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19732,
+      "offset": 19303,
       "length": 20,
       "value": "\"document_cnh_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19787,
+      "offset": 19358,
       "length": 26,
       "value": "\"document_cnh_description\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19877,
+      "offset": 19448,
       "length": 28,
       "value": "\"document_cnh_digital_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19945,
+      "offset": 19516,
       "length": 34,
       "value": "\"document_cnh_digital_description\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20035,
+      "offset": 19606,
       "length": 25,
       "value": "\"document_passport_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20098,
+      "offset": 19669,
       "length": 31,
       "value": "\"document_passport_description\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20180,
+      "offset": 19751,
       "length": 20,
       "value": "\"document_rne_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20235,
+      "offset": 19806,
       "length": 26,
       "value": "\"document_rne_description\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20313,
+      "offset": 19884,
       "length": 21,
       "value": "\"document_ctps_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20369,
+      "offset": 19940,
       "length": 27,
       "value": "\"document_ctps_description\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20448,
+      "offset": 20019,
       "length": 21,
       "value": "\"document_crlv_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20504,
+      "offset": 20075,
       "length": 27,
       "value": "\"document_crlv_description\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20584,
+      "offset": 20155,
       "length": 22,
       "value": "\"document_other_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Scenes\/SelectDocumentViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20641,
+      "offset": 20212,
       "length": 28,
       "value": "\"document_other_description\""
     },
@@ -58626,21 +58640,21 @@
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 14759,
+      "offset": 14767,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "BooleanLiteral",
-      "offset": 16690,
+      "offset": 16698,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "BooleanLiteral",
-      "offset": 18282,
+      "offset": 18290,
       "length": 5,
       "value": "false"
     },
@@ -58801,28 +58815,28 @@
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2551,
+      "offset": 2581,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2685,
+      "offset": 2715,
       "length": 29,
       "value": "\"Opções de documento vazia\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "Array",
-      "offset": 4275,
+      "offset": 4289,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4315,
+      "offset": 4329,
       "length": 1,
       "value": "0"
     },
