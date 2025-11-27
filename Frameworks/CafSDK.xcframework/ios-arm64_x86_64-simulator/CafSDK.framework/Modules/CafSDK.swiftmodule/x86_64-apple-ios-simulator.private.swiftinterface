@@ -627,7 +627,13 @@ extension CafSDK.CafSDKConfiguration {
   public func setDocumentDetectorConfig(_ documentDetectorConfig: CafSDK.CafDocumentDetectorConfig?) -> CafSDK.CafSDKConfiguration
 }
 extension CafSDK.CafSDKConfiguration {
+  public func getDocumentDetectorConfig() -> CafSDK.CafDocumentDetectorConfig?
+}
+extension CafSDK.CafSDKConfiguration {
   public func setFaceLivenessConfig(_ faceLivenessConfig: CafSDK.CafFaceLivenessConfig?) -> CafSDK.CafSDKConfiguration
+}
+extension CafSDK.CafSDKConfiguration {
+  public func getFaceLivenessConfig() -> CafSDK.CafFaceLivenessConfig?
 }
 public enum CafLogLevel : Swift.String {
   case debug
