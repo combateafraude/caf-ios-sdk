@@ -2605,6 +2605,46 @@
           },
           {
             "kind": "Var",
+            "name": "securityException",
+            "printedName": "securityException",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafFaceLiveness.CafErrorType.Type) -> CafFaceLiveness.CafErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafErrorType",
+                    "printedName": "CafFaceLiveness.CafErrorType",
+                    "usr": "s:15CafFaceLiveness0A9ErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafFaceLiveness.CafErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafErrorType",
+                        "printedName": "CafFaceLiveness.CafErrorType",
+                        "usr": "s:15CafFaceLiveness0A9ErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CafFaceLiveness0A9ErrorTypeO17securityExceptionyA2CmF",
+            "mangledName": "$s15CafFaceLiveness0A9ErrorTypeO17securityExceptionyA2CmF",
+            "moduleName": "CafFaceLiveness",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "faceAuthentication",
             "printedName": "faceAuthentication",
             "children": [
@@ -8301,8 +8341,8 @@
           },
           {
             "kind": "Var",
-            "name": "title",
-            "printedName": "title",
+            "name": "captureTitle",
+            "printedName": "captureTitle",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8320,13 +8360,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV5titleSSSgvp",
-            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV5titleSSSgvp",
+            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV12captureTitleSSSgvp",
+            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV12captureTitleSSSgvp",
             "moduleName": "CafFaceLiveness",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -8351,8 +8392,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV5titleSSSgvg",
-                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV5titleSSSgvg",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV12captureTitleSSSgvg",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV12captureTitleSSSgvg",
                 "moduleName": "CafFaceLiveness",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8383,8 +8424,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV5titleSSSgvs",
-                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV5titleSSSgvs",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV12captureTitleSSSgvs",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV12captureTitleSSSgvs",
                 "moduleName": "CafFaceLiveness",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8401,8 +8442,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV5titleSSSgvM",
-                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV5titleSSSgvM",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV12captureTitleSSSgvM",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV12captureTitleSSSgvM",
                 "moduleName": "CafFaceLiveness",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8411,8 +8452,8 @@
           },
           {
             "kind": "Var",
-            "name": "descriptionText",
-            "printedName": "descriptionText",
+            "name": "captureDescriptionText",
+            "printedName": "captureDescriptionText",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8430,8 +8471,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV15descriptionTextSSSgvp",
-            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV15descriptionTextSSSgvp",
+            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV22captureDescriptionTextSSSgvp",
+            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV22captureDescriptionTextSSSgvp",
             "moduleName": "CafFaceLiveness",
             "declAttributes": [
               "HasInitialValue",
@@ -8461,8 +8502,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV15descriptionTextSSSgvg",
-                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV15descriptionTextSSSgvg",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV22captureDescriptionTextSSSgvg",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV22captureDescriptionTextSSSgvg",
                 "moduleName": "CafFaceLiveness",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8493,8 +8534,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV15descriptionTextSSSgvs",
-                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV15descriptionTextSSSgvs",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV22captureDescriptionTextSSSgvs",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV22captureDescriptionTextSSSgvs",
                 "moduleName": "CafFaceLiveness",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8511,8 +8552,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV15descriptionTextSSSgvM",
-                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV15descriptionTextSSSgvM",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV22captureDescriptionTextSSSgvM",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV22captureDescriptionTextSSSgvM",
                 "moduleName": "CafFaceLiveness",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8521,8 +8562,8 @@
           },
           {
             "kind": "Var",
-            "name": "steps",
-            "printedName": "steps",
+            "name": "captureSteps",
+            "printedName": "captureSteps",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8548,8 +8589,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV5stepsSaySSGSgvp",
-            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV5stepsSaySSGSgvp",
+            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV12captureStepsSaySSGSgvp",
+            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV12captureStepsSaySSGSgvp",
             "moduleName": "CafFaceLiveness",
             "declAttributes": [
               "HasInitialValue",
@@ -8587,8 +8628,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV5stepsSaySSGSgvg",
-                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV5stepsSaySSGSgvg",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV12captureStepsSaySSGSgvg",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV12captureStepsSaySSGSgvg",
                 "moduleName": "CafFaceLiveness",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8627,8 +8668,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV5stepsSaySSGSgvs",
-                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV5stepsSaySSGSgvs",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV12captureStepsSaySSGSgvs",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV12captureStepsSaySSGSgvs",
                 "moduleName": "CafFaceLiveness",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8645,8 +8686,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV5stepsSaySSGSgvM",
-                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV5stepsSaySSGSgvM",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV12captureStepsSaySSGSgvM",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV12captureStepsSaySSGSgvM",
                 "moduleName": "CafFaceLiveness",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8655,8 +8696,8 @@
           },
           {
             "kind": "Var",
-            "name": "buttonTitle",
-            "printedName": "buttonTitle",
+            "name": "captureButtonTitle",
+            "printedName": "captureButtonTitle",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8674,8 +8715,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11buttonTitleSSSgvp",
-            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11buttonTitleSSSgvp",
+            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV18captureButtonTitleSSSgvp",
+            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV18captureButtonTitleSSSgvp",
             "moduleName": "CafFaceLiveness",
             "declAttributes": [
               "HasInitialValue",
@@ -8705,8 +8746,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11buttonTitleSSSgvg",
-                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11buttonTitleSSSgvg",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV18captureButtonTitleSSSgvg",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV18captureButtonTitleSSSgvg",
                 "moduleName": "CafFaceLiveness",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8737,8 +8778,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11buttonTitleSSSgvs",
-                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11buttonTitleSSSgvs",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV18captureButtonTitleSSSgvs",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV18captureButtonTitleSSSgvs",
                 "moduleName": "CafFaceLiveness",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8755,8 +8796,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11buttonTitleSSSgvM",
-                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11buttonTitleSSSgvM",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV18captureButtonTitleSSSgvM",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV18captureButtonTitleSSSgvM",
                 "moduleName": "CafFaceLiveness",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8765,8 +8806,8 @@
           },
           {
             "kind": "Var",
-            "name": "headerImage",
-            "printedName": "headerImage",
+            "name": "captureHeaderImage",
+            "printedName": "captureHeaderImage",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8784,8 +8825,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11headerImageSo7UIImageCSgvp",
-            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11headerImageSo7UIImageCSgvp",
+            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvp",
+            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvp",
             "moduleName": "CafFaceLiveness",
             "declAttributes": [
               "HasInitialValue",
@@ -8815,8 +8856,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11headerImageSo7UIImageCSgvg",
-                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11headerImageSo7UIImageCSgvg",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvg",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvg",
                 "moduleName": "CafFaceLiveness",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8847,8 +8888,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11headerImageSo7UIImageCSgvs",
-                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11headerImageSo7UIImageCSgvs",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvs",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvs",
                 "moduleName": "CafFaceLiveness",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8865,8 +8906,583 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11headerImageSo7UIImageCSgvM",
-                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11headerImageSo7UIImageCSgvM",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvM",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvM",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadTitle",
+            "printedName": "uploadTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11uploadTitleSSSgvp",
+            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11uploadTitleSSSgvp",
+            "moduleName": "CafFaceLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11uploadTitleSSSgvg",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11uploadTitleSSSgvg",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11uploadTitleSSSgvs",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11uploadTitleSSSgvs",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11uploadTitleSSSgvM",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11uploadTitleSSSgvM",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadDescriptionText",
+            "printedName": "uploadDescriptionText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV21uploadDescriptionTextSSSgvp",
+            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV21uploadDescriptionTextSSSgvp",
+            "moduleName": "CafFaceLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV21uploadDescriptionTextSSSgvg",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV21uploadDescriptionTextSSSgvg",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV21uploadDescriptionTextSSSgvs",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV21uploadDescriptionTextSSSgvs",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV21uploadDescriptionTextSSSgvM",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV21uploadDescriptionTextSSSgvM",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadSteps",
+            "printedName": "uploadSteps",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11uploadStepsSaySSGSgvp",
+            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11uploadStepsSaySSGSgvp",
+            "moduleName": "CafFaceLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11uploadStepsSaySSGSgvg",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11uploadStepsSaySSGSgvg",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11uploadStepsSaySSGSgvs",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11uploadStepsSaySSGSgvs",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV11uploadStepsSaySSGSgvM",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV11uploadStepsSaySSGSgvM",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadButtonTitle",
+            "printedName": "uploadButtonTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV17uploadButtonTitleSSSgvp",
+            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV17uploadButtonTitleSSSgvp",
+            "moduleName": "CafFaceLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV17uploadButtonTitleSSSgvg",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV17uploadButtonTitleSSSgvg",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV17uploadButtonTitleSSSgvs",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV17uploadButtonTitleSSSgvs",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV17uploadButtonTitleSSSgvM",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV17uploadButtonTitleSSSgvM",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadHeaderImage",
+            "printedName": "uploadHeaderImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvp",
+            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvp",
+            "moduleName": "CafFaceLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvg",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvg",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvs",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvs",
+                "moduleName": "CafFaceLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvM",
+                "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvM",
                 "moduleName": "CafFaceLiveness",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8876,7 +9492,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(enabled:title:descriptionText:steps:buttonTitle:headerImage:)",
+            "printedName": "init(enabled:captureTitle:captureDescriptionText:captureSteps:captureButtonTitle:captureHeaderImage:uploadTitle:uploadDescriptionText:uploadSteps:uploadButtonTitle:uploadHeaderImage:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8973,11 +9589,94 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV7enabled5title15descriptionText5steps11buttonTitle11headerImageACSb_SSSgAJSaySSGSgAJSo7UIImageCSgtcfc",
-            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV7enabled5title15descriptionText5steps11buttonTitle11headerImageACSb_SSSgAJSaySSGSgAJSo7UIImageCSgtcfc",
+            "usr": "s:15CafFaceLiveness0A25InstructionsConfigurationV7enabled12captureTitle0G15DescriptionText0G5Steps0g6ButtonH00G11HeaderImage06uploadH00oiJ00oK00olH00omN0ACSb_SSSgAOSaySSGSgAOSo7UIImageCSgA2oqoTtcfc",
+            "mangledName": "$s15CafFaceLiveness0A25InstructionsConfigurationV7enabled12captureTitle0G15DescriptionText0G5Steps0g6ButtonH00G11HeaderImage06uploadH00oiJ00oK00olH00omN0ACSb_SSSgAOSaySSGSgAOSo7UIImageCSgA2oqoTtcfc",
             "moduleName": "CafFaceLiveness",
             "declAttributes": [
               "AccessControl"
@@ -9443,292 +10142,25 @@
         "moduleName": "CafFaceLiveness"
       },
       {
-        "kind": "TypeDecl",
-        "name": "CafSecurityUtils",
-        "printedName": "CafSecurityUtils",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "clearAllCaches",
-            "printedName": "clearAllCaches()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15CafFaceLiveness0A13SecurityUtilsC14clearAllCachesyyFZ",
-            "mangledName": "$s15CafFaceLiveness0A13SecurityUtilsC14clearAllCachesyyFZ",
-            "moduleName": "CafFaceLiveness",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "sanitizeString",
-            "printedName": "sanitizeString(_:sensitiveFields:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15CafFaceLiveness0A13SecurityUtilsC14sanitizeString_15sensitiveFieldsS2S_SaySSGtFZ",
-            "mangledName": "$s15CafFaceLiveness0A13SecurityUtilsC14sanitizeString_15sensitiveFieldsS2S_SaySSGtFZ",
-            "moduleName": "CafFaceLiveness",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "validateNoSensitiveDataInLogs",
-            "printedName": "validateNoSensitiveDataInLogs(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15CafFaceLiveness0A13SecurityUtilsC29validateNoSensitiveDataInLogsySb10Foundation0I0VFZ",
-            "mangledName": "$s15CafFaceLiveness0A13SecurityUtilsC29validateNoSensitiveDataInLogsySb10Foundation0I0VFZ",
-            "moduleName": "CafFaceLiveness",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isDeviceSecure",
-            "printedName": "isDeviceSecure()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15CafFaceLiveness0A13SecurityUtilsC14isDeviceSecureSbyFZ",
-            "mangledName": "$s15CafFaceLiveness0A13SecurityUtilsC14isDeviceSecureSbyFZ",
-            "moduleName": "CafFaceLiveness",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "secureOverwrite",
-            "printedName": "secureOverwrite(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "paramValueOwnership": "InOut",
-                "usr": "s:10Foundation4DataV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15CafFaceLiveness0A13SecurityUtilsC15secureOverwriteyy10Foundation4DataVzFZ",
-            "mangledName": "$s15CafFaceLiveness0A13SecurityUtilsC15secureOverwriteyy10Foundation4DataVzFZ",
-            "moduleName": "CafFaceLiveness",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "secureOverwrite",
-            "printedName": "secureOverwrite(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "paramValueOwnership": "InOut",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15CafFaceLiveness0A13SecurityUtilsC15secureOverwriteyySSzFZ",
-            "mangledName": "$s15CafFaceLiveness0A13SecurityUtilsC15secureOverwriteyySSzFZ",
-            "moduleName": "CafFaceLiveness",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "createSecureURLSessionConfiguration",
-            "printedName": "createSecureURLSessionConfiguration()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "URLSessionConfiguration",
-                "printedName": "Foundation.URLSessionConfiguration",
-                "usr": "c:objc(cs)NSURLSessionConfiguration"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15CafFaceLiveness0A13SecurityUtilsC35createSecureURLSessionConfigurationSo012NSURLSessionI0CyFZ",
-            "mangledName": "$s15CafFaceLiveness0A13SecurityUtilsC35createSecureURLSessionConfigurationSo012NSURLSessionI0CyFZ",
-            "moduleName": "CafFaceLiveness",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addCacheControlHeaders",
-            "printedName": "addCacheControlHeaders(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URLRequest",
-                "printedName": "Foundation.URLRequest",
-                "paramValueOwnership": "InOut",
-                "usr": "s:10Foundation10URLRequestV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15CafFaceLiveness0A13SecurityUtilsC22addCacheControlHeaders2toy10Foundation10URLRequestVz_tFZ",
-            "mangledName": "$s15CafFaceLiveness0A13SecurityUtilsC22addCacheControlHeaders2toy10Foundation10URLRequestVz_tFZ",
-            "moduleName": "CafFaceLiveness",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "sanitizeDataForLogging",
-            "printedName": "sanitizeDataForLogging(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15CafFaceLiveness0A13SecurityUtilsC22sanitizeDataForLoggingy10Foundation0G0VAGFZ",
-            "mangledName": "$s15CafFaceLiveness0A13SecurityUtilsC22sanitizeDataForLoggingy10Foundation0G0VAGFZ",
-            "moduleName": "CafFaceLiveness",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:15CafFaceLiveness0A13SecurityUtilsC",
-        "mangledName": "$s15CafFaceLiveness0A13SecurityUtilsC",
-        "moduleName": "CafFaceLiveness",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "CafFaceLiveness"
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "CafFaceLiveness"
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC.runtime",
+        "printedName": "ObjectiveC.runtime",
+        "declKind": "Import",
+        "moduleName": "CafFaceLiveness"
       },
       {
         "kind": "Import",
@@ -11557,77 +11989,77 @@
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 6795,
+      "offset": 7012,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 6890,
+      "offset": 7107,
       "length": 19,
       "value": "\"too_much_movement\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7005,
+      "offset": 7222,
       "length": 12,
       "value": "\"too_bright\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7105,
+      "offset": 7322,
       "length": 10,
       "value": "\"too_dark\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7205,
+      "offset": 7422,
       "length": 17,
       "value": "\"misaligned_face\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7303,
+      "offset": 7520,
       "length": 13,
       "value": "\"eyes_closed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7401,
+      "offset": 7618,
       "length": 14,
       "value": "\"face_too_far\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7510,
+      "offset": 7727,
       "length": 16,
       "value": "\"face_too_close\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7621,
+      "offset": 7838,
       "length": 12,
       "value": "\"sunglasses\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7720,
+      "offset": 7937,
       "length": 15,
       "value": "\"obscured_face\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7812,
+      "offset": 8029,
       "length": 16,
       "value": "\"multiple_faces\""
     },
@@ -12945,7 +13377,7 @@
       "kind": "StringLiteral",
       "offset": 376,
       "length": 7,
-      "value": "\"5.2.0\""
+      "value": "\"5.2.1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
@@ -13524,14 +13956,14 @@
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafInstructions\/CafInstructionsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 430,
+      "offset": 731,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafInstructions\/CafInstructionsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1612,
+      "offset": 3753,
       "length": 1,
       "value": "0"
     },
@@ -13580,7 +14012,35 @@
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 874,
+      "offset": 492,
+      "length": 28,
+      "value": "[27042, 27043, 27044, 27045]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 579,
+      "length": 361,
+      "value": "[\"\/usr\/sbin\/frida-server\", \"\/usr\/bin\/frida-server\", \"\/usr\/local\/bin\/frida-server\", \"\/usr\/lib\/frida\", \"\/usr\/local\/lib\/frida\", \"\/Library\/Frameworks\/FridaGadget.framework\", \"\/var\/containers\/Bundle\/Application\/*\/Payload\/*.app\/Frameworks\/FridaGadget.framework\", \"\/.frida\", \"\/tmp\/frida-*\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 1003,
+      "length": 158,
+      "value": "[\"frida\", \"Frida\", \"FridaGadget\", \"frida-gadget\", \"frida-agent\", \"gum-js-loop\", \"gmain\", \"linjector\", \"frida_agent\", \"frida_agent_main\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 1224,
+      "length": 114,
+      "value": "[\"gum-js-loop\", \"gmain\", \"gdbus\", \"pool-frida\", \"frida-helper\", \"linjector\", \"frida-portal\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 2049,
       "length": 83,
       "value": "[\"token\", \"mobileToken\", \"personId\", \"authorization\", \"bearer\", \"attestationToken\"]"
     },

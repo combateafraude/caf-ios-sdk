@@ -18,7 +18,9 @@ import DeveloperToolsSupport
 @_exported import DocumentDetector
 import Foundation
 import ImageIO
+import MachO
 import MobileCoreServices
+import ObjectiveC
 import PDFKit
 import Photos
 import Security
@@ -31,6 +33,7 @@ import VideoToolbox
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import ObjectiveC.runtime
 @objc public enum DDCAFStage : Swift.Int {
   case DEV, BETA, PROD
   public init?(rawValue: Swift.Int)
@@ -122,6 +125,7 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case cameraException
   case certificateException
   case invalidOptionsException
+  case securityException
   case faceAuthentication
   public init?(rawValue: Swift.String)
   public typealias AllCases = [DocumentDetector.CafErrorType]
@@ -303,12 +307,17 @@ public class CafImageUploadResponseBody : Swift.Encodable {
 }
 public struct CafInstructionsConfiguration {
   public var enabled: Swift.Bool
-  public var title: Swift.String?
-  public var descriptionText: Swift.String?
-  public var steps: [Swift.String]?
-  public var buttonTitle: Swift.String?
-  public var headerImage: UIKit.UIImage?
-  public init(enabled: Swift.Bool = true, title: Swift.String? = nil, descriptionText: Swift.String? = nil, steps: [Swift.String]? = nil, buttonTitle: Swift.String? = nil, headerImage: UIKit.UIImage? = nil)
+  public var captureTitle: Swift.String?
+  public var captureDescriptionText: Swift.String?
+  public var captureSteps: [Swift.String]?
+  public var captureButtonTitle: Swift.String?
+  public var captureHeaderImage: UIKit.UIImage?
+  public var uploadTitle: Swift.String?
+  public var uploadDescriptionText: Swift.String?
+  public var uploadSteps: [Swift.String]?
+  public var uploadButtonTitle: Swift.String?
+  public var uploadHeaderImage: UIKit.UIImage?
+  public init(enabled: Swift.Bool = true, captureTitle: Swift.String? = nil, captureDescriptionText: Swift.String? = nil, captureSteps: [Swift.String]? = nil, captureButtonTitle: Swift.String? = nil, captureHeaderImage: UIKit.UIImage? = nil, uploadTitle: Swift.String? = nil, uploadDescriptionText: Swift.String? = nil, uploadSteps: [Swift.String]? = nil, uploadButtonTitle: Swift.String? = nil, uploadHeaderImage: UIKit.UIImage? = nil)
 }
 public class CafInternationalDocumentFlow {
   public var enabled: Swift.Bool
@@ -390,18 +399,6 @@ public enum CafResolution : Swift.String {
   public var rawValue: Swift.String {
     get
   }
-}
-@_hasMissingDesignatedInitializers public class CafSecurityUtils {
-  public static func clearAllCaches()
-  public static func sanitizeString(_ input: Swift.String, sensitiveFields: [Swift.String] = ["token", "mobileToken", "personId", "authorization", "bearer", "attestationToken"]) -> Swift.String
-  public static func validateNoSensitiveDataInLogs(_ data: Foundation.Data) -> Swift.Bool
-  public static func isDeviceSecure() -> Swift.Bool
-  public static func secureOverwrite(_ data: inout Foundation.Data)
-  public static func secureOverwrite(_ string: inout Swift.String)
-  public static func createSecureURLSessionConfiguration() -> Foundation.URLSessionConfiguration
-  public static func addCacheControlHeaders(to request: inout Foundation.URLRequest)
-  public static func sanitizeDataForLogging(_ data: Foundation.Data) -> Foundation.Data
-  @objc deinit
 }
 @objc public class CafServerFailureResponse : ObjectiveC.NSObject {
   public var message: Swift.String?
@@ -921,6 +918,7 @@ public protocol Delegate : AnyObject {
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class DocumentDetectorViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)

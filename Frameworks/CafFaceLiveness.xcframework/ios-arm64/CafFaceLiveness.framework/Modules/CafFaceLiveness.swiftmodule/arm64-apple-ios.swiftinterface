@@ -7,9 +7,12 @@ import AdSupport
 @_exported import CafFaceLiveness
 import CafSolutions
 import CommonCrypto
+import Darwin
 import DeveloperToolsSupport
 import FingerprintPro
 import Foundation
+import MachO
+import ObjectiveC
 import Security
 import Swift
 import SwiftUI
@@ -17,6 +20,7 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import ObjectiveC.runtime
 extension UIKit.UIColor {
   convenience public init(byHex: Swift.String)
 }
@@ -84,6 +88,7 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case cameraException
   case certificateException
   case invalidOptionsException
+  case securityException
   case faceAuthentication
   public init?(rawValue: Swift.String)
   public typealias AllCases = [CafFaceLiveness.CafErrorType]
@@ -213,12 +218,17 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
 }
 public struct CafInstructionsConfiguration {
   public var enabled: Swift.Bool
-  public var title: Swift.String?
-  public var descriptionText: Swift.String?
-  public var steps: [Swift.String]?
-  public var buttonTitle: Swift.String?
-  public var headerImage: UIKit.UIImage?
-  public init(enabled: Swift.Bool = true, title: Swift.String? = nil, descriptionText: Swift.String? = nil, steps: [Swift.String]? = nil, buttonTitle: Swift.String? = nil, headerImage: UIKit.UIImage? = nil)
+  public var captureTitle: Swift.String?
+  public var captureDescriptionText: Swift.String?
+  public var captureSteps: [Swift.String]?
+  public var captureButtonTitle: Swift.String?
+  public var captureHeaderImage: UIKit.UIImage?
+  public var uploadTitle: Swift.String?
+  public var uploadDescriptionText: Swift.String?
+  public var uploadSteps: [Swift.String]?
+  public var uploadButtonTitle: Swift.String?
+  public var uploadHeaderImage: UIKit.UIImage?
+  public init(enabled: Swift.Bool = true, captureTitle: Swift.String? = nil, captureDescriptionText: Swift.String? = nil, captureSteps: [Swift.String]? = nil, captureButtonTitle: Swift.String? = nil, captureHeaderImage: UIKit.UIImage? = nil, uploadTitle: Swift.String? = nil, uploadDescriptionText: Swift.String? = nil, uploadSteps: [Swift.String]? = nil, uploadButtonTitle: Swift.String? = nil, uploadHeaderImage: UIKit.UIImage? = nil)
 }
 public enum CafLogLevel : Swift.String {
   case debug
@@ -229,18 +239,6 @@ public enum CafLogLevel : Swift.String {
   public var rawValue: Swift.String {
     get
   }
-}
-@_hasMissingDesignatedInitializers public class CafSecurityUtils {
-  public static func clearAllCaches()
-  public static func sanitizeString(_ input: Swift.String, sensitiveFields: [Swift.String] = ["token", "mobileToken", "personId", "authorization", "bearer", "attestationToken"]) -> Swift.String
-  public static func validateNoSensitiveDataInLogs(_ data: Foundation.Data) -> Swift.Bool
-  public static func isDeviceSecure() -> Swift.Bool
-  public static func secureOverwrite(_ data: inout Foundation.Data)
-  public static func secureOverwrite(_ string: inout Swift.String)
-  public static func createSecureURLSessionConfiguration() -> Foundation.URLSessionConfiguration
-  public static func addCacheControlHeaders(to request: inout Foundation.URLRequest)
-  public static func sanitizeDataForLogging(_ data: Foundation.Data) -> Foundation.Data
-  @objc deinit
 }
 extension CafFaceLiveness.CafEnvironment : Swift.Equatable {}
 extension CafFaceLiveness.CafEnvironment : Swift.Hashable {}

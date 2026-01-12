@@ -3843,6 +3843,46 @@
           },
           {
             "kind": "Var",
+            "name": "securityException",
+            "printedName": "securityException",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DocumentDetector.CafErrorType.Type) -> DocumentDetector.CafErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafErrorType",
+                    "printedName": "DocumentDetector.CafErrorType",
+                    "usr": "s:16DocumentDetector12CafErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DocumentDetector.CafErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafErrorType",
+                        "printedName": "DocumentDetector.CafErrorType",
+                        "usr": "s:16DocumentDetector12CafErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16DocumentDetector12CafErrorTypeO17securityExceptionyA2CmF",
+            "mangledName": "$s16DocumentDetector12CafErrorTypeO17securityExceptionyA2CmF",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "faceAuthentication",
             "printedName": "faceAuthentication",
             "children": [
@@ -16178,8 +16218,8 @@
           },
           {
             "kind": "Var",
-            "name": "title",
-            "printedName": "title",
+            "name": "captureTitle",
+            "printedName": "captureTitle",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -16197,13 +16237,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV5titleSSSgvp",
-            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV5titleSSSgvp",
+            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV12captureTitleSSSgvp",
+            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV12captureTitleSSSgvp",
             "moduleName": "DocumentDetector",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -16228,8 +16269,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV5titleSSSgvg",
-                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV5titleSSSgvg",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV12captureTitleSSSgvg",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV12captureTitleSSSgvg",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "get"
@@ -16260,8 +16301,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV5titleSSSgvs",
-                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV5titleSSSgvs",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV12captureTitleSSSgvs",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV12captureTitleSSSgvs",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "set"
@@ -16278,8 +16319,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV5titleSSSgvM",
-                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV5titleSSSgvM",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV12captureTitleSSSgvM",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV12captureTitleSSSgvM",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -16288,8 +16329,8 @@
           },
           {
             "kind": "Var",
-            "name": "descriptionText",
-            "printedName": "descriptionText",
+            "name": "captureDescriptionText",
+            "printedName": "captureDescriptionText",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -16307,8 +16348,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV15descriptionTextSSSgvp",
-            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV15descriptionTextSSSgvp",
+            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV22captureDescriptionTextSSSgvp",
+            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV22captureDescriptionTextSSSgvp",
             "moduleName": "DocumentDetector",
             "declAttributes": [
               "HasInitialValue",
@@ -16338,8 +16379,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV15descriptionTextSSSgvg",
-                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV15descriptionTextSSSgvg",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV22captureDescriptionTextSSSgvg",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV22captureDescriptionTextSSSgvg",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "get"
@@ -16370,8 +16411,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV15descriptionTextSSSgvs",
-                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV15descriptionTextSSSgvs",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV22captureDescriptionTextSSSgvs",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV22captureDescriptionTextSSSgvs",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "set"
@@ -16388,8 +16429,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV15descriptionTextSSSgvM",
-                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV15descriptionTextSSSgvM",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV22captureDescriptionTextSSSgvM",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV22captureDescriptionTextSSSgvM",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -16398,8 +16439,8 @@
           },
           {
             "kind": "Var",
-            "name": "steps",
-            "printedName": "steps",
+            "name": "captureSteps",
+            "printedName": "captureSteps",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -16425,8 +16466,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV5stepsSaySSGSgvp",
-            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV5stepsSaySSGSgvp",
+            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV12captureStepsSaySSGSgvp",
+            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV12captureStepsSaySSGSgvp",
             "moduleName": "DocumentDetector",
             "declAttributes": [
               "HasInitialValue",
@@ -16464,8 +16505,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV5stepsSaySSGSgvg",
-                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV5stepsSaySSGSgvg",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV12captureStepsSaySSGSgvg",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV12captureStepsSaySSGSgvg",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "get"
@@ -16504,8 +16545,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV5stepsSaySSGSgvs",
-                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV5stepsSaySSGSgvs",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV12captureStepsSaySSGSgvs",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV12captureStepsSaySSGSgvs",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "set"
@@ -16522,8 +16563,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV5stepsSaySSGSgvM",
-                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV5stepsSaySSGSgvM",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV12captureStepsSaySSGSgvM",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV12captureStepsSaySSGSgvM",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -16532,8 +16573,8 @@
           },
           {
             "kind": "Var",
-            "name": "buttonTitle",
-            "printedName": "buttonTitle",
+            "name": "captureButtonTitle",
+            "printedName": "captureButtonTitle",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -16551,8 +16592,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11buttonTitleSSSgvp",
-            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11buttonTitleSSSgvp",
+            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV18captureButtonTitleSSSgvp",
+            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV18captureButtonTitleSSSgvp",
             "moduleName": "DocumentDetector",
             "declAttributes": [
               "HasInitialValue",
@@ -16582,8 +16623,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11buttonTitleSSSgvg",
-                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11buttonTitleSSSgvg",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV18captureButtonTitleSSSgvg",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV18captureButtonTitleSSSgvg",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "get"
@@ -16614,8 +16655,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11buttonTitleSSSgvs",
-                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11buttonTitleSSSgvs",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV18captureButtonTitleSSSgvs",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV18captureButtonTitleSSSgvs",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "set"
@@ -16632,8 +16673,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11buttonTitleSSSgvM",
-                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11buttonTitleSSSgvM",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV18captureButtonTitleSSSgvM",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV18captureButtonTitleSSSgvM",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -16642,8 +16683,8 @@
           },
           {
             "kind": "Var",
-            "name": "headerImage",
-            "printedName": "headerImage",
+            "name": "captureHeaderImage",
+            "printedName": "captureHeaderImage",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -16661,8 +16702,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvp",
-            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvp",
+            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvp",
+            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvp",
             "moduleName": "DocumentDetector",
             "declAttributes": [
               "HasInitialValue",
@@ -16692,8 +16733,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvg",
-                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvg",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvg",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvg",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "get"
@@ -16724,8 +16765,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvs",
-                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvs",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvs",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvs",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "set"
@@ -16742,8 +16783,583 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvM",
-                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvM",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvM",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvM",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadTitle",
+            "printedName": "uploadTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11uploadTitleSSSgvp",
+            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11uploadTitleSSSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11uploadTitleSSSgvg",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11uploadTitleSSSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11uploadTitleSSSgvs",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11uploadTitleSSSgvs",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11uploadTitleSSSgvM",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11uploadTitleSSSgvM",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadDescriptionText",
+            "printedName": "uploadDescriptionText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvp",
+            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvg",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvs",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvs",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvM",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvM",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadSteps",
+            "printedName": "uploadSteps",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11uploadStepsSaySSGSgvp",
+            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11uploadStepsSaySSGSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11uploadStepsSaySSGSgvg",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11uploadStepsSaySSGSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11uploadStepsSaySSGSgvs",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11uploadStepsSaySSGSgvs",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV11uploadStepsSaySSGSgvM",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV11uploadStepsSaySSGSgvM",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadButtonTitle",
+            "printedName": "uploadButtonTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV17uploadButtonTitleSSSgvp",
+            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV17uploadButtonTitleSSSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV17uploadButtonTitleSSSgvg",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV17uploadButtonTitleSSSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV17uploadButtonTitleSSSgvs",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV17uploadButtonTitleSSSgvs",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV17uploadButtonTitleSSSgvM",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV17uploadButtonTitleSSSgvM",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadHeaderImage",
+            "printedName": "uploadHeaderImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvp",
+            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvp",
+            "moduleName": "DocumentDetector",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvg",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvg",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvs",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvs",
+                "moduleName": "DocumentDetector",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DocumentDetector28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvM",
+                "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvM",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -16753,7 +17369,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(enabled:title:descriptionText:steps:buttonTitle:headerImage:)",
+            "printedName": "init(enabled:captureTitle:captureDescriptionText:captureSteps:captureButtonTitle:captureHeaderImage:uploadTitle:uploadDescriptionText:uploadSteps:uploadButtonTitle:uploadHeaderImage:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -16850,11 +17466,94 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV7enabled5title15descriptionText5steps11buttonTitle11headerImageACSb_SSSgAJSaySSGSgAJSo7UIImageCSgtcfc",
-            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV7enabled5title15descriptionText5steps11buttonTitle11headerImageACSb_SSSgAJSaySSGSgAJSo7UIImageCSgtcfc",
+            "usr": "s:16DocumentDetector28CafInstructionsConfigurationV7enabled12captureTitle0G15DescriptionText0G5Steps0g6ButtonH00G11HeaderImage06uploadH00oiJ00oK00olH00omN0ACSb_SSSgAOSaySSGSgAOSo7UIImageCSgA2oqoTtcfc",
+            "mangledName": "$s16DocumentDetector28CafInstructionsConfigurationV7enabled12captureTitle0G15DescriptionText0G5Steps0g6ButtonH00G11HeaderImage06uploadH00oiJ00oK00olH00omN0ACSb_SSSgAOSaySSGSgAOSo7UIImageCSgA2oqoTtcfc",
             "moduleName": "DocumentDetector",
             "declAttributes": [
               "AccessControl"
@@ -20400,292 +21099,25 @@
         "moduleName": "DocumentDetector"
       },
       {
-        "kind": "TypeDecl",
-        "name": "CafSecurityUtils",
-        "printedName": "CafSecurityUtils",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "clearAllCaches",
-            "printedName": "clearAllCaches()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector16CafSecurityUtilsC14clearAllCachesyyFZ",
-            "mangledName": "$s16DocumentDetector16CafSecurityUtilsC14clearAllCachesyyFZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "sanitizeString",
-            "printedName": "sanitizeString(_:sensitiveFields:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector16CafSecurityUtilsC14sanitizeString_15sensitiveFieldsS2S_SaySSGtFZ",
-            "mangledName": "$s16DocumentDetector16CafSecurityUtilsC14sanitizeString_15sensitiveFieldsS2S_SaySSGtFZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "validateNoSensitiveDataInLogs",
-            "printedName": "validateNoSensitiveDataInLogs(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector16CafSecurityUtilsC29validateNoSensitiveDataInLogsySb10Foundation0I0VFZ",
-            "mangledName": "$s16DocumentDetector16CafSecurityUtilsC29validateNoSensitiveDataInLogsySb10Foundation0I0VFZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isDeviceSecure",
-            "printedName": "isDeviceSecure()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector16CafSecurityUtilsC14isDeviceSecureSbyFZ",
-            "mangledName": "$s16DocumentDetector16CafSecurityUtilsC14isDeviceSecureSbyFZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "secureOverwrite",
-            "printedName": "secureOverwrite(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "paramValueOwnership": "InOut",
-                "usr": "s:10Foundation4DataV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector16CafSecurityUtilsC15secureOverwriteyy10Foundation4DataVzFZ",
-            "mangledName": "$s16DocumentDetector16CafSecurityUtilsC15secureOverwriteyy10Foundation4DataVzFZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "secureOverwrite",
-            "printedName": "secureOverwrite(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "paramValueOwnership": "InOut",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector16CafSecurityUtilsC15secureOverwriteyySSzFZ",
-            "mangledName": "$s16DocumentDetector16CafSecurityUtilsC15secureOverwriteyySSzFZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "createSecureURLSessionConfiguration",
-            "printedName": "createSecureURLSessionConfiguration()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "URLSessionConfiguration",
-                "printedName": "Foundation.URLSessionConfiguration",
-                "usr": "c:objc(cs)NSURLSessionConfiguration"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector16CafSecurityUtilsC35createSecureURLSessionConfigurationSo012NSURLSessionI0CyFZ",
-            "mangledName": "$s16DocumentDetector16CafSecurityUtilsC35createSecureURLSessionConfigurationSo012NSURLSessionI0CyFZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addCacheControlHeaders",
-            "printedName": "addCacheControlHeaders(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URLRequest",
-                "printedName": "Foundation.URLRequest",
-                "paramValueOwnership": "InOut",
-                "usr": "s:10Foundation10URLRequestV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector16CafSecurityUtilsC22addCacheControlHeaders2toy10Foundation10URLRequestVz_tFZ",
-            "mangledName": "$s16DocumentDetector16CafSecurityUtilsC22addCacheControlHeaders2toy10Foundation10URLRequestVz_tFZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "sanitizeDataForLogging",
-            "printedName": "sanitizeDataForLogging(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector16CafSecurityUtilsC22sanitizeDataForLoggingy10Foundation0G0VAGFZ",
-            "mangledName": "$s16DocumentDetector16CafSecurityUtilsC22sanitizeDataForLoggingy10Foundation0G0VAGFZ",
-            "moduleName": "DocumentDetector",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:16DocumentDetector16CafSecurityUtilsC",
-        "mangledName": "$s16DocumentDetector16CafSecurityUtilsC",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "DocumentDetector"
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "DocumentDetector"
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC.runtime",
+        "printedName": "ObjectiveC.runtime",
+        "declKind": "Import",
+        "moduleName": "DocumentDetector"
       },
       {
         "kind": "Import",
@@ -45920,6 +46352,33 @@
           },
           {
             "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DocumentDetector@objc(cs)DocumentDetectorViewController(im)viewDidLoad",
+            "mangledName": "$s16DocumentDetector0aB14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "DocumentDetector",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "viewDidLayoutSubviews",
             "printedName": "viewDidLayoutSubviews()",
             "children": [
@@ -54468,77 +54927,77 @@
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 6795,
+      "offset": 7012,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 6890,
+      "offset": 7107,
       "length": 19,
       "value": "\"too_much_movement\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7005,
+      "offset": 7222,
       "length": 12,
       "value": "\"too_bright\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7105,
+      "offset": 7322,
       "length": 10,
       "value": "\"too_dark\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7205,
+      "offset": 7422,
       "length": 17,
       "value": "\"misaligned_face\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7303,
+      "offset": 7520,
       "length": 13,
       "value": "\"eyes_closed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7401,
+      "offset": 7618,
       "length": 14,
       "value": "\"face_too_far\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7510,
+      "offset": 7727,
       "length": 16,
       "value": "\"face_too_close\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7621,
+      "offset": 7838,
       "length": 12,
       "value": "\"sunglasses\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7720,
+      "offset": 7937,
       "length": 15,
       "value": "\"obscured_face\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7812,
+      "offset": 8029,
       "length": 16,
       "value": "\"multiple_faces\""
     },
@@ -55758,7 +56217,7 @@
       "kind": "StringLiteral",
       "offset": 254,
       "length": 9,
-      "value": "\"16.11.0\""
+      "value": "\"16.11.1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Utils\/CafDDConstants.swift",
@@ -56421,14 +56880,14 @@
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafInstructions\/CafInstructionsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 430,
+      "offset": 731,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafInstructions\/CafInstructionsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1612,
+      "offset": 3753,
       "length": 1,
       "value": "0"
     },
@@ -57163,7 +57622,35 @@
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 874,
+      "offset": 492,
+      "length": 28,
+      "value": "[27042, 27043, 27044, 27045]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 579,
+      "length": 361,
+      "value": "[\"\/usr\/sbin\/frida-server\", \"\/usr\/bin\/frida-server\", \"\/usr\/local\/bin\/frida-server\", \"\/usr\/lib\/frida\", \"\/usr\/local\/lib\/frida\", \"\/Library\/Frameworks\/FridaGadget.framework\", \"\/var\/containers\/Bundle\/Application\/*\/Payload\/*.app\/Frameworks\/FridaGadget.framework\", \"\/.frida\", \"\/tmp\/frida-*\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 1003,
+      "length": 158,
+      "value": "[\"frida\", \"Frida\", \"FridaGadget\", \"frida-gadget\", \"frida-agent\", \"gum-js-loop\", \"gmain\", \"linjector\", \"frida_agent\", \"frida_agent_main\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 1224,
+      "length": 114,
+      "value": "[\"gum-js-loop\", \"gmain\", \"gdbus\", \"pool-frida\", \"frida-helper\", \"linjector\", \"frida-portal\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 2049,
       "length": 83,
       "value": "[\"token\", \"mobileToken\", \"personId\", \"authorization\", \"bearer\", \"attestationToken\"]"
     },
@@ -58094,91 +58581,91 @@
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19274,
+      "offset": 20879,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19298,
+      "offset": 20903,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19328,
+      "offset": 20933,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19378,
+      "offset": 20983,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19479,
+      "offset": 21084,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19525,
+      "offset": 21130,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19701,
+      "offset": 21306,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19707,
+      "offset": 21312,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19863,
+      "offset": 21468,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19869,
+      "offset": 21474,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19879,
+      "offset": 21484,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19890,
+      "offset": 21495,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20084,
+      "offset": 21689,
       "length": 1,
       "value": "2"
     },
