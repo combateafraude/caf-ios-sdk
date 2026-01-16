@@ -5,7 +5,11 @@
 import AVFoundation
 import AdSupport
 import CommonCrypto
+import Darwin
 import Foundation
+import MachO
+import Network
+import ObjectiveC
 import Security
 import Swift
 import UIKit
@@ -13,6 +17,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import iProov
+import ObjectiveC.runtime
 public enum CafEnvironment : Swift.Int {
   case dev
   case beta
@@ -67,6 +72,7 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case cameraException
   case certificateException
   case invalidOptionsException
+  case securityException
   case faceAuthentication
   public init?(rawValue: Swift.String)
   public typealias AllCases = [CafFaceLivenessLite.CafErrorType]
@@ -127,18 +133,6 @@ public enum CafLogLevel : Swift.String {
   public var rawValue: Swift.String {
     get
   }
-}
-@_hasMissingDesignatedInitializers public class CafSecurityUtils {
-  public static func clearAllCaches()
-  public static func sanitizeString(_ input: Swift.String, sensitiveFields: [Swift.String] = ["token", "mobileToken", "personId", "authorization", "bearer", "attestationToken"]) -> Swift.String
-  public static func validateNoSensitiveDataInLogs(_ data: Foundation.Data) -> Swift.Bool
-  public static func isDeviceSecure() -> Swift.Bool
-  public static func secureOverwrite(_ data: inout Foundation.Data)
-  public static func secureOverwrite(_ string: inout Swift.String)
-  public static func createSecureURLSessionConfiguration() -> Foundation.URLSessionConfiguration
-  public static func addCacheControlHeaders(to request: inout Foundation.URLRequest)
-  public static func sanitizeDataForLogging(_ data: Foundation.Data) -> Foundation.Data
-  @objc deinit
 }
 extension CafFaceLivenessLite.CafEnvironment : Swift.Equatable {}
 extension CafFaceLivenessLite.CafEnvironment : Swift.Hashable {}

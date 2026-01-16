@@ -12,6 +12,7 @@ import DeveloperToolsSupport
 import FingerprintPro
 import Foundation
 import MachO
+import Network
 import ObjectiveC
 import Security
 import Swift
@@ -215,6 +216,11 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
   @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
   open func startSDK(viewController: UIKit.UIViewController, mobileToken: Swift.String, personId: Swift.String, debugEnabled: Swift.Bool = false, sessionId: Swift.String = UUID().uuidString)
   @objc deinit
+}
+public protocol CafInstructionsAnalyticsDelegate : AnyObject {
+  func cameraPermissionRequested()
+  func cameraPermissionGranted()
+  func cameraPermissionDenied()
 }
 public struct CafInstructionsConfiguration {
   public var enabled: Swift.Bool

@@ -10,6 +10,7 @@ import Darwin
 import DeveloperToolsSupport
 import Foundation
 import MachO
+import Network
 import ObjectiveC
 import Security
 import Swift
@@ -551,6 +552,11 @@ public struct CafFaceLivenessConfig {
   public var bridgeConfig: [Swift.String : Swift.String]?
   public var debug: Swift.Bool
   public init(instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), loadingEnabled: Swift.Bool = true, reverseProxyConfig: CafSDK.CafReverseProxyConfig = CafReverseProxyConfig(), executeFaceAuth: Swift.Bool = false, customLocalization: Swift.String? = nil, maxRetryAttempts: Swift.Int = -1, sdkType: CafSDK.CafSdkPlatform = .nativeIos, flCustomizations: [any CafSDK.CafFLCustomization] = [], payFaceDebugMode: Swift.Bool = false, bridgeConfig: [Swift.String : Swift.String]? = nil, debug: Swift.Bool = false)
+}
+public protocol CafInstructionsAnalyticsDelegate : AnyObject {
+  func cameraPermissionRequested()
+  func cameraPermissionGranted()
+  func cameraPermissionDenied()
 }
 public struct CafInstructionsConfiguration {
   public var enabled: Swift.Bool
