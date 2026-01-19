@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PikkGpJ3Jy+t1yANjhQmIDwPP30=
+		fmrqPC4bdFcA4UY1gidoHHNVFzg=
 		</data>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		f5fyGDWFGN/lzhfv+AdyoPpb0A0=
+		5BCL8K+fn3hDklb3vXlqjm+skq0=
 		</data>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Woinf8kqpXVdFhHcLS4avXDasRU=
+		oaW3pg6270DY776t72geqhYebZw=
 		</data>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Woinf8kqpXVdFhHcLS4avXDasRU=
+		oaW3pg6270DY776t72geqhYebZw=
 		</data>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		i09Ruo3QuXFFFomNYKJd4KpOVSw=
+		/jF8PtN1wVB26Mg7saOiQNRryEY=
 		</data>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		f5fyGDWFGN/lzhfv+AdyoPpb0A0=
+		5BCL8K+fn3hDklb3vXlqjm+skq0=
 		</data>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hkJQGsaC6E8jLgS371BgixPI7mc=
+		pBAkmFsK/naZemmtEsfXg8XgFfs=
 		</data>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hkJQGsaC6E8jLgS371BgixPI7mc=
+		pBAkmFsK/naZemmtEsfXg8XgFfs=
 		</data>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RuVrBB4CZVfrplQZeQNLQ3RRYmk=
+		MxrKw3b+8mvpAUk2XmDjCcpJTQs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,14 +70,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LGZ+dOWBJ6qM2IXx7td1XkXjpR8iMuswY6XcGweRrpA=
+			BwIRRvQPx9OBHGeitJ/NdNuy0l6zAJ6yVXN2EpWSB4U=
 			</data>
 		</dict>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PSHLH/VDvumbLVKYT9ZTUmqvPaiSwL3L9nPO5oKhL4k=
+			0hHMw9yU9cNy4cqEAhkiPiHDDsNn93N1OUNsEGJhRqE=
 			</data>
 		</dict>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PSHLH/VDvumbLVKYT9ZTUmqvPaiSwL3L9nPO5oKhL4k=
+			0hHMw9yU9cNy4cqEAhkiPiHDDsNn93N1OUNsEGJhRqE=
 			</data>
 		</dict>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a90I3z4UyMeKSx2K+nKZKPxlcBUu/D/OfXLoAx5Wtu0=
+			cdwM2l9QOVTlB7wArb0T/TFsfsGtAczBDvzzcmhI4Zc=
 			</data>
 		</dict>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LGZ+dOWBJ6qM2IXx7td1XkXjpR8iMuswY6XcGweRrpA=
+			BwIRRvQPx9OBHGeitJ/NdNuy0l6zAJ6yVXN2EpWSB4U=
 			</data>
 		</dict>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lFQGBRuBNAIBUglcdmBKRxZj/wfDzEwltKufChDWAHo=
+			lJkJLvQ0OzYfZSrAwBLlVTRrM90fR/pton08b+3kHuY=
 			</data>
 		</dict>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lFQGBRuBNAIBUglcdmBKRxZj/wfDzEwltKufChDWAHo=
+			lJkJLvQ0OzYfZSrAwBLlVTRrM90fR/pton08b+3kHuY=
 			</data>
 		</dict>
 		<key>Modules/CafFaceLivenessBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			InOAndj5UyxTGrMuYrPLqgfUQ+KlU/xo6lSyL7QLdUM=
+			X7yZyWBpVGeaHpnXQawCjeOOY0sM9jp76kEJ+PVUqMc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
