@@ -34,7 +34,7 @@ Add the following dependency to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/combateafraude/caf-ios-sdk.git", from: "5.5.2")
+    .package(url: "https://github.com/combateafraude/caf-ios-sdk.git", from: "6.1.0")
 ]
 ```
 
