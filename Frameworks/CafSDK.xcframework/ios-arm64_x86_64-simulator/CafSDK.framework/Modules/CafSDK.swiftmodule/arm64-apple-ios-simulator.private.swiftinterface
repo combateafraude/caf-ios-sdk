@@ -109,8 +109,21 @@ public enum CafFailureType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case faceTooFar
   case faceTooClose
   case sunglasses
+  case eyewear
   case obscuredFace
   case multipleFaces
+  case faceNotFound
+  case framesBlurry
+  case lightingIssues
+  case motionIssue
+  case backgroundIssue
+  case deviceIssue
+  case deviceRestart
+  case systemError
+  case rejected
+  case timeout
+  case userNotFound
+  case processingFault
   public init?(rawValue: Swift.String)
   public typealias AllCases = [CafSDK.CafFailureType]
   public typealias RawValue = Swift.String

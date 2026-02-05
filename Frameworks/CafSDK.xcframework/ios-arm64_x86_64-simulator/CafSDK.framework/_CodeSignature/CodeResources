@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FKlQ3vZHTSyobMK5/scKYF8uVLI=
+		lo5ybnBtchsPe8UlMsX8dsKRzKc=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		WyB7oxiegfZs2zR3MgE8Z7U80D8=
+		SW0VeQ17wr4jyaVpabDGinRDz8U=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zFuawcmDNPkeB1SALuY+Xwpp5mM=
+		gWLv7nDI3FTJ7qnVCmnTDltvRBM=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WyB7oxiegfZs2zR3MgE8Z7U80D8=
+		SW0VeQ17wr4jyaVpabDGinRDz8U=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bbLNmnhajpL5ii3W01AeH/LS6y0=
+		Hk4W5NGgXsQTa4aXnmDRhu+yGmQ=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FKlQ3vZHTSyobMK5/scKYF8uVLI=
+		lo5ybnBtchsPe8UlMsX8dsKRzKc=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		TVlnqbPEO8pRFxkMC40FfrKUILw=
+		ppFTG4cOc7nMqSLXeeJjZT60f/8=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		baQWTwVW6689BavQqNE9TC5HYn0=
+		nLZrT+uf6uW0duilKtB3pCxvlKg=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TVlnqbPEO8pRFxkMC40FfrKUILw=
+		ppFTG4cOc7nMqSLXeeJjZT60f/8=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8KgY95M0ROHAqmgP/f1YRIiDvH8=
+		mmWyYJLuHGQgVI/CjAiOecT6TTg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -117,70 +117,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a7h1uNNadpp6Npcp1/dJPgQNkXe0JC/GVVt4pMjex2k=
+			NkeQ6VXRx34woK/90P5E+hxMaVT+LnjND1p8vbocnRo=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DxJC+e/C111pxTqBrHrzmmc3EsKSlvFCNww1JDzTmME=
+			jGkvRL2eU5sqT7AJ/oP+hYMGM/3dGF6m3Z2jqwZb+HU=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3J8x/NYfA4OCDNFJXccq3VJKu5MlNVzu0A8lOXkp7oQ=
+			cl4ywr969BKpft45B9/AmYrCjHDshxAMdC/X6JFN8Rg=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DxJC+e/C111pxTqBrHrzmmc3EsKSlvFCNww1JDzTmME=
+			jGkvRL2eU5sqT7AJ/oP+hYMGM/3dGF6m3Z2jqwZb+HU=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			del1Ft7z9wZ40o72R2uDzwhKXLvAni3YKAwYdXaeqsk=
+			QDLs1hKWmIBgq8lDBDhURGc2xiLsAKFDFpwnrXvord0=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a7h1uNNadpp6Npcp1/dJPgQNkXe0JC/GVVt4pMjex2k=
+			NkeQ6VXRx34woK/90P5E+hxMaVT+LnjND1p8vbocnRo=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BeHMHQ04sCaXSQogOwTdCk0AnXaxqWFNlHu4ZH0uZdM=
+			SFNKDKnO1CX1HKuRO0KN9Ax1qZ3sRlonktfdvEEjqrM=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3jH5dcIuPvfvjeUn61+hMPLlaWyMv60B7JxHN+TXJks=
+			GIAGyzhalYOjQzboBHIoSMSS5qcECKsefLeYZYWY2XY=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BeHMHQ04sCaXSQogOwTdCk0AnXaxqWFNlHu4ZH0uZdM=
+			SFNKDKnO1CX1HKuRO0KN9Ax1qZ3sRlonktfdvEEjqrM=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jmj5tbXMDg8v4jnSjLICg6IKmHM/eEwtwPH0gj3Z7/c=
+			Ak3sO2MiMf3P1hgih9C4CWf3l0/Ui7Gadez3M3cMZn8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
