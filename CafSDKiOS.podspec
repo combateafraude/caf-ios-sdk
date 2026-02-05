@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Caf' => 'service@caf.io' }
   s.source           = { :git => 'https://github.com/combateafraude/caf-ios-sdk.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '15.0'
   s.swift_version = '5.0'
   s.default_subspec = 'CafSDK'
   
@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   # Iproov integration
   s.subspec 'IproovProvider' do |ip|
     ip.vendored_frameworks = 'Frameworks/IproovProvider.xcframework'
-    ip.dependency 'iProov', '12.3.1'
+    ip.dependency 'iProov', '13.1.0'
     ip.dependency 'CafSDKiOS/CafFaceLivenessCore'
   end
 
@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'CafFaceLivenessLite' do |cfl|
     cfl.vendored_frameworks = 'CafFacelivenessLite/CafFaceLivenessLite.xcframework'
-    cfl.dependency 'iProov', '12.3.1'
+    cfl.dependency 'iProov', '13.1.0'
   end
 
 
