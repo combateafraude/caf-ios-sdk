@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "CafSDKiOS",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(name: "CafCore", targets: ["CafSDKTarget"]),
         .library(name: "CafSDK", targets: ["DocumentDetectorTarget", "CafFaceLivenessTarget"]),
@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "FortfaceProvider", targets: ["FortfaceProviderTarget"])
     ],
     dependencies: [
-        .package(url: "https://github.com/iProov/ios.git", .exact("12.3.1")),
+        .package(url: "https://github.com/iProov/ios.git", .exact("13.1.0")),
         .package(url: "https://github.com/fingerprintjs/fingerprintjs-pro-ios.git", .exact("2.7.0")),
         .package(url: "https://github.com/combateafraude/TensorFlowLiteC.git", .exact("2.14.0")),
         .package(url: "https://github.com/combateafraude/CafSolutions.git", .exact("2.0.6"))
