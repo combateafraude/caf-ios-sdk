@@ -438,7 +438,6 @@ SWIFT_CLASS("_TtC16DocumentDetector20DocumentDetectorStep")
 SWIFT_CLASS("_TtC16DocumentDetector30DocumentDetectorViewController")
 @interface DocumentDetectorViewController : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)viewDidLoad;
 /// configure the size of camera layer
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;
@@ -922,7 +921,6 @@ SWIFT_CLASS("_TtC16DocumentDetector20DocumentDetectorStep")
 SWIFT_CLASS("_TtC16DocumentDetector30DocumentDetectorViewController")
 @interface DocumentDetectorViewController : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)viewDidLoad;
 /// configure the size of camera layer
 - (void)viewDidLayoutSubviews;
 - (void)viewWillAppear:(BOOL)animated;

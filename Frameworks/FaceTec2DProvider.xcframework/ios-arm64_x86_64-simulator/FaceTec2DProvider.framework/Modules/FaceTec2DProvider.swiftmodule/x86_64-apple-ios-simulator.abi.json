@@ -193,6 +193,23 @@
       },
       {
         "kind": "Import",
+        "name": "CafSolutions",
+        "printedName": "CafSolutions",
+        "declKind": "Import",
+        "moduleName": "FaceTec2DProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceTec2DProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -231,13 +248,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Network",
-        "printedName": "Network",
-        "declKind": "Import",
-        "moduleName": "FaceTec2DProvider"
       },
       {
         "kind": "Import",
@@ -4912,23 +4922,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "FaceTec2DProvider"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FaceTec2DProvider",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5209,101 +5202,6 @@
         "moduleName": "FaceTec2DProvider"
       },
       {
-        "kind": "TypeDecl",
-        "name": "CafInstructionsAnalyticsDelegate",
-        "printedName": "CafInstructionsAnalyticsDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "cameraPermissionRequested",
-            "printedName": "cameraPermissionRequested()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17FaceTec2DProvider32CafInstructionsAnalyticsDelegateP25cameraPermissionRequestedyyF",
-            "mangledName": "$s17FaceTec2DProvider32CafInstructionsAnalyticsDelegateP25cameraPermissionRequestedyyF",
-            "moduleName": "FaceTec2DProvider",
-            "genericSig": "<τ_0_0 where τ_0_0 : FaceTec2DProvider.CafInstructionsAnalyticsDelegate>",
-            "sugared_genericSig": "<Self where Self : FaceTec2DProvider.CafInstructionsAnalyticsDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "cameraPermissionGranted",
-            "printedName": "cameraPermissionGranted()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17FaceTec2DProvider32CafInstructionsAnalyticsDelegateP23cameraPermissionGrantedyyF",
-            "mangledName": "$s17FaceTec2DProvider32CafInstructionsAnalyticsDelegateP23cameraPermissionGrantedyyF",
-            "moduleName": "FaceTec2DProvider",
-            "genericSig": "<τ_0_0 where τ_0_0 : FaceTec2DProvider.CafInstructionsAnalyticsDelegate>",
-            "sugared_genericSig": "<Self where Self : FaceTec2DProvider.CafInstructionsAnalyticsDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "cameraPermissionDenied",
-            "printedName": "cameraPermissionDenied()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17FaceTec2DProvider32CafInstructionsAnalyticsDelegateP22cameraPermissionDeniedyyF",
-            "mangledName": "$s17FaceTec2DProvider32CafInstructionsAnalyticsDelegateP22cameraPermissionDeniedyyF",
-            "moduleName": "FaceTec2DProvider",
-            "genericSig": "<τ_0_0 where τ_0_0 : FaceTec2DProvider.CafInstructionsAnalyticsDelegate>",
-            "sugared_genericSig": "<Self where Self : FaceTec2DProvider.CafInstructionsAnalyticsDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:17FaceTec2DProvider32CafInstructionsAnalyticsDelegateP",
-        "mangledName": "$s17FaceTec2DProvider32CafInstructionsAnalyticsDelegateP",
-        "moduleName": "FaceTec2DProvider",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -5415,8 +5313,8 @@
           },
           {
             "kind": "Var",
-            "name": "captureTitle",
-            "printedName": "captureTitle",
+            "name": "title",
+            "printedName": "title",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5434,119 +5332,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV12captureTitleSSSgvp",
-            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV12captureTitleSSSgvp",
-            "moduleName": "FaceTec2DProvider",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV12captureTitleSSSgvg",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV12captureTitleSSSgvg",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV12captureTitleSSSgvs",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV12captureTitleSSSgvs",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV12captureTitleSSSgvM",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV12captureTitleSSSgvM",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "captureDescriptionText",
-            "printedName": "captureDescriptionText",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV22captureDescriptionTextSSSgvp",
-            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV22captureDescriptionTextSSSgvp",
+            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV5titleSSSgvp",
+            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV5titleSSSgvp",
             "moduleName": "FaceTec2DProvider",
             "declAttributes": [
               "HasInitialValue",
@@ -5576,8 +5363,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV22captureDescriptionTextSSSgvg",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV22captureDescriptionTextSSSgvg",
+                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV5titleSSSgvg",
+                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV5titleSSSgvg",
                 "moduleName": "FaceTec2DProvider",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5608,8 +5395,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV22captureDescriptionTextSSSgvs",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV22captureDescriptionTextSSSgvs",
+                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV5titleSSSgvs",
+                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV5titleSSSgvs",
                 "moduleName": "FaceTec2DProvider",
                 "implicit": true,
                 "accessorKind": "set"
@@ -5626,8 +5413,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV22captureDescriptionTextSSSgvM",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV22captureDescriptionTextSSSgvM",
+                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV5titleSSSgvM",
+                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV5titleSSSgvM",
                 "moduleName": "FaceTec2DProvider",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5636,8 +5423,118 @@
           },
           {
             "kind": "Var",
-            "name": "captureSteps",
-            "printedName": "captureSteps",
+            "name": "descriptionText",
+            "printedName": "descriptionText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV15descriptionTextSSSgvp",
+            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV15descriptionTextSSSgvp",
+            "moduleName": "FaceTec2DProvider",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV15descriptionTextSSSgvg",
+                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV15descriptionTextSSSgvg",
+                "moduleName": "FaceTec2DProvider",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV15descriptionTextSSSgvs",
+                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV15descriptionTextSSSgvs",
+                "moduleName": "FaceTec2DProvider",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV15descriptionTextSSSgvM",
+                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV15descriptionTextSSSgvM",
+                "moduleName": "FaceTec2DProvider",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "steps",
+            "printedName": "steps",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5663,8 +5560,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV12captureStepsSaySSGSgvp",
-            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV12captureStepsSaySSGSgvp",
+            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV5stepsSaySSGSgvp",
+            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV5stepsSaySSGSgvp",
             "moduleName": "FaceTec2DProvider",
             "declAttributes": [
               "HasInitialValue",
@@ -5702,8 +5599,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV12captureStepsSaySSGSgvg",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV12captureStepsSaySSGSgvg",
+                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV5stepsSaySSGSgvg",
+                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV5stepsSaySSGSgvg",
                 "moduleName": "FaceTec2DProvider",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5742,8 +5639,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV12captureStepsSaySSGSgvs",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV12captureStepsSaySSGSgvs",
+                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV5stepsSaySSGSgvs",
+                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV5stepsSaySSGSgvs",
                 "moduleName": "FaceTec2DProvider",
                 "implicit": true,
                 "accessorKind": "set"
@@ -5760,8 +5657,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV12captureStepsSaySSGSgvM",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV12captureStepsSaySSGSgvM",
+                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV5stepsSaySSGSgvM",
+                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV5stepsSaySSGSgvM",
                 "moduleName": "FaceTec2DProvider",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5770,8 +5667,8 @@
           },
           {
             "kind": "Var",
-            "name": "captureButtonTitle",
-            "printedName": "captureButtonTitle",
+            "name": "buttonTitle",
+            "printedName": "buttonTitle",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5789,8 +5686,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV18captureButtonTitleSSSgvp",
-            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV18captureButtonTitleSSSgvp",
+            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11buttonTitleSSSgvp",
+            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11buttonTitleSSSgvp",
             "moduleName": "FaceTec2DProvider",
             "declAttributes": [
               "HasInitialValue",
@@ -5820,8 +5717,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV18captureButtonTitleSSSgvg",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV18captureButtonTitleSSSgvg",
+                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11buttonTitleSSSgvg",
+                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11buttonTitleSSSgvg",
                 "moduleName": "FaceTec2DProvider",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5852,8 +5749,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV18captureButtonTitleSSSgvs",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV18captureButtonTitleSSSgvs",
+                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11buttonTitleSSSgvs",
+                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11buttonTitleSSSgvs",
                 "moduleName": "FaceTec2DProvider",
                 "implicit": true,
                 "accessorKind": "set"
@@ -5870,8 +5767,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV18captureButtonTitleSSSgvM",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV18captureButtonTitleSSSgvM",
+                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11buttonTitleSSSgvM",
+                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11buttonTitleSSSgvM",
                 "moduleName": "FaceTec2DProvider",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5880,8 +5777,8 @@
           },
           {
             "kind": "Var",
-            "name": "captureHeaderImage",
-            "printedName": "captureHeaderImage",
+            "name": "headerImage",
+            "printedName": "headerImage",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5899,8 +5796,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvp",
-            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvp",
+            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvp",
+            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvp",
             "moduleName": "FaceTec2DProvider",
             "declAttributes": [
               "HasInitialValue",
@@ -5930,583 +5827,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvg",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvg",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvs",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvs",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvM",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV18captureHeaderImageSo7UIImageCSgvM",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "uploadTitle",
-            "printedName": "uploadTitle",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11uploadTitleSSSgvp",
-            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11uploadTitleSSSgvp",
-            "moduleName": "FaceTec2DProvider",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11uploadTitleSSSgvg",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11uploadTitleSSSgvg",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11uploadTitleSSSgvs",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11uploadTitleSSSgvs",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11uploadTitleSSSgvM",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11uploadTitleSSSgvM",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "uploadDescriptionText",
-            "printedName": "uploadDescriptionText",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvp",
-            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvp",
-            "moduleName": "FaceTec2DProvider",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvg",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvg",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvs",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvs",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvM",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV21uploadDescriptionTextSSSgvM",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "uploadSteps",
-            "printedName": "uploadSteps",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11uploadStepsSaySSGSgvp",
-            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11uploadStepsSaySSGSgvp",
-            "moduleName": "FaceTec2DProvider",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11uploadStepsSaySSGSgvg",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11uploadStepsSaySSGSgvg",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11uploadStepsSaySSGSgvs",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11uploadStepsSaySSGSgvs",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11uploadStepsSaySSGSgvM",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11uploadStepsSaySSGSgvM",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "uploadButtonTitle",
-            "printedName": "uploadButtonTitle",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV17uploadButtonTitleSSSgvp",
-            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV17uploadButtonTitleSSSgvp",
-            "moduleName": "FaceTec2DProvider",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV17uploadButtonTitleSSSgvg",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV17uploadButtonTitleSSSgvg",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV17uploadButtonTitleSSSgvs",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV17uploadButtonTitleSSSgvs",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV17uploadButtonTitleSSSgvM",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV17uploadButtonTitleSSSgvM",
-                "moduleName": "FaceTec2DProvider",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "uploadHeaderImage",
-            "printedName": "uploadHeaderImage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImage?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvp",
-            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvp",
-            "moduleName": "FaceTec2DProvider",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvg",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvg",
+                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvg",
+                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvg",
                 "moduleName": "FaceTec2DProvider",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6537,8 +5859,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvs",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvs",
+                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvs",
+                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvs",
                 "moduleName": "FaceTec2DProvider",
                 "implicit": true,
                 "accessorKind": "set"
@@ -6555,8 +5877,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvM",
-                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV17uploadHeaderImageSo7UIImageCSgvM",
+                "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvM",
+                "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV11headerImageSo7UIImageCSgvM",
                 "moduleName": "FaceTec2DProvider",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -6566,7 +5888,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(enabled:captureTitle:captureDescriptionText:captureSteps:captureButtonTitle:captureHeaderImage:uploadTitle:uploadDescriptionText:uploadSteps:uploadButtonTitle:uploadHeaderImage:)",
+            "printedName": "init(enabled:title:descriptionText:steps:buttonTitle:headerImage:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6663,94 +5985,11 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImage?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV7enabled12captureTitle0H15DescriptionText0H5Steps0h6ButtonI00H11HeaderImage06uploadI00pjK00pL00pmI00pnO0ACSb_SSSgAOSaySSGSgAOSo7UIImageCSgA2oqoTtcfc",
-            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV7enabled12captureTitle0H15DescriptionText0H5Steps0h6ButtonI00H11HeaderImage06uploadI00pjK00pL00pmI00pnO0ACSb_SSSgAOSaySSGSgAOSo7UIImageCSgA2oqoTtcfc",
+            "usr": "s:17FaceTec2DProvider28CafInstructionsConfigurationV7enabled5title15descriptionText5steps11buttonTitle11headerImageACSb_SSSgAJSaySSGSgAJSo7UIImageCSgtcfc",
+            "mangledName": "$s17FaceTec2DProvider28CafInstructionsConfigurationV7enabled5title15descriptionText5steps11buttonTitle11headerImageACSb_SSSgAJSaySSGSgAJSo7UIImageCSgtcfc",
             "moduleName": "FaceTec2DProvider",
             "declAttributes": [
               "AccessControl"
@@ -7169,25 +6408,292 @@
         "moduleName": "FaceTec2DProvider"
       },
       {
-        "kind": "Import",
-        "name": "Darwin",
-        "printedName": "Darwin",
-        "declKind": "Import",
-        "moduleName": "FaceTec2DProvider"
-      },
-      {
-        "kind": "Import",
-        "name": "MachO",
-        "printedName": "MachO",
-        "declKind": "Import",
-        "moduleName": "FaceTec2DProvider"
-      },
-      {
-        "kind": "Import",
-        "name": "ObjectiveC.runtime",
-        "printedName": "ObjectiveC.runtime",
-        "declKind": "Import",
-        "moduleName": "FaceTec2DProvider"
+        "kind": "TypeDecl",
+        "name": "CafSecurityUtils",
+        "printedName": "CafSecurityUtils",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "clearAllCaches",
+            "printedName": "clearAllCaches()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC14clearAllCachesyyFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC14clearAllCachesyyFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sanitizeString",
+            "printedName": "sanitizeString(_:sensitiveFields:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC14sanitizeString_15sensitiveFieldsS2S_SaySSGtFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC14sanitizeString_15sensitiveFieldsS2S_SaySSGtFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validateNoSensitiveDataInLogs",
+            "printedName": "validateNoSensitiveDataInLogs(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC29validateNoSensitiveDataInLogsySb10Foundation0J0VFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC29validateNoSensitiveDataInLogsySb10Foundation0J0VFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isDeviceSecure",
+            "printedName": "isDeviceSecure()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC14isDeviceSecureSbyFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC14isDeviceSecureSbyFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "secureOverwrite",
+            "printedName": "secureOverwrite(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "paramValueOwnership": "InOut",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC15secureOverwriteyy10Foundation4DataVzFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC15secureOverwriteyy10Foundation4DataVzFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "secureOverwrite",
+            "printedName": "secureOverwrite(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "paramValueOwnership": "InOut",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC15secureOverwriteyySSzFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC15secureOverwriteyySSzFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createSecureURLSessionConfiguration",
+            "printedName": "createSecureURLSessionConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionConfiguration",
+                "printedName": "Foundation.URLSessionConfiguration",
+                "usr": "c:objc(cs)NSURLSessionConfiguration"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC35createSecureURLSessionConfigurationSo012NSURLSessionJ0CyFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC35createSecureURLSessionConfigurationSo012NSURLSessionJ0CyFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addCacheControlHeaders",
+            "printedName": "addCacheControlHeaders(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "paramValueOwnership": "InOut",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC22addCacheControlHeaders2toy10Foundation10URLRequestVz_tFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC22addCacheControlHeaders2toy10Foundation10URLRequestVz_tFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sanitizeDataForLogging",
+            "printedName": "sanitizeDataForLogging(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC22sanitizeDataForLoggingy10Foundation0H0VAGFZ",
+            "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC22sanitizeDataForLoggingy10Foundation0H0VAGFZ",
+            "moduleName": "FaceTec2DProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17FaceTec2DProvider16CafSecurityUtilsC",
+        "mangledName": "$s17FaceTec2DProvider16CafSecurityUtilsC",
+        "moduleName": "FaceTec2DProvider",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -7504,63 +7010,63 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "Dictionary",
-      "offset": 533,
+      "offset": 505,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 611,
+      "offset": 583,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 643,
+      "offset": 615,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 681,
+      "offset": 653,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 749,
+      "offset": 721,
       "length": 14,
       "value": "\"install_guid\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 979,
+      "offset": 951,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1698,
+      "offset": 1670,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 4489,
+      "offset": 4461,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalytics.swift",
       "kind": "Dictionary",
-      "offset": 16374,
+      "offset": 16346,
       "length": 3,
       "value": "[]"
     },
@@ -8274,434 +7780,231 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 172,
+      "offset": 157,
       "length": 6,
       "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 195,
+      "offset": 180,
       "length": 6,
       "value": "\"beta\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 218,
+      "offset": 203,
       "length": 5,
       "value": "\"dev\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 585,
+      "offset": 570,
       "length": 12,
       "value": "\"native_ios\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 627,
+      "offset": 612,
       "length": 13,
       "value": "\"flutter_ios\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 671,
+      "offset": 656,
       "length": 18,
       "value": "\"react_native_ios\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 757,
+      "offset": 742,
       "length": 18,
       "value": "\"user_interaction\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 803,
+      "offset": 788,
       "length": 10,
       "value": "\"api_call\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 841,
+      "offset": 826,
       "length": 10,
       "value": "\"sdk_step\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 879,
+      "offset": 864,
       "length": 10,
       "value": "\"sdk_flow\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 917,
+      "offset": 902,
       "length": 11,
       "value": "\"sdk_error\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 956,
+      "offset": 941,
       "length": 10,
       "value": "\"identify\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 994,
+      "offset": 979,
       "length": 13,
       "value": "\"device_info\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1035,
+      "offset": 1020,
       "length": 7,
       "value": "\"crash\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1103,
+      "offset": 1088,
       "length": 10,
       "value": "\"identify\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1134,
+      "offset": 1119,
       "length": 11,
       "value": "\"start_sdk\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1167,
+      "offset": 1152,
       "length": 12,
       "value": "\"first_open\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1197,
+      "offset": 1182,
       "length": 7,
       "value": "\"crash\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1233,
+      "offset": 1218,
       "length": 19,
       "value": "\"provider_response\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1274,
+      "offset": 1259,
       "length": 12,
       "value": "\"sdk_result\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1308,
+      "offset": 1293,
       "length": 12,
       "value": "\"sdk_closed\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1356,
+      "offset": 1341,
       "length": 27,
       "value": "\"camera_permission_granted\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1421,
+      "offset": 1406,
       "length": 29,
       "value": "\"camera_permission_requested\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1485,
+      "offset": 1470,
       "length": 26,
       "value": "\"camera_permission_denied\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1540,
+      "offset": 1525,
       "length": 19,
       "value": "\"sdk_configuration\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1588,
+      "offset": 1573,
       "length": 19,
       "value": "\"device_identified\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1633,
+      "offset": 1618,
       "length": 16,
       "value": "\"app_identified\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1672,
+      "offset": 1657,
       "length": 13,
       "value": "\"device_data\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1709,
+      "offset": 1694,
       "length": 14,
       "value": "\"api_response\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1796,
-      "length": 23,
-      "value": "\"capture_screen_opened\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 1858,
-      "length": 31,
-      "value": "\"document_back_capture_started\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 1929,
-      "length": 32,
-      "value": "\"document_front_capture_started\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 1993,
-      "length": 23,
-      "value": "\"preview_screen_opened\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2044,
-      "length": 18,
-      "value": "\"preview_accepted\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2100,
-      "length": 30,
-      "value": "\"preview_screen_retry_clicked\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2168,
-      "length": 29,
-      "value": "\"document_captured_validated\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2227,
-      "length": 21,
-      "value": "\"upload_route_called\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2282,
-      "length": 25,
-      "value": "\"validation_route_called\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2337,
-      "length": 20,
-      "value": "\"document_validated\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2394,
-      "length": 28,
-      "value": "\"document_capture_completed\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2450,
-      "length": 18,
-      "value": "\"capture_finished\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2489,
-      "length": 11,
-      "value": "\"sdk_error\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2526,
-      "length": 16,
-      "value": "\"internal_error\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2577,
-      "length": 26,
-      "value": "\"attestation_route_called\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2635,
-      "length": 22,
-      "value": "\"permission_requested\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2687,
-      "length": 20,
-      "value": "\"permission_granted\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2736,
-      "length": 19,
-      "value": "\"permission_denied\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2780,
-      "length": 15,
-      "value": "\"no_connection\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 7787,
-      "length": 20,
-      "value": "\"identify-analytics\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 7834,
-      "length": 17,
-      "value": "\"track-analytics\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 7875,
-      "length": 13,
-      "value": "\"crashlytics\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "Array",
-      "offset": 12313,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 12343,
-      "length": 21,
-      "value": "\"caf_analytics_queue\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 12399,
-      "length": 29,
-      "value": "\"caf_analytics_queue_session\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12502,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12538,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12571,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 12721,
-      "length": 30,
-      "value": "\"io.caf.analytics.pathmonitor\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 12815,
+      "offset": 5967,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 12865,
+      "offset": 6017,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 12922,
+      "offset": 6074,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 12975,
+      "offset": 6127,
       "length": 105,
       "value": "\"https:\/\/firestore.googleapis.com\/v1\/projects\/caf-solutions\/databases\/(default)\/documents\/feature_toggle\""
     },
@@ -9205,168 +8508,168 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7012,
+      "offset": 7010,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7107,
+      "offset": 7105,
       "length": 19,
       "value": "\"too_much_movement\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7222,
+      "offset": 7220,
       "length": 12,
       "value": "\"too_bright\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7322,
+      "offset": 7320,
       "length": 10,
       "value": "\"too_dark\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7422,
+      "offset": 7420,
       "length": 17,
       "value": "\"misaligned_face\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7520,
+      "offset": 7518,
       "length": 13,
       "value": "\"eyes_closed\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7618,
+      "offset": 7616,
       "length": 14,
       "value": "\"face_too_far\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7727,
+      "offset": 7725,
       "length": 16,
       "value": "\"face_too_close\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7838,
+      "offset": 7836,
       "length": 12,
       "value": "\"sunglasses\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7924,
+      "offset": 7922,
       "length": 9,
       "value": "\"eyewear\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8020,
+      "offset": 8018,
       "length": 15,
       "value": "\"obscured_face\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8112,
+      "offset": 8110,
       "length": 16,
       "value": "\"multiple_faces\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8202,
+      "offset": 8200,
       "length": 16,
       "value": "\"face_not_found\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8294,
+      "offset": 8292,
       "length": 15,
       "value": "\"frames_blurry\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8427,
+      "offset": 8425,
       "length": 17,
       "value": "\"lighting_issues\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8508,
+      "offset": 8506,
       "length": 14,
       "value": "\"motion_issue\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8611,
+      "offset": 8609,
       "length": 18,
       "value": "\"background_issue\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8698,
+      "offset": 8696,
       "length": 14,
       "value": "\"device_issue\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8782,
+      "offset": 8780,
       "length": 16,
       "value": "\"device_restart\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8898,
+      "offset": 8896,
       "length": 14,
       "value": "\"system_error\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8980,
+      "offset": 8978,
       "length": 10,
       "value": "\"rejected\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 9042,
+      "offset": 9040,
       "length": 9,
       "value": "\"timeout\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 9138,
+      "offset": 9136,
       "length": 16,
       "value": "\"user_not_found\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 9230,
+      "offset": 9228,
       "length": 18,
       "value": "\"processing_fault\""
     },
@@ -10589,20 +9892,6 @@
       "value": "\"CFBundleVersion\""
     },
     {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafDocumentDetectorBFFAnalytics.swift",
-      "kind": "StringLiteral",
-      "offset": 1050,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafDocumentDetectorBFFAnalytics.swift",
-      "kind": "Dictionary",
-      "offset": 4203,
-      "length": 3,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-facetec2d-provider\/Sources\/Model\/CafFaceTec2DConstants.swift",
       "kind": "StringLiteral",
       "offset": 197,
@@ -10843,14 +10132,14 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafInstructions\/CafInstructionsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 731,
+      "offset": 430,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafInstructions\/CafInstructionsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3753,
+      "offset": 1612,
       "length": 1,
       "value": "0"
     },
@@ -10899,35 +10188,7 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 492,
-      "length": 28,
-      "value": "[27042, 27043, 27044, 27045]"
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
-      "kind": "Array",
-      "offset": 579,
-      "length": 361,
-      "value": "[\"\/usr\/sbin\/frida-server\", \"\/usr\/bin\/frida-server\", \"\/usr\/local\/bin\/frida-server\", \"\/usr\/lib\/frida\", \"\/usr\/local\/lib\/frida\", \"\/Library\/Frameworks\/FridaGadget.framework\", \"\/var\/containers\/Bundle\/Application\/*\/Payload\/*.app\/Frameworks\/FridaGadget.framework\", \"\/.frida\", \"\/tmp\/frida-*\"]"
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
-      "kind": "Array",
-      "offset": 1003,
-      "length": 158,
-      "value": "[\"frida\", \"Frida\", \"FridaGadget\", \"frida-gadget\", \"frida-agent\", \"gum-js-loop\", \"gmain\", \"linjector\", \"frida_agent\", \"frida_agent_main\"]"
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
-      "kind": "Array",
-      "offset": 1224,
-      "length": 114,
-      "value": "[\"gum-js-loop\", \"gmain\", \"gdbus\", \"pool-frida\", \"frida-helper\", \"linjector\", \"frida-portal\"]"
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
-      "kind": "Array",
-      "offset": 2049,
+      "offset": 874,
       "length": 83,
       "value": "[\"token\", \"mobileToken\", \"personId\", \"authorization\", \"bearer\", \"attestationToken\"]"
     },
@@ -10942,20 +10203,20 @@
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/DebugMode.swift",
       "kind": "BooleanLiteral",
       "offset": 252,
-      "length": 5,
-      "value": "false"
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/DebugMode.swift",
       "kind": "BooleanLiteral",
-      "offset": 288,
-      "length": 5,
-      "value": "false"
+      "offset": 287,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/DebugMode.swift",
       "kind": "BooleanLiteral",
-      "offset": 360,
+      "offset": 358,
       "length": 5,
       "value": "false"
     },

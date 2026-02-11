@@ -1,17 +1,13 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
-// swift-module-flags: -target arm64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FaceTec2DProvider
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FaceTec2DProvider
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import AdSupport
 import CafSolutions
 import CommonCrypto
-import Darwin
 import DeveloperToolsSupport
 import Foundation
-import MachO
-import Network
-import ObjectiveC
 import Security
 import Swift
 import SwiftUI
@@ -19,7 +15,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-import ObjectiveC.runtime
 extension UIKit.UIColor {
   convenience public init(byHex: Swift.String)
 }
@@ -163,25 +158,15 @@ final public class CafConfirmationNextStepContent {
   @objc override dynamic public init()
   @objc deinit
 }
-public protocol CafInstructionsAnalyticsDelegate : AnyObject {
-  func cameraPermissionRequested()
-  func cameraPermissionGranted()
-  func cameraPermissionDenied()
-}
 public struct CafInstructionsConfiguration {
   public var enabled: Swift.Bool
-  public var captureTitle: Swift.String?
-  public var captureDescriptionText: Swift.String?
-  public var captureSteps: [Swift.String]?
-  public var captureButtonTitle: Swift.String?
-  public var captureHeaderImage: UIKit.UIImage?
-  public var uploadTitle: Swift.String?
-  public var uploadDescriptionText: Swift.String?
-  public var uploadSteps: [Swift.String]?
-  public var uploadButtonTitle: Swift.String?
-  public var uploadHeaderImage: UIKit.UIImage?
+  public var title: Swift.String?
+  public var descriptionText: Swift.String?
+  public var steps: [Swift.String]?
+  public var buttonTitle: Swift.String?
+  public var headerImage: UIKit.UIImage?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(enabled: Swift.Bool = true, captureTitle: Swift.String? = nil, captureDescriptionText: Swift.String? = nil, captureSteps: [Swift.String]? = nil, captureButtonTitle: Swift.String? = nil, captureHeaderImage: UIKit.UIImage? = nil, uploadTitle: Swift.String? = nil, uploadDescriptionText: Swift.String? = nil, uploadSteps: [Swift.String]? = nil, uploadButtonTitle: Swift.String? = nil, uploadHeaderImage: UIKit.UIImage? = nil)
+  public init(enabled: Swift.Bool = true, title: Swift.String? = nil, descriptionText: Swift.String? = nil, steps: [Swift.String]? = nil, buttonTitle: Swift.String? = nil, headerImage: UIKit.UIImage? = nil)
   #endif
 }
 public enum CafLogLevel : Swift.String {
@@ -195,6 +180,18 @@ public enum CafLogLevel : Swift.String {
   public var rawValue: Swift.String {
     get
   }
+}
+@_hasMissingDesignatedInitializers public class CafSecurityUtils {
+  public static func clearAllCaches()
+  public static func sanitizeString(_ input: Swift.String, sensitiveFields: [Swift.String] = ["token", "mobileToken", "personId", "authorization", "bearer", "attestationToken"]) -> Swift.String
+  public static func validateNoSensitiveDataInLogs(_ data: Foundation.Data) -> Swift.Bool
+  public static func isDeviceSecure() -> Swift.Bool
+  public static func secureOverwrite(_ data: inout Foundation.Data)
+  public static func secureOverwrite(_ string: inout Swift.String)
+  public static func createSecureURLSessionConfiguration() -> Foundation.URLSessionConfiguration
+  public static func addCacheControlHeaders(to request: inout Foundation.URLRequest)
+  public static func sanitizeDataForLogging(_ data: Foundation.Data) -> Foundation.Data
+  @objc deinit
 }
 extension FaceTec2DProvider.CafEnvironment : Swift.Equatable {}
 extension FaceTec2DProvider.CafEnvironment : Swift.Hashable {}
