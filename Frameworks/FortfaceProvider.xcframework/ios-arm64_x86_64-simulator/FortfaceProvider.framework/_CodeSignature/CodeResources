@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		NgTEq3fPUJm/q1QMJd3K+sdBJlQ=
+		PVIcxEr4sOwl/rPFMz+cMahj+G4=
 		</data>
 		<key>Headers/FortfaceProvider-Swift.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		p3JOAWV9GAXU+2P8xqFgB/NGJuQ=
+		qnNnLgtSVpddEW92tGd65nuBjPs=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MdofpFsecQB9pKSdcLRShFCCWUI=
+		qcpcu2yx/UvPHljbajqvdIu13VU=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		DTb/Bh6C2QQKcz5v3glfRwADkLU=
+		0YYrMvTGk0b60cMM6/7yQ8CFaVw=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MdofpFsecQB9pKSdcLRShFCCWUI=
+		qcpcu2yx/UvPHljbajqvdIu13VU=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NkWa5RaFO+vNE8OIwcySlrAsW0E=
+		bboEXr9ezW2TMy6WpunJg8qhtlM=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jxHvFGNMWg6bgdqA1Rpqs15eRAc=
+		+H52V4Bwm/vnXXPgNXj89BTLTPk=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		gzVlOZFzl7kErMcC6rerEy+7oWY=
+		aofoJUcpyr7sjcYqHeQu9K3lwns=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jxHvFGNMWg6bgdqA1Rpqs15eRAc=
+		+H52V4Bwm/vnXXPgNXj89BTLTPk=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gF2uXeI7ZvP6DUVN+a2QOAit6g8=
+		v/kJbN+1EA3+amPg5ELr8ZDO0bE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cYX4VXCWY88lK2Z6ADQ5+/2uPdxO2fY2tNg18i6XXmE=
+			hvk+EaoCipn5/lVIfLyZeeaCbCajM8ZJyotf8eBT8Z0=
 			</data>
 		</dict>
 		<key>Headers/FortfaceProvider-Swift.h</key>
@@ -124,28 +124,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HJmnMLDMfEC6y3onAz1NL396dJdHUkCj04As5zw6pE4=
+			GrMc/q5NHvTyqxuFnM+teMJWgZa7gcKYo/iZJxerRQY=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eFXo2Wljl1wa+s3txoGYB6pq/ozn0Ptx6oVhV/beKOY=
+			/mowWOiepDR4PUbZW+LOzC5SxiWLfdTZrsB9YR59sYY=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HJmnMLDMfEC6y3onAz1NL396dJdHUkCj04As5zw6pE4=
+			GrMc/q5NHvTyqxuFnM+teMJWgZa7gcKYo/iZJxerRQY=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A7ErtjTm/kKoZNzG4z2gIrQHMnhZrKlEWp2a4wh9lB0=
+			VOimDRaTRj8GfUxxZI7nzRCxxBkD9esOhioSBlxaHPA=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -159,28 +159,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pp8856yr1aL4WaIAjfWMFPWXqYvoOc4MbEM+h+Zpr6w=
+			9aXLrwxRWSUE9WTtc4oNIbEIRl9fNPuE96LtzPpjhLM=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l6atRLuZt8vYcOWj33D9zuDH7rqy1ZIIGt60skyaw+A=
+			VPR7EipE06D3mkznd7yV8Hxmf/SzFbWngkb0aB51So0=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pp8856yr1aL4WaIAjfWMFPWXqYvoOc4MbEM+h+Zpr6w=
+			9aXLrwxRWSUE9WTtc4oNIbEIRl9fNPuE96LtzPpjhLM=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LsntBn/Jdd0E5KBkL4rQuzs3tS4l16KXY4rLNr3IiCw=
+			sRZigqcZOcaUpb2vAjE0rryxmVnxbMMyvql9frXE0pY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
