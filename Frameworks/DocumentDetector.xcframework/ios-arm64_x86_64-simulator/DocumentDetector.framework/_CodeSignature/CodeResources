@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		U8aFM9YVhNu3lXThnHd2pCrl4hk=
+		CZeZ4fO8BYTMraBke5cXsUNSK5Q=
 		</data>
 		<key>EnvVar.plist</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1YHehYEyte55QOV93vOvEEueRlc=
+		Dd02sG8hpvPsufUXyRB6y592LnI=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,19 +46,19 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0tOzc/pDDRmRlUx0FCo7mYb6+8w=
+		ZXF1s3zKL9IecnhuBY3bOdhz+nA=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jdMmOyC+kCtSqnzbWIxNczYxDnc=
+		e8LfCPsz9+jUxmR1qHcYZZRXECk=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0tOzc/pDDRmRlUx0FCo7mYb6+8w=
+		ZXF1s3zKL9IecnhuBY3bOdhz+nA=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2jtWP/+uCfGDg2hBjtyYKKrdNSg=
+		6NJwIJeXRZs6SrjMsimmQjYRh8c=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -66,19 +66,19 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QIyQQV0N+e4otAxREj5BwSCWzQQ=
+		fQZr0I34+QNUCcUHTWP/2INGFhc=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vBANYQtChvyIy/Baqep1xKFzE1s=
+		0a2IHOz42zhEy/aKtbcg5dSZsJg=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QIyQQV0N+e4otAxREj5BwSCWzQQ=
+		fQZr0I34+QNUCcUHTWP/2INGFhc=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xO5cVY95plVom19k5PykT/6Jvr0=
+		I+R6Z5FRxTFmE2wMYjnTaFRK3G0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -231,7 +231,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wHIvikJCmvFTR9YUHEz3/Qwi49Vr4Qr9CUNJduUf3wE=
+			CkET8cTriUolLLyAkuplBYpfG+/Il/7RHTm8OMPd0ds=
 			</data>
 		</dict>
 		<key>EnvVar.plist</key>
@@ -294,28 +294,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xxiVu3UPEUV4BhtYbrqBZ436ssbeOzD1AaEazRiNO4A=
+			bK2eEYgcN2GeUQm2E+JbXGyn04ErDTX/6R9hmm/DKg8=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8xLQc27xfdKJtbWiCRaijBZQgU6sLCFT+QZUekg4NTs=
+			bS6Syxd2281z4HrlWqldko181j9M6AKBKbtocp5ENIE=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xxiVu3UPEUV4BhtYbrqBZ436ssbeOzD1AaEazRiNO4A=
+			bK2eEYgcN2GeUQm2E+JbXGyn04ErDTX/6R9hmm/DKg8=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PlnWukGXnQZgfzZIgnI7KZMLE8DS8uRlDcwinGixiq0=
+			E5/RiPW0VNJ0kGMOlX7WFm6NpeOSfqkQvNmJiAgZ/Kw=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -329,28 +329,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IE01nt6VhZll44byWdH/TnTnbXJ4toQee9t5lsmz98E=
+			Q630Kp6mM0EZXia7TOG7uZf5ZTdC0DA0F66UZdeaOWM=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JFLTJV+HGIkVdli9C+Qnh3E3PnkchF1pjJ49tKGto3g=
+			pHFMzRe0HRmrPfFeeWBAaQzPBU/hj07vD+9Z+KS8e7c=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IE01nt6VhZll44byWdH/TnTnbXJ4toQee9t5lsmz98E=
+			Q630Kp6mM0EZXia7TOG7uZf5ZTdC0DA0F66UZdeaOWM=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KFmSoK1S/bBsfISFS3HoUkCjeEyTSfqaIi/9PNq6nOQ=
+			8FBL7u+PGazLNvnmDyAmEEZZTj+eyZqh1limLkX6isU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
