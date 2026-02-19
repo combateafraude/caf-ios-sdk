@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Fortface
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AVFoundation
 import CommonCrypto
 import CoreGraphics
@@ -227,23 +227,20 @@ open class FortfaceCustomizer {
   public var cameraFrameText: Fortface.CameraFrameText
   public var cameraMessages: Fortface.CameraMessages
   public var cameraLogo: Fortface.CameraLogo
+  public var brightnessIcons: Fortface.BritnessIcons
   public var docCameraAutomaticTimeout: Swift.Float
   public var docColor: Fortface.DocColor
   public var docCapture: Fortface.DocCapture
   public var docMessages: Fortface.DocMessages
   public var docPreviewButtons: Fortface.DocumentPreviewButtons
   public var docCameraButton: Fortface.DocumentCameraButton
-  public var brightnessIcons: Fortface.BritnessIcons
+  public var uploadDocMessages: Fortface.UploadDocMessages
   @objc deinit
 }
 public protocol IFortfaceEngine {
   func finishedSessionEngine(sessionEngineResult: Fortface.SessionEngineResult)
 }
 public struct RSAKey {
-}
-public struct SessionDetailsModel : Swift.Decodable {
-  public let errorCode: Fortface.ActionError
-  public init(from decoder: any Swift.Decoder) throws
 }
 public struct AESKey {
   public init(aesIv: Foundation.Data, aes256Key: Foundation.Data)
@@ -324,19 +321,41 @@ public enum Evaluation {
     get
   }
 }
+public struct SessionDetailsModel : Swift.Decodable {
+  public let errorCode: Fortface.ActionError
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct DocColor {
   public var neutral: UIKit.UIColor
   public var success: UIKit.UIColor
   public var loadingBackground: UIKit.UIColor
   public var loadingStroke: UIKit.UIColor
+  public var setBackgroundColor: UIKit.UIColor
+  public var setUploadDocPreviewContinueButtonColor: UIKit.UIColor?
 }
 public struct DocCapture {
   public var timeout: Foundation.TimeInterval
 }
 public struct DocMessages {
   public var familyFont: Swift.String
-  public var fitIn: Swift.String
-  public var docLegible: Swift.String
+  public var setStartMessage: Swift.String
+  public var setDocPositionedMessage: Swift.String
+  public var setDocOutOfFrameMessage: Swift.String
+  public var setDocMisalignedMessage: Swift.String
+  public var setDocNotFoundMessage: Swift.String
+  public var setDocFarMessage: Swift.String
+  public var setDocNearMessage: Swift.String
+  public var setDocCapturedMessage: Swift.String
+  public var setWrongFaceMessage: Swift.String
+  public var setDocTapToFocusMessage: Swift.String
+  public var setDocCameraLoadingMessage: Swift.String
+  public var setDocPreviewMessage: Swift.String
+  public var setDocWaitMessage: Swift.String
+  public var setDocTakePictureMessaage: Swift.String
+  public var setDocPreviewRetryCapture: Swift.String
+  public var setDocPreviewConfirmCapture: Swift.String
+  public var setDocPreviewMessageTextColor: UIKit.UIColor
+  public var feedbackMessageColor: UIKit.UIColor
 }
 public struct DocumentCameraButton {
   public var textColorResource: UIKit.UIColor
@@ -349,6 +368,20 @@ public struct DocumentPreviewButtons {
   public var acceptTextColorResource: UIKit.UIColor
   public var cancelColorResource: UIKit.UIColor
   public var cancelTextColorResource: UIKit.UIColor
+}
+public struct UploadDocMessages {
+  public var familyFontTitle: Swift.String
+  public var familyFontSubtitle: Swift.String
+  public var familyFontButtons: Swift.String
+  public var setUploadDocTitle: Swift.String
+  public var setUploadDocSubtitle: Swift.String
+  public var setUploadDocPreviewContinue: Swift.String
+  public var setUploadDocWaitMessage: Swift.String
+  public var setUploadDocPreviewRetry: Swift.String
+  public var setUploadDocTitleTextColor: UIKit.UIColor
+  public var setUploadDocSubtitleTextColor: UIKit.UIColor
+  public var setUploadDocPreviewRetryTextColor: UIKit.UIColor?
+  public var setUploadDocPreviewContinueButtonTextColor: UIKit.UIColor
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class DocConfirmViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public init()

@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
-// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CafFaceLivenessLite
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CafFaceLivenessLite
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AVFoundation
 import AdSupport
 import CommonCrypto
@@ -22,9 +22,7 @@ public enum CafEnvironment : Swift.Int {
   case dev
   case beta
   case prod
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -37,26 +35,20 @@ public enum CafSdkPlatform : Swift.String {
   case nativeIos
   case reactNativeIos
   case flutterIos
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 public struct CafSDKError : Swift.Encodable {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(errorType: CafFaceLivenessLite.CafErrorType, description: Swift.String?)
-  #endif
   public let errorType: CafFaceLivenessLite.CafErrorType
   public let description: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CafSDKFailure : Swift.Encodable {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(signedResponse: Swift.String?, failureReason: CafFaceLivenessLite.CafFailureType, description: Swift.String?)
-  #endif
   public let signedResponse: Swift.String?
   public let failureReason: CafFaceLivenessLite.CafFailureType
   public let description: Swift.String?
@@ -82,9 +74,7 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case invalidOptionsException
   case securityException
   case faceAuthentication
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [CafFaceLivenessLite.CafErrorType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [CafFaceLivenessLite.CafErrorType] {
@@ -119,9 +109,7 @@ public enum CafFailureType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case timeout
   case userNotFound
   case processingFault
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [CafFaceLivenessLite.CafFailureType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [CafFaceLivenessLite.CafFailureType] {
@@ -133,15 +121,11 @@ public enum CafFailureType : Swift.String, Swift.Encodable, Swift.CaseIterable {
 }
 public struct CafFaceLivenessLiteResult {
   public let signedResponse: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(signedResponse: Swift.String?)
-  #endif
 }
 public protocol CafFaceLivenessLiteDelegate : AnyObject {
   func didFinishWithSuccess(livenessResult: CafFaceLivenessLite.CafFaceLivenessLiteResult)
-  #if compiler(>=5.3) && $NonescapableTypes
   func didFinishWithFailure(type: CafFaceLivenessLite.CafFailureType, description: Swift.String?, signedResponse: Swift.String?)
-  #endif
   func didFinishWithError(type: CafFaceLivenessLite.CafErrorType, description: Swift.String)
   func cancelled()
   func loading()
@@ -150,18 +134,14 @@ public protocol CafFaceLivenessLiteDelegate : AnyObject {
 @objc @_inheritsConvenienceInitializers final public class CafFaceLivenessLiteSDK : ObjectiveC.NSObject {
   weak final public var delegate: (any CafFaceLivenessLite.CafFaceLivenessLiteDelegate)?
   @objc override dynamic public init()
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func startSDK(viewController presentingViewController: UIKit.UIViewController, mobileToken iproovToken: Swift.String, personId: Swift.String, customLocalization: Swift.String? = nil, environment: CafFaceLivenessLite.CafEnvironment = .prod, loading: Swift.Bool = true, executeFaceAuth: Swift.Bool = false)
-  #endif
   @objc deinit
 }
 public enum CafLogLevel : Swift.String {
   case debug
   case usage
   case info
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
