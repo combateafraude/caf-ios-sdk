@@ -8,6 +8,7 @@ let package = Package(
         .library(name: "CafCore", targets: ["CafSDKTarget"]),
         .library(name: "CafSDK", targets: ["DocumentDetectorTarget", "CafFaceLivenessTarget"]),
         .library(name: "DocumentDetector", targets: ["DocumentDetectorTarget"]),
+        .library(name: "CafLivenessBase", targets: ["CafLivenessBaseTarget"]),
         .library(name: "CafFaceLiveness", targets: ["CafFaceLivenessTarget"]),
         .library(name: "CafFaceLivenessLite", targets: ["CafFaceLivenessLiteTarget"]),
         .library(name: "IproovProvider", targets: ["IproovProviderTarget"]),
@@ -18,12 +19,12 @@ let package = Package(
         .package(url: "https://github.com/iProov/ios.git", .exact("13.1.0")),
         .package(url: "https://github.com/fingerprintjs/fingerprintjs-pro-ios.git", .exact("2.7.0")),
         .package(url: "https://github.com/combateafraude/TensorFlowLiteC.git", .exact("2.14.0")),
-        .package(url: "https://github.com/combateafraude/CafSolutions.git", .exact("2.0.6"))
     ],
     targets: [
         // Binary Targets (keep original names)
         .binaryTarget(name: "CafSDK", path: "Frameworks/CafSDK.xcframework"),
         .binaryTarget(name: "DocumentDetector", path: "Frameworks/DocumentDetector.xcframework"),
+        .binaryTarget(name: "CafLivenessBase", path: "Frameworks/CafLivenessBase.xcframework"),
         .binaryTarget(name: "CafFaceLiveness", path: "Frameworks/CafFaceLiveness.xcframework"),
         .binaryTarget(name: "CafFaceLivenessLite", path: "CafFacelivenessLite/CafFaceLivenessLite.xcframework"),
         .binaryTarget(name: "IproovProvider", path: "Frameworks/IproovProvider.xcframework"),
@@ -45,9 +46,15 @@ let package = Package(
                 "CafSDKTarget",
                 "DocumentDetector",
                 .product(name: "TensorFlowLiteC", package: "TensorFlowLiteC"),
-                .product(name: "CafSolutions", package: "CafSolutions")
             ],
             path: "Sources/DocumentDetector"
+        ),
+
+        // CafLivenessBase
+        .target(
+            name: "CafLivenessBaseTarget",
+            dependencies: ["CafLivenessBase"],
+            path: "Sources/CafLivenessBase"
         ),
 
         // CafFaceLiveness Core
@@ -57,7 +64,7 @@ let package = Package(
                 "CafSDKTarget",
                 "CafFaceLiveness",
                 .product(name: "FingerprintPro", package: "fingerprintjs-pro-ios"),
-                .product(name: "CafSolutions", package: "CafSolutions")
+                "CafLivenessBaseTarget"
             ],
             path: "Sources/CafFaceLivenessCore"
         ),
