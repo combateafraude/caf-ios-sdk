@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		qQVDj4Qkmtpu5rETlY1zgf2Mu4Q=
+		x0//jCO2/vMW/9pkAc+3wmbEva4=
 		</data>
 		<key>Headers/CafSDK-Swift.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4TBu7kx2kixeG48lxsbrLD4NrEQ=
+		dWQn9tI6iwqP4+ewuDf2jPmAQuE=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		SW0VeQ17wr4jyaVpabDGinRDz8U=
+		KhfAOx5rLjSfjboCbQAtF/T3J38=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		gWLv7nDI3FTJ7qnVCmnTDltvRBM=
+		Io6rvJ+z80MoeqbHEJCL72g0XFU=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		SW0VeQ17wr4jyaVpabDGinRDz8U=
+		KhfAOx5rLjSfjboCbQAtF/T3J38=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2sjv1QhHtuU82q4tL5A8I+DzkdA=
+		knZdu5fSehizUsaGrMXk7foCPiw=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ppFTG4cOc7nMqSLXeeJjZT60f/8=
+		lyzKUeaIQUdKp24Qz9+UMbp224k=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		nLZrT+uf6uW0duilKtB3pCxvlKg=
+		nhrHduLNn16h+U1R7DDJEYaH/dk=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ppFTG4cOc7nMqSLXeeJjZT60f/8=
+		lyzKUeaIQUdKp24Qz9+UMbp224k=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nPhwraM4PXmo2F5vN7epaPD6VsA=
+		DsEuW9SBFuZqo6eLoI4EAA9KyXg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vrs8ZqE8PqJPz+kaOlKVJal/x9214N9KcXSukQFFIVE=
+			EAHkJZfZ6mj3SDEmvfgfMDTKyAjM8hiRYu+xPPOdftA=
 			</data>
 		</dict>
 		<key>Headers/CafSDK-Swift.h</key>
@@ -124,28 +124,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jGkvRL2eU5sqT7AJ/oP+hYMGM/3dGF6m3Z2jqwZb+HU=
+			kKJGpufsHXBCC7Scwc+dAZb/t8PiF+kqCqj8iGA0EO4=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cl4ywr969BKpft45B9/AmYrCjHDshxAMdC/X6JFN8Rg=
+			srI409UeuvyUlrtweWKM5o/inUNTWXKoYMIAXzUXbAY=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jGkvRL2eU5sqT7AJ/oP+hYMGM/3dGF6m3Z2jqwZb+HU=
+			kKJGpufsHXBCC7Scwc+dAZb/t8PiF+kqCqj8iGA0EO4=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7jdh/eZ1nO4RLK81Oh6kAzjC5PF8t8h//iZDTKcvR0Q=
+			bvn+/YgAbnwEuh2JSRWhe7Lgzyel1v4lfSpPewKONrc=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -159,28 +159,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SFNKDKnO1CX1HKuRO0KN9Ax1qZ3sRlonktfdvEEjqrM=
+			73eG7IDexIJ2bnd8CZtOEyoydS7rAY6v1GpBP+eCeME=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GIAGyzhalYOjQzboBHIoSMSS5qcECKsefLeYZYWY2XY=
+			ea7IP3p1J8lVHf9SNrqZwpdogvMBIxxm3fka8AuizKA=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SFNKDKnO1CX1HKuRO0KN9Ax1qZ3sRlonktfdvEEjqrM=
+			73eG7IDexIJ2bnd8CZtOEyoydS7rAY6v1GpBP+eCeME=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C8KOnSEoqFNhS6/rnheid4bKn8PiIqR7swFfcNM82bk=
+			U5e31oElPFUgfFwrhKRISvhZjJZbNbNk2j8KTALXr0w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

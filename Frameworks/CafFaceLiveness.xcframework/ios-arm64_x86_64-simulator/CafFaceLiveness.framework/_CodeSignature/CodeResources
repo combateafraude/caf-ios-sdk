@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		qQVDj4Qkmtpu5rETlY1zgf2Mu4Q=
+		x0//jCO2/vMW/9pkAc+3wmbEva4=
 		</data>
 		<key>Headers/CafFaceLiveness-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RFy3umzRmq+duWTtp0vhiswQAlw=
+		jOFLXZlRMCzVjsKi/P1g9sxfWMI=
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		O2wOlXRdMXfSb5XdmheXS72H2M4=
+		iF99aQ/qjF+nBXfNTDnfFYih3WU=
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		meyF/c2m0QcJAvW5rm5RAgerB0s=
+		vfteJhQWyilzI2gx4kGPC7yMdL8=
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		O2wOlXRdMXfSb5XdmheXS72H2M4=
+		iF99aQ/qjF+nBXfNTDnfFYih3WU=
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rROSo5Bk7an9MBYhx1idiDub4kM=
+		/Vg2HrHrdWhD1ATK5PzZ3Vg9N0M=
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,19 +46,19 @@
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eQOJqXjyDa8KPEqCr0IchN9kF3M=
+		vPPumh+v+S65nbX6KckixfbYIeI=
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		N2FeGOEAnyPUWG7EXSdIMkESpWM=
+		pSD+Zu/a2TyQYIuEOMrnDaeDniY=
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eQOJqXjyDa8KPEqCr0IchN9kF3M=
+		vPPumh+v+S65nbX6KckixfbYIeI=
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8gVH7yoAj6pyzMGbp9PgpuZkzYw=
+		jgy0ilncCzDcBlKDjK8Mv9L4jrQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vrs8ZqE8PqJPz+kaOlKVJal/x9214N9KcXSukQFFIVE=
+			EAHkJZfZ6mj3SDEmvfgfMDTKyAjM8hiRYu+xPPOdftA=
 			</data>
 		</dict>
 		<key>Headers/CafFaceLiveness-Swift.h</key>
@@ -135,28 +135,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h0qNSTistsKIXvtRMGmzKWTzrLMtSJGbQD/TcqVM5eU=
+			nD7KTHjxqzUXgCmXDbZ9yJpvmh2k48GgSoNMJ66griE=
 			</data>
 		</dict>
 		<key>Modules/CafFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xGpvmWvh0ieQjyMfSjrzU994Dw++L/kgLkdPnVKWJQM=
+			Q7WTDhYerj7g9vyPiuROttnRnKJj50eGqIJAKGRxV90=
 			</data>
 		</dict>
 		<key>Modules/CafFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h0qNSTistsKIXvtRMGmzKWTzrLMtSJGbQD/TcqVM5eU=
+			nD7KTHjxqzUXgCmXDbZ9yJpvmh2k48GgSoNMJ66griE=
 			</data>
 		</dict>
 		<key>Modules/CafFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EyVaMK8C3CTWL+oYXmUxdZ8VGpHjFR7hA9ig+st2348=
+			kIVzkbN9x1+AvdTqcOq3IPlVVWFKslHtL+Up8R2gwBE=
 			</data>
 		</dict>
 		<key>Modules/CafFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -170,28 +170,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sj6Zcc/a2xy/5qpQSUNtJYuDDK8/u+MHgl+MWP1q2DM=
+			CO/UOkS1pqYk356jWj7jKx50QHbGcEQ+tzW6hfrHcO0=
 			</data>
 		</dict>
 		<key>Modules/CafFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dGi8ShPi7P5TQoEttYygt7v9bu1hrlD9fe+L3gmU1Mg=
+			mfLHWB7SUN2KH/LjQNRqqOfvJU6OHFR9N9o1zGKx3XE=
 			</data>
 		</dict>
 		<key>Modules/CafFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sj6Zcc/a2xy/5qpQSUNtJYuDDK8/u+MHgl+MWP1q2DM=
+			CO/UOkS1pqYk356jWj7jKx50QHbGcEQ+tzW6hfrHcO0=
 			</data>
 		</dict>
 		<key>Modules/CafFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sPe1+snxB9fXFxnLSGiM7O6bO3uw2JXFyIlyyLVZIMk=
+			PT6s0zHe6UzagUlw13gfzy+2c6iwRZZzVR0KbmbODuw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

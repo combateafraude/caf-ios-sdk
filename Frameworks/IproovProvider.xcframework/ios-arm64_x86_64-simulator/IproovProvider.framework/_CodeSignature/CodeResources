@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		qQVDj4Qkmtpu5rETlY1zgf2Mu4Q=
+		x0//jCO2/vMW/9pkAc+3wmbEva4=
 		</data>
 		<key>Headers/IproovProvider-Swift.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		H78GWqLpHxwrevxMVxTOW2qeVwk=
+		JyKKhCy/XwKMTG1tE9SC1OgLeCI=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		WRuzqiRu7N2rhohIC7xJm2j5c+0=
+		Zjv8K8o0et+DkzMfT8x3DBCRXPE=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TIkxQ1b7BbkE5bZhE2gf/Z8Ot2E=
+		eFgwadIYSfUt+6Bdrv3Zdxv0/A0=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WRuzqiRu7N2rhohIC7xJm2j5c+0=
+		Zjv8K8o0et+DkzMfT8x3DBCRXPE=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iK4LbGt3EVi7eUPppZ+w20Z43hU=
+		ngDpa+svbPuF8zXRBblmkybGTkY=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		I74A5/7Z6g8tMHExVftKmNjmiUA=
+		OnzuLyS0U+ROk00QoQOGodS2Upk=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Fjv38GJQmnxfdKljWwuO3a3kG7U=
+		GkJ7XhKPdNeImac1zmBzD1JSaD8=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		I74A5/7Z6g8tMHExVftKmNjmiUA=
+		OnzuLyS0U+ROk00QoQOGodS2Upk=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6gnJe03TER4ZKwUl+g8hiT+oPmM=
+		BCbka8BV9XYzPfN0WCxl4zHfJyE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vrs8ZqE8PqJPz+kaOlKVJal/x9214N9KcXSukQFFIVE=
+			EAHkJZfZ6mj3SDEmvfgfMDTKyAjM8hiRYu+xPPOdftA=
 			</data>
 		</dict>
 		<key>Headers/IproovProvider-Swift.h</key>
@@ -124,28 +124,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WGtFuwSanIpsS6hx488Jn5Db81gplO08CpZse032C6I=
+			Crv8KMyBn8YU0zKUldcaPq2cDj34FsOY8WyemM1l5FQ=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YrEDwO80X8bS9XcPEJFFIIBihR5NbXDkos2ccijEQd8=
+			Yb67MkFCqoLK9xbFiOgxhEvpeGgt+2I7p4VD+0OOD04=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WGtFuwSanIpsS6hx488Jn5Db81gplO08CpZse032C6I=
+			Crv8KMyBn8YU0zKUldcaPq2cDj34FsOY8WyemM1l5FQ=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dDoDq9+TEUAHPPByGvQkly1zISNiEgLbecEzjVOAHC8=
+			t36bADeOtOUo3y6qa+H2hx6uRJKOunO5NolIpOSDwe8=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -159,28 +159,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A3Qy7JxqOnoWauVxMtwnHCdRZqDb1BsP2IZuYfMPRJ0=
+			JAq5hJOTkUVKJIdV6S+WimMADsN+Wq9J1mUTfSNijr0=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V6fxOunGXt643QHXIoNi2xz0ZRSIC3Qlz5441kUSBdA=
+			p7V9oaC42woiHMtXqbKjjGnpwqQeASFLZ0ihNbWaX9w=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A3Qy7JxqOnoWauVxMtwnHCdRZqDb1BsP2IZuYfMPRJ0=
+			JAq5hJOTkUVKJIdV6S+WimMADsN+Wq9J1mUTfSNijr0=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7zWLXc4kH8u79VlKu5np9DC8W7AF8ncLeHj/1CZbTE0=
+			JSaCv+Tq/kn0sudLUN1RzXqAsss1tD4zZS9bT2MuDxM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

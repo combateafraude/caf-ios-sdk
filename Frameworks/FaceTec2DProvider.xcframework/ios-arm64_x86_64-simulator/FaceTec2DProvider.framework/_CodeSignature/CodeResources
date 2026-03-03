@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Z+XX4+Hsa3ylgjsySbhNlrnRDxw=
+		auLie7GS6vQ+QoVo5UzkuLkaE/I=
 		</data>
 		<key>Headers/FaceTec2DProvider-Swift.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7YV6p8WAcmRy9wJEJSC3VLIgk3E=
+		I/4iqrC62RitsJzy627jUvTXivc=
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nU3OC15clKDtWjUNKXi/Jrt3Ms0=
+		Z/YUdUh1pwV32NHJTK6erbK5mtM=
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hJgd2bQ9o9CSs2NZT5ava/Hrg84=
+		HcdNmYyCU1Aik176VdfMOPalXYk=
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nU3OC15clKDtWjUNKXi/Jrt3Ms0=
+		Z/YUdUh1pwV32NHJTK6erbK5mtM=
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XNPFEkepdn1oXED/EVAOF7gXEFY=
+		CJVjiTiyH1olAmY1actVo2WrL4I=
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ZOD3qyuhl0b2+xr3c5JKQPd5neg=
+		+5OvuLZRUtQjzlPJmQz4VA/6zWc=
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		T1phc1s/8w43a3LCWD1IGO2fo+s=
+		okk2iRuPE+vqpnZpNGqr4ort0zQ=
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZOD3qyuhl0b2+xr3c5JKQPd5neg=
+		+5OvuLZRUtQjzlPJmQz4VA/6zWc=
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3zuhxPNGA4qT7vikZ7YgNV9LlmI=
+		k5OHX+ZahUTz8bgXCnnXu+KYeh8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -130,7 +130,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jyn+Ts/Y5MiAJxL9/dW0lY91miHyAuL5djzzPRN/XCw=
+			ePVwICEsfTXo9eEcp5OWufz/PUzObYgumF4CM2FUpEg=
 			</data>
 		</dict>
 		<key>Headers/FaceTec2DProvider-Swift.h</key>
@@ -151,28 +151,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jQ8qj5E+Ue9TVnAdl2vbfA8Fsa1Yx98RzhJDVpumO4I=
+			XrsJU7nbkK1C8LZ/k4YBw4g7+Ezb8T8Bkn1Az+rEQ7s=
 			</data>
 		</dict>
 		<key>Modules/FaceTec2DProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jaDROXXprT0DR5bE4GiLf5/BiaF9pawONEN48w9WvjM=
+			scR72yXRigEBQNWRUqHC9re4/LrLwLsss5ARdf4REtY=
 			</data>
 		</dict>
 		<key>Modules/FaceTec2DProvider.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jQ8qj5E+Ue9TVnAdl2vbfA8Fsa1Yx98RzhJDVpumO4I=
+			XrsJU7nbkK1C8LZ/k4YBw4g7+Ezb8T8Bkn1Az+rEQ7s=
 			</data>
 		</dict>
 		<key>Modules/FaceTec2DProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o8ZVGsa8N9hobNdRnGKdnmGwEA5hOZTWCJK47iBc8zY=
+			KSPYuDqPeKcvQnhUdLP4hYqDFVBEADPOL1ylcUwki/Q=
 			</data>
 		</dict>
 		<key>Modules/FaceTec2DProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -186,28 +186,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NKIislEszohd9RoRP4QB9EWGsYUFw3OmJTnbQxu/adQ=
+			oKEAh/1RrQNRoVx33yBlNS8eNdwO2SEPKKO7LR+RFAc=
 			</data>
 		</dict>
 		<key>Modules/FaceTec2DProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+h6g50QGTkH39oJ5PAsoULaS2Cu4SBWlESzdgc8Xu+k=
+			NefcxkKeeGhZ25pjthfRh2AH9/WTYRJW8jYtPkcdSMI=
 			</data>
 		</dict>
 		<key>Modules/FaceTec2DProvider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NKIislEszohd9RoRP4QB9EWGsYUFw3OmJTnbQxu/adQ=
+			oKEAh/1RrQNRoVx33yBlNS8eNdwO2SEPKKO7LR+RFAc=
 			</data>
 		</dict>
 		<key>Modules/FaceTec2DProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C5G7W0TGtacZtFKiCS4e8m8P+4j1dQZ0fPikh1XhJyo=
+			KlwAJK96JBGZiK1aoXvdaBbMRsOJXDxfivm1e1xAnaQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
