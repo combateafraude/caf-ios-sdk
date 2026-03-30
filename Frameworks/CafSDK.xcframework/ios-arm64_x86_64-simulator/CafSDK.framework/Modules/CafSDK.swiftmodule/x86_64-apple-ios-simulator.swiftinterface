@@ -14,7 +14,6 @@ import MachO
 import Network
 import ObjectiveC
 import Security
-import SmartCapture
 import Swift
 import SwiftUI
 import UIKit
@@ -718,11 +717,6 @@ extension CafSDK.CafSDKConfiguration {
   public func setFaceLivenessConfig(_ faceLivenessConfig: CafSDK.CafFaceLivenessConfig?) -> CafSDK.CafSDKConfiguration
   #endif
 }
-extension CafSDK.CafSDKConfiguration {
-  #if compiler(>=5.3) && $NonescapableTypes
-  public func setSmartCaptureConfig(_ smartCaptureConfig: CafSDK.CafSmartCaptureConfig?) -> CafSDK.CafSDKConfiguration
-  #endif
-}
 public enum CafLogLevel : Swift.String {
   case debug
   case usage
@@ -753,12 +747,6 @@ public struct CafReverseProxyConfig : Swift.Codable, Swift.Equatable {
   final public func start()
   final public func loadSession()
   @objc deinit
-}
-public struct CafSmartCaptureConfig {
-  public var requestTimeout: Foundation.TimeInterval
-  public var autoCapture: Swift.Bool
-  public var previewEnabled: Swift.Bool
-  public init(requestTimeout: Foundation.TimeInterval = 60.0, previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true)
 }
 public struct CerttaConfiguration {
   public let mobileToken: Swift.String?

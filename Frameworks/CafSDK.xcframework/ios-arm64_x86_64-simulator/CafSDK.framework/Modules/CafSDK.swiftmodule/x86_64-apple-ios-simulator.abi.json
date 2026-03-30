@@ -30088,39 +30088,6 @@
             "moduleName": "CafSDK",
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setSmartCaptureConfig",
-            "printedName": "setSmartCaptureConfig(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafSDKConfiguration",
-                "printedName": "CafSDK.CafSDKConfiguration",
-                "usr": "s:6CafSDK0A16SDKConfigurationC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "CafSDK.CafSmartCaptureConfig?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafSmartCaptureConfig",
-                    "printedName": "CafSDK.CafSmartCaptureConfig",
-                    "usr": "s:6CafSDK0A18SmartCaptureConfigV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6CafSDK0A16SDKConfigurationC21setSmartCaptureConfigyAcA0aefG0VSgF",
-            "mangledName": "$s6CafSDK0A16SDKConfigurationC21setSmartCaptureConfigyAcA0aefG0VSgF",
-            "moduleName": "CafSDK",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -31190,340 +31157,6 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CafSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SmartCapture",
-        "printedName": "SmartCapture",
-        "declKind": "Import",
-        "moduleName": "CafSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CafSmartCaptureConfig",
-        "printedName": "CafSmartCaptureConfig",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "requestTimeout",
-            "printedName": "requestTimeout",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6CafSDK0A18SmartCaptureConfigV14requestTimeoutSdvp",
-            "mangledName": "$s6CafSDK0A18SmartCaptureConfigV14requestTimeoutSdvp",
-            "moduleName": "CafSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18SmartCaptureConfigV14requestTimeoutSdvg",
-                "mangledName": "$s6CafSDK0A18SmartCaptureConfigV14requestTimeoutSdvg",
-                "moduleName": "CafSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18SmartCaptureConfigV14requestTimeoutSdvs",
-                "mangledName": "$s6CafSDK0A18SmartCaptureConfigV14requestTimeoutSdvs",
-                "moduleName": "CafSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18SmartCaptureConfigV14requestTimeoutSdvM",
-                "mangledName": "$s6CafSDK0A18SmartCaptureConfigV14requestTimeoutSdvM",
-                "moduleName": "CafSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "autoCapture",
-            "printedName": "autoCapture",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6CafSDK0A18SmartCaptureConfigV04autoD0Sbvp",
-            "mangledName": "$s6CafSDK0A18SmartCaptureConfigV04autoD0Sbvp",
-            "moduleName": "CafSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18SmartCaptureConfigV04autoD0Sbvg",
-                "mangledName": "$s6CafSDK0A18SmartCaptureConfigV04autoD0Sbvg",
-                "moduleName": "CafSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18SmartCaptureConfigV04autoD0Sbvs",
-                "mangledName": "$s6CafSDK0A18SmartCaptureConfigV04autoD0Sbvs",
-                "moduleName": "CafSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18SmartCaptureConfigV04autoD0SbvM",
-                "mangledName": "$s6CafSDK0A18SmartCaptureConfigV04autoD0SbvM",
-                "moduleName": "CafSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "previewEnabled",
-            "printedName": "previewEnabled",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6CafSDK0A18SmartCaptureConfigV14previewEnabledSbvp",
-            "mangledName": "$s6CafSDK0A18SmartCaptureConfigV14previewEnabledSbvp",
-            "moduleName": "CafSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18SmartCaptureConfigV14previewEnabledSbvg",
-                "mangledName": "$s6CafSDK0A18SmartCaptureConfigV14previewEnabledSbvg",
-                "moduleName": "CafSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18SmartCaptureConfigV14previewEnabledSbvs",
-                "mangledName": "$s6CafSDK0A18SmartCaptureConfigV14previewEnabledSbvs",
-                "moduleName": "CafSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6CafSDK0A18SmartCaptureConfigV14previewEnabledSbvM",
-                "mangledName": "$s6CafSDK0A18SmartCaptureConfigV14previewEnabledSbvM",
-                "moduleName": "CafSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(requestTimeout:previewEnabled:autoCapture:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafSmartCaptureConfig",
-                "printedName": "CafSDK.CafSmartCaptureConfig",
-                "usr": "s:6CafSDK0A18SmartCaptureConfigV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "hasDefaultArg": true,
-                "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:6CafSDK0A18SmartCaptureConfigV14requestTimeout14previewEnabled04autoD0ACSd_S2btcfc",
-            "mangledName": "$s6CafSDK0A18SmartCaptureConfigV14requestTimeout14previewEnabled04autoD0ACSd_S2btcfc",
-            "moduleName": "CafSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:6CafSDK0A18SmartCaptureConfigV",
-        "mangledName": "$s6CafSDK0A18SmartCaptureConfigV",
-        "moduleName": "CafSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
       },
       {
         "kind": "Import",
@@ -33743,8 +33376,7 @@
         "mangledName": "$s6CafSDK31CerttaSmartCaptureConfigurationV",
         "moduleName": "CafSDK",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -33867,8 +33499,7 @@
             "moduleName": "CafSDK",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -33879,8 +33510,7 @@
         "moduleName": "CafSDK",
         "declAttributes": [
           "Final",
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
@@ -36445,13 +36075,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CafSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SmartCapture",
-        "printedName": "SmartCapture",
         "declKind": "Import",
         "moduleName": "CafSDK"
       },
@@ -42295,27 +41918,6 @@
       "value": "\"com.caf.sdk.queue\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/SmartCapture\/CafSmartCaptureConfig.swift",
-      "kind": "FloatLiteral",
-      "offset": 279,
-      "length": 4,
-      "value": "60.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/SmartCapture\/CafSmartCaptureConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 316,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/SmartCapture\/CafSmartCaptureConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 350,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/Certta.swift",
       "kind": "StringLiteral",
       "offset": 857,
@@ -42374,21 +41976,21 @@
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/SmartCapture\/CerttaSmartCapture.swift",
       "kind": "FloatLiteral",
-      "offset": 407,
+      "offset": 6230,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/SmartCapture\/CerttaSmartCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 444,
+      "offset": 6267,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/caf-mobile-pipelines\/caf-mobile-pipelines\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/SmartCapture\/CerttaSmartCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 478,
+      "offset": 6301,
       "length": 4,
       "value": "true"
     },
