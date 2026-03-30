@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOS'
-  s.version          = '6.4.0-rc'
+  s.version          = '6.4.0-rc.1'
   s.summary          = 'Caf iOS SDK'
   s.homepage         = 'https://github.com/combateafraude/caf-ios-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -40,15 +40,15 @@ Pod::Spec.new do |s|
   end
 
   # Face Liveness core
-  s.subspec 'CafLivenessBase' do |base|
-    base.vendored_frameworks = 'Frameworks/CafLivenessBase.xcframework'
+  s.subspec 'CerttaBase' do |base|
+    base.vendored_frameworks = 'Frameworks/CerttaBase.xcframework'
   end
 
   s.subspec 'CafFaceLivenessCore' do |flc|
     flc.vendored_frameworks = 'Frameworks/CafFaceLiveness.xcframework'
     flc.dependency 'CafSDKiOS/CafCore'
     flc.dependency 'FingerprintPro', '2.7.0'
-    flc.dependency 'CafSDKiOS/CafLivenessBase'
+    flc.dependency 'CafSDKiOS/CerttaBase'
   end
 
   # Iproov integration

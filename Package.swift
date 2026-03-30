@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "CafCore", targets: ["CafSDKTarget"]),
         .library(name: "CafSDK", targets: ["DocumentDetectorTarget", "CafFaceLivenessTarget"]),
         .library(name: "DocumentDetector", targets: ["DocumentDetectorTarget"]),
-        .library(name: "CafLivenessBase", targets: ["CafLivenessBaseTarget"]),
+        .library(name: "CerttaBase", targets: ["CerttaBaseTarget"]),
         .library(name: "CafFaceLiveness", targets: ["CafFaceLivenessTarget"]),
         .library(name: "CafFaceLivenessLite", targets: ["CafFaceLivenessLiteTarget"]),
         .library(name: "IproovProvider", targets: ["IproovProviderTarget"]),
@@ -24,7 +24,7 @@ let package = Package(
         // Binary Targets (keep original names)
         .binaryTarget(name: "CafSDK", path: "Frameworks/CafSDK.xcframework"),
         .binaryTarget(name: "DocumentDetector", path: "Frameworks/DocumentDetector.xcframework"),
-        .binaryTarget(name: "CafLivenessBase", path: "Frameworks/CafLivenessBase.xcframework"),
+        .binaryTarget(name: "CerttaBase", path: "Frameworks/CerttaBase.xcframework"),
         .binaryTarget(name: "CafFaceLiveness", path: "Frameworks/CafFaceLiveness.xcframework"),
         .binaryTarget(name: "CafFaceLivenessLite", path: "CafFacelivenessLite/CafFaceLivenessLite.xcframework"),
         .binaryTarget(name: "IproovProvider", path: "Frameworks/IproovProvider.xcframework"),
@@ -50,11 +50,11 @@ let package = Package(
             path: "Sources/DocumentDetector"
         ),
 
-        // CafLivenessBase
+        // CerttaBase
         .target(
-            name: "CafLivenessBaseTarget",
-            dependencies: ["CafLivenessBase"],
-            path: "Sources/CafLivenessBase"
+            name: "CerttaBaseTarget",
+            dependencies: ["CerttaBase"],
+            path: "Sources/CerttaBase"
         ),
 
         // CafFaceLiveness Core
@@ -64,7 +64,7 @@ let package = Package(
                 "CafSDKTarget",
                 "CafFaceLiveness",
                 .product(name: "FingerprintPro", package: "fingerprintjs-pro-ios"),
-                "CafLivenessBaseTarget"
+                "CerttaBaseTarget"
             ],
             path: "Sources/CafFaceLivenessCore"
         ),
