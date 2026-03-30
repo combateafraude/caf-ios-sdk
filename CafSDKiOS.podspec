@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
     cfl.vendored_frameworks = 'CafFacelivenessLite/CafFaceLivenessLite.xcframework'
     cfl.dependency 'iProov', '13.1.0'
   end
-
+  
 
   # --- Bridges --- #
 
@@ -107,14 +107,14 @@ Pod::Spec.new do |s|
 
   s.subspec 'CafFaceLivenessBridgeiOS' do |fl|
     fl.vendored_frameworks = 'Frameworks/CafFaceLivenessBridge.xcframework'
-    fl.dependency 'CafSDKiOS/CafFaceLiveness'
+    fl.dependency 'CafSDKiOS/CafFaceLivenessCore'
     fl.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
     fl.dependency 'CafSolutions', caf_solutions_version
   end
 
   s.subspec 'CafFaceLivenessUIBridgeiOS' do |flui|
     flui.vendored_frameworks = 'Frameworks/CafFaceLivenessUIBridge.xcframework'
-    flui.dependency 'CafSDKiOS/CafFaceLiveness'
+    flui.dependency 'CafSDKiOS/CafFaceLivenessCore'
     flui.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
     flui.dependency 'CafSolutions', caf_solutions_version
   end
