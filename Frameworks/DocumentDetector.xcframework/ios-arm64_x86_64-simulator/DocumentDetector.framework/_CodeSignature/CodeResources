@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		k/KZozkXoarKTOx9DlXeJ2eWe3Q=
+		X3yJgTzRSBBmWHk9XMxuyf0kTas=
 		</data>
 		<key>EnvVar.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/DocumentDetector-Swift.h</key>
 		<data>
-		J2HMgwyzsxo3n36NYgG8FZHw+f8=
+		y9UJZSo/Cf+4oFQRpB9lzpVfFpM=
 		</data>
 		<key>Headers/DocumentDetector.h</key>
 		<data>
@@ -38,47 +38,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DwKN94HONLXQVDL1MqiUvIXJFrg=
+		v2BuemqD+EO1FFQ0NaQ9LlNMlVg=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		OWXNnkql8snv4qCuUijuRk5fuQ0=
+		PQ9O9SOtACpxswyCrpy2SPQJuNI=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		D9rlE0puLlKSYzUK9+lo4Tp0y+k=
+		N9BR0WT7pxFy6OtO+lGfukkSJ/o=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zqtamzTEZyPId6efMhAbPl2mOa4=
+		p/kZovlG/vvEkqMSodIr2dqscTA=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		D9rlE0puLlKSYzUK9+lo4Tp0y+k=
+		N9BR0WT7pxFy6OtO+lGfukkSJ/o=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7NVRHXzzHYWrLmfjgSFQjEwkgew=
+		lnzp0G1elS4dsFcdydBxb/3wCOQ=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		OWXNnkql8snv4qCuUijuRk5fuQ0=
+		WYBjDm4716YzBQlggSVYlVAQG70=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		aqashf8eMSQSrGYwnSU+rjrRTvo=
+		s+lyaPMOT6RHVmZQoJFoM4OJWPs=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0Y/uWf7yHOpaTkWrGDApLkRRe40=
+		TXjtiWWG/P3n7t4ITh7PyO6S6fM=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aqashf8eMSQSrGYwnSU+rjrRTvo=
+		s+lyaPMOT6RHVmZQoJFoM4OJWPs=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ed8c/H7RnKiGiulfrxyijdZJBWg=
+		akLl2ILsSqaoRKwsdPvbLk2LWMc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -106,11 +106,15 @@
 		</data>
 		<key>Preview.storyboardc/h5X-tz-HyN-view-ZgM-rn-lYk.nib</key>
 		<data>
-		5a27JwW/KsZ+ic8aSmYJdUW3CPo=
+		3RVISoLAvh3rBtAXUjtV+Q6fbRY=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		NUEyQJ/88vF60ZLJ/MSgKrr2dUk=
+		</data>
+		<key>Spininng.gif</key>
+		<data>
+		AoCOEaAPe6+WgphRTHByXqufc0w=
 		</data>
 		<key>doc_verify.tflite</key>
 		<data>
@@ -231,7 +235,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wzfPe2FXxdPTRXqyAM284rodqhdioULBFg7GnL1KJrQ=
+			Qv+hN2ozaXjmL1T9LDE8b9lqMb/QRJ61LUfBgannGOE=
 			</data>
 		</dict>
 		<key>EnvVar.plist</key>
@@ -252,7 +256,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n+GD0o0MQ3iHX+CQ83DycfrB2QFEDoJ+5w/iLeewltM=
+			Bs+agYsluSIdtbqHAEcA16kb9pEyjGGTrBwrs+KpNvM=
 			</data>
 		</dict>
 		<key>Headers/DocumentDetector.h</key>
@@ -287,70 +291,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9LSYPWKYvSqGILHir+w0dZhbpt5yd1BFdy7Eh0MTpl4=
+			O6AJmk5Z0TVri+2Pgq9FnPXDNQEuFOfIREtU/QEw9xA=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZQ431FdOukZ1lVcWo/oXqdk21+Yc4aNJBzRcpLh23eo=
+			CVe/cSilmivUABYthvBsRtFfoi4yQD7kNDAVreUPbGs=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bCFmO3s2r32ZSx7+JvvRjAQTVhUU6Xa3gqC4FeasvbY=
+			oSb4Hl7QG7HJhRUTIVbV4UrcbtKhtyNCQdZuVpApXw8=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZQ431FdOukZ1lVcWo/oXqdk21+Yc4aNJBzRcpLh23eo=
+			CVe/cSilmivUABYthvBsRtFfoi4yQD7kNDAVreUPbGs=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1lL1yBAK2cnkVGfLEj5yB9MCqVJBPEp1AVXIrSgZMk8=
+			oIOO9/hBsmCoHNcKmAQHBRX4xCW9zW9+VINsDKFwCHE=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9LSYPWKYvSqGILHir+w0dZhbpt5yd1BFdy7Eh0MTpl4=
+			XwbnRdF12EiOIliibvYwijpQX2/L/3rR3Y9Ufhp99QU=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oq2Lq/wWesw/7Cb8ASZ/PaNPk8qqZ8mPPvdI2bXbyjA=
+			gS4uSnL0jKqEwFt4Fsd1sjqXHlg3SM80pALwVfFQWFA=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SqV6ZhC1GQ0WiOjJXkWQgTj9+HNmuCZjTOTeW0Q/uW0=
+			Qne1LRgLjqVv2q8teHpPcvBvEiHv/qkC6fePUisXCg0=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oq2Lq/wWesw/7Cb8ASZ/PaNPk8qqZ8mPPvdI2bXbyjA=
+			gS4uSnL0jKqEwFt4Fsd1sjqXHlg3SM80pALwVfFQWFA=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xoV8/ag+g/Sj3JEeb4xYfd7BEvXrxtcDtVhOIzNK/7o=
+			/5nnYijvTaW2IRK6XbB2q+fVNscbMd4EkIBfPgpOHS4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -399,7 +403,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OwN4C+7vhIClVGFaTPhwWQmciId++BfclDG+JwvHdpM=
+			aocoazuM1ns00AD/O8S61E7MaCVSXkrTWM0vwivUdWE=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -407,6 +411,13 @@
 			<key>hash2</key>
 			<data>
 			4ToPMj2EXkfnKigBt+eHv+RdPimlr9cqu2gDCOPgrSM=
+			</data>
+		</dict>
+		<key>Spininng.gif</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ui9X+RNMIZfDqBoVp9WlAfEMZbgvLQ300OCcSI4te54=
 			</data>
 		</dict>
 		<key>doc_verify.tflite</key>
