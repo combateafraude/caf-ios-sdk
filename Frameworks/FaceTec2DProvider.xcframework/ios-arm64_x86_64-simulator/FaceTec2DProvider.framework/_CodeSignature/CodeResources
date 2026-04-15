@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		eVcI8aEtRq6ekgCoXX1Wxc5wEnk=
+		6/G0AJhp6WGRLpBWnMuai7H4Cpc=
 		</data>
 		<key>Headers/FaceTec2DProvider-Swift.h</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ua9CQ42jyO1WmHj0xyKK2W422X4=
+		zuJF4jF/bMc7VdlH8QcxMLsRSIA=
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		r62bWgX0on01mMpOxjuJUVaJ9Fc=
+		1zVMODLFfDWPjN4HSDr96TCGTOQ=
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6ce1bfQhNurrBDTpIFjQIj4Do1g=
+		h2Muyufd/QAdNFoWe8TKlDqjldg=
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		YMqx3+HpwntcAVqwP7B76CsDe2A=
+		TaBBnr9KczxzomXMGPWTpUfuqpM=
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/FaceTec2DProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		D8a0UgIGm/h3eXlgfMzaBZKk0qM=
+		pGIF1C9sQZASUBq2yeVfYbZ4Jec=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -134,7 +134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vTeuQk2TDGKeFcIDAIA/sIS5xjbFUff7UJWxCEheD/Q=
+			bezjyr0CH5WiOnKsI3wQ6QviNYGDsvwMlD+kbd3Kbp0=
 			</data>
 		</dict>
 		<key>Headers/FaceTec2DProvider-Swift.h</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			27U5X19yXdalZ3f/lZBgSqMtWXM7ORf6n3I8epi3zKE=
+			JpdezWMPd7ZNgF6Pg9U9PkWigQBFe2f9NqtVRSULuFM=
 			</data>
 		</dict>
 		<key>Modules/FaceTec2DProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -176,14 +176,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E/KPzhgMTQ9eBnCK1I6k3R+Bb5pKkV5yF9nxDuZZxNU=
+			XS+quP7cMeXFXN/RH0iV8sWMCen8QinhMPt/cRboyOU=
 			</data>
 		</dict>
 		<key>Modules/FaceTec2DProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IFIeiIUu2tYaZQ6fwNbplNrHMzinMq0KVy8kazF2iWA=
+			mhk5wi+yM37W1N/ht40XO2LmmeWW2WweXUTa0vaq7tg=
 			</data>
 		</dict>
 		<key>Modules/FaceTec2DProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -211,7 +211,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zntiWBrKxcSrSwa8pTB6TAtA4mMgk+QL512C04axNBM=
+			bUqBot6hVHWmA1o6GXxE5VKbhMleTnhcVkPvwR6+Avs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
