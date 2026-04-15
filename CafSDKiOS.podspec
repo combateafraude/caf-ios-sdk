@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOS'
-  s.version          = '6.4.0-rc.xcode-26.3'
+  s.version          = '6.4.1-rc'
   s.summary          = 'Caf iOS SDK'
   s.homepage         = 'https://github.com/combateafraude/caf-ios-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -10,8 +10,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '15.0'
   s.swift_version = '5.0'
   s.default_subspec = 'CafSDK'
-
-  caf_solutions_version = '2.0.5'
   
   # Main SDK framework
   s.subspec 'CafCore' do |core|
@@ -84,7 +82,6 @@ Pod::Spec.new do |s|
   s.subspec 'CafSDKCommonsBridgeiOS' do |cb|
     cb.vendored_frameworks = 'Frameworks/CafSDKCommonsBridge.xcframework'
     cb.dependency 'CafSDKiOS/CafCore'
-    cb.dependency 'CafSolutions', caf_solutions_version
   end
 
   # --- Document Detector
@@ -93,14 +90,12 @@ Pod::Spec.new do |s|
     dd.vendored_frameworks = 'Frameworks/CafDocumentDetectorBridge.xcframework'
     dd.dependency 'CafSDKiOS/DocumentDetector'
     dd.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
-    dd.dependency 'CafSolutions', caf_solutions_version
   end
 
   s.subspec 'CafDocumentDetectorUIBridgeiOS' do |ddui|
     ddui.vendored_frameworks = 'Frameworks/CafDocumentDetectorUIBridge.xcframework'
     ddui.dependency 'CafSDKiOS/DocumentDetector'
     ddui.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
-    ddui.dependency 'CafSolutions', caf_solutions_version
   end
 
   # --- Face Liveness
@@ -109,13 +104,11 @@ Pod::Spec.new do |s|
     fl.vendored_frameworks = 'Frameworks/CafFaceLivenessBridge.xcframework'
     fl.dependency 'CafSDKiOS/CafFaceLivenessCore'
     fl.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
-    fl.dependency 'CafSolutions', caf_solutions_version
   end
 
   s.subspec 'CafFaceLivenessUIBridgeiOS' do |flui|
     flui.vendored_frameworks = 'Frameworks/CafFaceLivenessUIBridge.xcframework'
     flui.dependency 'CafSDKiOS/CafFaceLivenessCore'
     flui.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
-    flui.dependency 'CafSolutions', caf_solutions_version
   end
 end
