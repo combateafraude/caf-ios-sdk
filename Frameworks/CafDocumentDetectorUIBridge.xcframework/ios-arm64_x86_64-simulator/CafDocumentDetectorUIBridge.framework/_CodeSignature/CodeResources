@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QtP7t+w59bclUNa9B4fyd3d75os=
+		4EnfY40genp3MA/GCYdRmvI7Nys=
 		</data>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		XQBfqECLdfC06ocLlKkcozLyYtk=
+		jU46LxLuM0PBJv36wPM1jrjfi0o=
 		</data>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qnJRxLKZFtOXzrkJivm7pMlMRWk=
+		hMS1NSZ8Kvjvery0ks26L2UmHfs=
 		</data>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		XQBfqECLdfC06ocLlKkcozLyYtk=
+		jU46LxLuM0PBJv36wPM1jrjfi0o=
 		</data>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FktkDugcypycXZXU6UpFvxQ/IRk=
+		uaJd9QxO/jRSrXlfla9LmyadD8g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dFKjh8tWP0gZ3iSkm9wMRImtQGeUROdTbCEcVS8cqek=
+			8nS0K5YARxsMEanVofctSkbkJfjcl196wMGJQgISoo0=
 			</data>
 		</dict>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FYLDqja3D8AafACQhGPExtjj6cpauVrd3KRcnYa/PAM=
+			2W7MwnG2rbTBxWsQf1toUOpEtPqoZ8MFvdIs7VBFus8=
 			</data>
 		</dict>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dFKjh8tWP0gZ3iSkm9wMRImtQGeUROdTbCEcVS8cqek=
+			8nS0K5YARxsMEanVofctSkbkJfjcl196wMGJQgISoo0=
 			</data>
 		</dict>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OYriQhIefaC5X/0xdcn4dZHfyBLE129whT+T54h/C7g=
+			ajnautI2lQ53lBA5AczrHRZvaryU30maHmS3/Fy2z9U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
