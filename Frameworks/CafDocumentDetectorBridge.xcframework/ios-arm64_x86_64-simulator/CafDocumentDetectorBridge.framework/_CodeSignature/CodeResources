@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XNf98bqiV8ZGMAUo9HnWkM1ib38=
+		nulSTim+IUz4THDtTe/+da6cg30=
 		</data>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		vGxxJBWifQI0RCtuPbopF25qtRE=
+		mD1eF/fqxpe5q1g3yMfOSFKdtK0=
 		</data>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SyBPg90r2OcG/ndmrMKRE6fmmEk=
+		1skmv+lRlvXiP+gkmkhpdGwIcxA=
 		</data>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vGxxJBWifQI0RCtuPbopF25qtRE=
+		mD1eF/fqxpe5q1g3yMfOSFKdtK0=
 		</data>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/wOK5bKC4kSoHzjLKBnxma3WNuI=
+		B9KqHhvoA+MoVk8QBhWaXb+6rz8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SPbKDmFXb8b6tbustwtgl6lzCjAEKxdLWcHnoEJO9a0=
+			mW3McIarQwMKpRuFs0fhVQvRFyg8ucvR4uZglFHY8hM=
 			</data>
 		</dict>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q43hwqyx25DiVoUX5vW016EBw5RljWeGRh/7xzEHmVU=
+			ep6xi8IX+qIGdePhtv7BrvDgSvUBEgtr61ALjyOrBW0=
 			</data>
 		</dict>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SPbKDmFXb8b6tbustwtgl6lzCjAEKxdLWcHnoEJO9a0=
+			mW3McIarQwMKpRuFs0fhVQvRFyg8ucvR4uZglFHY8hM=
 			</data>
 		</dict>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5YWo5Orxe+h+febk2soutKoL/HY4TmBpoU0ug/GsYyA=
+			FE5HqTDkNuHBqPcbq/qVQ4uRDlIXi2DxkIwdNsM09Ws=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
