@@ -1084,17 +1084,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -1335,17 +1335,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -1573,6 +1573,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
@@ -1584,13 +1591,6 @@
             "printedName": "Error",
             "usr": "s:s5ErrorP",
             "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1877,17 +1877,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -2807,17 +2807,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -4003,17 +4003,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -6654,52 +6654,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -6710,10 +6668,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -6755,6 +6755,13 @@
         "kind": "Import",
         "name": "MachO",
         "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "IproovProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
         "declKind": "Import",
         "moduleName": "IproovProvider"
       },
@@ -7019,17 +7026,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -7162,6 +7169,13 @@
       },
       {
         "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "IproovProvider"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7179,6 +7193,400 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IproovProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "IproovProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IproovProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "IproovProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "IproovProvider"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FileIntegrityCheck",
+        "printedName": "FileIntegrityCheck",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundleID",
+            "printedName": "bundleID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IproovProvider.FileIntegrityCheck.Type) -> (Swift.String) -> IproovProvider.FileIntegrityCheck",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> IproovProvider.FileIntegrityCheck",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "IproovProvider.FileIntegrityCheck",
+                        "usr": "s:14IproovProvider18FileIntegrityCheckO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IproovProvider.FileIntegrityCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "IproovProvider.FileIntegrityCheck",
+                        "usr": "s:14IproovProvider18FileIntegrityCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14IproovProvider18FileIntegrityCheckO8bundleIDyACSScACmF",
+            "mangledName": "$s14IproovProvider18FileIntegrityCheckO8bundleIDyACSScACmF",
+            "moduleName": "IproovProvider",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mobileProvision",
+            "printedName": "mobileProvision",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IproovProvider.FileIntegrityCheck.Type) -> (Swift.String) -> IproovProvider.FileIntegrityCheck",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> IproovProvider.FileIntegrityCheck",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "IproovProvider.FileIntegrityCheck",
+                        "usr": "s:14IproovProvider18FileIntegrityCheckO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IproovProvider.FileIntegrityCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "IproovProvider.FileIntegrityCheck",
+                        "usr": "s:14IproovProvider18FileIntegrityCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14IproovProvider18FileIntegrityCheckO15mobileProvisionyACSScACmF",
+            "mangledName": "$s14IproovProvider18FileIntegrityCheckO15mobileProvisionyACSScACmF",
+            "moduleName": "IproovProvider",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "machO",
+            "printedName": "machO",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IproovProvider.FileIntegrityCheck.Type) -> (Swift.String, Swift.String) -> IproovProvider.FileIntegrityCheck",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> IproovProvider.FileIntegrityCheck",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "IproovProvider.FileIntegrityCheck",
+                        "usr": "s:14IproovProvider18FileIntegrityCheckO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IproovProvider.FileIntegrityCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "IproovProvider.FileIntegrityCheck",
+                        "usr": "s:14IproovProvider18FileIntegrityCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14IproovProvider18FileIntegrityCheckO5machOyACSS_SStcACmF",
+            "mangledName": "$s14IproovProvider18FileIntegrityCheckO5machOyACSS_SStcACmF",
+            "moduleName": "IproovProvider",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14IproovProvider18FileIntegrityCheckO11descriptionSSvp",
+            "mangledName": "$s14IproovProvider18FileIntegrityCheckO11descriptionSSvp",
+            "moduleName": "IproovProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14IproovProvider18FileIntegrityCheckO11descriptionSSvg",
+                "mangledName": "$s14IproovProvider18FileIntegrityCheckO11descriptionSSvg",
+                "moduleName": "IproovProvider",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14IproovProvider18FileIntegrityCheckO",
+        "mangledName": "$s14IproovProvider18FileIntegrityCheckO",
+        "moduleName": "IproovProvider",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IproovProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IproovProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "IproovProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "IproovProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "IproovProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IproovProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IproovProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IproovProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IproovProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "IproovProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IproovProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "IproovProvider"
       },
       {
         "kind": "Import",
@@ -7290,24 +7698,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -7318,17 +7712,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7339,13 +7726,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -7353,10 +7733,38 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -7485,24 +7893,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -7513,17 +7907,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7534,13 +7921,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -7548,17 +7928,38 @@
           },
           {
             "kind": "Conformance",
-            "name": "_ExpressibleByImageLiteral",
-            "printedName": "_ExpressibleByImageLiteral",
-            "usr": "s:s26_ExpressibleByImageLiteralP",
-            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -7566,6 +7967,13 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
           }
         ]
       }
@@ -9172,168 +9580,168 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7019,
+      "offset": 7020,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7114,
+      "offset": 7115,
       "length": 19,
       "value": "\"too_much_movement\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7229,
+      "offset": 7230,
       "length": 12,
       "value": "\"too_bright\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7329,
+      "offset": 7330,
       "length": 10,
       "value": "\"too_dark\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7429,
+      "offset": 7430,
       "length": 17,
       "value": "\"misaligned_face\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7527,
+      "offset": 7528,
       "length": 13,
       "value": "\"eyes_closed\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7625,
+      "offset": 7626,
       "length": 14,
       "value": "\"face_too_far\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7734,
+      "offset": 7735,
       "length": 16,
       "value": "\"face_too_close\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7845,
+      "offset": 7846,
       "length": 12,
       "value": "\"sunglasses\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7931,
+      "offset": 7932,
       "length": 9,
       "value": "\"eyewear\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8027,
+      "offset": 8028,
       "length": 15,
       "value": "\"obscured_face\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8119,
+      "offset": 8120,
       "length": 16,
       "value": "\"multiple_faces\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8209,
+      "offset": 8210,
       "length": 16,
       "value": "\"face_not_found\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8301,
+      "offset": 8302,
       "length": 15,
       "value": "\"frames_blurry\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8434,
+      "offset": 8435,
       "length": 17,
       "value": "\"lighting_issues\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8515,
+      "offset": 8516,
       "length": 14,
       "value": "\"motion_issue\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8618,
+      "offset": 8619,
       "length": 18,
       "value": "\"background_issue\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8705,
+      "offset": 8706,
       "length": 14,
       "value": "\"device_issue\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8789,
+      "offset": 8790,
       "length": 16,
       "value": "\"device_restart\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8905,
+      "offset": 8906,
       "length": 14,
       "value": "\"system_error\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8987,
+      "offset": 8988,
       "length": 10,
       "value": "\"rejected\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 9049,
+      "offset": 9050,
       "length": 9,
       "value": "\"timeout\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 9145,
+      "offset": 9146,
       "length": 16,
       "value": "\"user_not_found\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 9237,
+      "offset": 9238,
       "length": 18,
       "value": "\"processing_fault\""
     },
@@ -10886,115 +11294,395 @@
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1281,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1318,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1348,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1381,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1415,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1447,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1480,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1510,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1540,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1567,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1603,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1626,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 700,
+      "offset": 1756,
       "length": 28,
       "value": "[27042, 27043, 27044, 27045]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 787,
+      "offset": 1843,
+      "length": 198,
+      "value": "[27042, 27043, 27044, 27045, 80, 443, 8080, 8443, 1337, 3000, 4444, 5555, 6666, 8888, 9090, 9999, 1234, 4321, 31337, 12345, 18080, 28015, 38080]"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2254,
+      "length": 2,
+      "value": "96"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2317,
+      "length": 5,
+      "value": "1500"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2375,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 2560,
       "length": 361,
       "value": "[\"\/usr\/sbin\/frida-server\", \"\/usr\/bin\/frida-server\", \"\/usr\/local\/bin\/frida-server\", \"\/usr\/lib\/frida\", \"\/usr\/local\/lib\/frida\", \"\/Library\/Frameworks\/FridaGadget.framework\", \"\/var\/containers\/Bundle\/Application\/*\/Payload\/*.app\/Frameworks\/FridaGadget.framework\", \"\/.frida\", \"\/tmp\/frida-*\"]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 1211,
+      "offset": 2984,
       "length": 158,
       "value": "[\"frida\", \"Frida\", \"FridaGadget\", \"frida-gadget\", \"frida-agent\", \"gum-js-loop\", \"gmain\", \"linjector\", \"frida_agent\", \"frida_agent_main\"]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 1432,
+      "offset": 3205,
       "length": 114,
       "value": "[\"gum-js-loop\", \"gmain\", \"gdbus\", \"pool-frida\", \"frida-helper\", \"linjector\", \"frida-portal\"]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1605,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1658,
-      "length": 5,
-      "value": "false"
+      "kind": "Array",
+      "offset": 3379,
+      "length": 895,
+      "value": "[\"\/var\/jb\/.installed_dopamine\", \"\/var\/jb\/basebin\/jbctl\", \"\/var\/jb\/basebin\/bootstrapd\", \"\/var\/jb\/basebin\/opainject\", \"\/var\/jb\/basebin\/launchdhook.dylib\", \"\/var\/jb\/basebin\/.fakelib\/dyld\", \"\/var\/jb\/basebin\/.version\", \"\/var\/jb\/basebin\/.safe_mode\", \"\/var\/jb\/basebin\/bootlogo.jp2\", \"\/var\/jb\/basebin\/LaunchDaemons\/com.opa334.Dopamine.idownloadd.plist\", \"\/var\/jb\/prep_bootstrap.sh\", \"\/var\/jb\/etc\/apt\/sources.list.d\/default.sources\", \"\/var\/jb\/usr\/lib\/ellekit.dylib\", \"\/var\/jb\/usr\/lib\/libjailbreak.dylib\", \"\/var\/jb\/usr\/bin\/sbreload\", \"\/var\/jb\/usr\/sbin\/pw\", \"\/var\/jb\/Library\/MobileSubstrate\/DynamicLibraries\"]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 2515,
+      "offset": 4333,
+      "length": 138,
+      "value": "[\"dopamine\", \"ellekit\", \"roothide\", \"libjailbreak\", \"jbctl\", \"bootstrapd\", \"systemhook\", \"launchdhook\", \"opainject\"]"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 4537,
+      "length": 515,
+      "value": "[\"\/var\/jb\", \"\/var\/jb\/basebin\", \"\/var\/jb\/basebin\/jbctl\", \"\/var\/jb\/basebin\/bootstrapd\", \"\/var\/jb\/basebin\/opainject\", \"\/var\/jb\/basebin\/launchdhook.dylib\", \"\/var\/jb\/basebin\/.fakelib\/dyld\", \"\/var\/jb\/usr\/lib\/ellekit.dylib\", \"\/var\/jb\/usr\/lib\/libjailbreak.dylib\", \"\/var\/jb\/usr\/bin\/su\", \"\/var\/jb\/usr\/sbin\/frida-server\", \"\/var\/jb\/Library\/MobileSubstrate\/DynamicLibraries\", \"\/var\/binpack\", \"\/cores\/binpack\"]"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 5117,
+      "length": 137,
+      "value": "[\"ellekit\", \"libjailbreak\", \"roothide\", \"dopamine\", \"palera1n\", \"fugu15\", \"substrate\", \"systemhook\", \"launchdhook\"]"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 5335,
+      "length": 193,
+      "value": "[(\"HOME\", \"\/var\/root\"), (\"CFFIXED_USER_HOME\", \"\/var\/root\"), (\"TMPDIR\", \"\/var\/tmp\"), (\"DYLD_INSERT_LIBRARIES\", \"systemhook\"), (\"PATH\", \"\/var\/jb\/\")]"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 5587,
+      "length": 35,
+      "value": "[\"JBRAND\", \"_JBROOT\"]"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5681,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5734,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 6145,
+      "length": 24,
+      "value": "\"io.caf.securityMonitor\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Dictionary",
+      "offset": 6293,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 7272,
       "length": 83,
       "value": "[\"token\", \"mobileToken\", \"personId\", \"authorization\", \"bearer\", \"attestationToken\"]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 5054,
+      "offset": 10270,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15013,
+      "length": 7,
+      "value": "100000"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 20216,
+      "offset": 35522,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 20637,
+      "offset": 35943,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 20679,
+      "offset": 35985,
       "length": 8,
       "value": "\"sysctl\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 21024,
+      "offset": 36330,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 21066,
+      "offset": 36372,
       "length": 6,
       "value": "\"stat\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 21388,
+      "offset": 36694,
       "length": 9,
       "value": "\"libdyld\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 21428,
+      "offset": 36734,
       "length": 8,
       "value": "\"dladdr\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 37085,
+      "length": 11,
+      "value": "\"libsystem\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 37127,
+      "length": 8,
+      "value": "\"access\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37402,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 37407,
+      "length": 6,
+      "value": "\"open\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 37492,
+      "length": 11,
+      "value": "\"libsystem\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 37538,
+      "length": 6,
+      "value": "\"open\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 37906,
+      "length": 11,
+      "value": "\"libsystem\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 37948,
+      "length": 8,
+      "value": "\"getenv\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41300,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 25035,
+      "offset": 42007,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 42052,
       "length": 3,
       "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 42087,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 48269,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 48283,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 49255,
+      "length": 190,
+      "value": "[(\"isFridaDetected\", \"SbyFZ\"), (\"denyDebuggerAttachment\", \"yyFZ\"), (\"isDebuggerAttached\", \"SbyFZ\")]"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 62398,
+      "length": 7,
+      "value": "120000"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-service\/CafService.swift",
@@ -11016,6 +11704,90 @@
       "offset": 416,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 832,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 885,
+      "length": 8,
+      "value": "\"ptrace\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1195,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1199,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1202,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1205,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1233,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1249,
+      "length": 75,
+      "value": "\"Error occured when calling ptrace(). Denying debugger may not be reliable\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/certta-security\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11287,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/certta-security\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 11330,
+      "length": 6,
+      "value": "\"fork\""
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/certta-security\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11501,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/certta-security\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11527,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-service\/ServiceConstants.swift",

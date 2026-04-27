@@ -168,6 +168,21 @@ public enum CafLogLevel : Swift.String {
     get
   }
 }
+public enum FileIntegrityCheck {
+  case bundleID(Swift.String)
+  case mobileProvision(Swift.String)
+  case machO(Swift.String, Swift.String)
+}
+extension CafFaceLivenessLite.FileIntegrityCheck {
+  public var description: Swift.String {
+    get
+  }
+}
+public typealias FileIntegrityCheckResult = (result: Swift.Bool, hitChecks: [CafFaceLivenessLite.FileIntegrityCheck])
+public enum IntegrityCheckerImageTarget {
+  case `default`
+  case custom(Swift.String)
+}
 extension UIKit.UIImage {
   #if compiler(>=5.3) && $NonescapableTypes
   public static func gifImage(from data: Foundation.Data) -> UIKit.UIImage?
