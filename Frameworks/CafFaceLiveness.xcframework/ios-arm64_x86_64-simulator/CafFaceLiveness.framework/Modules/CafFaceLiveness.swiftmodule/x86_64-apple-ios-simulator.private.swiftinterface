@@ -214,6 +214,7 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
   public var colorConfig: CafFaceLiveness.ColorConfiguration?
   public var customLocalization: Swift.String?
   public var flCustomizations: [any CafFaceLiveness.FLCustomization]
+  public var securityEnabled: Swift.Bool
   public var payFaceDebugMode: Swift.Bool
   public var sdkType: CafFaceLiveness.CafSdkPlatform {
     get
@@ -245,6 +246,7 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
     open func setSdkType(type: Swift.String) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setMaxRetryAttempts(attempts: Swift.Int) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setCustomStrings(customStrings: [any CafFaceLiveness.FLCustomization]) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setSecurityEnabled(enabled: Swift.Bool) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setPayFaceDebugMode(debugMode: Swift.Bool) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     #if compiler(>=5.3) && $NonescapableTypes
     open func setBridge(config: [Swift.String : Swift.String]?) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder

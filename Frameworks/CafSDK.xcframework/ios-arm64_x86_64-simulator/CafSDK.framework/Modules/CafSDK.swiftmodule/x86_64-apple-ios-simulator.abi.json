@@ -23547,9 +23547,94 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "securityEnabled",
+            "printedName": "securityEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A18FaceLivenessConfigV15securityEnabledSbvp",
+            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV15securityEnabledSbvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV15securityEnabledSbvg",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV15securityEnabledSbvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV15securityEnabledSbvs",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV15securityEnabledSbvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A18FaceLivenessConfigV15securityEnabledSbvM",
+                "mangledName": "$s6CafSDK0A18FaceLivenessConfigV15securityEnabledSbvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(instructionsConfig:loadingEnabled:reverseProxyConfig:executeFaceAuth:customLocalization:maxRetryAttempts:sdkType:flCustomizations:payFaceDebugMode:bridgeConfig:debug:)",
+            "printedName": "init(instructionsConfig:loadingEnabled:reverseProxyConfig:executeFaceAuth:customLocalization:maxRetryAttempts:sdkType:flCustomizations:payFaceDebugMode:bridgeConfig:debug:securityEnabled:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23671,11 +23756,18 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled012reverseProxyE007executeC4Auth18customLocalization16maxRetryAttempts7sdkType16flCustomizations03payC9DebugMode06bridgeE05debugAcA0A25InstructionsConfigurationV_SbAA0a7ReversejE0VSbSSSgSiAA0A11SdkPlatformOSayAA0A15FLCustomization_pGSbSDyS2SGSgSbtcfc",
-            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled012reverseProxyE007executeC4Auth18customLocalization16maxRetryAttempts7sdkType16flCustomizations03payC9DebugMode06bridgeE05debugAcA0A25InstructionsConfigurationV_SbAA0a7ReversejE0VSbSSSgSiAA0A11SdkPlatformOSayAA0A15FLCustomization_pGSbSDyS2SGSgSbtcfc",
+            "usr": "s:6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled012reverseProxyE007executeC4Auth18customLocalization16maxRetryAttempts7sdkType16flCustomizations03payC9DebugMode06bridgeE05debug08securityH0AcA0A25InstructionsConfigurationV_SbAA0a7ReversejE0VSbSSSgSiAA0A11SdkPlatformOSayAA0A15FLCustomization_pGSbSDyS2SGSgS2btcfc",
+            "mangledName": "$s6CafSDK0A18FaceLivenessConfigV012instructionsE014loadingEnabled012reverseProxyE007executeC4Auth18customLocalization16maxRetryAttempts7sdkType16flCustomizations03payC9DebugMode06bridgeE05debug08securityH0AcA0A25InstructionsConfigurationV_SbAA0a7ReversejE0VSbSSSgSiAA0A11SdkPlatformOSayAA0A15FLCustomization_pGSbSDyS2SGSgS2btcfc",
             "moduleName": "CafSDK",
             "declAttributes": [
               "AccessControl"
@@ -29914,9 +30006,94 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "securityEnabled",
+            "printedName": "securityEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A16SDKConfigurationC15securityEnabledSbvp",
+            "mangledName": "$s6CafSDK0A16SDKConfigurationC15securityEnabledSbvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A16SDKConfigurationC15securityEnabledSbvg",
+                "mangledName": "$s6CafSDK0A16SDKConfigurationC15securityEnabledSbvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A16SDKConfigurationC15securityEnabledSbvs",
+                "mangledName": "$s6CafSDK0A16SDKConfigurationC15securityEnabledSbvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A16SDKConfigurationC15securityEnabledSbvM",
+                "mangledName": "$s6CafSDK0A16SDKConfigurationC15securityEnabledSbvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(presentationOrder:colorConfig:nextStepContent:waitForAllServices:enableTransitionScreens:)",
+            "printedName": "init(presentationOrder:colorConfig:nextStepContent:waitForAllServices:enableTransitionScreens:securityEnabled:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -29981,11 +30158,18 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6CafSDK0A16SDKConfigurationC17presentationOrder11colorConfig15nextStepContent18waitForAllServices23enableTransitionScreensACSayAA0A10ModuleTypeOG_AA0A18ColorConfigurationVSgAA0a16ConfirmationNextiJ0CSgS2btcfc",
-            "mangledName": "$s6CafSDK0A16SDKConfigurationC17presentationOrder11colorConfig15nextStepContent18waitForAllServices23enableTransitionScreensACSayAA0A10ModuleTypeOG_AA0A18ColorConfigurationVSgAA0a16ConfirmationNextiJ0CSgS2btcfc",
+            "usr": "s:6CafSDK0A16SDKConfigurationC17presentationOrder11colorConfig15nextStepContent18waitForAllServices23enableTransitionScreens15securityEnabledACSayAA0A10ModuleTypeOG_AA0A18ColorConfigurationVSgAA0a16ConfirmationNextiJ0CSgS3btcfc",
+            "mangledName": "$s6CafSDK0A16SDKConfigurationC17presentationOrder11colorConfig15nextStepContent18waitForAllServices23enableTransitionScreens15securityEnabledACSayAA0A10ModuleTypeOG_AA0A18ColorConfigurationVSgAA0a16ConfirmationNextiJ0CSgS3btcfc",
             "moduleName": "CafSDK",
             "declAttributes": [
               "AccessControl"
@@ -40773,9 +40957,94 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "securityEnabled",
+            "printedName": "securityEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK0A22DocumentDetectorConfigV15securityEnabledSbvp",
+            "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV15securityEnabledSbvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A22DocumentDetectorConfigV15securityEnabledSbvg",
+                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV15securityEnabledSbvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A22DocumentDetectorConfigV15securityEnabledSbvs",
+                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV15securityEnabledSbvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK0A22DocumentDetectorConfigV15securityEnabledSbvM",
+                "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV15securityEnabledSbvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(flow:layout:uploadSettings:instructionsConfig:manualCaptureEnabled:manualCaptureTime:requestTimeout:showPopup:proxySettings:previewShow:ddCustomizations:getUrlExpireTime:enableMultiLanguage:currentStepDoneDelay:allowedPassportCountryList:selectDocumentConfig:sdkType:maxRetryAttempts:)",
+            "printedName": "init(flow:layout:uploadSettings:instructionsConfig:manualCaptureEnabled:manualCaptureTime:requestTimeout:showPopup:proxySettings:previewShow:ddCustomizations:getUrlExpireTime:enableMultiLanguage:currentStepDoneDelay:allowedPassportCountryList:selectDocumentConfig:sdkType:maxRetryAttempts:securityEnabled:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -40980,11 +41249,18 @@
                 "printedName": "Swift.Int",
                 "hasDefaultArg": true,
                 "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6CafSDK0A22DocumentDetectorConfigV4flow6layout14uploadSettings012instructionsE020manualCaptureEnabled0kL4Time14requestTimeout9showPopup05proxyI011previewShow16ddCustomizations012getUrlExpireN019enableMultiLanguage20currentStepDoneDelay26allowedPassportCountryList06selectcE07sdkType16maxRetryAttemptsACSayAA0acD4StepVG_AA0acD6LayoutVAA0a6UploadI0VAA0A25InstructionsConfigurationVSbSgSdSgSdSbAA0a5ProxyI0VSgSbSayAA0A15DDCustomization_pGSSSgSbSdSayAA0A11CountryCodeOGSgAA0a6SelectcE0VSgAA0A11SdkPlatformOSitcfc",
-            "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV4flow6layout14uploadSettings012instructionsE020manualCaptureEnabled0kL4Time14requestTimeout9showPopup05proxyI011previewShow16ddCustomizations012getUrlExpireN019enableMultiLanguage20currentStepDoneDelay26allowedPassportCountryList06selectcE07sdkType16maxRetryAttemptsACSayAA0acD4StepVG_AA0acD6LayoutVAA0a6UploadI0VAA0A25InstructionsConfigurationVSbSgSdSgSdSbAA0a5ProxyI0VSgSbSayAA0A15DDCustomization_pGSSSgSbSdSayAA0A11CountryCodeOGSgAA0a6SelectcE0VSgAA0A11SdkPlatformOSitcfc",
+            "usr": "s:6CafSDK0A22DocumentDetectorConfigV4flow6layout14uploadSettings012instructionsE020manualCaptureEnabled0kL4Time14requestTimeout9showPopup05proxyI011previewShow16ddCustomizations012getUrlExpireN019enableMultiLanguage20currentStepDoneDelay26allowedPassportCountryList06selectcE07sdkType16maxRetryAttempts08securityM0ACSayAA0acD4StepVG_AA0acD6LayoutVAA0a6UploadI0VAA0A25InstructionsConfigurationVSbSgSdSgSdSbAA0a5ProxyI0VSgSbSayAA0A15DDCustomization_pGSSSgSbSdSayAA0A11CountryCodeOGSgAA0a6SelectcE0VSgAA0A11SdkPlatformOSiSbtcfc",
+            "mangledName": "$s6CafSDK0A22DocumentDetectorConfigV4flow6layout14uploadSettings012instructionsE020manualCaptureEnabled0kL4Time14requestTimeout9showPopup05proxyI011previewShow16ddCustomizations012getUrlExpireN019enableMultiLanguage20currentStepDoneDelay26allowedPassportCountryList06selectcE07sdkType16maxRetryAttempts08securityM0ACSayAA0acD4StepVG_AA0acD6LayoutVAA0a6UploadI0VAA0A25InstructionsConfigurationVSbSgSdSgSdSbAA0a5ProxyI0VSgSbSayAA0A15DDCustomization_pGSSSgSbSdSayAA0A11CountryCodeOGSgAA0a6SelectcE0VSgAA0A11SdkPlatformOSiSbtcfc",
             "moduleName": "CafSDK",
             "declAttributes": [
               "AccessControl"
@@ -46647,49 +46923,56 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 5207,
+      "offset": 5244,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 5338,
+      "offset": 5375,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 5436,
+      "offset": 5473,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "Array",
-      "offset": 5551,
+      "offset": 5588,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 5596,
+      "offset": 5633,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 5688,
+      "offset": 5725,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5772,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/CafFaceLivenessProvider.swift",
       "kind": "StringLiteral",
-      "offset": 6811,
+      "offset": 6942,
       "length": 2,
       "value": "\"\""
     },
@@ -46843,16 +47126,23 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Public\/CafModels.swift",
       "kind": "BooleanLiteral",
-      "offset": 2439,
+      "offset": 2476,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Public\/CafModels.swift",
       "kind": "BooleanLiteral",
-      "offset": 2485,
+      "offset": 2522,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/Models\/Public\/CafModels.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2560,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafFaceLiveness\/Wrappers\/CafReverseProxyConfig.swift",
@@ -47305,168 +47595,168 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 15013,
+      "offset": 15094,
       "length": 7,
       "value": "100000"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 35522,
+      "offset": 35603,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 35943,
+      "offset": 36024,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 35985,
+      "offset": 36066,
       "length": 8,
       "value": "\"sysctl\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 36330,
+      "offset": 36411,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 36372,
+      "offset": 36453,
       "length": 6,
       "value": "\"stat\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 36694,
+      "offset": 36775,
       "length": 9,
       "value": "\"libdyld\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 36734,
+      "offset": 36815,
       "length": 8,
       "value": "\"dladdr\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37085,
+      "offset": 37166,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37127,
+      "offset": 37208,
       "length": 8,
       "value": "\"access\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 37402,
+      "offset": 37483,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37407,
+      "offset": 37488,
       "length": 6,
       "value": "\"open\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37492,
+      "offset": 37573,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37538,
+      "offset": 37619,
       "length": 6,
       "value": "\"open\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37906,
+      "offset": 37987,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37948,
+      "offset": 38029,
       "length": 8,
       "value": "\"getenv\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 41300,
+      "offset": 41381,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 42007,
+      "offset": 42088,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 42052,
+      "offset": 42133,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 42087,
+      "offset": 42168,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 48269,
+      "offset": 48350,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 48283,
+      "offset": 48364,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 49255,
+      "offset": 49336,
       "length": 190,
       "value": "[(\"isFridaDetected\", \"SbyFZ\"), (\"denyDebuggerAttachment\", \"yyFZ\"), (\"isDebuggerAttached\", \"SbyFZ\")]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 62398,
+      "offset": 62479,
       "length": 7,
       "value": "120000"
     },
@@ -47781,84 +48071,91 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "Array",
-      "offset": 1380,
+      "offset": 1417,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 1543,
+      "offset": 1580,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 1753,
+      "offset": 1790,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 1810,
+      "offset": 1847,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 1860,
+      "offset": 1897,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 1898,
+      "offset": 1935,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 1996,
+      "offset": 2033,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "Array",
-      "offset": 2060,
+      "offset": 2097,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 2157,
+      "offset": 2194,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 2216,
+      "offset": 2253,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 2452,
+      "offset": 2489,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2532,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/DocumentDetector\/DocumentDetectorProvider.swift",
       "kind": "StringLiteral",
-      "offset": 7732,
+      "offset": 7863,
       "length": 2,
       "value": "\"\""
     },
