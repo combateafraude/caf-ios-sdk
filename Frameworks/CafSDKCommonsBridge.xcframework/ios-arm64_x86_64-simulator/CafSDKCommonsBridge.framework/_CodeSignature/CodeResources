@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		c4snGaW+HYorgvnhk7fgLhEunXA=
+		tzYT0PyQVq8a5yFwezMSmapuXT4=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BxEpwnqwjMuM8fwwGXwZJURYUKs=
+		/BOqcrnpMZazbYTD3kwbqY6FOaM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pCrYQi9eMURVH38WAXiWjOat+m1cD5BhD4lECRGO4HU=
+			yTdDCNeTmFS9p7I/vCM6GcX+Fd/fa6nge6mu3ZPsNMY=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9XdzGr2GxDkKiiAONoi6xpP6HHeALzCsDULZf1Z6Fdc=
+			05vPiiONSLvc3mkz7IaycqA5qaqrwYUuAT2dePBK5e0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

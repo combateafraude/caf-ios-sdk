@@ -11758,168 +11758,168 @@
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 15013,
+      "offset": 15094,
       "length": 7,
       "value": "100000"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 35522,
+      "offset": 35603,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 35943,
+      "offset": 36024,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 35985,
+      "offset": 36066,
       "length": 8,
       "value": "\"sysctl\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 36330,
+      "offset": 36411,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 36372,
+      "offset": 36453,
       "length": 6,
       "value": "\"stat\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 36694,
+      "offset": 36775,
       "length": 9,
       "value": "\"libdyld\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 36734,
+      "offset": 36815,
       "length": 8,
       "value": "\"dladdr\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37085,
+      "offset": 37166,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37127,
+      "offset": 37208,
       "length": 8,
       "value": "\"access\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 37402,
+      "offset": 37483,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37407,
+      "offset": 37488,
       "length": 6,
       "value": "\"open\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37492,
+      "offset": 37573,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37538,
+      "offset": 37619,
       "length": 6,
       "value": "\"open\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37906,
+      "offset": 37987,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37948,
+      "offset": 38029,
       "length": 8,
       "value": "\"getenv\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 41300,
+      "offset": 41381,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 42007,
+      "offset": 42088,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 42052,
+      "offset": 42133,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 42087,
+      "offset": 42168,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 48269,
+      "offset": 48350,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 48283,
+      "offset": 48364,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 49255,
+      "offset": 49336,
       "length": 190,
       "value": "[(\"isFridaDetected\", \"SbyFZ\"), (\"denyDebuggerAttachment\", \"yyFZ\"), (\"isDebuggerAttached\", \"SbyFZ\")]"
     },
     {
       "filePath": "\/Users\/marcus.seixas\/Documents\/ios_project\/caf-ios2\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 62398,
+      "offset": 62479,
       "length": 7,
       "value": "120000"
     },
