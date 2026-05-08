@@ -66,7 +66,10 @@ Pod::Spec.new do |s|
   s.subspec 'FortfaceProvider' do |ff|
     ff.vendored_frameworks = [
       'Frameworks/Fortface.xcframework',
-      'Frameworks/FortfaceProvider.xcframework'
+      'Frameworks/FortfaceProvider.xcframework',
+      'Frameworks/IDLiveFaceCamera.xcframework',
+      'Frameworks/IDLiveFaceDetection.xcframework',
+      'Frameworks/IDLiveFaceIAD.xcframework'
     ]
     ff.dependency 'CafSDKiOS/CafFaceLivenessCore'
   end

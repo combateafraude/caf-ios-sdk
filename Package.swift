@@ -31,6 +31,9 @@ let package = Package(
         .binaryTarget(name: "FaceTec2DProvider", path: "Frameworks/FaceTec2DProvider.xcframework"),
         .binaryTarget(name: "Fortface", path: "Frameworks/Fortface.xcframework"),
         .binaryTarget(name: "FortfaceProvider", path: "Frameworks/FortfaceProvider.xcframework"),
+        .binaryTarget(name: "IDLiveFaceCamera", path: "Frameworks/IDLiveFaceCamera.xcframework"),
+        .binaryTarget(name: "IDLiveFaceDetection", path: "Frameworks/IDLiveFaceDetection.xcframework"),
+        .binaryTarget(name: "IDLiveFaceIAD", path: "Frameworks/IDLiveFaceIAD.xcframework"),
 
         // Main CafSDK target
         .target(
@@ -106,6 +109,9 @@ let package = Package(
             dependencies: [
                 "FortfaceProvider",
                 "Fortface",
+                "IDLiveFaceCamera",
+                "IDLiveFaceDetection",
+                "IDLiveFaceIAD",
                 "CafFaceLivenessCoreTarget"
             ],
             path: "Sources/FortfaceProvider"
