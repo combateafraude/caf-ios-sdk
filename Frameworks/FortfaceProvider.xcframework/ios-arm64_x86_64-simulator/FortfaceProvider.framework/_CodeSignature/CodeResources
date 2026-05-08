@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		nJ5WBgUj6EWV3hsxC+nomaqGVJg=
+		a5UsfV3iSYA6Z6pcLDuxRI1cfNk=
 		</data>
 		<key>Headers/FortfaceProvider-Swift.h</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		W8uvQr8IgocynasAKKGiB6pBO08=
+		imMRuTb777iEeUthCBYSVOUjgqw=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ko4kVO+l6mYMaoKXLOo2efqW96w=
+		xHIiakmfU+8EMga8O6MpObL00AI=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LYd+BZaGoFHfvgvDN5yg+xRZWgo=
+		G4kqgTYrp+gbZxHPK6hf8OjJ4jU=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		8wGvS9rwqRMPzdzDiWidjTzo7gM=
+		ZpeamFLaCBzTTAdygOmh3dP5h3Q=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1eOIjUyNybgdTQJY8lxcPQvvzsQ=
+		RoUmgnnwQs6TS95PzdHUoiL+Ugw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VYg4l7TEb3qztiaGlfgohuFdCWFAzJtcLOnc8GOnKF8=
+			qyO8OYqcs2W0Nx8WEo3O7haC6Se7eYIU3LdAjvA123k=
 			</data>
 		</dict>
 		<key>Headers/FortfaceProvider-Swift.h</key>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vK0xeP/N3GmQohNz+bpTxODfFMxS7NcNyiPzY62vSBE=
+			+NtaFXkep1XIGyWX+YWzGUREaJj8frEHIlS6gQlegbM=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -149,14 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kehRca4iyGFOyEP9/wJdpYcvs8da8buAhJz1MuJEF4U=
+			gZdIsJgzV7zq0MJFnvtMtHHSAo+QtezsxF5W5/VtR+E=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gau6X/uFiCx+d59iLS7Yn2dcAa74BFEG5WKTpUat/u0=
+			RDsgoBE11gL1Tb3Ijcv/AtFGiZSl4qBnBoo9A+JSQd0=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NlmLmVLMYnuhrFttbBey1crlseMSRM4It9f5z/9hfko=
+			D+JNyNx7eyajcGE5tUY2rD5OOpsJlpuqrVfwZazpaig=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

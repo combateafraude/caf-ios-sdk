@@ -170,10 +170,9 @@ extension Swift.Sequence where Self.Element == any CafFaceLiveness.FLCustomizati
 }
 final public class FLPayFaceCustomization : CafFaceLiveness.FLCustomization {
   final public var cameraMessageFont: Swift.String?
-  final public var startMessage: Swift.String?
-  final public var facePositionedMessage: Swift.String?
+  final public var noFaceMessage: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(cameraMessageFont: Swift.String? = nil, startMessage: Swift.String? = nil, facePositionedMessage: Swift.String? = nil)
+  public init(cameraMessageFont: Swift.String? = nil, noFaceMessage: Swift.String? = nil)
   #endif
   @objc deinit
 }
