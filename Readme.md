@@ -20,9 +20,9 @@ Official [Documentation](https://docs.caf.io/caf-sdk/ios/getting-started-with-th
 
 | Deployment Info | Version       |
 | --------------- | ------------- |
-| iOS Target      | 13.0+         |
-| Xcode           | 16.2+         |
-| Swift           | 5.10+         |
+| iOS Target      | 15.0+         |
+| Xcode           | 26.0+         |
+| Swift           | 6.3+         |
 
 ---
 
@@ -34,7 +34,7 @@ Add the following dependency to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/combateafraude/caf-ios-sdk.git", from: "6.2.1")
+    .package(url: "https://github.com/combateafraude/caf-ios-sdk.git", from: "6.4.2")
 ]
 ```
 
