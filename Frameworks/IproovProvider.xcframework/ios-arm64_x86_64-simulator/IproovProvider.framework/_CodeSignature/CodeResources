@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		a5UsfV3iSYA6Z6pcLDuxRI1cfNk=
+		oP4GPzpA+YJQXOhd6JgCoQhTpIo=
 		</data>
 		<key>Headers/IproovProvider-Swift.h</key>
 		<data>
@@ -14,61 +14,57 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MMY24FHTGvht58aKFpIfcUEQ9M8=
+		IPj+wTH5nPsjx2wTjWPP5PojOYo=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		AfO++g5GGqmkmq05CCUlApnyEg0=
+		CrZp9Qq13at1haIFkpRTXYGbric=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Q9YHimeSb7mjZonqHwJ1MmmXWng=
+		1oQAQo3zrZCxQ56Lz9sqgs2RFGQ=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		aoQ6HKzfAb5UzZN7qeeDmq9dziI=
+		sN319eysjia7Hq8XIaoCDfie/6k=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Q9YHimeSb7mjZonqHwJ1MmmXWng=
+		1oQAQo3zrZCxQ56Lz9sqgs2RFGQ=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NSZer48uAEjQKQbiJRoOSuMXTGM=
+		BJzzKLfidHRRWeyr1SsFSPXK3y0=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Pomx1N5VQVL3PpbCDA0JqeJLbho=
+		t9G2KRDZa7dVhAu/zAEjQtocukA=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EYEtW1NqMcEx5XfPnlPzMj1R7Sc=
+		DJ2jSLRF9s7p0dZzi7ZCdlniB8M=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		uz4rK+DWFMuKWEeRKIfLcaRpJCk=
+		9UuQ1hSczPJbPDp4r/xEVDKDtTg=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EYEtW1NqMcEx5XfPnlPzMj1R7Sc=
+		DJ2jSLRF9s7p0dZzi7ZCdlniB8M=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zkcQvQ/jNWJPEed2vULurUrKb4A=
+		tHr4HPBi4SmeS71J+t8QaRZMHYY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		GkMOrR2vOQpR4E5VI85VwYDTS/g=
 		</data>
-		<key>Spininng.gif</key>
-		<data>
-		AoCOEaAPe6+WgphRTHByXqufc0w=
-		</data>
 		<key>en.lproj/CDSStrings.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kFp+MDtzaC0RU8KrRtDGvdd/IVM=
+			zBhoHvgPJSNfAzgA6qGGXxOI97I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -77,16 +73,20 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			139+vQ8W/2fy2QF3VaDQ2VMIl88=
+			LyY2xd74JkQdO9z/Mc/J+wjLLxc=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>loading_spinner_1.webp</key>
+		<data>
+		+4wIS7pjGq7H0gTmcBYKA9aDjow=
+		</data>
 		<key>pt-BR.lproj/CDSStrings.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wF/tV7s9QmxzBKAr26Zo8Qq7l+Q=
+			E3b5rnh8ng8Kh9J2M9aTBfzYGtM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -95,7 +95,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/YB6+fpdl91y+S0CSFO02hg/RTU=
+			a/DEld2VrMiURIFCTcM457UESWA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qyO8OYqcs2W0Nx8WEo3O7haC6Se7eYIU3LdAjvA123k=
+			lQ5UfN+sOeFcLfT0eno7nJ4gVTU5NlcckyigVKCuiBI=
 			</data>
 		</dict>
 		<key>Headers/IproovProvider-Swift.h</key>
@@ -121,70 +121,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oHG8NVSOqTWvQeke+q5KA5Z2K2wOqKldnfda8YWiGhc=
+			5Cc0hZl8ZUT92HVLTfs5i13bLDlJcMWfSf0b0qm3FsY=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FRntcc7sRfCPR2tBPEC3/OqWDZmTVVtH6i7siXV7nBc=
+			ioOL510jeww7c70cnuR9DqCPb2uaQKIjTmlgfx1Fc+Y=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iS6Uf5GOM1hJAMcNIrEUN/zqf+xGdE5wYEenKiIr6Q8=
+			EH8kF/sccwYcCbLIaJTL4NzoVD8FpyKYRquwm6RPCtM=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FRntcc7sRfCPR2tBPEC3/OqWDZmTVVtH6i7siXV7nBc=
+			ioOL510jeww7c70cnuR9DqCPb2uaQKIjTmlgfx1Fc+Y=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+O66EEwUgaSI/PyGH8r1sxSQ2NvR3NopAAAm8RFDamI=
+			HQl6qEN0wiM1qmnlFsRgPmY5V+5O9tJInmVw8isjKJo=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jXLCVDr9iTPELGW9HQBgSff1pwdYTSUvIXxtr3KUM0k=
+			UJKaFtkvFLiIv0W2+DSMIW5SaMqUy1dghODhNALsg3Y=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BkFSTTMD7wY6R7MoJtB6CA4sOdVwiYTVfKbwhGMVH/A=
+			c2P5biTL9DPDlTbcZrABXVgmrFFUmQH3FuRDe0r4KQM=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pe9usKty08yKdMyptoiw/zKL7CKiAazmjRvvqbeEDTc=
+			3TbpGpqNeToo3Pc0dfjBNPAJYnQJ7NhsQ8/97xQae+E=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BkFSTTMD7wY6R7MoJtB6CA4sOdVwiYTVfKbwhGMVH/A=
+			c2P5biTL9DPDlTbcZrABXVgmrFFUmQH3FuRDe0r4KQM=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zFMomzD3Dl5L+VzZavvc/u+jMdJfNc/mcsAp6WddQmQ=
+			Yw7efQ1flc53OV0QWrrcCa4ucgRYvw8akYl6+BRNspM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -194,18 +194,11 @@
 			B3thunyKzce0mKOsbUtpqC0KG6lQLOztEwomhg6rN8E=
 			</data>
 		</dict>
-		<key>Spininng.gif</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ui9X+RNMIZfDqBoVp9WlAfEMZbgvLQ300OCcSI4te54=
-			</data>
-		</dict>
 		<key>en.lproj/CDSStrings.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0zPzsYHFmGZVbNYiKzt7MwIoQU8PYPWFQraeJ73euaE=
+			05HxnLUwZD/QjRXP7fnGxCDp7ZJua5jrk8iBm9kJ/SE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -214,16 +207,23 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zjLGgkm5cel2BZ3mr+FN0XTS6mmNZ6Lx61nGDetdC0k=
+			0+z7nZfE3+nEKM3AKa/lefrRwXoJoj2kFOyb2jgysLs=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>loading_spinner_1.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y9dO6upNyHXKBJe1KNkJR2NKrKytR292cggt4wEFRT8=
+			</data>
 		</dict>
 		<key>pt-BR.lproj/CDSStrings.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4e0iHLCUd/zGImYZuS0ABuUQ++EwBrQcal1jk1ibYtM=
+			PBKFxQbc0gdGYdztqFIoF1iI+yW/xPqozBuHAGTscTE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -232,7 +232,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tNKRfqrTxtXorYquYuloncBWfvxKqFnDyvBzPvL5y/Y=
+			dclNpLLAlz4z/8pbHQuZTjxOOBYem2+ykjqm4KItGNY=
 			</data>
 			<key>optional</key>
 			<true/>
