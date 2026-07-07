@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8Dq7imjeXIw2elzeoaf/+BMcAuU=
+		X7lVS2SK/8vTUuVabDQz1prCBFw=
 		</data>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iDwJBiQaIW/EQ+v1CraPA/U0034=
+		wtN42IFLCt4y3FiW78HYuZLQrQI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fEQoB3AGixhA1NnwIP12IVUc7nAScv5yOryi6T7Mii8=
+			ZdFF8Lue8MZzH/+FeG1oQXDH6Mj/zGM+8dumpYggs5U=
 			</data>
 		</dict>
 		<key>Modules/CafDocumentDetectorUIBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xLQbf1vaWfq9Mb0If9OScj5oOGeqKstb2G/RlbmOqCI=
+			0kVsssrNfjglXI8eBoUCfpiYS6WKsT+MtBXVKSHH01U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
