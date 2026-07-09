@@ -13,11 +13,16 @@ let package = Package(
         .library(name: "CafFaceLivenessLite", targets: ["CafFaceLivenessLiteTarget"]),
         .library(name: "IproovProvider", targets: ["IproovProviderTarget"]),
         .library(name: "FaceTec2DProvider", targets: ["FaceTec2DProviderTarget"]),
-        .library(name: "FortfaceProvider", targets: ["FortfaceProviderTarget"])
+        .library(name: "FortfaceProvider", targets: ["FortfaceProviderTarget"]),
+        
+        
+        .library(name: "CafFingerprintProvider", targets: ["CafFingerprintProviderTarget"])
     ],
     dependencies: [
         .package(url: "https://github.com/iProov/ios.git", .exact("13.1.0")),
-        .package(url: "https://github.com/fingerprintjs/fingerprintjs-pro-ios.git", .exact("2.7.0")),
+
+        .package(url: "https://github.com/fingerprintjs/fingerprintjs-pro-ios.git", .exact("2.16.0")),
+
         .package(url: "https://github.com/combateafraude/TensorFlowLiteC.git", .exact("2.14.0")),
     ],
     targets: [
@@ -34,6 +39,7 @@ let package = Package(
         .binaryTarget(name: "IDLiveFaceCamera", path: "Frameworks/IDLiveFaceCamera.xcframework"),
         .binaryTarget(name: "IDLiveFaceDetection", path: "Frameworks/IDLiveFaceDetection.xcframework"),
         .binaryTarget(name: "IDLiveFaceIAD", path: "Frameworks/IDLiveFaceIAD.xcframework"),
+        .binaryTarget(name: "CafFingerprintProvider", path: "Frameworks/CafFingerprintProvider.xcframework"),
 
         // Main CafSDK target
         .target(
@@ -66,7 +72,6 @@ let package = Package(
             dependencies: [
                 "CafSDKTarget",
                 "CafFaceLiveness",
-                .product(name: "FingerprintPro", package: "fingerprintjs-pro-ios"),
                 "CerttaBaseTarget"
             ],
             path: "Sources/CafFaceLivenessCore"
@@ -115,6 +120,17 @@ let package = Package(
                 "CafFaceLivenessCoreTarget"
             ],
             path: "Sources/FortfaceProvider"
+        ),
+
+        
+        .target(
+            name: "CafFingerprintProviderTarget",
+            dependencies: [
+                "CafFingerprintProvider",
+                "CerttaBaseTarget",
+                .product(name: "FingerprintPro", package: "fingerprintjs-pro-ios")
+            ],
+            path: "Sources/CafFingerprintProvider"
         ),
 
         // CafFaceLiveness
