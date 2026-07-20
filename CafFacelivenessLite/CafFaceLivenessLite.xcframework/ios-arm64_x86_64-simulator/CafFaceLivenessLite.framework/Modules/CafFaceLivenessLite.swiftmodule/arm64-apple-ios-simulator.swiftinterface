@@ -152,7 +152,7 @@ public protocol CafFaceLivenessLiteDelegate : AnyObject {
   weak final public var delegate: (any CafFaceLivenessLite.CafFaceLivenessLiteDelegate)?
   public init(enableSecurity: Swift.Bool = true)
   #if compiler(>=5.3) && $NonescapableTypes
-  final public func startSDK(viewController presentingViewController: UIKit.UIViewController, mobileToken iproovToken: Swift.String, personId: Swift.String, customLocalization: Swift.String? = nil, environment: CafFaceLivenessLite.CafEnvironment = .prod, loading: Swift.Bool = true, executeFaceAuth: Swift.Bool = false)
+  final public func startSDK(viewController presentingViewController: UIKit.UIViewController, mobileToken iproovToken: Swift.String, personId: Swift.String, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil, environment: CafFaceLivenessLite.CafEnvironment = .prod, loading: Swift.Bool = true)
   #endif
   @objc deinit
 }
