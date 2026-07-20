@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
-// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CerttaBase
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CerttaBase
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import Foundation
 import Swift
@@ -12,4 +12,19 @@ public protocol CafFaceLivenessProvidersProtocol {
 }
 public protocol SmartCaptureProvidersProtocol {
   func startSmartCapture(parameters: [Swift.String : Any], completion: @escaping ([Swift.String : Any]) -> Swift.Void)
+}
+public struct CafFingerprintModel : Swift.Codable {
+  public let visitorId: Swift.String?
+  public let requestId: Swift.String?
+  public let error: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(visitorId: Swift.String? = nil, requestId: Swift.String? = nil, error: Swift.String? = nil)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol CafFingerprintProviderProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func fetch(fingerprintPublicKey: Swift.String) async -> CerttaBase.CafFingerprintModel?
+  #endif
 }
