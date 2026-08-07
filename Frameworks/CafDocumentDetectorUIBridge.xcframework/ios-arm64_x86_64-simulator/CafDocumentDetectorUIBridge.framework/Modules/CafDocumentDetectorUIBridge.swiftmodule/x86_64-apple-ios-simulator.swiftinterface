@@ -196,3 +196,43 @@ public struct CafDocumentDetectorUIBridgeUploadSettings {
   public let fileFormats: [Swift.Int]?
   public let maxFileSize: Swift.Int?
 }
+public struct CerttaDocumentDetectorUIBridgeConfiguration {
+  public let flow: [CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeFlow]
+  public let uploadSettings: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadSettings?
+  public let requestTimeout: Swift.Double?
+  public let showPopup: Swift.Bool?
+  public let showPreview: Swift.Bool?
+  public let previewCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgePreviewCustomization?
+  public let messageCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeMessageCustomization?
+  public let uploadCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadCustomization?
+  public let uploadMessagesCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadMessagesCustomization?
+  public let retryCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeRetryCustomization?
+  public let maxRetryAttempts: Swift.Int?
+  public let instructionScreen: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeInstructionScreenConfiguration?
+  public let documentSelectionScreen: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentSelectionScreenConfiguration?
+}
+public enum CerttaDocumentDetectorUIBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func map(from jsonString: Swift.String) -> Swift.Result<CafDocumentDetectorUIBridge.CerttaDocumentDetectorUIBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>
+  #endif
+  public typealias Configuration = CafDocumentDetectorUIBridge.CerttaDocumentDetectorUIBridgeConfiguration
+}
+public enum CerttaDocumentDetectorUIBridgeConstants {
+  public static let eventSuccess: Swift.String
+  public static let eventError: Swift.String
+}
+extension CafDocumentDetectorUIBridge.CerttaDocumentDetectorUIBridgeConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CerttaDocumentDetectorUIBridgeEventMapper {
+  public static func map(error: CafSDK.CerttaError) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+}
+public enum CerttaDocumentDetectorUIBridgeEventMapper {
+  public static func mapSuccess(response: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+  public static func mapError(type: Swift.String, cause: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+}
+public class CerttaDocumentDetectorUIBridgeMain {
+  public init()
+  public func open(viewController: UIKit.UIViewController, documentDetectorUiConfiguration: CafDocumentDetectorUIBridge.CerttaDocumentDetectorUIBridgeConfiguration, onEvent: @escaping (CafSDKCommonsBridge.CerttaCommonsBridgeEvent) -> Swift.Void)
+  @objc deinit
+}

@@ -152,7 +152,7 @@ public protocol CafFaceLivenessLiteDelegate : AnyObject {
   weak final public var delegate: (any CafFaceLivenessLite.CafFaceLivenessLiteDelegate)?
   public init(enableSecurity: Swift.Bool = true)
   #if compiler(>=5.3) && $NonescapableTypes
-  final public func startSDK(viewController presentingViewController: UIKit.UIViewController, mobileToken iproovToken: Swift.String, personId: Swift.String, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil, environment: CafFaceLivenessLite.CafEnvironment = .prod, loading: Swift.Bool = true)
+  final public func startSDK(viewController presentingViewController: UIKit.UIViewController, mobileToken iproovToken: Swift.String, personId: Swift.String, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil, uiCustomization: CafFaceLivenessLite.CerttaUiCustomization? = nil, environment: CafFaceLivenessLite.CafEnvironment = .prod, loading: Swift.Bool = true)
   #endif
   @objc deinit
 }
@@ -167,6 +167,41 @@ public enum CafLogLevel : Swift.String {
   public var rawValue: Swift.String {
     get
   }
+}
+public struct CerttaUiCustomization {
+  public var mask: CafFaceLivenessLite.CerttaMaskCustomization?
+  public var appBar: CafFaceLivenessLite.CerttaAppBarCustomization?
+  public var prompt: CafFaceLivenessLite.CerttaPromptCustomization?
+  public var fontName: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(mask: CafFaceLivenessLite.CerttaMaskCustomization? = nil, appBar: CafFaceLivenessLite.CerttaAppBarCustomization? = nil, prompt: CafFaceLivenessLite.CerttaPromptCustomization? = nil, fontName: Swift.String? = nil)
+  #endif
+}
+public struct CerttaMaskCustomization {
+  public var isBlurEnabled: Swift.Bool
+  public var color: UIKit.UIColor?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(isBlurEnabled: Swift.Bool = true, color: UIKit.UIColor? = nil)
+  #endif
+}
+public struct CerttaAppBarCustomization {
+  public var title: Swift.String?
+  public var titleColor: UIKit.UIColor?
+  public var color: UIKit.UIColor?
+  public var closeButton: UIKit.UIImage?
+  public var closeButtonTintColor: UIKit.UIColor?
+  public var logoIcon: UIKit.UIImage?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(title: Swift.String? = nil, titleColor: UIKit.UIColor? = nil, color: UIKit.UIColor? = nil, closeButton: UIKit.UIImage? = nil, closeButtonTintColor: UIKit.UIColor? = nil, logoIcon: UIKit.UIImage? = nil)
+  #endif
+}
+public struct CerttaPromptCustomization {
+  public var textColor: UIKit.UIColor?
+  public var backgroundColor: UIKit.UIColor?
+  public var isRounded: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(textColor: UIKit.UIColor? = nil, backgroundColor: UIKit.UIColor? = nil, isRounded: Swift.Bool = true)
+  #endif
 }
 public enum FileIntegrityCheck {
   case bundleID(Swift.String)

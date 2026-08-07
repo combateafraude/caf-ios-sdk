@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6K+vfYJhyXMUw3nv6EXnfXlsWMk=
+		qziIpEvt1Qbzv8IzlKf4dAwtFIU=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		K/FW2QQg4XRQF00SFkRWS6/dN54=
+		ArllOqZm8KOkgEeLTz6ZzxY4rTM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pF8zyVketrkhryeWVJOMndVDJpve32Tt+dHzj/xOnvo=
+			q1IWV9W7QAQ8iadfogc1auUQsz5IECAMe8U+nTw5flY=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sb0jXmuljqq0ufhVT7ASAUvbsqFDYIv/CYTa4MpD8qU=
+			OLimNt38fFu8FlykNjOrFYfkcu5ijBhPOFdnbvTiUj8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
