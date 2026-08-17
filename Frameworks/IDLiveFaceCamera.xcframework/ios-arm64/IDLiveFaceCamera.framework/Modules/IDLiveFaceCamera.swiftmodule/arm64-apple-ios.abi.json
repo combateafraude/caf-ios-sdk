@@ -982,8 +982,7 @@
               "Custom",
               "AccessControl",
               "Override",
-              "SPIAccessControl",
-              "RawDocComment"
+              "SPIAccessControl"
             ],
             "spi_group_names": [
               "PrivateClient"
@@ -1653,6 +1652,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -2568,6 +2574,23 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "IDLiveFaceCamera"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDLiveFaceCamera",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "IDLiveFaceDetectionSettings",
         "printedName": "IDLiveFaceDetectionSettings",
@@ -3328,6 +3351,13 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "IDLiveFaceCamera"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3881,6 +3911,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "IDLiveFaceCamera"
       },
       {
         "kind": "Import",
@@ -8852,6 +8889,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -9306,6 +9350,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -13509,6 +13560,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           }
@@ -17528,6 +17586,13 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "IDLiveFaceCamera"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -19156,6 +19221,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ExpressibleByImageLiteral",
             "printedName": "_ExpressibleByImageLiteral",
             "usr": "s:s26_ExpressibleByImageLiteralP",
@@ -19168,1337 +19240,1337 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/OvalMaskView.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/OvalMaskView.swift",
       "kind": "BooleanLiteral",
       "offset": 259,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/OvalMaskView.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/OvalMaskView.swift",
       "kind": "IntegerLiteral",
       "offset": 381,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/OvalMaskView.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/OvalMaskView.swift",
       "kind": "IntegerLiteral",
       "offset": 421,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/OvalMaskView.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/OvalMaskView.swift",
       "kind": "FloatLiteral",
       "offset": 520,
       "length": 4,
       "value": "0.55"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/OvalMaskView.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/OvalMaskView.swift",
       "kind": "IntegerLiteral",
       "offset": 561,
       "length": 3,
       "value": "777"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/OvalMaskView.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/OvalMaskView.swift",
       "kind": "BooleanLiteral",
       "offset": 843,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/OvalMaskView.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/OvalMaskView.swift",
       "kind": "BooleanLiteral",
       "offset": 851,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 408,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 1980,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 2028,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 2078,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 2171,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 2970,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "IntegerLiteral",
       "offset": 3104,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "IntegerLiteral",
       "offset": 3130,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "IntegerLiteral",
       "offset": 3024,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 5805,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 10299,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 10617,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 10956,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14492,
+      "offset": 14428,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15006,
+      "offset": 14942,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18757,
+      "offset": 18693,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "FloatLiteral",
-      "offset": 19715,
+      "offset": 19651,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "FloatLiteral",
-      "offset": 19759,
+      "offset": 19695,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19800,
+      "offset": 19736,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/IDLiveFaceDetectionSettings\/IDLiveFaceDetectionSettings+Public.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/IDLiveFaceDetectionSettings\/IDLiveFaceDetectionSettings+Public.swift",
       "kind": "BooleanLiteral",
       "offset": 364,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 253,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 258,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 319,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 324,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 385,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 390,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 452,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 457,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 527,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 532,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 603,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 608,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 679,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 684,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 745,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 750,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 816,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 821,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 881,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 886,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 947,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 952,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 1012,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 1017,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 1076,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 1081,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 1141,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 1146,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 1205,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 1210,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 1278,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/FailedValidations\/FailedValidations.swift",
       "kind": "IntegerLiteral",
       "offset": 1283,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FPSCounter.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FPSCounter.swift",
       "kind": "Array",
       "offset": 203,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FPSCounter.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FPSCounter.swift",
       "kind": "IntegerLiteral",
       "offset": 225,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Utils+Camera+Info.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Utils+Camera+Info.swift",
       "kind": "BooleanLiteral",
       "offset": 861,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
       "offset": 2586,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
       "offset": 3899,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
       "offset": 4109,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
       "offset": 4234,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
       "offset": 4345,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
       "offset": 4695,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
       "offset": 4640,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
       "offset": 4911,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
       "offset": 5109,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
       "offset": 5267,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "StringLiteral",
       "offset": 5545,
       "length": 41,
       "value": "\"setting camera mode: \""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "StringLiteral",
       "offset": 5585,
       "length": 21,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
       "offset": 6683,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
       "offset": 6934,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
-      "offset": 8157,
+      "offset": 8303,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "StringLiteral",
-      "offset": 8372,
+      "offset": 8518,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "Dictionary",
-      "offset": 8415,
+      "offset": 8561,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "Array",
-      "offset": 8583,
+      "offset": 8729,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
-      "offset": 20020,
+      "offset": 20166,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
-      "offset": 20315,
+      "offset": 20461,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
-      "offset": 20454,
+      "offset": 20600,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
-      "offset": 20707,
+      "offset": 20853,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDCameraControllerBase.swift",
       "kind": "BooleanLiteral",
-      "offset": 21446,
+      "offset": 21592,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "IntegerLiteral",
       "offset": 1009,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "BooleanLiteral",
       "offset": 1117,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "FloatLiteral",
       "offset": 7503,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 10687,
       "length": 375,
       "value": "\"IDImage: #\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 10722,
       "length": 1,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "IntegerLiteral",
       "offset": 10754,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 10757,
       "length": 9,
       "value": "\"\ntimestamp: \""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 10789,
       "length": 1,
       "value": "\" (sb: \""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 10839,
       "length": 1,
       "value": "\")\nsampleBuffer: \""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 10887,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 10893,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 10897,
       "length": 1,
       "value": "\", cvPixelBuffer: \""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 10940,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 10946,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 10950,
       "length": 1,
       "value": "\", uiImage: \""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 10981,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 10987,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 10991,
       "length": 1,
       "value": "\", jpeg\/png\/...: \""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 11040,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 11046,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDImage.swift",
       "kind": "StringLiteral",
       "offset": 11050,
       "length": 12,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Types.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Types.swift",
       "kind": "BooleanLiteral",
       "offset": 2344,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Types.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Types.swift",
       "kind": "BooleanLiteral",
       "offset": 2392,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 709,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 728,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 934,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 1224,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 2921,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 2945,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3158,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 3182,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 3553,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 3934,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 4468,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 4837,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "StringLiteral",
       "offset": 5729,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "StringLiteral",
       "offset": 5757,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 5849,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Extensions.swift",
       "kind": "StringLiteral",
       "offset": 5901,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/PhotoCaptureService.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/PhotoCaptureService.swift",
       "kind": "IntegerLiteral",
       "offset": 772,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/PhotoCaptureService.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/PhotoCaptureService.swift",
       "kind": "BooleanLiteral",
       "offset": 1166,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/PhotoCaptureService.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/PhotoCaptureService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8954,
+      "offset": 9135,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/IDLiveFaceDetectionSettings\/IDLiveFaceDetectionSettings+FacePositionCheck.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/IDLiveFaceDetector\/IDLiveFaceDetectionSettings\/IDLiveFaceDetectionSettings+FacePositionCheck.swift",
       "kind": "BooleanLiteral",
       "offset": 439,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/ImageExtensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/ImageExtensions.swift",
       "kind": "BooleanLiteral",
       "offset": 4820,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/ImageExtensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/ImageExtensions.swift",
       "kind": "IntegerLiteral",
       "offset": 4981,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/ImageExtensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/ImageExtensions.swift",
       "kind": "IntegerLiteral",
       "offset": 5004,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/ImageExtensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/ImageExtensions.swift",
       "kind": "IntegerLiteral",
       "offset": 5173,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/ImageExtensions.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/ImageExtensions.swift",
       "kind": "IntegerLiteral",
       "offset": 5197,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/MotionEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/MotionEngine.swift",
       "kind": "FloatLiteral",
       "offset": 330,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/MotionEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/MotionEngine.swift",
       "kind": "FloatLiteral",
       "offset": 370,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
       "kind": "BooleanLiteral",
       "offset": 4338,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
       "kind": "BooleanLiteral",
       "offset": 4466,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
       "kind": "BooleanLiteral",
       "offset": 4732,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
       "kind": "FloatLiteral",
       "offset": 4941,
       "length": 3,
       "value": "2.5"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
       "kind": "FloatLiteral",
       "offset": 5033,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
       "kind": "FloatLiteral",
       "offset": 5156,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
       "kind": "FloatLiteral",
       "offset": 5286,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
       "kind": "FloatLiteral",
       "offset": 5386,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorTypes.swift",
       "kind": "Array",
       "offset": 5819,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 16204,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
       "kind": "FloatLiteral",
       "offset": 16334,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
       "kind": "FloatLiteral",
       "offset": 16458,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
       "kind": "IntegerLiteral",
       "offset": 16571,
       "length": 3,
       "value": "120"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 16839,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
       "kind": "FloatLiteral",
       "offset": 16994,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
       "kind": "FloatLiteral",
       "offset": 17149,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
       "kind": "FloatLiteral",
       "offset": 17317,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
       "kind": "FloatLiteral",
       "offset": 17505,
       "length": 4,
       "value": "0.05"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 17725,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
       "kind": "IntegerLiteral",
       "offset": 17829,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
       "kind": "FloatLiteral",
       "offset": 17981,
       "length": 4,
       "value": "0.15"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
       "kind": "FloatLiteral",
       "offset": 18106,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
       "kind": "BooleanLiteral",
       "offset": 18257,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/NativeFaceDetectorEngine.swift",
       "kind": "FloatLiteral",
       "offset": 18346,
       "length": 3,
       "value": "4.5"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
       "kind": "BooleanLiteral",
       "offset": 375,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
       "kind": "BooleanLiteral",
       "offset": 807,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
       "kind": "IntegerLiteral",
       "offset": 855,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
       "kind": "IntegerLiteral",
       "offset": 863,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
       "kind": "IntegerLiteral",
       "offset": 875,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
       "kind": "IntegerLiteral",
       "offset": 888,
       "length": 3,
       "value": "150"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
       "kind": "BooleanLiteral",
       "offset": 1136,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
       "kind": "BooleanLiteral",
       "offset": 1480,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorService.swift",
       "kind": "Array",
       "offset": 1540,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/FaceDetectorEngines+IDLiveFaceDetectionSDK.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/FaceDetectorEngines+IDLiveFaceDetectionSDK.swift",
       "kind": "IntegerLiteral",
       "offset": 302,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/FaceDetectorEngines+IDLiveFaceDetectionSDK.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/IDLiveFaceCameraLocal\/FaceDetectorEngines+IDLiveFaceDetectionSDK.swift",
       "kind": "IntegerLiteral",
       "offset": 307,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorEngines.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorEngines.swift",
       "kind": "IntegerLiteral",
       "offset": 507,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorEngines.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorEngines.swift",
       "kind": "IntegerLiteral",
       "offset": 512,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorEngines.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorEngines.swift",
       "kind": "IntegerLiteral",
       "offset": 657,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorEngines.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/FaceDetectorEngines.swift",
       "kind": "IntegerLiteral",
       "offset": 662,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
       "kind": "StringLiteral",
       "offset": 234,
       "length": 13,
       "value": "\"IDLoggerLog\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
       "kind": "BooleanLiteral",
       "offset": 569,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 2564,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 2582,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 2601,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 2620,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 2640,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/builds\/BkyH8mpz\/0\/FaceProject\/demo\/fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
+      "filePath": "\/Users\/mitekes10554_user\/actions-runner\/actions-runner-osx-arm64-2.331.0\/_work\/faceproject-demo-fas-camera-module\/faceproject-demo-fas-camera-module\/IDFaceFrameworks\/IDLiveFaceCamera\/IDLiveFaceCamera\/Logging.swift",
       "kind": "BooleanLiteral",
       "offset": 2898,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-gifxglzihythoefzgpvigxqkbvyr\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-fcdumwxcdytlxogusrdadhhbitpn\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 618,
       "length": 7,
       "value": "\"Color\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-gifxglzihythoefzgpvigxqkbvyr\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-fcdumwxcdytlxogusrdadhhbitpn\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 756,
       "length": 13,
       "value": "\"Global Tint\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-gifxglzihythoefzgpvigxqkbvyr\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-fcdumwxcdytlxogusrdadhhbitpn\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 899,
       "length": 12,
       "value": "\"background\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-gifxglzihythoefzgpvigxqkbvyr\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-fcdumwxcdytlxogusrdadhhbitpn\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1037,
       "length": 10,
       "value": "\"disabled\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-gifxglzihythoefzgpvigxqkbvyr\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-fcdumwxcdytlxogusrdadhhbitpn\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1177,
       "length": 12,
       "value": "\"foreground\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-gifxglzihythoefzgpvigxqkbvyr\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-fcdumwxcdytlxogusrdadhhbitpn\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1419,
       "length": 10,
       "value": "\"arrow_up\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-gifxglzihythoefzgpvigxqkbvyr\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-fcdumwxcdytlxogusrdadhhbitpn\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1558,
       "length": 12,
       "value": "\"check_mark\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-gifxglzihythoefzgpvigxqkbvyr\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-fcdumwxcdytlxogusrdadhhbitpn\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1699,
       "length": 12,
       "value": "\"cross_mark\""
     },
     {
-      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-gifxglzihythoefzgpvigxqkbvyr\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mitekes10554_user\/Library\/Developer\/Xcode\/DerivedData\/IDFaceFrameworks-fcdumwxcdytlxogusrdadhhbitpn\/Build\/Intermediates.noindex\/IDLiveFaceCamera.build\/Release-iphoneos\/IDLiveFaceCamera.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1849,
       "length": 17,

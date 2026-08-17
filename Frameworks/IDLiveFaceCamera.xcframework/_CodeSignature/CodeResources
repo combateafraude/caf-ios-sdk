@@ -6,11 +6,11 @@
 	<dict>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Assets.car</key>
 		<data>
-		BFLk60f5o+RjPITHkRi+g8ddnHU=
+		VsdrizESzWS4VH9wy61TG8fPeKw=
 		</data>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Headers/IDLiveFaceCamera-Swift.h</key>
 		<data>
-		23KZ2eFZT3FRXmWPMPhxwgg3YpY=
+		m0n7y4g0NkHwwPGqva+K44WUzKs=
 		</data>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Headers/IDLiveFaceCamera.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>ios-arm64/IDLiveFaceCamera.framework/IDCamera.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		TsMURtCoJabhi8XfKSTEzYDm/5o=
+		/xiWF7li85gmXfF+f0dXzmmCNos=
 		</data>
 		<key>ios-arm64/IDLiveFaceCamera.framework/IDCamera.storyboardc/Info.plist</key>
 		<data>
@@ -30,31 +30,31 @@
 		</data>
 		<key>ios-arm64/IDLiveFaceCamera.framework/IDLiveFaceCamera</key>
 		<data>
-		08p6HxlhvjDbE4Qm+NmWR4HN2PA=
+		2Ff2UqGo9EBtk3bQgwf+gNfBhRI=
 		</data>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Info.plist</key>
 		<data>
-		RVmrTEHq9pc7QNt1QYh4r5OBSXw=
+		HCo3XI2G21e5z84LDW7R9M0rhyk=
 		</data>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		176eL69CLSTuHgY+aR8iUgBN5h8=
+		CjN0Dy3zzCgYdSAtlEvjdQiM6N0=
 		</data>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		dHy9XPwRDzTUncInPC97TqFV7Y0=
+		bAkIHVuDbBo20cDvQu5RSkpfwyU=
 		</data>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		pBU5GaR/nQM22OIcqdPffeNFMlQ=
+		AztUMww9iHWoPi4Is5jTuS/HADo=
 		</data>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		0YGsd83IIwwrfVgnY0KtvBTEJAI=
+		oORZ1AR25waV2RcET4BeIjesP+o=
 		</data>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		snbQoovblC/hgesYrtef1OpFRjo=
+		H6N6ze9Mr4FxVAARqirvoRozaks=
 		</data>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Modules/module.modulemap</key>
 		<data>
@@ -66,15 +66,15 @@
 		</data>
 		<key>ios-arm64/IDLiveFaceCamera.framework/_CodeSignature/CodeResources</key>
 		<data>
-		4ttckA04Eue1so510dqIgsF6jzQ=
+		O1xNo1NW2Vtzt6STxjvF9szToIA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Assets.car</key>
 		<data>
-		50FDagi24FjmlP4G0uYkFUat8tA=
+		+0+5OzarQH4xMuABLziGkNX2JzE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Headers/IDLiveFaceCamera-Swift.h</key>
 		<data>
-		luhGUjin9DbGM1xtogj8k5h2+cU=
+		iS2ibrH5I+q69serdsZDJ+P3g8Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Headers/IDLiveFaceCamera.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/IDCamera.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		TsMURtCoJabhi8XfKSTEzYDm/5o=
+		/xiWF7li85gmXfF+f0dXzmmCNos=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/IDCamera.storyboardc/Info.plist</key>
 		<data>
@@ -94,51 +94,51 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/IDLiveFaceCamera</key>
 		<data>
-		23CSH8mewf0isuLHv0zuBGuJd1M=
+		smRQpjdLodWIqkN0zu+cya/ndqo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Info.plist</key>
 		<data>
-		RwFXI5aMxf8Pj4auMia2XyA+M58=
+		DyEzldcDgw65ya+bxwzVbASrONQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		p53TPWvoATbs0xLKSnA3iof36dc=
+		kHyxsUuNo65NwLrnnNyQna0vt7Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		hvFKi8dNHBf3r2iGzW6H2YBKwlk=
+		kNhtvgnf/C1JQ/rX9OXPuLRWl7E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		m7EqAioZ4ZGcQLqfGRpYjgYF3cQ=
+		yUN6gozBCQGwxkCTsj4uNjaCYyA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jOBVbi7p8UZ+rDBhCBRO42JT2CU=
+		xETF81oGlYlYPXCdfTp6s47h4e8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		bYIOn/Q6sKcFshdxxpQZhH9D2KI=
+		3eh9Rp/X9t287uLv3GRojkGz9mA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IRU10fCC/y1FAkPt3qTBypRMdlU=
+		AU3qM70qa9nSoQjj+vxpl3iDRWQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		m7EqAioZ4ZGcQLqfGRpYjgYF3cQ=
+		yUN6gozBCQGwxkCTsj4uNjaCYyA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jDgLMN/XOEJRcWmW+UAujeyIXjY=
+		8dL5rGGwj1z4hMR3pT4xM2xK0fI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		R/PidZOmpBzErzBsRb4LpmRi8w0=
+		Ipybppilv0Gfxsph9s+CyqV4b8U=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KOs6DvgClJNl6ObJOgjtRZ4BZbM=
+		xqEhCA11AQAMIqVW8SBKwCiCjZw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/module.modulemap</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/_CodeSignature/CodeResources</key>
 		<data>
-		UWuPfVpM2Nls3EReHX8rv85Cq7Y=
+		J+MABiycJZOSa94NaypdlTretGw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -159,22 +159,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BFLk60f5o+RjPITHkRi+g8ddnHU=
+			VsdrizESzWS4VH9wy61TG8fPeKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			RpfSXMqY/eRNCHRH4KSbm47nXFx4Bd2nF9bTVbDa0cs=
+			REyKihNscj002Ppw1pQldlhIfx2X1GGA65wZZhzN0dY=
 			</data>
 		</dict>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Headers/IDLiveFaceCamera-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			23KZ2eFZT3FRXmWPMPhxwgg3YpY=
+			m0n7y4g0NkHwwPGqva+K44WUzKs=
 			</data>
 			<key>hash2</key>
 			<data>
-			EcpsUjjwkv9Cza6T+qmwCvgap/Fjqoa+7N2MFzlJcwQ=
+			zIA0c5wqMKuZbDb8KG0wH3SZTuTWGyxzOEfV4PvC868=
 			</data>
 		</dict>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Headers/IDLiveFaceCamera.h</key>
@@ -192,11 +192,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TsMURtCoJabhi8XfKSTEzYDm/5o=
+			/xiWF7li85gmXfF+f0dXzmmCNos=
 			</data>
 			<key>hash2</key>
 			<data>
-			9eXZ8xThN9rA+1JvVkV2glwodEP6xKUvDgC9PBekxtA=
+			Wj/ut9vMLhhZyh6rUY006OeyEgDMlqrjnmNjzoduGGI=
 			</data>
 		</dict>
 		<key>ios-arm64/IDLiveFaceCamera.framework/IDCamera.storyboardc/Info.plist</key>
@@ -225,77 +225,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			08p6HxlhvjDbE4Qm+NmWR4HN2PA=
+			2Ff2UqGo9EBtk3bQgwf+gNfBhRI=
 			</data>
 			<key>hash2</key>
 			<data>
-			c/c7QFx1wub3L3ozKge8D+ryO3wGWqzzVCZ+HqroP+I=
+			0Qoy6HeLcocyjMElIAYeWDhi3A3Qv/GzOIGG5vS2eUg=
 			</data>
 		</dict>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RVmrTEHq9pc7QNt1QYh4r5OBSXw=
+			HCo3XI2G21e5z84LDW7R9M0rhyk=
 			</data>
 			<key>hash2</key>
 			<data>
-			0E8232crI3lNOlJ+W408wnPUB+qzKSBWXceqFz/bNcA=
+			ShiqeLiflD6FMkhjLLX5IdtvUCSIeTOtQaodDfztZg8=
 			</data>
 		</dict>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			176eL69CLSTuHgY+aR8iUgBN5h8=
+			CjN0Dy3zzCgYdSAtlEvjdQiM6N0=
 			</data>
 			<key>hash2</key>
 			<data>
-			FzHEC6htjk/XSXTgLnHgXPbo69tZhkYXR/0O30rm0eU=
+			v3Ma8WxD/bCjYNPJar5E41ec6EsATGHC/Td0qknNabE=
 			</data>
 		</dict>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dHy9XPwRDzTUncInPC97TqFV7Y0=
+			bAkIHVuDbBo20cDvQu5RSkpfwyU=
 			</data>
 			<key>hash2</key>
 			<data>
-			OpF6cnjrA55CAJid5jUwsoWCZu4HHAJtS8/O35ZJuAc=
+			DTzrXaWR/S+wz9raXnM2l4owIlclhv5fptH5z41OE7A=
 			</data>
 		</dict>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pBU5GaR/nQM22OIcqdPffeNFMlQ=
+			AztUMww9iHWoPi4Is5jTuS/HADo=
 			</data>
 			<key>hash2</key>
 			<data>
-			FF2yCjfVX3s1CUQAsdwZhtonX2lHhRMV2k2IFcG1Yso=
+			Y7G+izpFyVZYWW82+H6G92zptxo1XZeWTv1n5OHvGdo=
 			</data>
 		</dict>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0YGsd83IIwwrfVgnY0KtvBTEJAI=
+			oORZ1AR25waV2RcET4BeIjesP+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			VVjgJ2r8lHVF17mPQjc//PismGCnSSk6tFocodEfBZk=
+			AC9EwhTSBRUx5JEcVaW41hl0BzLt8Nxhz6qayA9wJl4=
 			</data>
 		</dict>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			snbQoovblC/hgesYrtef1OpFRjo=
+			H6N6ze9Mr4FxVAARqirvoRozaks=
 			</data>
 			<key>hash2</key>
 			<data>
-			HgHSGCVKQTfYlqdKeWYvqPBafQQG3xe4Cr6QLQ2gOZA=
+			hlCTLY3sNQxkjLc4Vc24fRBs9tyG9WqvpZyjie7qfV0=
 			</data>
 		</dict>
 		<key>ios-arm64/IDLiveFaceCamera.framework/Modules/module.modulemap</key>
@@ -324,33 +324,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4ttckA04Eue1so510dqIgsF6jzQ=
+			O1xNo1NW2Vtzt6STxjvF9szToIA=
 			</data>
 			<key>hash2</key>
 			<data>
-			MJ7F2Ce6GqPe7yYAzRxdrmjIGMCmgAKmMPutZH6Cdk4=
+			oc9j9w1Sq9f0Vehx3+3lOEQr+wSHrwXoEaivV0ZAMvE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			50FDagi24FjmlP4G0uYkFUat8tA=
+			+0+5OzarQH4xMuABLziGkNX2JzE=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Q99tjvaDsqPJmo2bFSvekCxJhRFcn/ECXxG154zSsw=
+			gQnEMWPd31IdfepwyLXB4fk7shfC2pACWv7GVZdVRlY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Headers/IDLiveFaceCamera-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			luhGUjin9DbGM1xtogj8k5h2+cU=
+			iS2ibrH5I+q69serdsZDJ+P3g8Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			/wySrdDEh0xG89x5bre5VEV/Dh3WG+OehorB4dIYezQ=
+			stcgeVE1/PFEvWtRkN/iXR5O6xiC8w6kM88U3Xrz30c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Headers/IDLiveFaceCamera.h</key>
@@ -368,11 +368,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TsMURtCoJabhi8XfKSTEzYDm/5o=
+			/xiWF7li85gmXfF+f0dXzmmCNos=
 			</data>
 			<key>hash2</key>
 			<data>
-			9eXZ8xThN9rA+1JvVkV2glwodEP6xKUvDgC9PBekxtA=
+			Wj/ut9vMLhhZyh6rUY006OeyEgDMlqrjnmNjzoduGGI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/IDCamera.storyboardc/Info.plist</key>
@@ -401,132 +401,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			23CSH8mewf0isuLHv0zuBGuJd1M=
+			smRQpjdLodWIqkN0zu+cya/ndqo=
 			</data>
 			<key>hash2</key>
 			<data>
-			0SsdrqZw6OO5AgUHJ6je4a4TT05s2UsQzv1iILYsWyE=
+			4MUJj/xpJQ9JRjoId0wRjjR/tH9XEtII9WgfS/By1PI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RwFXI5aMxf8Pj4auMia2XyA+M58=
+			DyEzldcDgw65ya+bxwzVbASrONQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			gQG9PcUcGNIyR/XtiG+43Dr464Qt0ma323ZUgdQTkKA=
+			FeVkODaskA84vQ8Glu4Z/l8rgQB1+iXpUKRgFzisbFc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			p53TPWvoATbs0xLKSnA3iof36dc=
+			kHyxsUuNo65NwLrnnNyQna0vt7Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			SRj92BkguhzzhkYbcEnLfya6GbCTjWPfqf1g4rBuLOk=
+			3hu2kmkibSrFqlymGNeq6e0EvVAzTcUhNyPwl+bSEBM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hvFKi8dNHBf3r2iGzW6H2YBKwlk=
+			kNhtvgnf/C1JQ/rX9OXPuLRWl7E=
 			</data>
 			<key>hash2</key>
 			<data>
-			wshOndC1CqXumLPPG7YkEV7MSJfmLmATyXix3VpRxD4=
+			bUvnw3RdGIY48lasnyaipQtJaeXUqXRVKFd06Pcimfc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m7EqAioZ4ZGcQLqfGRpYjgYF3cQ=
+			yUN6gozBCQGwxkCTsj4uNjaCYyA=
 			</data>
 			<key>hash2</key>
 			<data>
-			c8YEtimklOG9ETSgEsyDdV802Um/ryy0QGh7SZ+6EIA=
+			CR6lIWW1517gVwwiI/GIXA/JgkXEiDhmtaYlluLiBPE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jOBVbi7p8UZ+rDBhCBRO42JT2CU=
+			xETF81oGlYlYPXCdfTp6s47h4e8=
 			</data>
 			<key>hash2</key>
 			<data>
-			L/a4vo/eExJY1z59u+125aq6uUmZYbRhPFKSyYn/8Ro=
+			QKrbMOwmXJUgxir5jugnqPoiEAzKA4of8i7cJZ+K7qI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bYIOn/Q6sKcFshdxxpQZhH9D2KI=
+			3eh9Rp/X9t287uLv3GRojkGz9mA=
 			</data>
 			<key>hash2</key>
 			<data>
-			UdQnjS7ENfjztr/kbSorySouyLFDYJifqZOsNeK41x0=
+			qoy5YRMUGjP9O1ripCzIo6Bhh7kuK7Dgw38oQiAERvs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IRU10fCC/y1FAkPt3qTBypRMdlU=
+			AU3qM70qa9nSoQjj+vxpl3iDRWQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			EEMbADKnkJPlCVnTr7A1jDmby6fTcmffZ/1zFWZT40w=
+			xXcz9UWri+aHX6M/fIFTh2Ttzdmz95UNJZYQSvSH5xo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m7EqAioZ4ZGcQLqfGRpYjgYF3cQ=
+			yUN6gozBCQGwxkCTsj4uNjaCYyA=
 			</data>
 			<key>hash2</key>
 			<data>
-			c8YEtimklOG9ETSgEsyDdV802Um/ryy0QGh7SZ+6EIA=
+			CR6lIWW1517gVwwiI/GIXA/JgkXEiDhmtaYlluLiBPE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jDgLMN/XOEJRcWmW+UAujeyIXjY=
+			8dL5rGGwj1z4hMR3pT4xM2xK0fI=
 			</data>
 			<key>hash2</key>
 			<data>
-			iWUHTEQwHReZQnuvhXUlLIcEvRrYwpUeJk0mz9R+9+M=
+			jU/ZEnR1bym6Tftk9lguormymAJJx7OSXDJIfYaocV8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R/PidZOmpBzErzBsRb4LpmRi8w0=
+			Ipybppilv0Gfxsph9s+CyqV4b8U=
 			</data>
 			<key>hash2</key>
 			<data>
-			o0cLvoqvuufIe52lIoSt07zpqJ51MaI6RAleYit3ebY=
+			MbzJBMssDPCyTL32g4qK7VMrInMM10BnT0IpGvY+DgQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/IDLiveFaceCamera.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KOs6DvgClJNl6ObJOgjtRZ4BZbM=
+			xqEhCA11AQAMIqVW8SBKwCiCjZw=
 			</data>
 			<key>hash2</key>
 			<data>
-			XjbU1aMqSJ6rWQQa3Dy4V9xe7TSwWYSRDhfo0kgY73M=
+			kNhdh16W7baewdL8kJ2PiNLzt441UO3em3+scbEcsr0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/IDLiveFaceCamera.framework/Modules/module.modulemap</key>
@@ -555,11 +555,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UWuPfVpM2Nls3EReHX8rv85Cq7Y=
+			J+MABiycJZOSa94NaypdlTretGw=
 			</data>
 			<key>hash2</key>
 			<data>
-			bvb46JDEunPdS5v3aOj6gdJdKuEQIO+V3euBiEfG6EU=
+			ZVAKfpgqLuu7ltAlv2KjoBOPAewAI7Lwq9wiDJqCRBo=
 			</data>
 		</dict>
 	</dict>

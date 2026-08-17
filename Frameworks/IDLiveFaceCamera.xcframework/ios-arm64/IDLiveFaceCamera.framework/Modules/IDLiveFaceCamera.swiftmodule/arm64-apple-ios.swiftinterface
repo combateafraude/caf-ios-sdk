@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IDLiveFaceCamera
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
 import Accelerate
 import CoreImage
@@ -24,13 +24,17 @@ import os
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var prefersStatusBarHidden: Swift.Bool {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency override open var videoPreviewContainer: UIKit.UIView? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency override open var capturedImage: IDLiveFaceCamera.IDImage? {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency override public var faceDetectorSettings: IDLiveFaceCamera.FaceDetectorSettings {
     get
     set
@@ -49,16 +53,26 @@ import os
   @_Concurrency.MainActor @preconcurrency open func setButtonState(_ mode: IDLiveFaceCamera.IDCameraControllerBase.ViewMode)
   @IBAction @_Concurrency.MainActor @preconcurrency @objc override public func captureButtonPressed()
   @_Concurrency.MainActor @preconcurrency override open func reset()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency override open func setMessage(_ message: Swift.String?, isError: Swift.Bool = false)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open func setAttributedMessage(_ message: Foundation.NSAttributedString?, isError: Swift.Bool = false)
+  #endif
   @_Concurrency.MainActor @preconcurrency override open func setFaceResult(_ result: IDLiveFaceCamera.FaceDetectorResult, momentary: Swift.Bool = false)
   @_Concurrency.MainActor @preconcurrency open func messageForFaceResult(_ result: IDLiveFaceCamera.FaceDetectorResult) -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension IDLiveFaceCamera.IDCameraController {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func setPreviewBlurred(style: UIKit.UIBlurEffect.Style?, animated: Swift.Bool = true)
+  #endif
   @_Concurrency.MainActor @preconcurrency public var bottomBarHidden: Swift.Bool {
     get
     set
@@ -156,15 +170,19 @@ extension IDLiveFaceCamera.IDLiveFaceDetectionSettings {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated)
   @_Concurrency.MainActor @preconcurrency open var image: UIKit.UIImage? {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency open var capturedImage: IDLiveFaceCamera.IDImage?
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public var lastLiveImage: IDLiveFaceCamera.IDImage? {
     get
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency public var lastPhotoCapturedAutomatically: Swift.Bool
   @_Concurrency.MainActor @preconcurrency public var canTakePhotoNow: Swift.Bool {
     get
@@ -172,20 +190,26 @@ extension IDLiveFaceCamera.IDLiveFaceDetectionSettings {
   @_Concurrency.MainActor @preconcurrency open var faceCaptureBoundaries: CoreFoundation.CGRect {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var videoPreviewContainer: UIKit.UIView? {
     get
   }
+  #endif
   @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public static func instantiate() -> IDLiveFaceCamera.IDCameraController?
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency public static var authorizationStatus: AVFoundation.AVAuthorizationStatus {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public static func requestAccess(completionHandler handler: ((Swift.Bool) -> Swift.Void)? = nil)
+  #endif
   @_Concurrency.MainActor @preconcurrency open func reset()
   @_Concurrency.MainActor @preconcurrency public func prepareForCapture()
   @_Concurrency.MainActor @preconcurrency public func startRunning()
@@ -197,28 +221,42 @@ extension IDLiveFaceCamera.IDLiveFaceDetectionSettings {
   @objc @IBAction @_Concurrency.MainActor @preconcurrency public func captureButtonPressed()
   @objc @IBAction @_Concurrency.MainActor @preconcurrency public func retakeButtonPressed(_ sender: UIKit.UIButton)
   @objc @IBAction @_Concurrency.MainActor @preconcurrency public func cancelButtonPressed(_ sender: UIKit.UIButton)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func setCurrentViewMode(_ mode: IDLiveFaceCamera.IDCameraControllerBase.ViewMode, message: Swift.String? = nil, allowRetake: Swift.Bool? = nil)
+  #endif
   @_Concurrency.MainActor @preconcurrency public func takePhoto()
   @_Concurrency.MainActor @preconcurrency open func UIModeDidChange(animated: Swift.Bool = true)
   @_Concurrency.MainActor @preconcurrency open func setFaceResult(_ result: IDLiveFaceCamera.FaceDetectorResult, momentary: Swift.Bool = false)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open func setMessage(_ message: Swift.String?, isError: Swift.Bool = false)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
 }
 @objc @_inheritsConvenienceInitializers public class IDImage : ObjectiveC.NSObject {
   public var timestamp: Foundation.Date
   public var timestampFromSessionStart: Foundation.TimeInterval?
   public var photoIndex: Swift.Int
   public var mirrored: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public var size: CoreFoundation.CGSize? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var pixelBufferFormat: Darwin.OSType? {
     get
   }
+  #endif
   @available(*, deprecated, message: "Use init with CMSampleBuffer or UIImage instead")
   @objc override dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(ciContext: CoreImage.CIContext = CIContext(), sampleBuffer: CoreMedia.CMSampleBuffer? = nil)
+  #endif
   public init(_ image: UIKit.UIImage, ciContext: CoreImage.CIContext = CIContext())
   public var hasData: Swift.Bool {
     get
@@ -231,18 +269,28 @@ extension IDLiveFaceCamera.IDLiveFaceDetectionSettings {
     get
   }
   public func releaseSampleBuffer()
+  #if compiler(>=5.3) && $NonescapableTypes
   public var uiImage: UIKit.UIImage? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var ciImage: CoreImage.CIImage? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var jpegData: Foundation.Data? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func jpegData(compressionQuality: Swift.Float = 1.0) -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func pngData() -> Foundation.Data?
+  #endif
   public func clearCache()
   @objc deinit
 }
@@ -292,7 +340,9 @@ extension IDLiveFaceCamera.IDCameraControllerBase {
     public var canCaptureAuto: Swift.Bool {
       get
     }
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -305,16 +355,20 @@ extension IDLiveFaceCamera.IDCameraControllerBase {
     case faceDetectorError(_: Swift.String? = nil)
     case platformNotAllowed(_: Swift.String? = nil)
     case error(_: Swift.String? = nil)
+    #if compiler(>=5.3) && $NonescapableTypes
     public var errorDescription: Swift.String? {
       get
     }
+    #endif
   }
 }
 public protocol IDCameraControllerDelegate : AnyObject {
   func cameraController(_ controller: IDLiveFaceCamera.IDCameraControllerBase, didCaptureImage image: IDLiveFaceCamera.IDImage)
   func cameraController(_ controller: IDLiveFaceCamera.IDCameraControllerBase, didEncounterError error: IDLiveFaceCamera.IDCameraControllerBase.Error)
   func cameraControllerDidUpdateLiveImage(_ controller: IDLiveFaceCamera.IDCameraControllerBase, image: IDLiveFaceCamera.IDImage)
+  #if compiler(>=5.3) && $NonescapableTypes
   func cameraControllerDidUpdateFaceResult(_ controller: IDLiveFaceCamera.IDCameraControllerBase, result: IDLiveFaceCamera.FaceDetectorResult, image: IDLiveFaceCamera.IDImage?, momentary: Swift.Bool)
+  #endif
   func cameraControllerDidUpdateViewMode(_ controller: IDLiveFaceCamera.IDCameraControllerBase)
   func cameraControllerUserDidPressResultButton(_ controller: IDLiveFaceCamera.IDCameraControllerBase)
   func cameraControllerUserDidPressRetakeButton(_ controller: IDLiveFaceCamera.IDCameraControllerBase)
@@ -323,16 +377,24 @@ extension IDLiveFaceCamera.IDCameraControllerDelegate {
   public func cameraControllerDidUpdateViewMode(_ controller: IDLiveFaceCamera.IDCameraControllerBase)
   public func cameraControllerUserDidPressRetakeButton(_ controller: IDLiveFaceCamera.IDCameraControllerBase)
   public func cameraControllerDidUpdateLiveImage(_ controller: IDLiveFaceCamera.IDCameraControllerBase, image: IDLiveFaceCamera.IDImage)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func cameraControllerDidUpdateFaceResult(_ controller: IDLiveFaceCamera.IDCameraControllerBase, result: IDLiveFaceCamera.FaceDetectorResult, image: IDLiveFaceCamera.IDImage?, momentary: Swift.Bool)
+  #endif
 }
 extension IDLiveFaceCamera.IDCameraControllerBase {
   @_Concurrency.MainActor @preconcurrency public static var iadAvailable: Swift.Bool {
     get
   }
   @_Concurrency.MainActor @preconcurrency public func prepareForIAD(payloadSize: IDLiveFaceCamera.IDCameraControllerBase.PayloadSize = .normal)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func createIADBundle(key: Foundation.Data? = nil, keyId: Swift.String? = nil, externalMeta: Swift.String? = nil, payloadSize: IDLiveFaceCamera.IDCameraControllerBase.PayloadSize = .normal) throws -> Foundation.Data
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func createIADBundle(key: Foundation.Data? = nil, keyId: Swift.String? = nil, externalMeta: Swift.String? = nil, payloadSize: IDLiveFaceCamera.IDCameraControllerBase.PayloadSize? = .normal) async throws -> Foundation.Data
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func createIADBundle(key: Foundation.Data? = nil, keyId: Swift.String? = nil, externalMeta: Swift.String? = nil, payloadSize: IDLiveFaceCamera.IDCameraControllerBase.PayloadSize? = .normal, completion: @escaping (Swift.Result<Foundation.Data, any Swift.Error>) -> Swift.Void)
+  #endif
 }
 extension IDLiveFaceCamera.IDLiveFaceDetectionSettings {
   public struct FacePositionCheck {
