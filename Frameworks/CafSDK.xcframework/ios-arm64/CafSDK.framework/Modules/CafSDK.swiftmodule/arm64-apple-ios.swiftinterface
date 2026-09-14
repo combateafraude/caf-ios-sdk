@@ -13,6 +13,7 @@ import MachO
 import Network
 import ObjectiveC
 import Security
+import SmartCapture
 import Swift
 import SwiftUI
 import UIKit
@@ -663,6 +664,9 @@ extension CafSDK.CafFeatureFlags {
 extension CafSDK.CafFeatureFlags {
   public func merging(into docConfig: CafSDK.CafDocumentDetectorConfig, skipping explicit: CafSDK.CafDocumentDetectorExplicitFields = []) -> CafSDK.CafDocumentDetectorConfig
 }
+extension CafSDK.CafFeatureFlags {
+  public func merging(into smartCaptureConfig: CafSDK.CerttaSmartCaptureConfig, skipping explicit: CafSDK.CafSmartCaptureExplicitFields = []) -> CafSDK.CerttaSmartCaptureConfig
+}
 public enum CafFeatureFlagKey : Swift.String, Swift.CaseIterable, Swift.Sendable {
   case faceLivenessModuleEnabled
   case documentDetectorModuleEnabled
@@ -832,6 +836,11 @@ extension CafSDK.CafSDKConfiguration {
   public func setFaceLivenessConfig(_ faceLivenessConfig: CafSDK.CafFaceLivenessConfig?, mergePolicy: CafSDK.CafModuleConfigMergePolicy = .featureFlags) -> CafSDK.CafSDKConfiguration
   #endif
 }
+extension CafSDK.CafSDKConfiguration {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func setSmartCaptureConfig(_ smartCaptureConfig: CafSDK.CerttaSmartCaptureConfig?, mergePolicy: CafSDK.CafModuleConfigMergePolicy = .featureFlags) -> CafSDK.CafSDKConfiguration
+  #endif
+}
 public enum CafLogLevel : Swift.String {
   case debug
   case usage
@@ -876,6 +885,14 @@ public enum CafDocumentDetectorRemoteOverride {
 }
 extension CafSDK.CafSDKFeatureFlagsResolver {
   public static func resolveDocumentDetector(mobileToken: Swift.String, environment: CafSDK.CafEnvironment, base docConfig: CafSDK.CafDocumentDetectorConfig, explicitFields: CafSDK.CafDocumentDetectorExplicitFields = [], bundle: Foundation.Bundle = Bundle(for: CafSDKProvider.self)) -> CafSDK.CafDocumentDetectorRemoteOverride
+}
+public enum CafSmartCaptureRemoteOverride {
+  case none(CafSDK.CerttaSmartCaptureConfig)
+  case disabled
+  case apply(CafSDK.CerttaSmartCaptureConfig)
+}
+extension CafSDK.CafSDKFeatureFlagsResolver {
+  public static func resolveSmartCapture(mobileToken: Swift.String, environment: CafSDK.CafEnvironment, base config: CafSDK.CerttaSmartCaptureConfig, explicitFields: CafSDK.CafSmartCaptureExplicitFields = [], bundle: Foundation.Bundle = Bundle(for: CafSDKProvider.self)) -> CafSDK.CafSmartCaptureRemoteOverride
 }
 @_hasMissingDesignatedInitializers final public class CafSDKProvider {
   public class Builder<Presenter> where Presenter : UIKit.UIViewController {
@@ -1047,7 +1064,7 @@ extension CafSDK.CerttaLivenessDelegate {
 }
 public enum LivenessFailure {
   case imageCaptureFailure(Swift.String)
-  case faceRecognitionFailure(result: Swift.String, cause: Swift.String)
+  case faceRecognitionFailure(result: Swift.String, cause: Swift.String, description: Swift.String)
 }
 public enum LivenessResult {
   case success(response: Swift.String)
@@ -1059,14 +1076,17 @@ public enum LivenessEvent {
   case error(error: CafSDK.CerttaError)
 }
 public struct CerttaSmartCaptureConfiguration {
-  public let requestTimeout: Foundation.TimeInterval
   public let previewEnabled: Swift.Bool
   public let autoCapture: Swift.Bool
   public let showInstructions: Swift.Bool
   public let validationType: CafSDK.CerttaSmartCaptureValidationType
+  public let acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument]?
+  public let customLocalization: Swift.String?
+  public let customLocalizationBundle: Foundation.Bundle?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(requestTimeout: Foundation.TimeInterval = 60.0, previewEnabled: Swift.Bool? = nil, autoCapture: Swift.Bool? = nil, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload)
+  public init(previewEnabled: Swift.Bool? = nil, autoCapture: Swift.Bool? = nil, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload, acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument]? = nil, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil)
   #endif
+  public init(from sdkConfig: CafSDK.CerttaSmartCaptureConfig)
 }
 @_hasMissingDesignatedInitializers final public class CerttaSmartCapture {
   public static let shared: CafSDK.CerttaSmartCapture
@@ -1087,14 +1107,38 @@ public enum CerttaSmartCaptureValidationType : Swift.String {
     get
   }
 }
+public enum CerttaSmartCaptureAcceptedDocument : Swift.String, Swift.CaseIterable {
+  case any
+  case driverLicense
+  case identityCard
+  case residenceIdentityCard
+  case employmentCard
+  case vehicleLicense
+  case passport
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [CafSDK.CerttaSmartCaptureAcceptedDocument]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafSDK.CerttaSmartCaptureAcceptedDocument] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public struct CerttaSmartCaptureConfig {
-  public var requestTimeout: Foundation.TimeInterval
   public var autoCapture: Swift.Bool
   public var previewEnabled: Swift.Bool
   public var showInstructions: Swift.Bool
   public var validationType: CafSDK.CerttaSmartCaptureValidationType
   public var enableSecurity: Swift.Bool
-  public init(requestTimeout: Foundation.TimeInterval = 60.0, previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload, enableSecurity: Swift.Bool = true)
+  public var acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument]?
+  public var customLocalization: Swift.String?
+  public var customLocalizationBundle: Foundation.Bundle?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload, enableSecurity: Swift.Bool = true, acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument]? = nil, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil)
+  #endif
 }
 public protocol CerttaSmartCaptureDelegate : AnyObject {
   func didFinish(result: Swift.String)
@@ -1192,3 +1236,6 @@ extension CafSDK.CafLogLevel : Swift.RawRepresentable {}
 extension CafSDK.CerttaSmartCaptureValidationType : Swift.Equatable {}
 extension CafSDK.CerttaSmartCaptureValidationType : Swift.Hashable {}
 extension CafSDK.CerttaSmartCaptureValidationType : Swift.RawRepresentable {}
+extension CafSDK.CerttaSmartCaptureAcceptedDocument : Swift.Equatable {}
+extension CafSDK.CerttaSmartCaptureAcceptedDocument : Swift.Hashable {}
+extension CafSDK.CerttaSmartCaptureAcceptedDocument : Swift.RawRepresentable {}

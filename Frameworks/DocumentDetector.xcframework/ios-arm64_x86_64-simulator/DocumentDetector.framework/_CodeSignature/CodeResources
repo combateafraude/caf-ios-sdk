@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		L9c9var0GwuRvxPwihK7+2Y5nGo=
+		b7S6/i/WhjOqw9UXIUqcHY0mI7s=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sVrNmYx2FejOaObMuM4opdZcAHo=
+		mud8d3ekoAwrDxZN4dMGB5QLUvs=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xTKuiVB/foNWDzAlaxyiUkEEyEw=
+		wixhqlFqwqje8tQHR9nVL0styXI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -319,7 +319,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m28ZQiWV+eZ7sNw2T/ezQ3z10AuOSg/psvmiIFj9wpg=
+			mpC3y2AHU61sKq3/1OFaWPXEAYofmmHi02ns8OFyvgg=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -354,7 +354,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7zbNsza/bzT0HujsDyUUZ4Otk7YhYuNb0Jgu6OBdVt8=
+			mMCKsK9e8wCmhGgYbfeBTZvs9pjAfL+DIsCLIUlX2Fs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

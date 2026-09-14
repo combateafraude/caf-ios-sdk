@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DWQVXxbIgL+uSUzYClJtSG/Imc0=
+		k6EWcHBSdFSQKFDaxogO8uiFDOk=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Om7IN+8hRCLDy8j+8wtD7q9j5BI=
+		DNlz6mJrFg/NcHSizapeZUsa5kI=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TP7MXLK9j2tcGl+UUGL+rrBGvZw=
+		7W82MnZ2JB+zPJ5NUR+NKzNqhiw=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		fO9PcvSBGF8Jtxh7BnUo183bc4I=
+		rXQshnG2gjh4OUIKtC+P0U92+5M=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yYj9dqvPwSZ7F2mzFOZEia/5qxQ=
+		u2heli7Yf7WGaFwTCDWjG+q1b48=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+e/FZcQT+EQOr/Xh2DLPIoiqJsQMGYe7y65CnRj5txA=
+			sOFjEHNnCnFLhUQjA9l0v+acDpAA4Vl7seWU6k5I07g=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -149,14 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6oxZbCakuWuv5Rso0/jjutucUbKjF6fj6fO8hSVI3pc=
+			7JKKwFe3PEhtsrjJSwq0Z0uu+AqvE9utDi2t7+qF/r0=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5e3J0JFkRgL9ThjUc2lZ4vf6CM2ZMHUq0v4vORjabxE=
+			lhpcGF9CKQpIpGgHp4rUUeZilKBGuXMcuESVakeTokw=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k8B3jZzDJetW19/q210xdXiAL6w45iQcptNMhuDRwfU=
+			knoHkTmYt0V2HoJyZE9PraaBtauTVD400qp19fKm/fc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
