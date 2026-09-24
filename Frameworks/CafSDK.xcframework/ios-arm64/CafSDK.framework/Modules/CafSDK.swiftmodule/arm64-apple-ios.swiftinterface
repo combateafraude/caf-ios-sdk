@@ -663,6 +663,9 @@ extension CafSDK.CafFeatureFlags {
 extension CafSDK.CafFeatureFlags {
   public func merging(into docConfig: CafSDK.CafDocumentDetectorConfig, skipping explicit: CafSDK.CafDocumentDetectorExplicitFields = []) -> CafSDK.CafDocumentDetectorConfig
 }
+extension CafSDK.CafFeatureFlags {
+  public func merging(into smartCaptureConfig: CafSDK.CerttaSmartCaptureConfig, skipping explicit: CafSDK.CafSmartCaptureExplicitFields = []) -> CafSDK.CerttaSmartCaptureConfig
+}
 public enum CafFeatureFlagKey : Swift.String, Swift.CaseIterable, Swift.Sendable {
   case faceLivenessModuleEnabled
   case documentDetectorModuleEnabled
@@ -818,7 +821,7 @@ public class CafSDKConfiguration {
   public var enableTransitionScreens: Swift.Bool
   public var securityEnabled: Swift.Bool
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(presentationOrder: [CafSDK.CafModuleType], colorConfig: CafSDK.CafColorConfiguration? = nil, nextStepContent: CafSDK.CafConfirmationNextStepContent? = nil, waitForAllServices: Swift.Bool = true, enableTransitionScreens: Swift.Bool = true, securityEnabled: Swift.Bool = false)
+  public init(presentationOrder: [CafSDK.CafModuleType], colorConfig: CafSDK.CafColorConfiguration? = nil, nextStepContent: CafSDK.CafConfirmationNextStepContent? = nil, waitForAllServices: Swift.Bool = true, enableTransitionScreens: Swift.Bool = true, securityEnabled: Swift.Bool = true)
   #endif
   @objc deinit
 }
@@ -830,6 +833,11 @@ extension CafSDK.CafSDKConfiguration {
 extension CafSDK.CafSDKConfiguration {
   #if compiler(>=5.3) && $NonescapableTypes
   public func setFaceLivenessConfig(_ faceLivenessConfig: CafSDK.CafFaceLivenessConfig?, mergePolicy: CafSDK.CafModuleConfigMergePolicy = .featureFlags) -> CafSDK.CafSDKConfiguration
+  #endif
+}
+extension CafSDK.CafSDKConfiguration {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func setSmartCaptureConfig(_ smartCaptureConfig: CafSDK.CerttaSmartCaptureConfig?, mergePolicy: CafSDK.CafModuleConfigMergePolicy = .featureFlags) -> CafSDK.CafSDKConfiguration
   #endif
 }
 public enum CafLogLevel : Swift.String {
@@ -877,6 +885,14 @@ public enum CafDocumentDetectorRemoteOverride {
 extension CafSDK.CafSDKFeatureFlagsResolver {
   public static func resolveDocumentDetector(mobileToken: Swift.String, environment: CafSDK.CafEnvironment, base docConfig: CafSDK.CafDocumentDetectorConfig, explicitFields: CafSDK.CafDocumentDetectorExplicitFields = [], bundle: Foundation.Bundle = Bundle(for: CafSDKProvider.self)) -> CafSDK.CafDocumentDetectorRemoteOverride
 }
+public enum CafSmartCaptureRemoteOverride {
+  case none(CafSDK.CerttaSmartCaptureConfig)
+  case disabled
+  case apply(CafSDK.CerttaSmartCaptureConfig)
+}
+extension CafSDK.CafSDKFeatureFlagsResolver {
+  public static func resolveSmartCapture(mobileToken: Swift.String, environment: CafSDK.CafEnvironment, base config: CafSDK.CerttaSmartCaptureConfig, explicitFields: CafSDK.CafSmartCaptureExplicitFields = [], bundle: Foundation.Bundle = Bundle(for: CafSDKProvider.self)) -> CafSDK.CafSmartCaptureRemoteOverride
+}
 @_hasMissingDesignatedInitializers final public class CafSDKProvider {
   public class Builder<Presenter> where Presenter : UIKit.UIViewController {
     public init(_ context: Presenter, mobileToken: Swift.String, personId: Swift.String, environment: CafSDK.CafEnvironment = .prod, configuration: CafSDK.CafSDKConfiguration, callback: @escaping (CafSDK.CafUnifiedEvent) -> Swift.Void)
@@ -893,12 +909,26 @@ public protocol CerttaDelegate : AnyObject {
 extension CafSDK.CerttaDelegate {
   public func certtaDidLog(level: Swift.String, message: Swift.String)
 }
+public enum CerttaSdkPlatform : Swift.String {
+  case nativeIos
+  case flutterIos
+  case reactNativeIos
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public struct CerttaConfiguration {
   public let mobileToken: Swift.String?
   public let userID: Swift.String?
   public let environment: CafSDK.CafEnvironment
   public let securityEnabled: Swift.Bool?
+  public let sdkType: CafSDK.CerttaSdkPlatform
   public init(mobileToken: Swift.String = "", userID: Swift.String = "", environment: CafSDK.CafEnvironment, securityEnabled: Swift.Bool = true)
+  public static func forHybridBridge(mobileToken: Swift.String = "", userID: Swift.String = "", environment: CafSDK.CafEnvironment, securityEnabled: Swift.Bool = true, sdkType: CafSDK.CerttaSdkPlatform) -> CafSDK.CerttaConfiguration
 }
 @_hasMissingDesignatedInitializers final public class Certta {
   public static let shared: CafSDK.Certta
@@ -1063,19 +1093,71 @@ public struct CerttaSmartCaptureConfiguration {
   public let autoCapture: Swift.Bool
   public let showInstructions: Swift.Bool
   public let validationType: CafSDK.CerttaSmartCaptureValidationType
-  public let acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument]?
+  public let acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument]
+  public let allowedUploadTypes: [CafSDK.CerttaSmartCaptureUploadType]?
   public let customLocalization: Swift.String?
   public let customLocalizationBundle: Foundation.Bundle?
+  public let colorCustomization: CafSDK.CerttaSmartCaptureColorCustomization?
+  public let imageCustomization: CafSDK.CerttaSmartCaptureImageCustomization?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(previewEnabled: Swift.Bool? = nil, autoCapture: Swift.Bool? = nil, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload, acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument]? = nil, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil)
+  public init(previewEnabled: Swift.Bool? = nil, autoCapture: Swift.Bool? = nil, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload, acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument], allowedUploadTypes: [CafSDK.CerttaSmartCaptureUploadType]? = nil, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil, colorCustomization: CafSDK.CerttaSmartCaptureColorCustomization? = nil, imageCustomization: CafSDK.CerttaSmartCaptureImageCustomization? = nil)
   #endif
+  public init(from sdkConfig: CafSDK.CerttaSmartCaptureConfig)
 }
 @_hasMissingDesignatedInitializers final public class CerttaSmartCapture {
   public static let shared: CafSDK.CerttaSmartCapture
   weak final public var delegate: (any CafSDK.CerttaSmartCaptureDelegate)?
-  final public func open(from presenter: UIKit.UIViewController, configuration: CafSDK.CerttaSmartCaptureConfiguration = CerttaSmartCaptureConfiguration())
-  final public func loadSession(from presenter: UIKit.UIViewController, configuration: CafSDK.CerttaSmartCaptureConfiguration = CerttaSmartCaptureConfiguration())
+  final public func open(from presenter: UIKit.UIViewController, configuration: CafSDK.CerttaSmartCaptureConfiguration)
+  final public func loadSession(from presenter: UIKit.UIViewController, configuration: CafSDK.CerttaSmartCaptureConfiguration)
   @objc deinit
+}
+public struct CerttaSmartCaptureColorCustomization {
+  public var primaryButtonText: UIKit.UIColor?
+  public var accent: UIKit.UIColor?
+  public var textPrimary: UIKit.UIColor?
+  public var textSecondary: UIKit.UIColor?
+  public var error: UIKit.UIColor?
+  public var warningBackground: UIKit.UIColor?
+  public var warningBorder: UIKit.UIColor?
+  public var warningIcon: UIKit.UIColor?
+  public var warningForeground: UIKit.UIColor?
+  public var success: UIKit.UIColor?
+  public var cameraOverlay: UIKit.UIColor?
+  public var cameraChromeBackground: UIKit.UIColor?
+  public var cameraChromeForeground: UIKit.UIColor?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(primaryButtonText: UIKit.UIColor? = nil, accent: UIKit.UIColor? = nil, textPrimary: UIKit.UIColor? = nil, textSecondary: UIKit.UIColor? = nil, error: UIKit.UIColor? = nil, warningBackground: UIKit.UIColor? = nil, warningBorder: UIKit.UIColor? = nil, warningIcon: UIKit.UIColor? = nil, warningForeground: UIKit.UIColor? = nil, success: UIKit.UIColor? = nil, cameraOverlay: UIKit.UIColor? = nil, cameraChromeBackground: UIKit.UIColor? = nil, cameraChromeForeground: UIKit.UIColor? = nil)
+  #endif
+}
+public enum CerttaSmartCaptureColorKey {
+  public static let primaryButtonText: Swift.String
+  public static let accent: Swift.String
+  public static let textPrimary: Swift.String
+  public static let textSecondary: Swift.String
+  public static let error: Swift.String
+  public static let warningBackground: Swift.String
+  public static let warningBorder: Swift.String
+  public static let warningIcon: Swift.String
+  public static let warningForeground: Swift.String
+  public static let success: Swift.String
+  public static let cameraOverlay: Swift.String
+  public static let cameraChromeBackground: Swift.String
+  public static let cameraChromeForeground: Swift.String
+}
+extension CafSDK.CerttaSmartCaptureColorCustomization {
+  public var colorsByKey: [Swift.String : UIKit.UIColor] {
+    get
+  }
+  public init(colorsByKey: [Swift.String : UIKit.UIColor])
+}
+public enum CerttaSmartCaptureColorConfigKey {
+  public static let primaryColor: Swift.String
+  public static let secondaryColor: Swift.String
+  public static let contentColor: Swift.String
+  public static let backgroundColor: Swift.String
+  public static let mediumColor: Swift.String
+  public static let dialogBackgroundColor: Swift.String
+  public static let dialogBorderColor: Swift.String
 }
 public enum CerttaSmartCaptureValidationType : Swift.String {
   case capture
@@ -1109,17 +1191,38 @@ public enum CerttaSmartCaptureAcceptedDocument : Swift.String, Swift.CaseIterabl
     get
   }
 }
+public enum CerttaSmartCaptureUploadType : Swift.String, Swift.CaseIterable {
+  case png
+  case jpeg
+  case pdf
+  case heif
+  case heic
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [CafSDK.CerttaSmartCaptureUploadType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafSDK.CerttaSmartCaptureUploadType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public struct CerttaSmartCaptureConfig {
   public var autoCapture: Swift.Bool
   public var previewEnabled: Swift.Bool
   public var showInstructions: Swift.Bool
   public var validationType: CafSDK.CerttaSmartCaptureValidationType
   public var enableSecurity: Swift.Bool
-  public var acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument]?
+  public var acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument]
+  public var allowedUploadTypes: [CafSDK.CerttaSmartCaptureUploadType]?
   public var customLocalization: Swift.String?
   public var customLocalizationBundle: Foundation.Bundle?
+  public var colorCustomization: CafSDK.CerttaSmartCaptureColorCustomization?
+  public var imageCustomization: CafSDK.CerttaSmartCaptureImageCustomization?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload, enableSecurity: Swift.Bool = true, acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument]? = nil, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil)
+  public init(previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload, enableSecurity: Swift.Bool = true, acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument], allowedUploadTypes: [CafSDK.CerttaSmartCaptureUploadType]? = nil, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil, colorCustomization: CafSDK.CerttaSmartCaptureColorCustomization? = nil, imageCustomization: CafSDK.CerttaSmartCaptureImageCustomization? = nil)
   #endif
 }
 public protocol CerttaSmartCaptureDelegate : AnyObject {
@@ -1129,6 +1232,68 @@ public protocol CerttaSmartCaptureDelegate : AnyObject {
 extension CafSDK.CerttaSmartCaptureDelegate {
   public func didFinish(result: Swift.String)
   public func didFinishWith(_ error: CafSDK.CerttaError)
+}
+public struct CerttaSmartCaptureImageCustomization {
+  public var cameraButtonEnabled: UIKit.UIImage?
+  public var cameraButtonDisabled: UIKit.UIImage?
+  public var cameraButtonPressed: UIKit.UIImage?
+  public var closeButtonEnabled: UIKit.UIImage?
+  public var closeButtonDisabled: UIKit.UIImage?
+  public var closeIcon: UIKit.UIImage?
+  public var helpIcon: UIKit.UIImage?
+  public var backArrow: UIKit.UIImage?
+  public var eyeIcon: UIKit.UIImage?
+  public var trashIcon: UIKit.UIImage?
+  public var successIcon: UIKit.UIImage?
+  public var alertIcon: UIKit.UIImage?
+  public var failureIcon: UIKit.UIImage?
+  public var validationTypeCamera: UIKit.UIImage?
+  public var validationTypeUpload: UIKit.UIImage?
+  public var cameraHelpHint1: UIKit.UIImage?
+  public var cameraHelpHint2: UIKit.UIImage?
+  public var cameraHelpHint3: UIKit.UIImage?
+  public var captureInstructions1: [UIKit.UIImage]?
+  public var captureInstructions2: [UIKit.UIImage]?
+  public var captureInstructions3: [UIKit.UIImage]?
+  public var uploadInstructions1: [UIKit.UIImage]?
+  public var uploadInstructions2: [UIKit.UIImage]?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(cameraButtonEnabled: UIKit.UIImage? = nil, cameraButtonDisabled: UIKit.UIImage? = nil, cameraButtonPressed: UIKit.UIImage? = nil, closeButtonEnabled: UIKit.UIImage? = nil, closeButtonDisabled: UIKit.UIImage? = nil, closeIcon: UIKit.UIImage? = nil, helpIcon: UIKit.UIImage? = nil, backArrow: UIKit.UIImage? = nil, eyeIcon: UIKit.UIImage? = nil, trashIcon: UIKit.UIImage? = nil, successIcon: UIKit.UIImage? = nil, alertIcon: UIKit.UIImage? = nil, failureIcon: UIKit.UIImage? = nil, validationTypeCamera: UIKit.UIImage? = nil, validationTypeUpload: UIKit.UIImage? = nil, cameraHelpHint1: UIKit.UIImage? = nil, cameraHelpHint2: UIKit.UIImage? = nil, cameraHelpHint3: UIKit.UIImage? = nil, captureInstructions1: [UIKit.UIImage]? = nil, captureInstructions2: [UIKit.UIImage]? = nil, captureInstructions3: [UIKit.UIImage]? = nil, uploadInstructions1: [UIKit.UIImage]? = nil, uploadInstructions2: [UIKit.UIImage]? = nil)
+  #endif
+}
+public enum CerttaSmartCaptureImageKey {
+  public static let cameraButtonEnabled: Swift.String
+  public static let cameraButtonDisabled: Swift.String
+  public static let cameraButtonPressed: Swift.String
+  public static let closeButtonEnabled: Swift.String
+  public static let closeButtonDisabled: Swift.String
+  public static let closeIcon: Swift.String
+  public static let helpIcon: Swift.String
+  public static let backArrow: Swift.String
+  public static let eyeIcon: Swift.String
+  public static let trashIcon: Swift.String
+  public static let successIcon: Swift.String
+  public static let alertIcon: Swift.String
+  public static let failureIcon: Swift.String
+  public static let validationTypeCamera: Swift.String
+  public static let validationTypeUpload: Swift.String
+  public static let cameraHelpHint1: Swift.String
+  public static let cameraHelpHint2: Swift.String
+  public static let cameraHelpHint3: Swift.String
+  public static let captureInstructions1: Swift.String
+  public static let captureInstructions2: Swift.String
+  public static let captureInstructions3: Swift.String
+  public static let uploadInstructions1: Swift.String
+  public static let uploadInstructions2: Swift.String
+}
+extension CafSDK.CerttaSmartCaptureImageCustomization {
+  public var imagesByKey: [Swift.String : UIKit.UIImage] {
+    get
+  }
+  public var imageSequencesByKey: [Swift.String : [UIKit.UIImage]] {
+    get
+  }
+  public init(imagesByKey: [Swift.String : UIKit.UIImage], imageSequencesByKey: [Swift.String : [UIKit.UIImage]])
 }
 public struct CafDocumentDetectorConfig {
   public var flow: [CafSDK.CafDocumentDetectorStep]
@@ -1215,9 +1380,15 @@ extension CafSDK.CafModuleConfigMergePolicy : Swift.Hashable {}
 extension CafSDK.CafLogLevel : Swift.Equatable {}
 extension CafSDK.CafLogLevel : Swift.Hashable {}
 extension CafSDK.CafLogLevel : Swift.RawRepresentable {}
+extension CafSDK.CerttaSdkPlatform : Swift.Equatable {}
+extension CafSDK.CerttaSdkPlatform : Swift.Hashable {}
+extension CafSDK.CerttaSdkPlatform : Swift.RawRepresentable {}
 extension CafSDK.CerttaSmartCaptureValidationType : Swift.Equatable {}
 extension CafSDK.CerttaSmartCaptureValidationType : Swift.Hashable {}
 extension CafSDK.CerttaSmartCaptureValidationType : Swift.RawRepresentable {}
 extension CafSDK.CerttaSmartCaptureAcceptedDocument : Swift.Equatable {}
 extension CafSDK.CerttaSmartCaptureAcceptedDocument : Swift.Hashable {}
 extension CafSDK.CerttaSmartCaptureAcceptedDocument : Swift.RawRepresentable {}
+extension CafSDK.CerttaSmartCaptureUploadType : Swift.Equatable {}
+extension CafSDK.CerttaSmartCaptureUploadType : Swift.Hashable {}
+extension CafSDK.CerttaSmartCaptureUploadType : Swift.RawRepresentable {}

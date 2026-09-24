@@ -151,6 +151,7 @@ public protocol CafFaceLivenessLiteDelegate : AnyObject {
 @objc final public class CafFaceLivenessLiteSDK : ObjectiveC.NSObject {
   weak final public var delegate: (any CafFaceLivenessLite.CafFaceLivenessLiteDelegate)?
   public init(enableSecurity: Swift.Bool = true)
+  public static func getVersion() -> Swift.String
   #if compiler(>=5.3) && $NonescapableTypes
   final public func setup(mobileToken iproovToken: Swift.String, personId: Swift.String, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil, uiCustomization: CafFaceLivenessLite.CerttaUiCustomization? = nil, environment: CafFaceLivenessLite.CafEnvironment = .prod, loading: Swift.Bool = true)
   #endif

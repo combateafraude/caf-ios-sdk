@@ -173,7 +173,10 @@ public enum CerttaSDKCommonsBridgeEventMapper {
   public static func map(level: Swift.String, message: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
 }
 public class CerttaSDKCommonsBridgeMain {
-  public init()
+  final public let sdkBridgePlatform: CafSDKCommonsBridge.CafSDKBridgePlatform?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(sdkBridgePlatform: CafSDKCommonsBridge.CafSDKBridgePlatform? = nil)
+  #endif
   public func configureSDK(configuration: CafSDKCommonsBridge.CerttaSDKBridgeConfiguration, onEvent: @escaping (CafSDKCommonsBridge.CerttaCommonsBridgeEvent) -> Swift.Void)
   public func isInitialized() -> Swift.Bool
   public func updateMobileToken(mobileToken: Swift.String)
