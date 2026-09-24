@@ -73,6 +73,16 @@ Pod::Spec.new do |s|
     ff.dependency 'CafSDKiOS/CafFaceLivenessCore'
   end
 
+  # SmartCapture (opt-in; not part of the default 'CafSDK' subspec)
+  s.subspec 'SmartCapture' do |sc|
+    sc.vendored_frameworks = [
+      'Frameworks/SmartCapture.xcframework',
+      'Frameworks/CerttaSmartCaptureProvider.xcframework'
+    ]
+    sc.dependency 'CafSDKiOS/CafCore'
+    sc.dependency 'CafSDKiOS/CerttaBase'
+  end
+
   s.subspec 'CafFaceLivenessLite' do |cfl|
     cfl.vendored_frameworks = 'CafFacelivenessLite/CafFaceLivenessLite.xcframework'
     cfl.dependency 'iProov', '13.2.0'
