@@ -11,6 +11,7 @@ let package = Package(
         .library(name: "CerttaBase", targets: ["CerttaBaseTarget"]),
         .library(name: "CafFaceLiveness", targets: ["CafFaceLivenessTarget"]),
         .library(name: "CafFaceLivenessLite", targets: ["CafFaceLivenessLiteTarget"]),
+        .library(name: "SmartCapture", targets: ["SmartCaptureTarget"]),
         .library(name: "IproovProvider", targets: ["IproovProviderTarget"]),
         .library(name: "FaceTec2DProvider", targets: ["FaceTec2DProviderTarget"]),
         .library(name: "FortfaceProvider", targets: ["FortfaceProviderTarget"]),
@@ -40,6 +41,8 @@ let package = Package(
         .binaryTarget(name: "IDLiveFaceDetection", path: "Frameworks/IDLiveFaceDetection.xcframework"),
         .binaryTarget(name: "IDLiveFaceIAD", path: "Frameworks/IDLiveFaceIAD.xcframework"),
         .binaryTarget(name: "CafFingerprintProvider", path: "Frameworks/CafFingerprintProvider.xcframework"),
+        .binaryTarget(name: "SmartCapture", path: "Frameworks/SmartCapture.xcframework"),
+        .binaryTarget(name: "CerttaSmartCaptureProvider", path: "Frameworks/CerttaSmartCaptureProvider.xcframework"),
 
         // Main CafSDK target
         .target(
@@ -131,6 +134,18 @@ let package = Package(
                 .product(name: "FingerprintPro", package: "fingerprintjs-pro-ios")
             ],
             path: "Sources/CafFingerprintProvider"
+        ),
+
+        // SmartCapture (opt-in; always ships with its Certta provider)
+        .target(
+            name: "SmartCaptureTarget",
+            dependencies: [
+                "CafSDKTarget",
+                "CerttaBaseTarget",
+                "SmartCapture",
+                "CerttaSmartCaptureProvider"
+            ],
+            path: "Sources/SmartCapture"
         ),
 
         // CafFaceLiveness

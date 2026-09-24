@@ -9,6 +9,7 @@
 - **[DocumentDetector](https://github.com/combateafraude/DocumentDetector)**: A framework for secure document detection, powered by TensorFlow Lite.
 - **[CafFaceLiveness]**: A modular framework for face liveness validation, supporting **iProov** and **FaceTec 2D** as independent or combined providers.
 - **[CafFaceLivenessLite]**: Lightweight face liveness validation using iProov only, with a smaller footprint.
+- **[SmartCapture]**: Optional document capture and upload flow (camera auto-capture, gallery and PDF upload). Opt-in: it is not included in the default `CafSDK` product/subspec.
 
 This SDK is designed to be flexible, allowing developers to integrate only the components they need.
 
@@ -50,6 +51,7 @@ Then, add the desired targets to your app:
         .product(name: "IproovProvider", package: "CafSDKiOS"), // Optional iProov provider
         .product(name: "FaceTec2DProvider", package: "CafSDKiOS"), // Optional FaceTec 2D provider
         .product(name: "CafFaceLivenessLite", package: "CafSDKiOS"), // Lightweight iProov-only
+        .product(name: "SmartCapture", package: "CafSDKiOS"), // Optional SmartCapture document flow
     ]
 )
 ```
@@ -76,6 +78,9 @@ pod 'CafSDKiOS/IproovProvider'
 
 # Optional FaceTec 2D provider
 pod 'CafSDKiOS/FaceTec2DProvider'
+
+# Optional SmartCapture document flow
+pod 'CafSDKiOS/SmartCapture'
 ```
 
 Then, run pod install.
@@ -90,6 +95,8 @@ To import and use **DocumentDetector or CafFaceliveness** in your app, add the f
 ```swift
 import CafSDK
 ```
+
+SmartCapture is also used through `import CafSDK` (`CerttaSmartCapture`); do not import the `SmartCapture` module directly. If the SmartCapture product/subspec is not installed, starting it returns an initialization error instead of crashing. The flow uses the camera, so the host app must declare `NSCameraUsageDescription`.
 
 For apps integrating only **CafFaceLivenessLite**, import:
 
