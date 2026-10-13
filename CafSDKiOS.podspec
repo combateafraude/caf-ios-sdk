@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOS'
-  s.version          = '7.9.0-rc'
+  s.version          = '7.10.0-rc'
   s.summary          = 'Caf iOS SDK'
   s.homepage         = 'https://github.com/combateafraude/caf-ios-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -122,6 +122,13 @@ Pod::Spec.new do |s|
     flui.vendored_frameworks = 'Frameworks/CafFaceLivenessUIBridge.xcframework'
     flui.dependency 'CafSDKiOS/CafFaceLivenessCore'
     flui.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
+  end
+
+  s.subspec 'CerttaSmartCaptureBridgeiOS' do |cscb|
+    cscb.vendored_frameworks = 'Frameworks/CerttaSmartCaptureBridge.xcframework'
+    cscb.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
+    cscb.dependency 'CafSDKiOS/CerttaBase'
+    cscb.dependency 'CafSDKiOS/SmartCapture'
   end
 
   s.subspec 'CafFingerprintProvider' do |fp|
