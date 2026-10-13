@@ -124,6 +124,13 @@ Pod::Spec.new do |s|
     flui.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
   end
 
+  s.subspec 'CerttaSmartCaptureBridgeiOS' do |cscb|
+    cscb.vendored_frameworks = 'Frameworks/CerttaSmartCaptureBridge.xcframework'
+    cscb.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
+    cscb.dependency 'CafSDKiOS/CerttaBase'
+    cscb.dependency 'CafSDKiOS/SmartCapture'
+  end
+
   s.subspec 'CafFingerprintProvider' do |fp|
     fp.vendored_frameworks = 'Frameworks/CafFingerprintProvider.xcframework'
     fp.dependency 'CafSDKiOS/CerttaBase'
