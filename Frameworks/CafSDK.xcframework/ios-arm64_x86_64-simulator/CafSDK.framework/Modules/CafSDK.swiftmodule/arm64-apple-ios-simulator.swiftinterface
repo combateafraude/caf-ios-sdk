@@ -99,6 +99,7 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case invalidOptionsException
   case securityException
   case faceAuthentication
+  case livenessException
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
@@ -968,12 +969,21 @@ extension CafSDK.CerttaError : Foundation.LocalizedError {
   }
   #endif
 }
+public enum DocumentDetectorCaptureType {
+  case manual
+  case automatic
+  public static func == (a: CafSDK.DocumentDetectorCaptureType, b: CafSDK.DocumentDetectorCaptureType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct CerttaDocumentDetectorConfiguration {
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(flow: [CafSDK.CafDocumentDetectorStep], ui: CafSDK.CerttaDocumentDetectorUIConfiguration, enableMultiLanguage: Swift.Bool? = nil)
+  public init(flow: [CafSDK.CafDocumentDetectorStep], ui: CafSDK.CerttaDocumentDetectorUIConfiguration, enableMultiLanguage: Swift.Bool? = nil, captureType: CafSDK.DocumentDetectorCaptureType = .manual)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(flow: [CafSDK.CafDocumentDetectorStep], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings? = nil, instructionsConfig: CafSDK.CafInstructionsConfiguration? = nil, requestTimeout: Foundation.TimeInterval = 60, showPreCapturePopup: Swift.Bool? = nil, showPreview: Swift.Bool? = nil, ddCustomizations: [any CafSDK.CafDDCustomization] = [], enableMultiLanguage: Swift.Bool? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil, maxRetryAttempts: Swift.Int = 2, manualCaptureEnabled: Swift.Bool? = nil)
+  public init(flow: [CafSDK.CafDocumentDetectorStep], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings? = nil, instructionsConfig: CafSDK.CafInstructionsConfiguration? = nil, requestTimeout: Foundation.TimeInterval = 60, showPreCapturePopup: Swift.Bool? = nil, showPreview: Swift.Bool? = nil, ddCustomizations: [any CafSDK.CafDDCustomization] = [], enableMultiLanguage: Swift.Bool? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil, maxRetryAttempts: Swift.Int = 2, captureType: CafSDK.DocumentDetectorCaptureType = .manual)
   #endif
   public init(from sdkConfig: CafSDK.CafDocumentDetectorConfig)
 }
@@ -1159,26 +1169,30 @@ public enum CerttaSmartCaptureColorConfigKey {
   public static let dialogBackgroundColor: Swift.String
   public static let dialogBorderColor: Swift.String
 }
-public enum CerttaSmartCaptureValidationType : Swift.String {
+public enum CerttaSmartCaptureValidationType : Swift.String, Swift.CaseIterable {
   case capture
   case upload
   case captureAndUpload
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
+  public typealias AllCases = [CafSDK.CerttaSmartCaptureValidationType]
   public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafSDK.CerttaSmartCaptureValidationType] {
+    get
+  }
   public var rawValue: Swift.String {
     get
   }
 }
 public enum CerttaSmartCaptureAcceptedDocument : Swift.String, Swift.CaseIterable {
-  case any
   case driverLicense
   case identityCard
   case residenceIdentityCard
   case employmentCard
   case vehicleLicense
   case passport
+  case any
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
@@ -1192,8 +1206,8 @@ public enum CerttaSmartCaptureAcceptedDocument : Swift.String, Swift.CaseIterabl
   }
 }
 public enum CerttaSmartCaptureUploadType : Swift.String, Swift.CaseIterable {
-  case png
   case jpeg
+  case png
   case pdf
   case heif
   case heic
@@ -1302,6 +1316,7 @@ public struct CafDocumentDetectorConfig {
   public var instructionsConfig: CafSDK.CafInstructionsConfiguration
   public var manualCaptureEnabled: Swift.Bool?
   public var manualCaptureTime: Foundation.TimeInterval?
+  public var autoCapture: Swift.Bool?
   public var requestTimeout: Foundation.TimeInterval
   public var showPopup: Swift.Bool
   public var proxySettings: CafSDK.CafProxySettings?
@@ -1316,7 +1331,7 @@ public struct CafDocumentDetectorConfig {
   public var maxRetryAttempts: Swift.Int
   public var securityEnabled: Swift.Bool
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(flow: [CafSDK.CafDocumentDetectorStep] = [], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: true), instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), manualCaptureEnabled: Swift.Bool? = true, manualCaptureTime: Foundation.TimeInterval? = 0, requestTimeout: Foundation.TimeInterval = 60, showPopup: Swift.Bool = true, proxySettings: CafSDK.CafProxySettings? = nil, previewShow: Swift.Bool = false, ddCustomizations: [any CafSDK.CafDDCustomization] = [], getUrlExpireTime: Swift.String? = nil, enableMultiLanguage: Swift.Bool = true, currentStepDoneDelay: Foundation.TimeInterval = 1, allowedPassportCountryList: [CafSDK.CafCountryCode]? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil, sdkType: CafSDK.CafSdkPlatform = .nativeIos, maxRetryAttempts: Swift.Int = 2, securityEnabled: Swift.Bool = false)
+  public init(flow: [CafSDK.CafDocumentDetectorStep] = [], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: true), instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), manualCaptureEnabled: Swift.Bool? = true, manualCaptureTime: Foundation.TimeInterval? = 0, autoCapture: Swift.Bool? = nil, requestTimeout: Foundation.TimeInterval = 60, showPopup: Swift.Bool = true, proxySettings: CafSDK.CafProxySettings? = nil, previewShow: Swift.Bool = false, ddCustomizations: [any CafSDK.CafDDCustomization] = [], getUrlExpireTime: Swift.String? = nil, enableMultiLanguage: Swift.Bool = true, currentStepDoneDelay: Foundation.TimeInterval = 1, allowedPassportCountryList: [CafSDK.CafCountryCode]? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil, sdkType: CafSDK.CafSdkPlatform = .nativeIos, maxRetryAttempts: Swift.Int = 2, securityEnabled: Swift.Bool = false)
   #endif
 }
 public enum FileIntegrityCheck {
@@ -1383,6 +1398,8 @@ extension CafSDK.CafLogLevel : Swift.RawRepresentable {}
 extension CafSDK.CerttaSdkPlatform : Swift.Equatable {}
 extension CafSDK.CerttaSdkPlatform : Swift.Hashable {}
 extension CafSDK.CerttaSdkPlatform : Swift.RawRepresentable {}
+extension CafSDK.DocumentDetectorCaptureType : Swift.Equatable {}
+extension CafSDK.DocumentDetectorCaptureType : Swift.Hashable {}
 extension CafSDK.CerttaSmartCaptureValidationType : Swift.Equatable {}
 extension CafSDK.CerttaSmartCaptureValidationType : Swift.Hashable {}
 extension CafSDK.CerttaSmartCaptureValidationType : Swift.RawRepresentable {}

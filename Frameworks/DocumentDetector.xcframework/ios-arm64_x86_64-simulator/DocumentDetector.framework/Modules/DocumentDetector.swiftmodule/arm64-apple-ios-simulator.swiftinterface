@@ -140,6 +140,7 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case invalidOptionsException
   case securityException
   case faceAuthentication
+  case livenessException
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
@@ -954,6 +955,7 @@ extension DocumentDetector.DocumentDetectorController : DocumentDetector.CafInst
   public var getUrlExpireTime: Swift.String!
   public var enableManualCapture: Swift.Bool!
   public var manualCaptureTime: Foundation.TimeInterval!
+  public var autoCapture: Swift.Bool!
   public var enableMultiLanguage: Swift.Bool!
   public var resolution: DocumentDetector.CafResolution!
   public var compressionQuality: CoreFoundation.CGFloat!
@@ -1011,6 +1013,7 @@ extension DocumentDetector.DocumentDetectorController : DocumentDetector.CafInst
     #endif
     open func setGetImageUrlExpireTime(_ expireTime: Swift.String) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
+    open func setAutoCaptureSettings(enable: Swift.Bool) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setResolutionSettings(resolution: DocumentDetector.CafResolution) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setCompressSettings(compressionQuality: CoreFoundation.CGFloat) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setCurrentStepDoneDelay(currentStepDoneDelay: Foundation.TimeInterval) -> DocumentDetector.DocumentDetectorSdk.CafBuilder

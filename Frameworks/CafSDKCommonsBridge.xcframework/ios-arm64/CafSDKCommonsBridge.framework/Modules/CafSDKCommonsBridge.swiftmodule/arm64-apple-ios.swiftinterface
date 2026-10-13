@@ -13,6 +13,9 @@ import _SwiftConcurrencyShims
   #if compiler(>=5.3) && $NonescapableTypes
   public static func loadImage(from urlString: Swift.String?) -> UIKit.UIImage?
   #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func loadImages(from urlStrings: [Swift.String]?) -> [UIKit.UIImage]?
+  #endif
   @objc deinit
 }
 public enum CafJsonParser {
@@ -134,6 +137,11 @@ public enum CerttaBridgeEventForwarding {
 }
 public enum CerttaBridgeSynchronization {
   public static func withLock<R>(_ body: () throws -> R) rethrows -> R
+}
+public enum CerttaColorParser {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func color(from hexString: Swift.String?) -> UIKit.UIColor?
+  #endif
 }
 public enum CerttaCommonsBridgeConstants {
   public static let keyResponse: Swift.String
