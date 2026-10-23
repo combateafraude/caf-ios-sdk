@@ -933,6 +933,7 @@ public struct CerttaConfiguration {
 }
 @_hasMissingDesignatedInitializers final public class Certta {
   public static let shared: CafSDK.Certta
+  public static let version: Swift.String
   weak final public var delegate: (any CafSDK.CerttaDelegate)?
   final public func configure(configuration: CafSDK.CerttaConfiguration)
   final public func updateMobileToken(_ mobileToken: Swift.String)
@@ -1235,6 +1236,7 @@ public struct CerttaSmartCaptureConfig {
   public var customLocalizationBundle: Foundation.Bundle?
   public var colorCustomization: CafSDK.CerttaSmartCaptureColorCustomization?
   public var imageCustomization: CafSDK.CerttaSmartCaptureImageCustomization?
+  public var sdkType: CafSDK.CafSdkPlatform
   #if compiler(>=5.3) && $NonescapableTypes
   public init(previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload, enableSecurity: Swift.Bool = true, acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument], allowedUploadTypes: [CafSDK.CerttaSmartCaptureUploadType]? = nil, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil, colorCustomization: CafSDK.CerttaSmartCaptureColorCustomization? = nil, imageCustomization: CafSDK.CerttaSmartCaptureImageCustomization? = nil)
   #endif

@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/CerttaSmartCaptureProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		QHJWgdkQAiPMUjy9oi/AVnAoKBM=
+		137qy930Hl2jQkHfQgkGQ7zN+SI=
 		</data>
 		<key>Modules/CerttaSmartCaptureProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/CerttaSmartCaptureProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hDL0GiyRBdY37VYyWdj1/O0wNI4=
+		pq1XTzT0wVGqmrrSEGCW4a7+eko=
 		</data>
 		<key>Modules/CerttaSmartCaptureProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		K9W8P7LyGw7YpyxAzlnrYHjq6/I=
+		FsA1evFn3del8mo3p89KDLhAjnk=
 		</data>
 		<key>Modules/CerttaSmartCaptureProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/CerttaSmartCaptureProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vygANiRn2CpKKcxnErCQrIVKayg=
+		2Ah+WYCn8Br/wWHOw3M6xrsK7NY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -216,7 +216,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IfXBBs3zI3nrsgakwPGJSxRNmmy11gCwVM5oeyI00n0=
+			7ZPUYAwHCmg6cz3wN9XS/u3j8fIqpZoGmnw6V1YJmU8=
 			</data>
 		</dict>
 		<key>Modules/CerttaSmartCaptureProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -244,14 +244,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y7zL9cDIj0S9HRpt5lgRg0neIKZPg/wW75KhNtdI9rg=
+			whrUK63wAfW7//jneHDc4sjEvqGaMo3Rz5+xV1EbQ9A=
 			</data>
 		</dict>
 		<key>Modules/CerttaSmartCaptureProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J1caMIBdfenjBLcmM5uVJxQoWIWxBGb5onyIE6G8XQU=
+			27iUlHr+VSZMh62uzJQHJvV5HIppWK7699LyZ8v1/bs=
 			</data>
 		</dict>
 		<key>Modules/CerttaSmartCaptureProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -279,7 +279,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TGGdReB2zNa/uSXGXZxU5lchgNPV+VjrHIWv8wjJvC4=
+			0meTn9ruYAP0oC2Oq+NakRIVraF9hGD9bTzx3nIRSsA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
